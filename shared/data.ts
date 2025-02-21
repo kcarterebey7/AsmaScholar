@@ -480,5 +480,85 @@ export const namesData: InsertName[] = [
     description: "The Giver of Life - The One who took out a living human from semen that does not have a soul.",
     relatedNames: ["Al-Mumit", "Al-Ba'ith"],
     orderNumber: 60
+  },
+  {
+    arabicName: "الْمُمِيتُ",
+    transliteration: "Al-Mumit",
+    meaning: "The Taker of Life",
+    description: "The Taker of Life - The One who renders the living dead, bringing about the end of their worldly existence.",
+    relatedNames: ["Al-Muhyi", "Al-Ba'ith"],
+    orderNumber: 61
+  },
+  {
+    arabicName: "الْحَيُّ",
+    transliteration: "Al-Hayy",
+    meaning: "The Ever Living",
+    description: "The Ever Living - The One who is attributed with a life that is unlike our life and is not that of a combination of soul, flesh or blood.",
+    relatedNames: ["Al-Qayyum", "Al-Baqi"],
+    orderNumber: 62
+  },
+  {
+    arabicName: "الْقَيُّومُ",
+    transliteration: "Al-Qayyum",
+    meaning: "The Self-Subsisting",
+    description: "The Self-Subsisting - The One who remains and does not end.",
+    relatedNames: ["Al-Hayy", "Al-Baqi"],
+    orderNumber: 63
+  },
+  {
+    arabicName: "الْوَاجِدُ",
+    transliteration: "Al-Wajid",
+    meaning: "The Perceiver",
+    description: "The Perceiver - The One who finds what He wishes when He wishes.",
+    relatedNames: ["Al-Ghaniyy", "Al-Muqtadir"],
+    orderNumber: 64
+  },
+  {
+    arabicName: "الْمَاجِدُ",
+    transliteration: "Al-Majid",
+    meaning: "The Noble",
+    description: "The Noble - The One who is most glorious.",
+    relatedNames: ["Al-Karim", "Al-Jalil"],
+    orderNumber: 65
+  },
+  {
+    arabicName: "الْواحِدُ",
+    transliteration: "Al-Wahid",
+    meaning: "The One",
+    description: "The One - The One without partner, like, or equal.",
+    relatedNames: ["Al-Ahad", "As-Samad"],
+    orderNumber: 66
+  },
+  {
+    arabicName: "الْأَحَد",
+    transliteration: "Al-Ahad",
+    meaning: "The Unique",
+    description: "The Unique - The One who has no partner in His essence, attributes, actions, and in commanding and forbidding.",
+    relatedNames: ["Al-Wahid", "As-Samad"],
+    orderNumber: 67
+  },
+  {
+    arabicName: "الصَّمَدُ",
+    transliteration: "As-Samad",
+    meaning: "The Eternal",
+    description: "The Eternal - The Master who is relied upon in matters and who is free from needing food, drink, or any of the creatures' needs.",
+    relatedNames: ["Al-Wahid", "Al-Ahad"],
+    orderNumber: 68
+  },
+  {
+    arabicName: "الْقَادِرُ",
+    transliteration: "Al-Qadir",
+    meaning: "The Capable",
+    description: "The Capable - The One who is attributed with Power and has the ability to accomplish everything.",
+    relatedNames: ["Al-Muqtadir", "Al-Qawiyy"],
+    orderNumber: 69
+  },
+  {
+    arabicName: "الْمُقْتَدِرُ",
+    transliteration: "Al-Muqtadir",
+    meaning: "The All-Powerful",
+    description: "The All-Powerful - The One who has perfect power and who creates all things according to His will.",
+    relatedNames: ["Al-Qadir", "Al-Qawiyy"],
+    orderNumber: 70
   }
 ];
