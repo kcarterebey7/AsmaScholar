@@ -640,6 +640,85 @@ export const namesData: InsertName[] = [
     description: "The Ever-Accepting of Repentance - The One who grants repentance to whoever He willed among His creatures and accepts his repentance.",
     relatedNames: ["Al-Ghaffar", "Al-Afuw"],
     orderNumber: 80
+  },
+  {
+    arabicName: "الْمُنْتَقِمُ",
+    transliteration: "Al-Muntaqim",
+    meaning: "The Avenger",
+    description: "The Avenger - The One who victoriously prevails over His enemies and punishes them for their sins. It may mean the One who destroys them.",
+    relatedNames: ["Al-Aziz", "Al-Qahhar"],
+    orderNumber: 81
+  },
+  {
+    arabicName: "العَفُوُّ",
+    transliteration: "Al-Afuw",
+    meaning: "The Pardoner",
+    description: "The Pardoner - The One who forgives a lot and erases the traces of sins.",
+    relatedNames: ["Al-Ghaffar", "At-Tawwab"],
+    orderNumber: 82
+  },
+  {
+    arabicName: "الرَّؤُوفُ",
+    transliteration: "Ar-Ra'uf",
+    meaning: "The Most Kind",
+    description: "The Most Kind - The One who is very compassionate with His creatures.",
+    relatedNames: ["Ar-Rahman", "Ar-Rahim"],
+    orderNumber: 83
+  },
+  {
+    arabicName: "مَالِكُ الْمُلْكِ",
+    transliteration: "Malik-al-Mulk",
+    meaning: "The Owner of All",
+    description: "The Owner of All - The One who controls the dominion and gives dominion to whoever He willed.",
+    relatedNames: ["Al-Malik", "Al-Wali"],
+    orderNumber: 84
+  },
+  {
+    arabicName: "ذُوالْجَلَالِ وَالْإِكْرَامِ",
+    transliteration: "Dhul-Jalali-wal-Ikram",
+    meaning: "The Lord of Majesty and Bounty",
+    description: "The Lord of Majesty and Bounty - The One who has the perfect Power and Authority, and deserves to be Glorified.",
+    relatedNames: ["Al-Majid", "Al-Karim"],
+    orderNumber: 85
+  },
+  {
+    arabicName: "الْمُقْسِطُ",
+    transliteration: "Al-Muqsit",
+    meaning: "The Equitable One",
+    description: "The Equitable One - The One who is Just in His judgment.",
+    relatedNames: ["Al-Adl", "Al-Hakam"],
+    orderNumber: 86
+  },
+  {
+    arabicName: "الْجَامِعُ",
+    transliteration: "Al-Jami",
+    meaning: "The Gatherer",
+    description: "The Gatherer - The One who gathers the creatures on a day that there is no doubt about, that is the Day of Judgment.",
+    relatedNames: ["Al-Hasib", "Al-Muhsi"],
+    orderNumber: 87
+  },
+  {
+    arabicName: "الْغَنِيُّ",
+    transliteration:"Al-Ghaniyy",
+    meaning: "The Self-Sufficient",
+    description: "The Self-Sufficient - The One who does not need the creation.",
+    relatedNames: ["As-Samad", "Al-Wajid"],
+    orderNumber: 88
+  },
+  {
+    arabicName: "الْمُغْنِي",
+    transliteration: "Al-Mughni",
+    meaning: "The Enricher",
+    description: "The Enricher - The One who satisfies the necessities of the creatures.",
+    relatedNames: ["Al-Ghaniyy", "Ar-Razzaq"],
+    orderNumber: 89
+  },
+  {
+    arabicName: "اَلْمَانِعُ",
+    transliteration: "Al-Mani",
+    meaning: "The Preventer",
+    description: "The Preventer - The One who prevents harmful things from reaching His creatures.",
+    relatedNames: ["Al-Hafiz", "Al-Wali"],
+    orderNumber: 90
   }
-
 ];
