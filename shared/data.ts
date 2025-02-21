@@ -240,5 +240,85 @@ export const namesData: InsertName[] = [
     description: "The Subtle One - The One who is kind to His believing servants and endows upon them.",
     relatedNames: ["Al-Khabir", "Ar-Ra'uf"],
     orderNumber: 30
+  },
+  {
+    arabicName: "الْخَبِيرُ",
+    transliteration: "Al-Khabir",
+    meaning: "The All-Aware",
+    description: "The All-Aware - The One who knows the truth of things.",
+    relatedNames: ["Al-Alim", "Al-Latif"],
+    orderNumber: 31
+  },
+  {
+    arabicName: "الْحَلِيمُ",
+    transliteration: "Al-Halim",
+    meaning: "The Forbearing",
+    description: "The Forbearing - The One who delays the punishment for those who deserve it and then He might forgive them.",
+    relatedNames: ["Al-Ghaffar", "At-Tawwab"],
+    orderNumber: 32
+  },
+  {
+    arabicName: "الْعَظِيمُ",
+    transliteration: "Al-Azim",
+    meaning: "The Magnificent",
+    description: "The Magnificent - The One who is clear from the attributes of the creatures and from resembling them.",
+    relatedNames: ["Al-Kabir", "Al-Jalil"],
+    orderNumber: 33
+  },
+  {
+    arabicName: "الْغَفُورُ",
+    transliteration: "Al-Ghafur",
+    meaning: "The All-Forgiving",
+    description: "The All-Forgiving - The One who forgives a lot.",
+    relatedNames: ["Al-Ghaffar", "At-Tawwab"],
+    orderNumber: 34
+  },
+  {
+    arabicName: "الشَّكُورُ",
+    transliteration: "Ash-Shakur",
+    meaning: "The Most Appreciative",
+    description: "The Most Appreciative - The One who gives a lot of reward for a little obedience.",
+    relatedNames: ["Al-Karim", "Al-Halim"],
+    orderNumber: 35
+  },
+  {
+    arabicName: "الْعَلِيُّ",
+    transliteration: "Al-Ali",
+    meaning: "The Most High",
+    description: "The Most High - The One who is clear from the attributes of the creatures.",
+    relatedNames: ["Al-Kabir", "Al-Mutaal"],
+    orderNumber: 36
+  },
+  {
+    arabicName: "الْكَبِيرُ",
+    transliteration: "Al-Kabir",
+    meaning: "The Greatest",
+    description: "The Greatest - The One who is greater than everything in status.",
+    relatedNames: ["Al-Azim", "Al-Jalil"],
+    orderNumber: 37
+  },
+  {
+    arabicName: "الْحَفِيظُ",
+    transliteration: "Al-Hafiz",
+    meaning: "The Preserver",
+    description: "The Preserver - The One who protects whatever and whoever He willed to protect.",
+    relatedNames: ["Al-Wakil", "Al-Muhaymin"],
+    orderNumber: 38
+  },
+  {
+    arabicName: "المُقيِت",
+    transliteration: "Al-Muqit",
+    meaning: "The Nourisher",
+    description: "The Nourisher - The One who has the Power.",
+    relatedNames: ["Ar-Razzaq", "Al-Hafiz"],
+    orderNumber: 39
+  },
+  {
+    arabicName: "الْحَسِيبُ",
+    transliteration: "Al-Hasib",
+    meaning: "The Reckoner",
+    description: "The Reckoner - The One who gives the satisfaction.",
+    relatedNames: ["Al-Muqsit", "Al-Adl"],
+    orderNumber: 40
   }
 ];
