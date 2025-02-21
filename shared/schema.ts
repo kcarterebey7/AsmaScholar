@@ -7,6 +7,7 @@ export const names = pgTable("names", {
   id: serial("id").primaryKey(),
   arabicName: text("arabic_name").notNull(),
   transliteration: text("transliteration").notNull(),
+  pronunciation: text("pronunciation").notNull(),
   meaning: text("meaning").notNull(),
   description: text("description").notNull(),
   relatedNames: text("related_names").notNull().$type<string[]>(),

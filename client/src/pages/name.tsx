@@ -24,8 +24,11 @@ export default function NamePage() {
         <CardContent className="p-6">
           <div className="text-4xl font-serif mb-4">{name.arabicName}</div>
           <div className="text-2xl text-[#14866D] mb-2">{name.transliteration}</div>
+          <div className="text-lg text-gray-600 mb-4">
+            Pronunciation: <span className="font-medium">{name.pronunciation}</span>
+          </div>
           <div className="text-xl mb-4 text-[#333333]">{name.meaning}</div>
-          
+
           <div className="prose prose-slate max-w-none leading-relaxed">
             <p>{name.description}</p>
           </div>

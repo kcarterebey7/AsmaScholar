@@ -34,6 +34,7 @@ export default function CategorizedNames({ names }: CategorizedNamesProps) {
                     <CardContent className="p-4">
                       <div className="text-2xl font-serif mb-2">{name.arabicName}</div>
                       <div className="text-[#14866D] font-medium">{name.transliteration}</div>
+                      <div className="text-sm text-gray-500 mb-1">{name.pronunciation}</div>
                       <div className="text-[#333333]">{name.meaning}</div>
                     </CardContent>
                   </Card>

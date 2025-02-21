@@ -5,6 +5,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الرَّحْمَنُ",
     transliteration: "Ar-Rahman",
+    pronunciation: "ar-RAH-maan",
     meaning: "The Most Gracious",
     description: "The Most Gracious - The One who has plenty of mercy for the believers and the blasphemers in this world and especially for the believers in the hereafter.",
     relatedNames: ["Ar-Raheem", "Al-Latif", "Al-Wadud"],
@@ -14,6 +15,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الرَّحِيمُ",
     transliteration: "Ar-Raheem",
+    pronunciation: "ar-ra-HEEM",
     meaning: "The Most Merciful",
     description: "The Most Merciful - The One who has plenty of mercy for the believers.",
     relatedNames: ["Ar-Rahman", "Al-Latif", "Al-Wadud"],
@@ -23,6 +25,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْمَلِكُ",
     transliteration: "Al-Malik",
+    pronunciation: "al-MA-lik",
     meaning: "The King",
     description: "The King - The One with complete dominion, the One whose dominion is clear from imperfection.",
     relatedNames: ["Al-Maalik", "Al-Aziz", "Al-Jabbar"],
@@ -712,7 +715,7 @@ export const namesData: InsertName[] = [
     relatedNames: ["Ar-Rahman", "Ar-Rahim", "Al-Karim"],
     orderNumber: 79,
     category: nameCategories.GOODNESS
-  },
+},
   {
     arabicName: "التَّوَّابُ",
     transliteration: "At-Tawwab",
