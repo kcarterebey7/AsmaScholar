@@ -400,5 +400,85 @@ export const namesData: InsertName[] = [
     description: "The Witness - The One who nothing is absent from Him.",
     relatedNames: ["Al-Basir", "Ar-Raqib"],
     orderNumber: 50
+  },
+  {
+    arabicName: "الْحَقُّ",
+    transliteration: "Al-Haqq",
+    meaning: "The Truth",
+    description: "The Truth - The One who truly exists, whose existence is confirmed by His signs.",
+    relatedNames: ["Al-Mubin", "An-Nur"],
+    orderNumber: 51
+  },
+  {
+    arabicName: "الْوَكِيلُ",
+    transliteration: "Al-Wakil",
+    meaning: "The Trustee",
+    description: "The Trustee - The One who gives the satisfaction and is relied upon.",
+    relatedNames: ["Al-Hafiz", "Al-Kafil"],
+    orderNumber: 52
+  },
+  {
+    arabicName: "الْقَوِيُّ",
+    transliteration: "Al-Qawiyy",
+    meaning: "The Most Strong",
+    description: "The Most Strong - The One with complete Power.",
+    relatedNames: ["Al-Matin", "Al-Aziz"],
+    orderNumber: 53
+  },
+  {
+    arabicName: "الْمَتِينُ",
+    transliteration: "Al-Matin",
+    meaning: "The Firm",
+    description: "The Firm - The One with extreme Power which is un-interrupted and He does not get tired.",
+    relatedNames: ["Al-Qawiyy", "Al-Aziz"],
+    orderNumber: 54
+  },
+  {
+    arabicName: "الْوَلِيُّ",
+    transliteration: "Al-Waliyy",
+    meaning: "The Protecting Friend",
+    description: "The Protecting Friend - The One who supports His believing servants.",
+    relatedNames: ["An-Nasir", "Al-Hafiz"],
+    orderNumber: 55
+  },
+  {
+    arabicName: "الْحَمِيدُ",
+    transliteration: "Al-Hamid",
+    meaning: "The Praiseworthy",
+    description: "The Praiseworthy - The One who deserves to be praised by His servants for His attributes.",
+    relatedNames: ["Ash-Shakur", "Al-Majid"],
+    orderNumber: 56
+  },
+  {
+    arabicName: "الْمُحْصِي",
+    transliteration: "Al-Muhsi",
+    meaning: "The Accounter",
+    description: "The Accounter - The One who the count of things are known to him.",
+    relatedNames: ["Al-Hasib", "Al-Hafiz"],
+    orderNumber: 57
+  },
+  {
+    arabicName: "الْمُبْدِئُ",
+    transliteration: "Al-Mubdi",
+    meaning: "The Originator",
+    description: "The Originator - The One who started the human being. That is, He created him.",
+    relatedNames: ["Al-Khaliq", "Al-Mu'id"],
+    orderNumber: 58
+  },
+  {
+    arabicName: "الْمُعِيدُ",
+    transliteration: "Al-Mu'id",
+    meaning: "The Restorer",
+    description: "The Restorer - The One who brings back the creatures after death.",
+    relatedNames: ["Al-Mubdi", "Al-Ba'ith"],
+    orderNumber: 59
+  },
+  {
+    arabicName: "الْمُحْيِي",
+    transliteration: "Al-Muhyi",
+    meaning: "The Giver of Life",
+    description: "The Giver of Life - The One who took out a living human from semen that does not have a soul.",
+    relatedNames: ["Al-Mumit", "Al-Ba'ith"],
+    orderNumber: 60
   }
 ];
