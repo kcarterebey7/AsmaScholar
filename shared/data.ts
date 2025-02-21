@@ -135,6 +135,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْغَفَّارُ",
     transliteration: "Al-Ghaffar",
+    pronunciation: "al-ghaf-FAAR",
     meaning: "The Forgiver",
     description: "The Forgiver - The One who forgives the sins of His servants time and time again.",
     relatedNames: ["At-Tawwab", "Al-'Afuw"],
@@ -144,6 +145,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْقَهَّارُ",
     transliteration: "Al-Qahhar",
+    pronunciation: "al-qah-HAAR",
     meaning: "The Subduer",
     description: "The Subduer - The One who has the perfect Power and is not unable over anything.",
     relatedNames: ["Al-Jabbar", "Al-Aziz"],
@@ -153,6 +155,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْوَهَّابُ",
     transliteration: "Al-Wahhab",
+    pronunciation: "al-wah-HAAB",
     meaning: "The Giver of All",
     description: "The Giver of All - The One who gives freely without expecting any return.",
     relatedNames: ["Al-Karim", "Ar-Razzaq"],
@@ -162,6 +165,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الرَّزَّاقُ",
     transliteration: "Ar-Razzaq",
+    pronunciation: "ar-raz-ZAAQ",
     meaning: "The Sustainer",
     description: "The Sustainer - The One who creates all means of nourishment and sustenance.",
     relatedNames: ["Al-Wahhab", "Al-Karim"],
@@ -171,6 +175,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْفَتَّاحُ",
     transliteration: "Al-Fattah",
+    pronunciation: "al-fat-TAAH",
     meaning: "The Opener",
     description: "The Opener - The One who opens the closed, whether it be gates of mercy or sustenance.",
     relatedNames: ["An-Nafi", "Al-Hadi"],
@@ -180,6 +185,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "اَلْعَلِيْمُ",
     transliteration: "Al-Alim",
+    pronunciation: "al-a-LEEM",
     meaning: "The All-Knowing",
     description: "The All-Knowing - The One who knows everything in the past, present and future.",
     relatedNames: ["Al-Khabir", "Al-Hakim"],
@@ -189,6 +195,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْقَابِضُ",
     transliteration: "Al-Qabid",
+    pronunciation: "al-QAA-bid",
     meaning: "The Constrictor",
     description: "The Constrictor - The One who constricts and withholds.",
     relatedNames: ["Al-Basit", "Al-Muqsit"],
@@ -198,6 +205,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْبَاسِطُ",
     transliteration: "Al-Basit",
+    pronunciation: "al-BAA-sit",
     meaning: "The Expander",
     description: "The Expander - The One who has the power to expand, enlarge, and extend.",
     relatedNames: ["Al-Qabid", "Al-Muqsit"],
@@ -207,6 +215,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْخَافِضُ",
     transliteration: "Al-Khafid",
+    pronunciation: "al-KHAA-fid",
     meaning: "The Abaser",
     description: "The Abaser - The One who lowers whoever He willed by His Destruction and raises whoever He willed by His Endowment.",
     relatedNames: ["Ar-Rafi", "Al-Mu'izz", "Al-Muzil"],
@@ -216,6 +225,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الرَّافِعُ",
     transliteration: "Ar-Rafi",
+    pronunciation: "ar-RAA-fi",
     meaning: "The Exalter",
     description: "The Exalter - The One who raises the believers in rank through their obedience to Him.",
     relatedNames: ["Al-Khafid", "Al-Mu'izz", "Al-Muzil"],
@@ -225,6 +235,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْمُعِزُّ",
     transliteration: "Al-Mu'izz",
+    pronunciation: "al-mu-IZZ",
     meaning: "The Bestower of Honors",
     description: "The Bestower of Honors - The One who gives esteem to whoever He willed, hence there is no one to degrade Him.",
     relatedNames: ["Al-Muzil", "Ar-Rafi", "Al-Khafid"],
@@ -234,6 +245,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "المُذِلُّ",
     transliteration: "Al-Muzil",
+    pronunciation: "al-mu-ZIL",
     meaning: "The Humiliator",
     description: "The Humiliator - The One who degrades whoever He willed, hence there is no one to give them esteem.",
     relatedNames: ["Al-Mu'izz", "Al-Khafid", "Ar-Rafi"],
@@ -243,6 +255,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "السَّمِيعُ",
     transliteration: "As-Sami",
+    pronunciation: "as-sa-MI",
     meaning: "The All-Hearing",
     description: "The All-Hearing - The One who hears all things that are heard by His eternal hearing without an ear, instrument or organ.",
     relatedNames: ["Al-Basir", "Al-Khabir"],
@@ -252,6 +265,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْبَصِيرُ",
     transliteration: "Al-Basir",
+    pronunciation: "al-ba-SEER",
     meaning: "The All-Seeing",
     description: "The All-Seeing - The One who sees all things that are seen by His eternal seeing without a pupil or any other instrument.",
     relatedNames: ["As-Sami", "Ash-Shahid"],
@@ -261,6 +275,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْحَكَمُ",
     transliteration: "Al-Hakam",
+    pronunciation: "al-HA-kam",
     meaning: "The Judge",
     description: "The Judge - The One who judges between His servants in the present and will judge between them in the Hereafter.",
     relatedNames: ["Al-Adl", "Al-Muqsit"],
@@ -270,6 +285,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْعَدْلُ",
     transliteration: "Al-Adl",
+    pronunciation: "al-ADL",
     meaning: "The Just",
     description: "The Just - The One who is entitled to do what He does in the way He does it.",
     relatedNames: ["Al-Hakam", "Al-Muqsit"],
@@ -279,6 +295,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "لَّطِيفُ",
     transliteration: "Al-Latif",
+    pronunciation: "al-la-TEEF",
     meaning: "The Subtle One",
     description: "The Subtle One - The One who is kind to His believing servants and endows upon them.",
     relatedNames: ["Al-Khabir", "Ar-Ra'uf"],
@@ -288,6 +305,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْخَبِيرُ",
     transliteration: "Al-Khabir",
+    pronunciation: "al-kha-BEER",
     meaning: "The All-Aware",
     description: "The All-Aware - The One who knows the truth of things.",
     relatedNames: ["Al-Alim", "Al-Latif"],
@@ -297,6 +315,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْحَلِيمُ",
     transliteration: "Al-Halim",
+    pronunciation: "al-ha-LEEM",
     meaning: "The Forbearing",
     description: "The Forbearing - The One who delays the punishment for those who deserve it and then He might forgive them.",
     relatedNames: ["Al-Ghaffar", "At-Tawwab"],
@@ -306,6 +325,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْعَظِيمُ",
     transliteration: "Al-Azim",
+    pronunciation: "al-a-ZEEM",
     meaning: "The Magnificent",
     description: "The Magnificent - The One who is clear from the attributes of the creatures and from resembling them.",
     relatedNames: ["Al-Kabir", "Al-Jalil"],
@@ -315,6 +335,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْغَفُورُ",
     transliteration: "Al-Ghafur",
+    pronunciation: "al-gha-FOOR",
     meaning: "The All-Forgiving",
     description: "The All-Forgiving - The One who forgives a lot.",
     relatedNames: ["Al-Ghaffar", "At-Tawwab"],
@@ -324,6 +345,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الشَّكُورُ",
     transliteration: "Ash-Shakur",
+    pronunciation: "ash-sha-KOOR",
     meaning: "The Most Appreciative",
     description: "The Most Appreciative - The One who gives a lot of reward for a little obedience.",
     relatedNames: ["Al-Karim", "Al-Halim"],
@@ -333,6 +355,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْعَلِيُّ",
     transliteration: "Al-Ali",
+    pronunciation: "al-a-LEE",
     meaning: "The Most High",
     description: "The Most High - The One who is clear from the attributes of the creatures.",
     relatedNames: ["Al-Kabir", "Al-Mutaal"],
@@ -342,6 +365,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْكَبِيرُ",
     transliteration: "Al-Kabir",
+    pronunciation: "al-ka-BEER",
     meaning: "The Greatest",
     description: "The Greatest - The One who is greater than everything in status.",
     relatedNames: ["Al-Azim", "Al-Jalil"],
@@ -351,6 +375,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْحَفِيظُ",
     transliteration: "Al-Hafiz",
+    pronunciation: "al-ha-FEES",
     meaning: "The Preserver",
     description: "The Preserver - The One who protects whatever and whoever He willed to protect.",
     relatedNames: ["Al-Wakil", "Al-Muhaymin"],
@@ -360,6 +385,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "المُقيِت",
     transliteration: "Al-Muqit",
+    pronunciation: "al-mu-QEET",
     meaning: "The Nourisher",
     description: "The Nourisher - The One who has the Power.",
     relatedNames: ["Ar-Razzaq", "Al-Hafiz"],
@@ -369,6 +395,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْحَسِيبُ",
     transliteration: "Al-Hasib",
+    pronunciation: "al-ha-SEEB",
     meaning: "The Reckoner",
     description: "The Reckoner - The One who gives the satisfaction.",
     relatedNames: ["Al-Muqsit", "Al-Adl"],
@@ -378,6 +405,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْجَلِيلُ",
     transliteration: "Al-Jalil",
+    pronunciation: "al-ja-LEEL",
     meaning: "The Majestic",
     description: "The Majestic - The One who is attributed with greatness of Power and Glory of status.",
     relatedNames: ["Al-Azim", "Al-Kabir", "Al-Mutakabbir"],
@@ -387,6 +415,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْكَرِيمُ",
     transliteration: "Al-Karim",
+    pronunciation: "al-ka-REEM",
     meaning: "The Generous",
     description: "The Generous - The One who is attributed with greatness of Power and Glory of status.",
     relatedNames: ["Al-Wahhab", "Ar-Razzaq"],
@@ -396,6 +425,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الرَّقِيبُ",
     transliteration: "Ar-Raqib",
+    pronunciation: "ar-ra-QEER",
     meaning: "The Watchful",
     description: "The Watchful - The One that nothing is absent from Him. Hence, it means the One who watches all things.",
     relatedNames: ["Al-Hafiz", "Ash-Shahid"],
@@ -405,6 +435,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْمُجِيبُ",
     transliteration: "Al-Mujib",
+    pronunciation: "al-mu-JEB",
     meaning: "The Responsive",
     description: "The Responsive - The One who answers the one in need if he asks Him and rescues the yearning if he calls upon Him.",
     relatedNames: ["As-Sami", "Al-Qarib"],
@@ -414,6 +445,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْوَاسِعُ",
     transliteration: "Al-Wasi",
+    pronunciation: "al-WAA-si",
     meaning: "The All-Encompassing",
     description: "The All-Encompassing - The One who encompasses everything in mercy and knowledge.",
     relatedNames: ["Al-Muhit", "Al-Alim"],
@@ -423,6 +455,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْحَكِيمُ",
     transliteration: "Al-Hakim",
+    pronunciation: "al-ha-KEEM",
     meaning: "The Wise",
     description: "The Wise - The One who is wise in His actions and His creation.",
     relatedNames: ["Al-Alim", "Al-Khabir"],
@@ -432,6 +465,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْوَدُودُ",
     transliteration: "Al-Wadud",
+    pronunciation: "al-wa-DOOD",
     meaning: "The Most Loving",
     description: "The Most Loving - The One who loves His believing servants and His believing servants love Him.",
     relatedNames: ["Ar-Rahman", "Ar-Rahim"],
@@ -441,6 +475,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْمَجِيدُ",
     transliteration: "Al-Majid",
+    pronunciation: "al-ma-JEED",
     meaning: "The Most Glorious",
     description: "The Most Glorious - The One who is with perfect Power, High Status, Compassion, Generosity and Kindness.",
     relatedNames: ["Al-Jalil", "Al-Karim"],
@@ -450,6 +485,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْبَاعِثُ",
     transliteration: "Al-Ba'ith",
+    pronunciation: "al-BAA-ith",
     meaning: "The Resurrector",
     description: "The Resurrector - The One who resurrects His slaves after death for reward and/or punishment.",
     relatedNames: ["Al-Muhyi", "Al-Mumit"],
@@ -459,6 +495,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الشَّهِيدُ",
     transliteration: "Ash-Shahid",
+    pronunciation: "ash-sha-HEED",
     meaning: "The Witness",
     description: "The Witness - The One who nothing is absent from Him.",
     relatedNames: ["Al-Basir", "Ar-Raqib"],
@@ -468,6 +505,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْحَقُّ",
     transliteration: "Al-Haqq",
+    pronunciation: "al-HAQQ",
     meaning: "The Truth",
     description: "The Truth - The One who truly exists, whose existence is confirmed by His signs.",
     relatedNames: ["Al-Mubin", "An-Nur"],
@@ -477,6 +515,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْوَكِيلُ",
     transliteration: "Al-Wakil",
+    pronunciation: "al-wa-KEEL",
     meaning: "The Trustee",
     description: "The Trustee - The One who gives the satisfaction and is relied upon.",
     relatedNames: ["Al-Hafiz", "Al-Kafil"],
@@ -486,6 +525,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْقَوِيُّ",
     transliteration: "Al-Qawiyy",
+    pronunciation: "al-qa-WEE",
     meaning: "The Most Strong",
     description: "The Most Strong - The One with complete Power.",
     relatedNames: ["Al-Matin", "Al-Aziz"],
@@ -495,6 +535,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْمَتِينُ",
     transliteration: "Al-Matin",
+    pronunciation: "al-ma-TEEN",
     meaning: "The Firm",
     description: "The Firm - The One with extreme Power which is un-interrupted and He does not get tired.",
     relatedNames: ["Al-Qawiyy", "Al-Aziz"],
@@ -504,6 +545,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْوَلِيُّ",
     transliteration: "Al-Waliyy",
+    pronunciation: "al-wa-LEE",
     meaning: "The Protecting Friend",
     description: "The Protecting Friend - The One who supports His believing servants.",
     relatedNames: ["An-Nasir", "Al-Hafiz"],
@@ -513,6 +555,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْحَمِيدُ",
     transliteration: "Al-Hamid",
+    pronunciation: "al-ha-MEED",
     meaning: "The Praiseworthy",
     description: "The Praiseworthy - The One who deserves to be praised by His servants for His attributes.",
     relatedNames: ["Ash-Shakur", "Al-Majid"],
@@ -522,6 +565,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْمُحْصِي",
     transliteration: "Al-Muhsi",
+    pronunciation: "al-muh-SEE",
     meaning: "The Accounter",
     description: "The Accounter - The One who the count of things are known to him.",
     relatedNames: ["Al-Hasib", "Al-Hafiz"],
@@ -531,6 +575,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْمُبْدِئُ",
     transliteration: "Al-Mubdi",
+    pronunciation: "al-MUB-di",
     meaning: "The Originator",
     description: "The Originator - The One who started the human being. That is, He created him.",
     relatedNames: ["Al-Khaliq", "Al-Mu'id"],
@@ -540,6 +585,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْمُعِيدُ",
     transliteration: "Al-Mu'id",
+    pronunciation: "al-mu-EED",
     meaning: "The Restorer",
     description: "The Restorer - The One who brings back the creatures after death.",
     relatedNames: ["Al-Mubdi", "Al-Ba'ith"],
@@ -549,6 +595,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْمُحْيِي",
     transliteration: "Al-Muhyi",
+    pronunciation: "al-mu-HYEE",
     meaning: "The Giver of Life",
     description: "The Giver of Life - The One who took out a living human from semen that does not have a soul.",
     relatedNames: ["Al-Mumit", "Al-Ba'ith"],
@@ -558,6 +605,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْمُمِيتُ",
     transliteration: "Al-Mumit",
+    pronunciation: "al-mu-MEET",
     meaning: "The Taker of Life",
     description: "The Taker of Life - The One who renders the living dead, bringing about the end of their worldly existence.",
     relatedNames: ["Al-Muhyi", "Al-Ba'ith"],
@@ -567,6 +615,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْحَيُّ",
     transliteration: "Al-Hayy",
+    pronunciation: "al-HAYY",
     meaning: "The Ever Living",
     description: "The Ever Living - The One who is attributed with a life that is unlike our life and is not that of a combination of soul, flesh or blood.",
     relatedNames: ["Al-Qayyum", "Al-Baqi"],
@@ -576,6 +625,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْقَيُّومُ",
     transliteration: "Al-Qayyum",
+    pronunciation: "al-qay-YOOM",
     meaning: "The Self-Subsisting",
     description: "The Self-Subsisting - The One who remains and does not end.",
     relatedNames: ["Al-Hayy", "Al-Baqi"],
@@ -585,6 +635,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْوَاجِدُ",
     transliteration: "Al-Wajid",
+    pronunciation: "al-WAA-jid",
     meaning: "The Perceiver",
     description: "The Perceiver - The One who finds what He wishes when He wishes.",
     relatedNames: ["Al-Ghaniyy", "Al-Muqtadir"],
@@ -594,6 +645,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْمَاجِدُ",
     transliteration: "Al-Majid",
+    pronunciation: "al-MAA-jid",
     meaning: "The Noble",
     description: "The Noble - The One who is most glorious.",
     relatedNames: ["Al-Karim", "Al-Jalil"],
@@ -603,6 +655,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْواحِدُ",
     transliteration: "Al-Wahid",
+    pronunciation: "al-WAA-hid",
     meaning: "The One",
     description: "The One - The One without partner, like, or equal.",
     relatedNames: ["Al-Ahad", "As-Samad"],
@@ -612,6 +665,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْأَحَد",
     transliteration: "Al-Ahad",
+    pronunciation: "al-A-had",
     meaning: "The Unique",
     description: "The Unique - The One who has no partner in His essence, attributes, actions, and in commanding and forbidding.",
     relatedNames: ["Al-Wahid", "As-Samad"],
@@ -621,6 +675,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الصَّمَدُ",
     transliteration: "As-Samad",
+    pronunciation: "as-sa-MAAD",
     meaning: "The Eternal",
     description: "The Eternal - The Master who is relied upon in matters and who is free from needing food, drink, or any of the creatures' needs.",
     relatedNames: ["Al-Wahid", "Al-Ahad"],
@@ -630,6 +685,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْقَادِرُ",
     transliteration: "Al-Qadir",
+    pronunciation: "al-QAA-dir",
     meaning: "The Capable",
     description: "The Capable - The One who is attributed with Power and has the ability to accomplish everything.",
     relatedNames: ["Al-Muqtadir", "Al-Qawiyy"],
@@ -639,6 +695,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْمُقْتَدِرُ",
     transliteration: "Al-Muqtadir",
+    pronunciation: "al-muq-ta-DEER",
     meaning: "The All-Powerful",
     description: "The All-Powerful - The One who has perfect power and who creates all things according to His will.",
     relatedNames: ["Al-Qadir", "Al-Qawiyy"],
@@ -648,8 +705,9 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْمُقَدِّمُ",
     transliteration: "Al-Muqaddim",
+    pronunciation: "al-mu-qad-DIM",
     meaning: "The Expediter",
-    description: "The Expediter - The One who puts things in their right places. He makes ahead what He wills and delays what He wills.",
+    description: "The Expediter - The One who puts things in their right places. He makes ahead what He wills and delayswhat He wills.",
     relatedNames: ["Al-Mu'akhkhir", "Al-Hakam"],
     orderNumber: 71,
     category: nameCategories.POWER
@@ -657,6 +715,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْمُؤَخِّرُ",
     transliteration: "Al-Mu'akhkhir",
+    pronunciation: "al-mu-akh-KHEER",
     meaning: "The Delayer",
     description: "The Delayer - The One who puts things in their right places. He makes ahead what He wills and delays what He wills.",
     relatedNames: ["Al-Muqaddim", "Al-Hakam"],
@@ -666,6 +725,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْأَوَّلُ",
     transliteration: "Al-Awwal",
+    pronunciation: "al-AW-wal",
     meaning: "The First",
     description: "The First - The One whose existence is without a beginning.",
     relatedNames: ["Al-Akhir", "Az-Zahir", "Al-Batin"],
@@ -675,6 +735,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْآخِرُ",
     transliteration: "Al-Akhir",
+    pronunciation: "al-AA-khir",
     meaning: "The Last",
     description: "The Last - The One whose existence is without an end.",
     relatedNames: ["Al-Awwal", "Az-Zahir", "Al-Batin"],
@@ -684,6 +745,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الظَّاهِرُ",
     transliteration: "Az-Zahir",
+    pronunciation: "az-ZAA-hir",
     meaning: "The Manifest",
     description: "The Manifest - The One that nothing is above Him and nothing is underneath Him, hence He exists without a place.",
     relatedNames: ["Al-Batin", "Al-Awwal", "Al-Akhir"],
@@ -693,6 +755,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْبَاطِنُ",
     transliteration: "Al-Batin",
+    pronunciation: "al-BAA-tin",
     meaning: "The Hidden",
     description: "The Hidden - The One that nothing is above Him and nothing is underneath Him, hence He exists without a place.",
     relatedNames: ["Az-Zahir", "Al-Awwal", "Al-Akhir"],
@@ -702,6 +765,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْوَالِي",
     transliteration: "Al-Wali",
+    pronunciation: "al-WAA-li",
     meaning: "The Governor",
     description: "The Governor - The One who owns things and manages them.",
     relatedNames: ["Al-Malik", "Al-Wakil"],
@@ -711,14 +775,17 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْمُتَعَالِي",
     transliteration: "Al-Muta'ali",
+    pronunciation: "al-mu-ta-AA-li",
     meaning: "The Most Exalted",
     description: "The Most Exalted - The One who is clear from the attributes of the creation.",
     relatedNames: ["Al-Ali", "Al-Kabir"],
     orderNumber: 78,
-    category: nameCategories.GREATNESS},
+    category: nameCategories.GREATNESS
+  },
   {
     arabicName: "الْبَرُّ",
     transliteration: "Al-Barr",
+    pronunciation: "al-BARR",
     meaning: "The Source of All Good",
     description: "The Source of All Good - The One who is kind to His creatures, who covered them with His sustenance and specified whoever He willed among them by His support, protection, and special mercy.",
     relatedNames: ["Ar-Rahman", "Ar-Rahim", "Al-Karim"],
@@ -728,6 +795,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "التَّوَّابُ",
     transliteration: "At-Tawwab",
+    pronunciation: "at-taw-WAAB",
     meaning: "The Ever-Accepting of Repentance",
     description: "The Ever-Accepting of Repentance - The One who grants repentance to whoever He willed among His creatures and accepts his repentance.",
     relatedNames: ["Al-Ghaffar", "Al-Afuw"],
@@ -737,6 +805,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْمُنْتَقِمُ",
     transliteration: "Al-Muntaqim",
+    pronunciation: "al-mun-ta-QIM",
     meaning: "The Avenger",
     description: "The Avenger - The One who victoriously prevails over His enemies and punishes them for their sins. It may mean the One who destroys them.",
     relatedNames: ["Al-Aziz", "Al-Qahhar"],
@@ -746,6 +815,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "العَفُوُّ",
     transliteration: "Al-Afuw",
+    pronunciation: "al-a-FOO",
     meaning: "The Pardoner",
     description: "The Pardoner - The One who forgives a lot and erases the traces of sins.",
     relatedNames: ["Al-Ghaffar", "At-Tawwab"],
@@ -755,6 +825,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الرَّؤُوفُ",
     transliteration: "Ar-Ra'uf",
+    pronunciation: "ar-ra-OO",
     meaning: "The Most Kind",
     description: "The Most Kind - The One who is very compassionate with His creatures.",
     relatedNames: ["Ar-Rahman", "Ar-Rahim"],
@@ -764,6 +835,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "مَالِكُ الْمُلْكِ",
     transliteration: "Malik-al-Mulk",
+    pronunciation: "maa-lik-al-MULK",
     meaning: "The Owner of All",
     description: "The Owner of All - The One who controls the dominion and gives dominion to whoever He willed.",
     relatedNames: ["Al-Malik", "Al-Wali"],
@@ -773,6 +845,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "ذُوالْجَلَالِ وَالْإِكْرَامِ",
     transliteration: "Dhul-Jalali-wal-Ikram",
+    pronunciation: "dhul-ja-LAA-li-wal-ik-RAAM",
     meaning: "The Lord of Majesty and Bounty",
     description: "The Lord of Majesty and Bounty - The One who has the perfect Power and Authority, and deserves to be Glorified.",
     relatedNames: ["Al-Majid", "Al-Karim"],
@@ -782,6 +855,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْمُقْسِطُ",
     transliteration: "Al-Muqsit",
+    pronunciation: "al-muq-SEET",
     meaning: "The Equitable One",
     description: "The Equitable One - The One who is Just in His judgment.",
     relatedNames: ["Al-Adl", "Al-Hakam"],
@@ -791,6 +865,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْجَامِعُ",
     transliteration: "Al-Jami",
+    pronunciation: "al-jaa-MI",
     meaning: "The Gatherer",
     description: "The Gatherer - The One who gathers the creatures on a day that there is no doubt about, that is the Day of Judgment.",
     relatedNames: ["Al-Hasib", "Al-Muhsi"],
@@ -800,6 +875,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْغَنِيُّ",
     transliteration: "Al-Ghaniyy",
+    pronunciation: "al-gha-NEE",
     meaning: "The Self-Sufficient",
     description: "The Self-Sufficient - The One who does not need the creation.",
     relatedNames: ["As-Samad", "Al-Wajid"],
@@ -809,6 +885,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْمُغْنِي",
     transliteration: "Al-Mughni",
+    pronunciation: "al-MUGH-ni",
     meaning: "The Enricher",
     description: "The Enricher - The One who satisfies the necessities of the creatures.",
     relatedNames: ["Al-Ghaniyy", "Ar-Razzaq"],
@@ -818,6 +895,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "اَلْمَانِعُ",
     transliteration: "Al-Mani",
+    pronunciation: "al-MAA-ni",
     meaning: "The Preventer",
     description: "The Preventer - The One who prevents harmful things from reaching His creatures.",
     relatedNames: ["Al-Hafiz", "Al-Wali"],
@@ -827,6 +905,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الضَّارُّ",
     transliteration: "Ad-Darr",
+    pronunciation: "ad-DAARR",
     meaning: "The Creator of Harm",
     description: "The Creator of Harm - The One who makes harm reach to whoever He willed and benefits to whoever He willed.",
     relatedNames: ["An-Nafi", "Al-Qadir"],
@@ -836,6 +915,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "النَّافِعُ",
     transliteration: "An-Nafi",
+    pronunciation: "an-NAA-fi",
     meaning: "The Creator of Good",
     description: "The Creator of Good - The One who makes harm reach to whoever He willed and benefits to whoever He willed.",
     relatedNames: ["Ad-Darr", "Al-Qadir"],
@@ -845,6 +925,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "النُّورُ",
     transliteration: "An-Nur",
+    pronunciation: "an-NOOR",
     meaning: "The Light",
     description: "The Light - The One who guides whoever He willed by His light, the light of the heavens and the earth.",
     relatedNames: ["Al-Hadi", "Al-Haqq"],
@@ -854,6 +935,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْهَادِي",
     transliteration: "Al-Hadi",
+    pronunciation: "al-HAA-di",
     meaning: "The Guide",
     description: "The Guide - The One whom with His guidance His believing servants were guided, and with His guidance the living beings have been guided to what is beneficial for them.",
     relatedNames: ["An-Nur", "Ar-Rashid"],
@@ -863,6 +945,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْبَدِيعُ",
     transliteration: "Al-Badi",
+    pronunciation: "al-ba-DEEE",
     meaning: "The Originator",
     description: "The Originator - The One who created the creation and formed it without any preceding example.",
     relatedNames: ["Al-Khaliq", "Al-Musawwir"],
@@ -872,6 +955,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْبَاقِي",
     transliteration: "Al-Baqi",
+    pronunciation: "al-BAA-qi",
     meaning: "The Everlasting",
     description: "The Everlasting - The One that the state of non-existence is impossible for Him.",
     relatedNames: ["Al-Hayy", "Al-Qayyum"],
@@ -881,6 +965,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْوَارِثُ",
     transliteration: "Al-Warith",
+    pronunciation: "al-WAA-rith",
     meaning: "The Inheritor",
     description: "The Inheritor - The One who remains after the creatures have perished.",
     relatedNames: ["Al-Baqi", "Al-Hayy"],
@@ -890,6 +975,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الرَّشِيدُ",
     transliteration: "Ar-Rashid",
+    pronunciation: "ar-ra-SHEED",
     meaning: "The Guide to the Right Path",
     description: "The Guide to the Right Path - The One who guides His creatures to what is beneficial for them.",
     relatedNames: ["Al-Hadi", "Al-Waliyy"],
@@ -899,6 +985,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الصَّبُورُ",
     transliteration: "As-Sabur",
+    pronunciation: "as-sa-BOOR",
     meaning: "The Patient",
     description: "The Patient - The One who does not quickly punish the sinners.",
     relatedNames: ["Al-Halim", "Al-Ghafur"],
