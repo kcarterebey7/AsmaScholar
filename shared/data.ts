@@ -320,5 +320,85 @@ export const namesData: InsertName[] = [
     description: "The Reckoner - The One who gives the satisfaction.",
     relatedNames: ["Al-Muqsit", "Al-Adl"],
     orderNumber: 40
+  },
+  {
+    arabicName: "الْجَلِيلُ",
+    transliteration: "Al-Jalil",
+    meaning: "The Majestic",
+    description: "The Majestic - The One who is attributed with greatness of Power and Glory of status.",
+    relatedNames: ["Al-Azim", "Al-Kabir", "Al-Mutakabbir"],
+    orderNumber: 41
+  },
+  {
+    arabicName: "الْكَرِيمُ",
+    transliteration: "Al-Karim",
+    meaning: "The Generous",
+    description: "The Generous - The One who is attributed with greatness of Power and Glory of status.",
+    relatedNames: ["Al-Wahhab", "Ar-Razzaq"],
+    orderNumber: 42
+  },
+  {
+    arabicName: "الرَّقِيبُ",
+    transliteration: "Ar-Raqib",
+    meaning: "The Watchful",
+    description: "The Watchful - The One that nothing is absent from Him. Hence, it means the One who watches all things.",
+    relatedNames: ["Al-Hafiz", "Ash-Shahid"],
+    orderNumber: 43
+  },
+  {
+    arabicName: "الْمُجِيبُ",
+    transliteration: "Al-Mujib",
+    meaning: "The Responsive",
+    description: "The Responsive - The One who answers the one in need if he asks Him and rescues the yearning if he calls upon Him.",
+    relatedNames: ["As-Sami", "Al-Qarib"],
+    orderNumber: 44
+  },
+  {
+    arabicName: "الْوَاسِعُ",
+    transliteration: "Al-Wasi",
+    meaning: "The All-Encompassing",
+    description: "The All-Encompassing - The One who encompasses everything in mercy and knowledge.",
+    relatedNames: ["Al-Muhit", "Al-Alim"],
+    orderNumber: 45
+  },
+  {
+    arabicName: "الْحَكِيمُ",
+    transliteration: "Al-Hakim",
+    meaning: "The Wise",
+    description: "The Wise - The One who is wise in His actions and His creation.",
+    relatedNames: ["Al-Alim", "Al-Khabir"],
+    orderNumber: 46
+  },
+  {
+    arabicName: "الْوَدُودُ",
+    transliteration: "Al-Wadud",
+    meaning: "The Most Loving",
+    description: "The Most Loving - The One who loves His believing servants and His believing servants love Him.",
+    relatedNames: ["Ar-Rahman", "Ar-Rahim"],
+    orderNumber: 47
+  },
+  {
+    arabicName: "الْمَجِيدُ",
+    transliteration: "Al-Majid",
+    meaning: "The Most Glorious",
+    description: "The Most Glorious - The One who is with perfect Power, High Status, Compassion, Generosity and Kindness.",
+    relatedNames: ["Al-Jalil", "Al-Karim"],
+    orderNumber: 48
+  },
+  {
+    arabicName: "الْبَاعِثُ",
+    transliteration: "Al-Ba'ith",
+    meaning: "The Resurrector",
+    description: "The Resurrector - The One who resurrects His slaves after death for reward and/or punishment.",
+    relatedNames: ["Al-Muhyi", "Al-Mumit"],
+    orderNumber: 49
+  },
+  {
+    arabicName: "الشَّهِيدُ",
+    transliteration: "Ash-Shahid",
+    meaning: "The Witness",
+    description: "The Witness - The One who nothing is absent from Him.",
+    relatedNames: ["Al-Basir", "Ar-Raqib"],
+    orderNumber: 50
   }
 ];
