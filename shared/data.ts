@@ -1,4 +1,5 @@
 import type { InsertName } from "./schema";
+import { nameCategories } from "./schema";
 
 export const namesData: InsertName[] = [
   {
@@ -7,7 +8,8 @@ export const namesData: InsertName[] = [
     meaning: "The Most Gracious",
     description: "The Most Gracious - The One who has plenty of mercy for the believers and the blasphemers in this world and especially for the believers in the hereafter.",
     relatedNames: ["Ar-Raheem", "Al-Latif", "Al-Wadud"],
-    orderNumber: 1
+    orderNumber: 1,
+    category: nameCategories.MERCY
   },
   {
     arabicName: "الرَّحِيمُ",
@@ -15,7 +17,8 @@ export const namesData: InsertName[] = [
     meaning: "The Most Merciful",
     description: "The Most Merciful - The One who has plenty of mercy for the believers.",
     relatedNames: ["Ar-Rahman", "Al-Latif", "Al-Wadud"],
-    orderNumber: 2
+    orderNumber: 2,
+    category: nameCategories.MERCY
   },
   {
     arabicName: "الْمَلِكُ",
@@ -23,7 +26,8 @@ export const namesData: InsertName[] = [
     meaning: "The King",
     description: "The King - The One with complete dominion, the One whose dominion is clear from imperfection.",
     relatedNames: ["Al-Maalik", "Al-Aziz", "Al-Jabbar"],
-    orderNumber: 3
+    orderNumber: 3,
+    category: nameCategories.POWER
   },
   {
     arabicName: "الْقُدُّوسُ",
@@ -31,7 +35,8 @@ export const namesData: InsertName[] = [
     meaning: "The Most Sacred",
     description: "The Most Sacred - The One who is pure from any imperfection and clear from children and adversaries.",
     relatedNames: ["As-Salam", "Al-Mu'min", "Al-Muhaymin"],
-    orderNumber: 4
+    orderNumber: 4,
+    category: nameCategories.HOLINESS
   },
   {
     arabicName: "السَّلاَمُ",
@@ -39,7 +44,8 @@ export const namesData: InsertName[] = [
     meaning: "The Source of Peace",
     description: "The Source of Peace - The One who is free from every imperfection and defect.",
     relatedNames: ["Al-Mu'min", "Al-Muhaymin", "Al-Quddus"],
-    orderNumber: 5
+    orderNumber: 5,
+    category: nameCategories.PEACE
   },
   {
     arabicName: "الْمُؤْمِنُ",
@@ -47,7 +53,8 @@ export const namesData: InsertName[] = [
     meaning: "The Guardian of Faith",
     description: "The Guardian of Faith - The One who witnessed for Himself that no one is God but Him. And He witnessed for His believers that they are truthful in their belief that no one is God but Him.",
     relatedNames: ["Al-Muhaymin", "As-Salam", "Al-Quddus"],
-    orderNumber: 6
+    orderNumber: 6,
+    category: nameCategories.FAITH
   },
   {
     arabicName: "الْمُهَيْمِنُ",
@@ -55,7 +62,8 @@ export const namesData: InsertName[] = [
     meaning: "The Protector",
     description: "The Protector - The One who witnesses the saying and deeds of His creatures.",
     relatedNames: ["Al-Mu'min", "Al-Hafiz", "Al-Wakil"],
-    orderNumber: 7
+    orderNumber: 7,
+    category: nameCategories.PROTECTION
   },
   {
     arabicName: "الْعَزِيزُ",
@@ -63,7 +71,8 @@ export const namesData: InsertName[] = [
     meaning: "The Almighty",
     description: "The Almighty - The Strong, The Defeater who is not defeated.",
     relatedNames: ["Al-Qawi", "Al-Malik", "Al-Jabbar"],
-    orderNumber: 8
+    orderNumber: 8,
+    category: nameCategories.POWER
   },
   {
     arabicName: "الْجَبَّارُ",
@@ -71,7 +80,8 @@ export const namesData: InsertName[] = [
     meaning: "The Compeller",
     description: "The Compeller - The One that nothing happens in His dominion except what He willed.",
     relatedNames: ["Al-Aziz", "Al-Malik", "Al-Mutakabbir"],
-    orderNumber: 9
+    orderNumber: 9,
+    category: nameCategories.POWER
   },
   {
     arabicName: "الْمُتَكَبِّرُ",
@@ -79,7 +89,8 @@ export const namesData: InsertName[] = [
     meaning: "The Greatest",
     description: "The Greatest - The One who is clear from the attributes of the creatures and from resembling them.",
     relatedNames: ["Al-Kabir", "Al-Azim", "Al-Jalil"],
-    orderNumber: 10
+    orderNumber: 10,
+    category: nameCategories.GREATNESS
   },
   {
     arabicName: "الْخَالِقُ",
@@ -87,7 +98,8 @@ export const namesData: InsertName[] = [
     meaning: "The Creator",
     description: "The Creator - The One who brings everything from non-existence to existence.",
     relatedNames: ["Al-Bari", "Al-Musawwir"],
-    orderNumber: 11
+    orderNumber: 11,
+    category: nameCategories.CREATION
   },
   {
     arabicName: "الْبَارِئُ",
@@ -95,7 +107,8 @@ export const namesData: InsertName[] = [
     meaning: "The Maker of Order",
     description: "The Maker of Order - The One who creates things with subtle knowledge.",
     relatedNames: ["Al-Khaliq", "Al-Musawwir"],
-    orderNumber: 12
+    orderNumber: 12,
+    category: nameCategories.CREATION
   },
   {
     arabicName: "الْمُصَوِّرُ",
@@ -103,7 +116,8 @@ export const namesData: InsertName[] = [
     meaning: "The Shaper of Beauty",
     description: "The Shaper of Beauty - The One who shapes creatures and perfects their forms.",
     relatedNames: ["Al-Khaliq", "Al-Bari"],
-    orderNumber: 13
+    orderNumber: 13,
+    category: nameCategories.CREATION
   },
   {
     arabicName: "الْغَفَّارُ",
@@ -111,7 +125,8 @@ export const namesData: InsertName[] = [
     meaning: "The Forgiver",
     description: "The Forgiver - The One who forgives the sins of His servants time and time again.",
     relatedNames: ["At-Tawwab", "Al-'Afuw"],
-    orderNumber: 14
+    orderNumber: 14,
+    category: nameCategories.FORGIVENESS
   },
   {
     arabicName: "الْقَهَّارُ",
@@ -119,7 +134,8 @@ export const namesData: InsertName[] = [
     meaning: "The Subduer",
     description: "The Subduer - The One who has the perfect Power and is not unable over anything.",
     relatedNames: ["Al-Jabbar", "Al-Aziz"],
-    orderNumber: 15
+    orderNumber: 15,
+    category: nameCategories.POWER
   },
   {
     arabicName: "الْوَهَّابُ",
@@ -127,7 +143,8 @@ export const namesData: InsertName[] = [
     meaning: "The Giver of All",
     description: "The Giver of All - The One who gives freely without expecting any return.",
     relatedNames: ["Al-Karim", "Ar-Razzaq"],
-    orderNumber: 16
+    orderNumber: 16,
+    category: nameCategories.GIVING
   },
   {
     arabicName: "الرَّزَّاقُ",
@@ -135,7 +152,8 @@ export const namesData: InsertName[] = [
     meaning: "The Sustainer",
     description: "The Sustainer - The One who creates all means of nourishment and sustenance.",
     relatedNames: ["Al-Wahhab", "Al-Karim"],
-    orderNumber: 17
+    orderNumber: 17,
+    category: nameCategories.SUSTENANCE
   },
   {
     arabicName: "الْفَتَّاحُ",
@@ -143,7 +161,8 @@ export const namesData: InsertName[] = [
     meaning: "The Opener",
     description: "The Opener - The One who opens the closed, whether it be gates of mercy or sustenance.",
     relatedNames: ["An-Nafi", "Al-Hadi"],
-    orderNumber: 18
+    orderNumber: 18,
+    category: nameCategories.OPENING
   },
   {
     arabicName: "اَلْعَلِيْمُ",
@@ -151,7 +170,8 @@ export const namesData: InsertName[] = [
     meaning: "The All-Knowing",
     description: "The All-Knowing - The One who knows everything in the past, present and future.",
     relatedNames: ["Al-Khabir", "Al-Hakim"],
-    orderNumber: 19
+    orderNumber: 19,
+    category: nameCategories.KNOWLEDGE
   },
   {
     arabicName: "الْقَابِضُ",
@@ -159,7 +179,8 @@ export const namesData: InsertName[] = [
     meaning: "The Constrictor",
     description: "The Constrictor - The One who constricts and withholds.",
     relatedNames: ["Al-Basit", "Al-Muqsit"],
-    orderNumber: 20
+    orderNumber: 20,
+    category: nameCategories.POWER
   },
   {
     arabicName: "الْبَاسِطُ",
@@ -167,7 +188,8 @@ export const namesData: InsertName[] = [
     meaning: "The Expander",
     description: "The Expander - The One who has the power to expand, enlarge, and extend.",
     relatedNames: ["Al-Qabid", "Al-Muqsit"],
-    orderNumber: 21
+    orderNumber: 21,
+    category: nameCategories.POWER
   },
   {
     arabicName: "الْخَافِضُ",
@@ -175,7 +197,8 @@ export const namesData: InsertName[] = [
     meaning: "The Abaser",
     description: "The Abaser - The One who lowers whoever He willed by His Destruction and raises whoever He willed by His Endowment.",
     relatedNames: ["Ar-Rafi", "Al-Mu'izz", "Al-Muzil"],
-    orderNumber: 22
+    orderNumber: 22,
+    category: nameCategories.POWER
   },
   {
     arabicName: "الرَّافِعُ",
@@ -183,7 +206,8 @@ export const namesData: InsertName[] = [
     meaning: "The Exalter",
     description: "The Exalter - The One who raises the believers in rank through their obedience to Him.",
     relatedNames: ["Al-Khafid", "Al-Mu'izz", "Al-Muzil"],
-    orderNumber: 23
+    orderNumber: 23,
+    category: nameCategories.POWER
   },
   {
     arabicName: "الْمُعِزُّ",
@@ -191,7 +215,8 @@ export const namesData: InsertName[] = [
     meaning: "The Bestower of Honors",
     description: "The Bestower of Honors - The One who gives esteem to whoever He willed, hence there is no one to degrade Him.",
     relatedNames: ["Al-Muzil", "Ar-Rafi", "Al-Khafid"],
-    orderNumber: 24
+    orderNumber: 24,
+    category: nameCategories.POWER
   },
   {
     arabicName: "المُذِلُّ",
@@ -199,7 +224,8 @@ export const namesData: InsertName[] = [
     meaning: "The Humiliator",
     description: "The Humiliator - The One who degrades whoever He willed, hence there is no one to give them esteem.",
     relatedNames: ["Al-Mu'izz", "Al-Khafid", "Ar-Rafi"],
-    orderNumber: 25
+    orderNumber: 25,
+    category: nameCategories.POWER
   },
   {
     arabicName: "السَّمِيعُ",
@@ -207,7 +233,8 @@ export const namesData: InsertName[] = [
     meaning: "The All-Hearing",
     description: "The All-Hearing - The One who hears all things that are heard by His eternal hearing without an ear, instrument or organ.",
     relatedNames: ["Al-Basir", "Al-Khabir"],
-    orderNumber: 26
+    orderNumber: 26,
+    category: nameCategories.ATTRIBUTES
   },
   {
     arabicName: "الْبَصِيرُ",
@@ -215,7 +242,8 @@ export const namesData: InsertName[] = [
     meaning: "The All-Seeing",
     description: "The All-Seeing - The One who sees all things that are seen by His eternal seeing without a pupil or any other instrument.",
     relatedNames: ["As-Sami", "Ash-Shahid"],
-    orderNumber: 27
+    orderNumber: 27,
+    category: nameCategories.ATTRIBUTES
   },
   {
     arabicName: "الْحَكَمُ",
@@ -223,7 +251,8 @@ export const namesData: InsertName[] = [
     meaning: "The Judge",
     description: "The Judge - The One who judges between His servants in the present and will judge between them in the Hereafter.",
     relatedNames: ["Al-Adl", "Al-Muqsit"],
-    orderNumber: 28
+    orderNumber: 28,
+    category: nameCategories.JUDGEMENT
   },
   {
     arabicName: "الْعَدْلُ",
@@ -231,7 +260,8 @@ export const namesData: InsertName[] = [
     meaning: "The Just",
     description: "The Just - The One who is entitled to do what He does in the way He does it.",
     relatedNames: ["Al-Hakam", "Al-Muqsit"],
-    orderNumber: 29
+    orderNumber: 29,
+    category: nameCategories.JUDGEMENT
   },
   {
     arabicName: "لَّطِيفُ",
@@ -239,7 +269,8 @@ export const namesData: InsertName[] = [
     meaning: "The Subtle One",
     description: "The Subtle One - The One who is kind to His believing servants and endows upon them.",
     relatedNames: ["Al-Khabir", "Ar-Ra'uf"],
-    orderNumber: 30
+    orderNumber: 30,
+    category: nameCategories.MERCY
   },
   {
     arabicName: "الْخَبِيرُ",
@@ -247,7 +278,8 @@ export const namesData: InsertName[] = [
     meaning: "The All-Aware",
     description: "The All-Aware - The One who knows the truth of things.",
     relatedNames: ["Al-Alim", "Al-Latif"],
-    orderNumber: 31
+    orderNumber: 31,
+    category: nameCategories.KNOWLEDGE
   },
   {
     arabicName: "الْحَلِيمُ",
@@ -255,7 +287,8 @@ export const namesData: InsertName[] = [
     meaning: "The Forbearing",
     description: "The Forbearing - The One who delays the punishment for those who deserve it and then He might forgive them.",
     relatedNames: ["Al-Ghaffar", "At-Tawwab"],
-    orderNumber: 32
+    orderNumber: 32,
+    category: nameCategories.FORGIVENESS
   },
   {
     arabicName: "الْعَظِيمُ",
@@ -263,7 +296,8 @@ export const namesData: InsertName[] = [
     meaning: "The Magnificent",
     description: "The Magnificent - The One who is clear from the attributes of the creatures and from resembling them.",
     relatedNames: ["Al-Kabir", "Al-Jalil"],
-    orderNumber: 33
+    orderNumber: 33,
+    category: nameCategories.GREATNESS
   },
   {
     arabicName: "الْغَفُورُ",
@@ -271,7 +305,8 @@ export const namesData: InsertName[] = [
     meaning: "The All-Forgiving",
     description: "The All-Forgiving - The One who forgives a lot.",
     relatedNames: ["Al-Ghaffar", "At-Tawwab"],
-    orderNumber: 34
+    orderNumber: 34,
+    category: nameCategories.FORGIVENESS
   },
   {
     arabicName: "الشَّكُورُ",
@@ -279,7 +314,8 @@ export const namesData: InsertName[] = [
     meaning: "The Most Appreciative",
     description: "The Most Appreciative - The One who gives a lot of reward for a little obedience.",
     relatedNames: ["Al-Karim", "Al-Halim"],
-    orderNumber: 35
+    orderNumber: 35,
+    category: nameCategories.APPRECIATION
   },
   {
     arabicName: "الْعَلِيُّ",
@@ -287,7 +323,8 @@ export const namesData: InsertName[] = [
     meaning: "The Most High",
     description: "The Most High - The One who is clear from the attributes of the creatures.",
     relatedNames: ["Al-Kabir", "Al-Mutaal"],
-    orderNumber: 36
+    orderNumber: 36,
+    category: nameCategories.GREATNESS
   },
   {
     arabicName: "الْكَبِيرُ",
@@ -295,7 +332,8 @@ export const namesData: InsertName[] = [
     meaning: "The Greatest",
     description: "The Greatest - The One who is greater than everything in status.",
     relatedNames: ["Al-Azim", "Al-Jalil"],
-    orderNumber: 37
+    orderNumber: 37,
+    category: nameCategories.GREATNESS
   },
   {
     arabicName: "الْحَفِيظُ",
@@ -303,7 +341,8 @@ export const namesData: InsertName[] = [
     meaning: "The Preserver",
     description: "The Preserver - The One who protects whatever and whoever He willed to protect.",
     relatedNames: ["Al-Wakil", "Al-Muhaymin"],
-    orderNumber: 38
+    orderNumber: 38,
+    category: nameCategories.PROTECTION
   },
   {
     arabicName: "المُقيِت",
@@ -311,7 +350,8 @@ export const namesData: InsertName[] = [
     meaning: "The Nourisher",
     description: "The Nourisher - The One who has the Power.",
     relatedNames: ["Ar-Razzaq", "Al-Hafiz"],
-    orderNumber: 39
+    orderNumber: 39,
+    category: nameCategories.SUSTENANCE
   },
   {
     arabicName: "الْحَسِيبُ",
@@ -319,7 +359,8 @@ export const namesData: InsertName[] = [
     meaning: "The Reckoner",
     description: "The Reckoner - The One who gives the satisfaction.",
     relatedNames: ["Al-Muqsit", "Al-Adl"],
-    orderNumber: 40
+    orderNumber: 40,
+    category: nameCategories.JUDGEMENT
   },
   {
     arabicName: "الْجَلِيلُ",
@@ -327,7 +368,8 @@ export const namesData: InsertName[] = [
     meaning: "The Majestic",
     description: "The Majestic - The One who is attributed with greatness of Power and Glory of status.",
     relatedNames: ["Al-Azim", "Al-Kabir", "Al-Mutakabbir"],
-    orderNumber: 41
+    orderNumber: 41,
+    category: nameCategories.GREATNESS
   },
   {
     arabicName: "الْكَرِيمُ",
@@ -335,7 +377,8 @@ export const namesData: InsertName[] = [
     meaning: "The Generous",
     description: "The Generous - The One who is attributed with greatness of Power and Glory of status.",
     relatedNames: ["Al-Wahhab", "Ar-Razzaq"],
-    orderNumber: 42
+    orderNumber: 42,
+    category: nameCategories.GIVING
   },
   {
     arabicName: "الرَّقِيبُ",
@@ -343,7 +386,8 @@ export const namesData: InsertName[] = [
     meaning: "The Watchful",
     description: "The Watchful - The One that nothing is absent from Him. Hence, it means the One who watches all things.",
     relatedNames: ["Al-Hafiz", "Ash-Shahid"],
-    orderNumber: 43
+    orderNumber: 43,
+    category: nameCategories.ATTRIBUTES
   },
   {
     arabicName: "الْمُجِيبُ",
@@ -351,7 +395,8 @@ export const namesData: InsertName[] = [
     meaning: "The Responsive",
     description: "The Responsive - The One who answers the one in need if he asks Him and rescues the yearning if he calls upon Him.",
     relatedNames: ["As-Sami", "Al-Qarib"],
-    orderNumber: 44
+    orderNumber: 44,
+    category: nameCategories.ATTRIBUTES
   },
   {
     arabicName: "الْوَاسِعُ",
@@ -359,7 +404,8 @@ export const namesData: InsertName[] = [
     meaning: "The All-Encompassing",
     description: "The All-Encompassing - The One who encompasses everything in mercy and knowledge.",
     relatedNames: ["Al-Muhit", "Al-Alim"],
-    orderNumber: 45
+    orderNumber: 45,
+    category: nameCategories.ATTRIBUTES
   },
   {
     arabicName: "الْحَكِيمُ",
@@ -367,7 +413,8 @@ export const namesData: InsertName[] = [
     meaning: "The Wise",
     description: "The Wise - The One who is wise in His actions and His creation.",
     relatedNames: ["Al-Alim", "Al-Khabir"],
-    orderNumber: 46
+    orderNumber: 46,
+    category: nameCategories.KNOWLEDGE
   },
   {
     arabicName: "الْوَدُودُ",
@@ -375,7 +422,8 @@ export const namesData: InsertName[] = [
     meaning: "The Most Loving",
     description: "The Most Loving - The One who loves His believing servants and His believing servants love Him.",
     relatedNames: ["Ar-Rahman", "Ar-Rahim"],
-    orderNumber: 47
+    orderNumber: 47,
+    category: nameCategories.LOVE
   },
   {
     arabicName: "الْمَجِيدُ",
@@ -383,7 +431,8 @@ export const namesData: InsertName[] = [
     meaning: "The Most Glorious",
     description: "The Most Glorious - The One who is with perfect Power, High Status, Compassion, Generosity and Kindness.",
     relatedNames: ["Al-Jalil", "Al-Karim"],
-    orderNumber: 48
+    orderNumber: 48,
+    category: nameCategories.GREATNESS
   },
   {
     arabicName: "الْبَاعِثُ",
@@ -391,7 +440,8 @@ export const namesData: InsertName[] = [
     meaning: "The Resurrector",
     description: "The Resurrector - The One who resurrects His slaves after death for reward and/or punishment.",
     relatedNames: ["Al-Muhyi", "Al-Mumit"],
-    orderNumber: 49
+    orderNumber: 49,
+    category: nameCategories.RESURRECTION
   },
   {
     arabicName: "الشَّهِيدُ",
@@ -399,7 +449,8 @@ export const namesData: InsertName[] = [
     meaning: "The Witness",
     description: "The Witness - The One who nothing is absent from Him.",
     relatedNames: ["Al-Basir", "Ar-Raqib"],
-    orderNumber: 50
+    orderNumber: 50,
+    category: nameCategories.ATTRIBUTES
   },
   {
     arabicName: "الْحَقُّ",
@@ -407,7 +458,8 @@ export const namesData: InsertName[] = [
     meaning: "The Truth",
     description: "The Truth - The One who truly exists, whose existence is confirmed by His signs.",
     relatedNames: ["Al-Mubin", "An-Nur"],
-    orderNumber: 51
+    orderNumber: 51,
+    category: nameCategories.TRUTH
   },
   {
     arabicName: "الْوَكِيلُ",
@@ -415,7 +467,8 @@ export const namesData: InsertName[] = [
     meaning: "The Trustee",
     description: "The Trustee - The One who gives the satisfaction and is relied upon.",
     relatedNames: ["Al-Hafiz", "Al-Kafil"],
-    orderNumber: 52
+    orderNumber: 52,
+    category: nameCategories.PROTECTION
   },
   {
     arabicName: "الْقَوِيُّ",
@@ -423,7 +476,8 @@ export const namesData: InsertName[] = [
     meaning: "The Most Strong",
     description: "The Most Strong - The One with complete Power.",
     relatedNames: ["Al-Matin", "Al-Aziz"],
-    orderNumber: 53
+    orderNumber: 53,
+    category: nameCategories.POWER
   },
   {
     arabicName: "الْمَتِينُ",
@@ -431,7 +485,8 @@ export const namesData: InsertName[] = [
     meaning: "The Firm",
     description: "The Firm - The One with extreme Power which is un-interrupted and He does not get tired.",
     relatedNames: ["Al-Qawiyy", "Al-Aziz"],
-    orderNumber: 54
+    orderNumber: 54,
+    category: nameCategories.POWER
   },
   {
     arabicName: "الْوَلِيُّ",
@@ -439,7 +494,8 @@ export const namesData: InsertName[] = [
     meaning: "The Protecting Friend",
     description: "The Protecting Friend - The One who supports His believing servants.",
     relatedNames: ["An-Nasir", "Al-Hafiz"],
-    orderNumber: 55
+    orderNumber: 55,
+    category: nameCategories.PROTECTION
   },
   {
     arabicName: "الْحَمِيدُ",
@@ -447,7 +503,8 @@ export const namesData: InsertName[] = [
     meaning: "The Praiseworthy",
     description: "The Praiseworthy - The One who deserves to be praised by His servants for His attributes.",
     relatedNames: ["Ash-Shakur", "Al-Majid"],
-    orderNumber: 56
+    orderNumber: 56,
+    category: nameCategories.PRAISE
   },
   {
     arabicName: "الْمُحْصِي",
@@ -455,7 +512,8 @@ export const namesData: InsertName[] = [
     meaning: "The Accounter",
     description: "The Accounter - The One who the count of things are known to him.",
     relatedNames: ["Al-Hasib", "Al-Hafiz"],
-    orderNumber: 57
+    orderNumber: 57,
+    category: nameCategories.ATTRIBUTES
   },
   {
     arabicName: "الْمُبْدِئُ",
@@ -463,7 +521,8 @@ export const namesData: InsertName[] = [
     meaning: "The Originator",
     description: "The Originator - The One who started the human being. That is, He created him.",
     relatedNames: ["Al-Khaliq", "Al-Mu'id"],
-    orderNumber: 58
+    orderNumber: 58,
+    category: nameCategories.CREATION
   },
   {
     arabicName: "الْمُعِيدُ",
@@ -471,7 +530,8 @@ export const namesData: InsertName[] = [
     meaning: "The Restorer",
     description: "The Restorer - The One who brings back the creatures after death.",
     relatedNames: ["Al-Mubdi", "Al-Ba'ith"],
-    orderNumber: 59
+    orderNumber: 59,
+    category: nameCategories.RESURRECTION
   },
   {
     arabicName: "الْمُحْيِي",
@@ -479,7 +539,8 @@ export const namesData: InsertName[] = [
     meaning: "The Giver of Life",
     description: "The Giver of Life - The One who took out a living human from semen that does not have a soul.",
     relatedNames: ["Al-Mumit", "Al-Ba'ith"],
-    orderNumber: 60
+    orderNumber: 60,
+    category: nameCategories.LIFE
   },
   {
     arabicName: "الْمُمِيتُ",
@@ -487,7 +548,8 @@ export const namesData: InsertName[] = [
     meaning: "The Taker of Life",
     description: "The Taker of Life - The One who renders the living dead, bringing about the end of their worldly existence.",
     relatedNames: ["Al-Muhyi", "Al-Ba'ith"],
-    orderNumber: 61
+    orderNumber: 61,
+    category: nameCategories.LIFE
   },
   {
     arabicName: "الْحَيُّ",
@@ -495,7 +557,8 @@ export const namesData: InsertName[] = [
     meaning: "The Ever Living",
     description: "The Ever Living - The One who is attributed with a life that is unlike our life and is not that of a combination of soul, flesh or blood.",
     relatedNames: ["Al-Qayyum", "Al-Baqi"],
-    orderNumber: 62
+    orderNumber: 62,
+    category: nameCategories.LIFE
   },
   {
     arabicName: "الْقَيُّومُ",
@@ -503,7 +566,8 @@ export const namesData: InsertName[] = [
     meaning: "The Self-Subsisting",
     description: "The Self-Subsisting - The One who remains and does not end.",
     relatedNames: ["Al-Hayy", "Al-Baqi"],
-    orderNumber: 63
+    orderNumber: 63,
+    category: nameCategories.LIFE
   },
   {
     arabicName: "الْوَاجِدُ",
@@ -511,7 +575,8 @@ export const namesData: InsertName[] = [
     meaning: "The Perceiver",
     description: "The Perceiver - The One who finds what He wishes when He wishes.",
     relatedNames: ["Al-Ghaniyy", "Al-Muqtadir"],
-    orderNumber: 64
+    orderNumber: 64,
+    category: nameCategories.ATTRIBUTES
   },
   {
     arabicName: "الْمَاجِدُ",
@@ -519,7 +584,8 @@ export const namesData: InsertName[] = [
     meaning: "The Noble",
     description: "The Noble - The One who is most glorious.",
     relatedNames: ["Al-Karim", "Al-Jalil"],
-    orderNumber: 65
+    orderNumber: 65,
+    category: nameCategories.GREATNESS
   },
   {
     arabicName: "الْواحِدُ",
@@ -527,7 +593,8 @@ export const namesData: InsertName[] = [
     meaning: "The One",
     description: "The One - The One without partner, like, or equal.",
     relatedNames: ["Al-Ahad", "As-Samad"],
-    orderNumber: 66
+    orderNumber: 66,
+    category: nameCategories.UNIQUENESS
   },
   {
     arabicName: "الْأَحَد",
@@ -535,7 +602,8 @@ export const namesData: InsertName[] = [
     meaning: "The Unique",
     description: "The Unique - The One who has no partner in His essence, attributes, actions, and in commanding and forbidding.",
     relatedNames: ["Al-Wahid", "As-Samad"],
-    orderNumber: 67
+    orderNumber: 67,
+    category: nameCategories.UNIQUENESS
   },
   {
     arabicName: "الصَّمَدُ",
@@ -543,7 +611,8 @@ export const namesData: InsertName[] = [
     meaning: "The Eternal",
     description: "The Eternal - The Master who is relied upon in matters and who is free from needing food, drink, or any of the creatures' needs.",
     relatedNames: ["Al-Wahid", "Al-Ahad"],
-    orderNumber: 68
+    orderNumber: 68,
+    category: nameCategories.ETERNITY
   },
   {
     arabicName: "الْقَادِرُ",
@@ -551,7 +620,8 @@ export const namesData: InsertName[] = [
     meaning: "The Capable",
     description: "The Capable - The One who is attributed with Power and has the ability to accomplish everything.",
     relatedNames: ["Al-Muqtadir", "Al-Qawiyy"],
-    orderNumber: 69
+    orderNumber: 69,
+    category: nameCategories.POWER
   },
   {
     arabicName: "الْمُقْتَدِرُ",
@@ -559,7 +629,8 @@ export const namesData: InsertName[] = [
     meaning: "The All-Powerful",
     description: "The All-Powerful - The One who has perfect power and who creates all things according to His will.",
     relatedNames: ["Al-Qadir", "Al-Qawiyy"],
-    orderNumber: 70
+    orderNumber: 70,
+    category: nameCategories.POWER
   },
   {
     arabicName: "الْمُقَدِّمُ",
@@ -567,7 +638,8 @@ export const namesData: InsertName[] = [
     meaning: "The Expediter",
     description: "The Expediter - The One who puts things in their right places. He makes ahead what He wills and delays what He wills.",
     relatedNames: ["Al-Mu'akhkhir", "Al-Hakam"],
-    orderNumber: 71
+    orderNumber: 71,
+    category: nameCategories.POWER
   },
   {
     arabicName: "الْمُؤَخِّرُ",
@@ -575,7 +647,8 @@ export const namesData: InsertName[] = [
     meaning: "The Delayer",
     description: "The Delayer - The One who puts things in their right places. He makes ahead what He wills and delays what He wills.",
     relatedNames: ["Al-Muqaddim", "Al-Hakam"],
-    orderNumber: 72
+    orderNumber: 72,
+    category: nameCategories.POWER
   },
   {
     arabicName: "الْأَوَّلُ",
@@ -583,7 +656,8 @@ export const namesData: InsertName[] = [
     meaning: "The First",
     description: "The First - The One whose existence is without a beginning.",
     relatedNames: ["Al-Akhir", "Az-Zahir", "Al-Batin"],
-    orderNumber: 73
+    orderNumber: 73,
+    category: nameCategories.TIME
   },
   {
     arabicName: "الْآخِرُ",
@@ -591,7 +665,8 @@ export const namesData: InsertName[] = [
     meaning: "The Last",
     description: "The Last - The One whose existence is without an end.",
     relatedNames: ["Al-Awwal", "Az-Zahir", "Al-Batin"],
-    orderNumber: 74
+    orderNumber: 74,
+    category: nameCategories.TIME
   },
   {
     arabicName: "الظَّاهِرُ",
@@ -599,7 +674,8 @@ export const namesData: InsertName[] = [
     meaning: "The Manifest",
     description: "The Manifest - The One that nothing is above Him and nothing is underneath Him, hence He exists without a place.",
     relatedNames: ["Al-Batin", "Al-Awwal", "Al-Akhir"],
-    orderNumber: 75
+    orderNumber: 75,
+    category: nameCategories.ATTRIBUTES
   },
   {
     arabicName: "الْبَاطِنُ",
@@ -607,7 +683,8 @@ export const namesData: InsertName[] = [
     meaning: "The Hidden",
     description: "The Hidden - The One that nothing is above Him and nothing is underneath Him, hence He exists without a place.",
     relatedNames: ["Az-Zahir", "Al-Awwal", "Al-Akhir"],
-    orderNumber: 76
+    orderNumber: 76,
+    category: nameCategories.ATTRIBUTES
   },
   {
     arabicName: "الْوَالِي",
@@ -615,7 +692,8 @@ export const namesData: InsertName[] = [
     meaning: "The Governor",
     description: "The Governor - The One who owns things and manages them.",
     relatedNames: ["Al-Malik", "Al-Wakil"],
-    orderNumber: 77
+    orderNumber: 77,
+    category: nameCategories.POWER
   },
   {
     arabicName: "الْمُتَعَالِي",
@@ -623,7 +701,8 @@ export const namesData: InsertName[] = [
     meaning: "The Most Exalted",
     description: "The Most Exalted - The One who is clear from the attributes of the creation.",
     relatedNames: ["Al-Ali", "Al-Kabir"],
-    orderNumber: 78
+    orderNumber: 78,
+    category: nameCategories.GREATNESS
   },
   {
     arabicName: "الْبَرُّ",
@@ -631,7 +710,8 @@ export const namesData: InsertName[] = [
     meaning: "The Source of All Good",
     description: "The Source of All Good - The One who is kind to His creatures, who covered them with His sustenance and specified whoever He willed among them by His support, protection, and special mercy.",
     relatedNames: ["Ar-Rahman", "Ar-Rahim", "Al-Karim"],
-    orderNumber: 79
+    orderNumber: 79,
+    category: nameCategories.GOODNESS
   },
   {
     arabicName: "التَّوَّابُ",
@@ -639,7 +719,8 @@ export const namesData: InsertName[] = [
     meaning: "The Ever-Accepting of Repentance",
     description: "The Ever-Accepting of Repentance - The One who grants repentance to whoever He willed among His creatures and accepts his repentance.",
     relatedNames: ["Al-Ghaffar", "Al-Afuw"],
-    orderNumber: 80
+    orderNumber: 80,
+    category: nameCategories.REPENTANCE
   },
   {
     arabicName: "الْمُنْتَقِمُ",
@@ -647,7 +728,8 @@ export const namesData: InsertName[] = [
     meaning: "The Avenger",
     description: "The Avenger - The One who victoriously prevails over His enemies and punishes them for their sins. It may mean the One who destroys them.",
     relatedNames: ["Al-Aziz", "Al-Qahhar"],
-    orderNumber: 81
+    orderNumber: 81,
+    category: nameCategories.JUDGEMENT
   },
   {
     arabicName: "العَفُوُّ",
@@ -655,7 +737,8 @@ export const namesData: InsertName[] = [
     meaning: "The Pardoner",
     description: "The Pardoner - The One who forgives a lot and erases the traces of sins.",
     relatedNames: ["Al-Ghaffar", "At-Tawwab"],
-    orderNumber: 82
+    orderNumber: 82,
+    category: nameCategories.FORGIVENESS
   },
   {
     arabicName: "الرَّؤُوفُ",
@@ -663,7 +746,8 @@ export const namesData: InsertName[] = [
     meaning: "The Most Kind",
     description: "The Most Kind - The One who is very compassionate with His creatures.",
     relatedNames: ["Ar-Rahman", "Ar-Rahim"],
-    orderNumber: 83
+    orderNumber: 83,
+    category: nameCategories.MERCY
   },
   {
     arabicName: "مَالِكُ الْمُلْكِ",
@@ -671,7 +755,8 @@ export const namesData: InsertName[] = [
     meaning: "The Owner of All",
     description: "The Owner of All - The One who controls the dominion and gives dominion to whoever He willed.",
     relatedNames: ["Al-Malik", "Al-Wali"],
-    orderNumber: 84
+    orderNumber: 84,
+    category: nameCategories.POWER
   },
   {
     arabicName: "ذُوالْجَلَالِ وَالْإِكْرَامِ",
@@ -679,7 +764,8 @@ export const namesData: InsertName[] = [
     meaning: "The Lord of Majesty and Bounty",
     description: "The Lord of Majesty and Bounty - The One who has the perfect Power and Authority, and deserves to be Glorified.",
     relatedNames: ["Al-Majid", "Al-Karim"],
-    orderNumber: 85
+    orderNumber: 85,
+    category: nameCategories.GREATNESS
   },
   {
     arabicName: "الْمُقْسِطُ",
@@ -687,7 +773,8 @@ export const namesData: InsertName[] = [
     meaning: "The Equitable One",
     description: "The Equitable One - The One who is Just in His judgment.",
     relatedNames: ["Al-Adl", "Al-Hakam"],
-    orderNumber: 86
+    orderNumber: 86,
+    category: nameCategories.JUDGEMENT
   },
   {
     arabicName: "الْجَامِعُ",
@@ -695,15 +782,17 @@ export const namesData: InsertName[] = [
     meaning: "The Gatherer",
     description: "The Gatherer - The One who gathers the creatures on a day that there is no doubt about, that is the Day of Judgment.",
     relatedNames: ["Al-Hasib", "Al-Muhsi"],
-    orderNumber: 87
+    orderNumber: 87,
+    category: nameCategories.JUDGEMENT
   },
   {
     arabicName: "الْغَنِيُّ",
-    transliteration:"Al-Ghaniyy",
+    transliteration: "Al-Ghaniyy",
     meaning: "The Self-Sufficient",
     description: "The Self-Sufficient - The One who does not need the creation.",
     relatedNames: ["As-Samad", "Al-Wajid"],
-    orderNumber: 88
+    orderNumber: 88,
+    category: nameCategories.ATTRIBUTES
   },
   {
     arabicName: "الْمُغْنِي",
@@ -711,7 +800,8 @@ export const namesData: InsertName[] = [
     meaning: "The Enricher",
     description: "The Enricher - The One who satisfies the necessities of the creatures.",
     relatedNames: ["Al-Ghaniyy", "Ar-Razzaq"],
-    orderNumber: 89
+    orderNumber: 89,
+    category: nameCategories.SUSTENANCE
   },
   {
     arabicName: "اَلْمَانِعُ",
@@ -719,7 +809,8 @@ export const namesData: InsertName[] = [
     meaning: "The Preventer",
     description: "The Preventer - The One who prevents harmful things from reaching His creatures.",
     relatedNames: ["Al-Hafiz", "Al-Wali"],
-    orderNumber: 90
+    orderNumber: 90,
+    category: nameCategories.PROTECTION
   },
   {
     arabicName: "الضَّارُّ",
@@ -727,7 +818,8 @@ export const namesData: InsertName[] = [
     meaning: "The Creator of Harm",
     description: "The Creator of Harm - The One who makes harm reach to whoever He willed and benefits to whoever He willed.",
     relatedNames: ["An-Nafi", "Al-Qadir"],
-    orderNumber: 91
+    orderNumber: 91,
+    category: nameCategories.POWER
   },
   {
     arabicName: "النَّافِعُ",
@@ -735,7 +827,8 @@ export const namesData: InsertName[] = [
     meaning: "The Creator of Good",
     description: "The Creator of Good - The One who makes harm reach to whoever He willed and benefits to whoever He willed.",
     relatedNames: ["Ad-Darr", "Al-Qadir"],
-    orderNumber: 92
+    orderNumber: 92,
+    category: nameCategories.POWER
   },
   {
     arabicName: "النُّورُ",
@@ -743,7 +836,8 @@ export const namesData: InsertName[] = [
     meaning: "The Light",
     description: "The Light - The One who guides whoever He willed by His light, the light of the heavens and the earth.",
     relatedNames: ["Al-Hadi", "Al-Haqq"],
-    orderNumber: 93
+    orderNumber: 93,
+    category: nameCategories.GUIDANCE
   },
   {
     arabicName: "الْهَادِي",
@@ -751,7 +845,8 @@ export const namesData: InsertName[] = [
     meaning: "The Guide",
     description: "The Guide - The One whom with His guidance His believing servants were guided, and with His guidance the living beings have been guided to what is beneficial for them.",
     relatedNames: ["An-Nur", "Ar-Rashid"],
-    orderNumber: 94
+    orderNumber: 94,
+    category: nameCategories.GUIDANCE
   },
   {
     arabicName: "الْبَدِيعُ",
@@ -759,7 +854,8 @@ export const namesData: InsertName[] = [
     meaning: "The Originator",
     description: "The Originator - The One who created the creation and formed it without any preceding example.",
     relatedNames: ["Al-Khaliq", "Al-Musawwir"],
-    orderNumber: 95
+    orderNumber: 95,
+    category: nameCategories.CREATION
   },
   {
     arabicName: "الْبَاقِي",
@@ -767,7 +863,8 @@ export const namesData: InsertName[] = [
     meaning: "The Everlasting",
     description: "The Everlasting - The One that the state of non-existence is impossible for Him.",
     relatedNames: ["Al-Hayy", "Al-Qayyum"],
-    orderNumber: 96
+    orderNumber: 96,
+    category: nameCategories.LIFE
   },
   {
     arabicName: "الْوَارِثُ",
@@ -775,7 +872,8 @@ export const namesData: InsertName[] = [
     meaning: "The Inheritor",
     description: "The Inheritor - The One who remains after the creatures have perished.",
     relatedNames: ["Al-Baqi", "Al-Hayy"],
-    orderNumber: 97
+    orderNumber: 97,
+    category: nameCategories.LIFE
   },
   {
     arabicName: "الرَّشِيدُ",
@@ -783,7 +881,8 @@ export const namesData: InsertName[] = [
     meaning: "The Guide to the Right Path",
     description: "The Guide to the Right Path - The One who guides His creatures to what is beneficial for them.",
     relatedNames: ["Al-Hadi", "Al-Waliyy"],
-    orderNumber: 98
+    orderNumber: 98,
+    category: nameCategories.GUIDANCE
   },
   {
     arabicName: "الصَّبُورُ",
@@ -791,6 +890,7 @@ export const namesData: InsertName[] = [
     meaning: "The Patient",
     description: "The Patient - The One who does not quickly punish the sinners.",
     relatedNames: ["Al-Halim", "Al-Ghafur"],
-    orderNumber: 99
+    orderNumber: 99,
+    category: nameCategories.FORGIVENESS
   }
 ];
