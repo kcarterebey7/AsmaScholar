@@ -80,5 +80,85 @@ export const namesData: InsertName[] = [
     description: "The Greatest - The One who is clear from the attributes of the creatures and from resembling them.",
     relatedNames: ["Al-Kabir", "Al-Azim", "Al-Jalil"],
     orderNumber: 10
+  },
+  {
+    arabicName: "الْخَالِقُ",
+    transliteration: "Al-Khaliq",
+    meaning: "The Creator",
+    description: "The Creator - The One who brings everything from non-existence to existence.",
+    relatedNames: ["Al-Bari", "Al-Musawwir"],
+    orderNumber: 11
+  },
+  {
+    arabicName: "الْبَارِئُ",
+    transliteration: "Al-Bari",
+    meaning: "The Maker of Order",
+    description: "The Maker of Order - The One who creates things with subtle knowledge.",
+    relatedNames: ["Al-Khaliq", "Al-Musawwir"],
+    orderNumber: 12
+  },
+  {
+    arabicName: "الْمُصَوِّرُ",
+    transliteration: "Al-Musawwir",
+    meaning: "The Shaper of Beauty",
+    description: "The Shaper of Beauty - The One who shapes creatures and perfects their forms.",
+    relatedNames: ["Al-Khaliq", "Al-Bari"],
+    orderNumber: 13
+  },
+  {
+    arabicName: "الْغَفَّارُ",
+    transliteration: "Al-Ghaffar",
+    meaning: "The Forgiver",
+    description: "The Forgiver - The One who forgives the sins of His servants time and time again.",
+    relatedNames: ["At-Tawwab", "Al-'Afuw"],
+    orderNumber: 14
+  },
+  {
+    arabicName: "الْقَهَّارُ",
+    transliteration: "Al-Qahhar",
+    meaning: "The Subduer",
+    description: "The Subduer - The One who has the perfect Power and is not unable over anything.",
+    relatedNames: ["Al-Jabbar", "Al-Aziz"],
+    orderNumber: 15
+  },
+  {
+    arabicName: "الْوَهَّابُ",
+    transliteration: "Al-Wahhab",
+    meaning: "The Giver of All",
+    description: "The Giver of All - The One who gives freely without expecting any return.",
+    relatedNames: ["Al-Karim", "Ar-Razzaq"],
+    orderNumber: 16
+  },
+  {
+    arabicName: "الرَّزَّاقُ",
+    transliteration: "Ar-Razzaq",
+    meaning: "The Sustainer",
+    description: "The Sustainer - The One who creates all means of nourishment and sustenance.",
+    relatedNames: ["Al-Wahhab", "Al-Karim"],
+    orderNumber: 17
+  },
+  {
+    arabicName: "الْفَتَّاحُ",
+    transliteration: "Al-Fattah",
+    meaning: "The Opener",
+    description: "The Opener - The One who opens the closed, whether it be gates of mercy or sustenance.",
+    relatedNames: ["An-Nafi", "Al-Hadi"],
+    orderNumber: 18
+  },
+  {
+    arabicName: "اَلْعَلِيْمُ",
+    transliteration: "Al-Alim",
+    meaning: "The All-Knowing",
+    description: "The All-Knowing - The One who knows everything in the past, present and future.",
+    relatedNames: ["Al-Khabir", "Al-Hakim"],
+    orderNumber: 19
+  },
+  {
+    arabicName: "الْقَابِضُ",
+    transliteration: "Al-Qabid",
+    meaning: "The Constrictor",
+    description: "The Constrictor - The One who constricts and withholds.",
+    relatedNames: ["Al-Basit", "Al-Muqsit"],
+    orderNumber: 20
   }
 ];
