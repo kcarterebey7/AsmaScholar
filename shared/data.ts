@@ -560,5 +560,86 @@ export const namesData: InsertName[] = [
     description: "The All-Powerful - The One who has perfect power and who creates all things according to His will.",
     relatedNames: ["Al-Qadir", "Al-Qawiyy"],
     orderNumber: 70
+  },
+  {
+    arabicName: "الْمُقَدِّمُ",
+    transliteration: "Al-Muqaddim",
+    meaning: "The Expediter",
+    description: "The Expediter - The One who puts things in their right places. He makes ahead what He wills and delays what He wills.",
+    relatedNames: ["Al-Mu'akhkhir", "Al-Hakam"],
+    orderNumber: 71
+  },
+  {
+    arabicName: "الْمُؤَخِّرُ",
+    transliteration: "Al-Mu'akhkhir",
+    meaning: "The Delayer",
+    description: "The Delayer - The One who puts things in their right places. He makes ahead what He wills and delays what He wills.",
+    relatedNames: ["Al-Muqaddim", "Al-Hakam"],
+    orderNumber: 72
+  },
+  {
+    arabicName: "الْأَوَّلُ",
+    transliteration: "Al-Awwal",
+    meaning: "The First",
+    description: "The First - The One whose existence is without a beginning.",
+    relatedNames: ["Al-Akhir", "Az-Zahir", "Al-Batin"],
+    orderNumber: 73
+  },
+  {
+    arabicName: "الْآخِرُ",
+    transliteration: "Al-Akhir",
+    meaning: "The Last",
+    description: "The Last - The One whose existence is without an end.",
+    relatedNames: ["Al-Awwal", "Az-Zahir", "Al-Batin"],
+    orderNumber: 74
+  },
+  {
+    arabicName: "الظَّاهِرُ",
+    transliteration: "Az-Zahir",
+    meaning: "The Manifest",
+    description: "The Manifest - The One that nothing is above Him and nothing is underneath Him, hence He exists without a place.",
+    relatedNames: ["Al-Batin", "Al-Awwal", "Al-Akhir"],
+    orderNumber: 75
+  },
+  {
+    arabicName: "الْبَاطِنُ",
+    transliteration: "Al-Batin",
+    meaning: "The Hidden",
+    description: "The Hidden - The One that nothing is above Him and nothing is underneath Him, hence He exists without a place.",
+    relatedNames: ["Az-Zahir", "Al-Awwal", "Al-Akhir"],
+    orderNumber: 76
+  },
+  {
+    arabicName: "الْوَالِي",
+    transliteration: "Al-Wali",
+    meaning: "The Governor",
+    description: "The Governor - The One who owns things and manages them.",
+    relatedNames: ["Al-Malik", "Al-Wakil"],
+    orderNumber: 77
+  },
+  {
+    arabicName: "الْمُتَعَالِي",
+    transliteration: "Al-Muta'ali",
+    meaning: "The Most Exalted",
+    description: "The Most Exalted - The One who is clear from the attributes of the creation.",
+    relatedNames: ["Al-Ali", "Al-Kabir"],
+    orderNumber: 78
+  },
+  {
+    arabicName: "الْبَرُّ",
+    transliteration: "Al-Barr",
+    meaning: "The Source of All Good",
+    description: "The Source of All Good - The One who is kind to His creatures, who covered them with His sustenance and specified whoever He willed among them by His support, protection, and special mercy.",
+    relatedNames: ["Ar-Rahman", "Ar-Rahim", "Al-Karim"],
+    orderNumber: 79
+  },
+  {
+    arabicName: "التَّوَّابُ",
+    transliteration: "At-Tawwab",
+    meaning: "The Ever-Accepting of Repentance",
+    description: "The Ever-Accepting of Repentance - The One who grants repentance to whoever He willed among His creatures and accepts his repentance.",
+    relatedNames: ["Al-Ghaffar", "Al-Afuw"],
+    orderNumber: 80
   }
+
 ];
