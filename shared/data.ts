@@ -35,6 +35,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْقُدُّوسُ",
     transliteration: "Al-Quddus",
+    pronunciation: "al-QUDD-oos",
     meaning: "The Most Sacred",
     description: "The Most Sacred - The One who is pure from any imperfection and clear from children and adversaries.",
     relatedNames: ["As-Salam", "Al-Mu'min", "Al-Muhaymin"],
@@ -44,6 +45,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "السَّلاَمُ",
     transliteration: "As-Salam",
+    pronunciation: "as-sa-LAAM",
     meaning: "The Source of Peace",
     description: "The Source of Peace - The One who is free from every imperfection and defect.",
     relatedNames: ["Al-Mu'min", "Al-Muhaymin", "Al-Quddus"],
@@ -53,6 +55,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْمُؤْمِنُ",
     transliteration: "Al-Mu'min",
+    pronunciation: "al-MU-min",
     meaning: "The Guardian of Faith",
     description: "The Guardian of Faith - The One who witnessed for Himself that no one is God but Him. And He witnessed for His believers that they are truthful in their belief that no one is God but Him.",
     relatedNames: ["Al-Muhaymin", "As-Salam", "Al-Quddus"],
@@ -62,6 +65,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْمُهَيْمِنُ",
     transliteration: "Al-Muhaymin",
+    pronunciation: "al-mu-HAY-min",
     meaning: "The Protector",
     description: "The Protector - The One who witnesses the saying and deeds of His creatures.",
     relatedNames: ["Al-Mu'min", "Al-Hafiz", "Al-Wakil"],
@@ -71,6 +75,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْعَزِيزُ",
     transliteration: "Al-Aziz",
+    pronunciation: "al-a-ZEEZ",
     meaning: "The Almighty",
     description: "The Almighty - The Strong, The Defeater who is not defeated.",
     relatedNames: ["Al-Qawi", "Al-Malik", "Al-Jabbar"],
@@ -80,6 +85,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْجَبَّارُ",
     transliteration: "Al-Jabbar",
+    pronunciation: "al-jabb-AAR",
     meaning: "The Compeller",
     description: "The Compeller - The One that nothing happens in His dominion except what He willed.",
     relatedNames: ["Al-Aziz", "Al-Malik", "Al-Mutakabbir"],
@@ -89,6 +95,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْمُتَكَبِّرُ",
     transliteration: "Al-Mutakabbir",
+    pronunciation: "al-mu-ta-KAB-bir",
     meaning: "The Greatest",
     description: "The Greatest - The One who is clear from the attributes of the creatures and from resembling them.",
     relatedNames: ["Al-Kabir", "Al-Azim", "Al-Jalil"],
@@ -98,6 +105,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْخَالِقُ",
     transliteration: "Al-Khaliq",
+    pronunciation: "al-KHA-liq",
     meaning: "The Creator",
     description: "The Creator - The One who brings everything from non-existence to existence.",
     relatedNames: ["Al-Bari", "Al-Musawwir"],
@@ -107,6 +115,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْبَارِئُ",
     transliteration: "Al-Bari",
+    pronunciation: "al-BAA-ri",
     meaning: "The Maker of Order",
     description: "The Maker of Order - The One who creates things with subtle knowledge.",
     relatedNames: ["Al-Khaliq", "Al-Musawwir"],
@@ -116,6 +125,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْمُصَوِّرُ",
     transliteration: "Al-Musawwir",
+    pronunciation: "al-mu-SAW-wir",
     meaning: "The Shaper of Beauty",
     description: "The Shaper of Beauty - The One who shapes creatures and perfects their forms.",
     relatedNames: ["Al-Khaliq", "Al-Bari"],
@@ -705,8 +715,7 @@ export const namesData: InsertName[] = [
     description: "The Most Exalted - The One who is clear from the attributes of the creation.",
     relatedNames: ["Al-Ali", "Al-Kabir"],
     orderNumber: 78,
-    category: nameCategories.GREATNESS
-  },
+    category: nameCategories.GREATNESS},
   {
     arabicName: "الْبَرُّ",
     transliteration: "Al-Barr",
@@ -715,7 +724,7 @@ export const namesData: InsertName[] = [
     relatedNames: ["Ar-Rahman", "Ar-Rahim", "Al-Karim"],
     orderNumber: 79,
     category: nameCategories.GOODNESS
-},
+  },
   {
     arabicName: "التَّوَّابُ",
     transliteration: "At-Tawwab",
