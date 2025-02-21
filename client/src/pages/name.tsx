@@ -15,33 +15,33 @@ export default function NamePage() {
 
   return (
     <div className="max-w-4xl mx-auto">
-      <Link href="/" className="inline-flex items-center text-[#14866D] mb-6">
+      <Link href="/" className="inline-flex items-center text-[#14866D] hover:text-[#0D5F4C] dark:hover:text-[#1A9E82] mb-6">
         <ArrowLeft className="mr-2 h-4 w-4" />
         Back to All Names
       </Link>
 
       <Card>
         <CardContent className="p-6">
-          <div className="text-4xl font-serif mb-4">{name.arabicName}</div>
+          <div className="text-4xl font-serif mb-4 dark:text-gray-200">{name.arabicName}</div>
           <div className="text-2xl text-[#14866D] mb-2">{name.transliteration}</div>
-          <div className="text-lg text-gray-600 mb-4">
+          <div className="text-lg text-gray-600 dark:text-gray-400 mb-4">
             Pronunciation: <span className="font-medium">{name.pronunciation}</span>
           </div>
-          <div className="text-xl mb-4 text-[#333333]">{name.meaning}</div>
+          <div className="text-xl mb-4 text-[#333333] dark:text-gray-300">{name.meaning}</div>
 
-          <div className="prose prose-slate max-w-none leading-relaxed">
+          <div className="prose prose-slate dark:prose-invert max-w-none leading-relaxed">
             <p>{name.description}</p>
           </div>
 
           {name.relatedNames.length > 0 && (
             <div className="mt-8">
-              <h2 className="text-xl font-serif mb-4">Related Names</h2>
+              <h2 className="text-xl font-serif mb-4 dark:text-gray-200">Related Names</h2>
               <div className="flex gap-2 flex-wrap">
                 {name.relatedNames.map((relatedName) => (
                   <Link 
                     key={relatedName}
                     href={`/name/${relatedName}`}
-                    className="text-[#14866D] hover:underline"
+                    className="text-[#14866D] hover:underline dark:hover:text-[#1A9E82]"
                   >
                     {relatedName}
                   </Link>

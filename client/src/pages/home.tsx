@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <div className="max-w-4xl mx-auto">
       <div className="flex justify-between items-center mb-6">
-        <h1 className="text-4xl font-serif text-[#333333]">
+        <h1 className="text-4xl font-serif text-[#333333] dark:text-gray-200">
           The 99 Names of Allah
         </h1>
         <div className="flex gap-2">
@@ -47,12 +47,12 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {names?.map((name) => (
             <Link key={name.id} href={`/name/${name.id}`}>
-              <Card className="cursor-pointer hover:bg-[#F8F9FA] transition-colors">
+              <Card className="cursor-pointer hover:bg-[#F8F9FA] dark:hover:bg-gray-800 transition-colors">
                 <CardContent className="p-4">
-                  <div className="text-2xl font-serif mb-2">{name.arabicName}</div>
+                  <div className="text-2xl font-serif mb-2 dark:text-gray-200">{name.arabicName}</div>
                   <div className="text-[#14866D] font-medium">{name.transliteration}</div>
-                  <div className="text-sm text-gray-500 mb-1">{name.pronunciation}</div>
-                  <div className="text-[#333333]">{name.meaning}</div>
+                  <div className="text-sm text-gray-500 dark:text-gray-400 mb-1">{name.pronunciation}</div>
+                  <div className="text-[#333333] dark:text-gray-300">{name.meaning}</div>
                 </CardContent>
               </Card>
             </Link>
