@@ -720,5 +720,77 @@ export const namesData: InsertName[] = [
     description: "The Preventer - The One who prevents harmful things from reaching His creatures.",
     relatedNames: ["Al-Hafiz", "Al-Wali"],
     orderNumber: 90
+  },
+  {
+    arabicName: "الضَّارُّ",
+    transliteration: "Ad-Darr",
+    meaning: "The Creator of Harm",
+    description: "The Creator of Harm - The One who makes harm reach to whoever He willed and benefits to whoever He willed.",
+    relatedNames: ["An-Nafi", "Al-Qadir"],
+    orderNumber: 91
+  },
+  {
+    arabicName: "النَّافِعُ",
+    transliteration: "An-Nafi",
+    meaning: "The Creator of Good",
+    description: "The Creator of Good - The One who makes harm reach to whoever He willed and benefits to whoever He willed.",
+    relatedNames: ["Ad-Darr", "Al-Qadir"],
+    orderNumber: 92
+  },
+  {
+    arabicName: "النُّورُ",
+    transliteration: "An-Nur",
+    meaning: "The Light",
+    description: "The Light - The One who guides whoever He willed by His light, the light of the heavens and the earth.",
+    relatedNames: ["Al-Hadi", "Al-Haqq"],
+    orderNumber: 93
+  },
+  {
+    arabicName: "الْهَادِي",
+    transliteration: "Al-Hadi",
+    meaning: "The Guide",
+    description: "The Guide - The One whom with His guidance His believing servants were guided, and with His guidance the living beings have been guided to what is beneficial for them.",
+    relatedNames: ["An-Nur", "Ar-Rashid"],
+    orderNumber: 94
+  },
+  {
+    arabicName: "الْبَدِيعُ",
+    transliteration: "Al-Badi",
+    meaning: "The Originator",
+    description: "The Originator - The One who created the creation and formed it without any preceding example.",
+    relatedNames: ["Al-Khaliq", "Al-Musawwir"],
+    orderNumber: 95
+  },
+  {
+    arabicName: "الْبَاقِي",
+    transliteration: "Al-Baqi",
+    meaning: "The Everlasting",
+    description: "The Everlasting - The One that the state of non-existence is impossible for Him.",
+    relatedNames: ["Al-Hayy", "Al-Qayyum"],
+    orderNumber: 96
+  },
+  {
+    arabicName: "الْوَارِثُ",
+    transliteration: "Al-Warith",
+    meaning: "The Inheritor",
+    description: "The Inheritor - The One who remains after the creatures have perished.",
+    relatedNames: ["Al-Baqi", "Al-Hayy"],
+    orderNumber: 97
+  },
+  {
+    arabicName: "الرَّشِيدُ",
+    transliteration: "Ar-Rashid",
+    meaning: "The Guide to the Right Path",
+    description: "The Guide to the Right Path - The One who guides His creatures to what is beneficial for them.",
+    relatedNames: ["Al-Hadi", "Al-Waliyy"],
+    orderNumber: 98
+  },
+  {
+    arabicName: "الصَّبُورُ",
+    transliteration: "As-Sabur",
+    meaning: "The Patient",
+    description: "The Patient - The One who does not quickly punish the sinners.",
+    relatedNames: ["Al-Halim", "Al-Ghafur"],
+    orderNumber: 99
   }
 ];
