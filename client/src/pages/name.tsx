@@ -1,11 +1,17 @@
 import { useQuery } from "@tanstack/react-query";
-import { useParams, Link } from "wouter";
+import { useParams, Link, useLocation } from "wouter";
 import type { Name } from "@shared/schema";
 import { Card, CardContent } from "@/components/ui/card";
 import { ArrowLeft } from "lucide-react";
 
 export default function NamePage() {
   const { id } = useParams();
+  const [location] = useLocation();
+
+  // Get the search query from URL if it exists
+  const searchParams = new URLSearchParams(location.split('?')[1]);
+  const searchQuery = searchParams.get('q');
+
   const { data: name, isLoading } = useQuery<Name>({
     queryKey: [`/api/names/${id}`]
   });
@@ -22,11 +28,15 @@ export default function NamePage() {
     name.relatedNames.includes(n.transliteration)
   ) || [];
 
+  // Determine the back link URL based on where user came from
+  const backUrl = searchQuery ? `/search?q=${encodeURIComponent(searchQuery)}` : '/';
+  const backText = searchQuery ? 'Back to Search Results' : 'Back to All Names';
+
   return (
     <div className="max-w-4xl mx-auto">
-      <Link href="/" className="inline-flex items-center text-[#14866D] hover:text-[#0D5F4C] dark:hover:text-[#1A9E82] mb-6">
+      <Link href={backUrl} className="inline-flex items-center text-[#14866D] hover:text-[#0D5F4C] dark:hover:text-[#1A9E82] mb-6">
         <ArrowLeft className="mr-2 h-4 w-4" />
-        Back to All Names
+        {backText}
       </Link>
 
       <Card>
@@ -74,7 +84,7 @@ export default function NamePage() {
                 {relatedNamesDetails.map((relatedName) => (
                   <Link 
                     key={relatedName.id}
-                    href={`/name/${relatedName.id}`}
+                    href={`/name/${relatedName.id}${searchQuery ? `?q=${encodeURIComponent(searchQuery)}` : ''}`}
                     className="text-[#14866D] hover:underline dark:hover:text-[#1A9E82]"
                   >
                     {relatedName.transliteration}
