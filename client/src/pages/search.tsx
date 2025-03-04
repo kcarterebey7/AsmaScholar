@@ -1,4 +1,4 @@
-import { useSearch } from "@/lib/search";
+import { useSearch, type SearchResult } from "@/lib/search";
 import { useLocation } from "wouter";
 import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "wouter";
@@ -16,7 +16,7 @@ export default function SearchPage() {
       <SearchBox className="mb-8" defaultValue={query} />
 
       <div className="space-y-4">
-        {results.map((result) => (
+        {results.map((result: SearchResult) => (
           <Link key={result.id} href={`/name/${result.id}`}>
             <Card className="cursor-pointer hover:bg-[#F8F9FA] dark:hover:bg-gray-800 transition-colors">
               <CardContent className="p-4">
