@@ -3,8 +3,18 @@ import { useQuery } from "@tanstack/react-query";
 import type { Name } from "@shared/schema";
 
 const fuseOptions = {
-  keys: ["arabicName", "transliteration", "meaning", "description"],
+  keys: [
+    "arabicName",
+    "transliteration", 
+    "meaning",
+    "description",
+    "detailedExplanation",
+    "innerMeaning",
+    "technique"
+  ],
   threshold: 0.3,
+  includeMatches: true,
+  minMatchCharLength: 3
 };
 
 export function useSearch(query: string) {
@@ -15,5 +25,8 @@ export function useSearch(query: string) {
   if (!query) return names;
 
   const fuse = new Fuse(names, fuseOptions);
-  return fuse.search(query).map(result => result.item);
+  return fuse.search(query).map(result => ({
+    ...result.item,
+    matches: result.matches
+  }));
 }
