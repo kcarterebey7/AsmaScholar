@@ -16,6 +16,10 @@ export default function SearchBox({ className = "", defaultValue = "", onChange 
   const debouncedValue = useDebounce(value, 300);
 
   useEffect(() => {
+    setValue(defaultValue);
+  }, [defaultValue]);
+
+  useEffect(() => {
     // Update URL when search value changes
     const searchParams = new URLSearchParams(window.location.search);
     if (debouncedValue) {

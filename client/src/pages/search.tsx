@@ -3,13 +3,21 @@ import { useLocation } from "wouter";
 import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "wouter";
 import SearchBox from "@/components/search-box";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function SearchPage() {
   const [location] = useLocation();
-  const initialQuery = new URLSearchParams(location.split('?')[1]).get("q") || "";
-  const [query, setQuery] = useState(initialQuery);
+  const getQueryFromUrl = () => new URLSearchParams(location.split('?')[1]).get("q") || "";
+  const [query, setQuery] = useState(getQueryFromUrl());
   const results = useSearch(query);
+
+  // Update search state when URL changes
+  useEffect(() => {
+    const urlQuery = getQueryFromUrl();
+    if (urlQuery !== query) {
+      setQuery(urlQuery);
+    }
+  }, [location]);
 
   return (
     <div className="max-w-4xl mx-auto">
@@ -17,7 +25,7 @@ export default function SearchPage() {
 
       <SearchBox 
         className="mb-8" 
-        defaultValue={initialQuery}
+        defaultValue={query}
         onChange={setQuery}
       />
 
