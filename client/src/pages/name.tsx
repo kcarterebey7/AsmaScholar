@@ -22,6 +22,7 @@ export default function NamePage() {
 
       <Card>
         <CardContent className="p-6">
+          {/* Main Name Section */}
           <div className="text-4xl font-serif mb-4 dark:text-gray-200">{name.arabicName}</div>
           <div className="text-2xl text-[#14866D] mb-2">{name.transliteration}</div>
           <div className="text-lg text-gray-600 dark:text-gray-400 mb-4">
@@ -29,12 +30,22 @@ export default function NamePage() {
           </div>
           <div className="text-xl mb-4 text-[#333333] dark:text-gray-300">{name.meaning}</div>
 
+          {/* Detailed Content */}
           <div className="prose prose-slate dark:prose-invert max-w-none leading-relaxed">
+            <h2 className="text-xl font-serif mt-6 mb-4 dark:text-gray-200">Basic Meaning</h2>
             <p>{name.description}</p>
+
+            {name.detailedExplanation && (
+              <>
+                <h2 className="text-xl font-serif mt-6 mb-4 dark:text-gray-200">Deeper Understanding</h2>
+                <p className="whitespace-pre-wrap">{name.detailedExplanation}</p>
+              </>
+            )}
           </div>
 
+          {/* Related Names Section */}
           {name.relatedNames.length > 0 && (
-            <div className="mt-8">
+            <div className="mt-8 pt-6 border-t">
               <h2 className="text-xl font-serif mb-4 dark:text-gray-200">Related Names</h2>
               <div className="flex gap-2 flex-wrap">
                 {name.relatedNames.map((relatedName) => (

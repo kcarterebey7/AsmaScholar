@@ -10,6 +10,7 @@ export const names = pgTable("names", {
   pronunciation: text("pronunciation").notNull(),
   meaning: text("meaning").notNull(),
   description: text("description").notNull(),
+  detailedExplanation: text("detailed_explanation"),
   relatedNames: text("related_names").notNull().$type<string[]>(),
   orderNumber: integer("order_number").notNull(),
   category: text("category").notNull(),
