@@ -23,9 +23,12 @@ const fuseOptions = {
     { name: 'innerMeaning', weight: 1 },
     { name: 'technique', weight: 1 }
   ],
-  threshold: 0.3,
+  threshold: 0.4, // More lenient threshold
   includeMatches: true,
-  minMatchCharLength: 3
+  minMatchCharLength: 2, // Allow shorter matches
+  ignoreLocation: true, // Search entire field content
+  useExtendedSearch: true, // Enable extended search features
+  findAllMatches: true // Find all possible matches
 };
 
 export function useSearch(query: string): SearchResult[] {
