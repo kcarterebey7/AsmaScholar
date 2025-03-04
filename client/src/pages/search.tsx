@@ -7,7 +7,7 @@ import { useState, useEffect } from "react";
 
 export default function SearchPage() {
   const [location] = useLocation();
-  const getQueryFromUrl = () => new URLSearchParams(location.split('?')[1]).get("q") || "";
+  const getQueryFromUrl = () => new URLSearchParams(window.location.search).get("q") || "";
   const [query, setQuery] = useState(getQueryFromUrl());
   const results = useSearch(query);
 

@@ -15,6 +15,7 @@ export default function SearchBox({ className = "", defaultValue = "", onChange 
   const [value, setValue] = useState(defaultValue);
   const debouncedValue = useDebounce(value, 300);
 
+  // Sync with defaultValue changes (e.g., when URL changes)
   useEffect(() => {
     setValue(defaultValue);
   }, [defaultValue]);
