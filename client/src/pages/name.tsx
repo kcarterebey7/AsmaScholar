@@ -10,8 +10,17 @@ export default function NamePage() {
     queryKey: [`/api/names/${id}`]
   });
 
+  const { data: allNames } = useQuery<Name[]>({
+    queryKey: ['/api/names']
+  });
+
   if (isLoading) return <div>Loading...</div>;
   if (!name) return <div>Name not found</div>;
+
+  // Find the related names' full details
+  const relatedNamesDetails = allNames?.filter(n => 
+    name.relatedNames.includes(n.transliteration)
+  ) || [];
 
   return (
     <div className="max-w-4xl mx-auto">
@@ -44,17 +53,17 @@ export default function NamePage() {
           </div>
 
           {/* Related Names Section */}
-          {name.relatedNames.length > 0 && (
+          {relatedNamesDetails.length > 0 && (
             <div className="mt-8 pt-6 border-t">
               <h2 className="text-xl font-serif mb-4 dark:text-gray-200">Related Names</h2>
               <div className="flex gap-2 flex-wrap">
-                {name.relatedNames.map((relatedName) => (
+                {relatedNamesDetails.map((relatedName) => (
                   <Link 
-                    key={relatedName}
-                    href={`/name/${relatedName}`}
+                    key={relatedName.id}
+                    href={`/name/${relatedName.id}`}
                     className="text-[#14866D] hover:underline dark:hover:text-[#1A9E82]"
                   >
-                    {relatedName}
+                    {relatedName.transliteration}
                   </Link>
                 ))}
               </div>
