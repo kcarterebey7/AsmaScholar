@@ -7,6 +7,7 @@ import NotFound from "@/pages/not-found";
 import Home from "@/pages/home";
 import Name from "@/pages/name";
 import Search from "@/pages/search";
+import Relationships from "@/pages/relationships";
 import SidebarNav from "@/components/sidebar-nav";
 
 function Router() {
@@ -18,6 +19,7 @@ function Router() {
           <Route path="/" component={Home} />
           <Route path="/name/:id" component={Name} />
           <Route path="/search" component={Search} />
+          <Route path="/relationships" component={Relationships} />
           <Route component={NotFound} />
         </Switch>
       </main>
