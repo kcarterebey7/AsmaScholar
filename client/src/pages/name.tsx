@@ -50,6 +50,20 @@ export default function NamePage() {
                 <p className="whitespace-pre-wrap">{name.detailedExplanation}</p>
               </>
             )}
+
+            {name.innerMeaning && (
+              <>
+                <h2 className="text-xl font-serif mt-6 mb-4 dark:text-gray-200">Inner Meaning</h2>
+                <p className="whitespace-pre-wrap">{name.innerMeaning}</p>
+              </>
+            )}
+
+            {name.technique && (
+              <>
+                <h2 className="text-xl font-serif mt-6 mb-4 dark:text-gray-200">Spiritual Practice</h2>
+                <p className="whitespace-pre-wrap">{name.technique}</p>
+              </>
+            )}
           </div>
 
           {/* Related Names Section */}

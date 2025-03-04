@@ -11,6 +11,8 @@ export const names = pgTable("names", {
   meaning: text("meaning").notNull(),
   description: text("description").notNull(),
   detailedExplanation: text("detailed_explanation"),
+  innerMeaning: text("inner_meaning"),
+  technique: text("technique"),
   relatedNames: text("related_names").notNull().$type<string[]>(),
   orderNumber: integer("order_number").notNull(),
   category: text("category").notNull(),
