@@ -36,6 +36,28 @@ export const nameCategories = {
   PROVISION: "Provision and Sustenance",
   MAJESTY: "Majesty and Honor",
   UNIQUENESS: "Uniqueness and Unity",
+  HOLINESS: "Holiness and Purity",
+  PEACE: "Peace and Tranquility",
+  FAITH: "Faith and Trust",
+  PROTECTION: "Protection and Safety",
+  GREATNESS: "Greatness and Glory",
+  FORGIVENESS: "Forgiveness and Mercy",
+  GIVING: "Giving and Generosity",
+  SUSTENANCE: "Sustenance and Support",
+  OPENING: "Opening and Guidance",
+  KNOWLEDGE: "Knowledge and Wisdom",
+  ATTRIBUTES: "Divine Attributes",
+  JUDGEMENT: "Judgement and Justice",
+  LOVE: "Love and Compassion",
+  PRAISE: "Praise and Glory",
+  RESURRECTION: "Resurrection and Life",
+  TRUTH: "Truth and Reality",
+  TIME: "Time and Eternity",
+  LIFE: "Life and Existence",
+  ETERNITY: "Eternity and Permanence",
+  GOODNESS: "Goodness and Benefit",
+  REPENTANCE: "Repentance and Return",
+  APPRECIATION: "Appreciation and Gratitude"
 } as const;
 
 export type NameCategory = typeof nameCategories[keyof typeof nameCategories];
