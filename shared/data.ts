@@ -8,6 +8,7 @@ export const namesData: InsertName[] = [
     pronunciation: "ar-RAH-maan",
     meaning: "The Most Gracious",
     description: "The Most Gracious - The One who has plenty of mercy for the believers and the blasphemers in this world and especially for the believers in the hereafter.",
+    detailedExplanation: "Beloved seekers, let your heart be an open vessel, ready to receive without measure. Ar-Rahman represents boundless love, as vast as the ocean. This name teaches us that divine mercy flows continuously, touching every aspect of existence with its gentle grace. It is a reminder that in every moment, we are surrounded by unlimited compassion and care.",
     relatedNames: ["Ar-Raheem", "Al-Latif", "Al-Wadud"],
     orderNumber: 1,
     category: nameCategories.MERCY
@@ -18,6 +19,7 @@ export const namesData: InsertName[] = [
     pronunciation: "ar-ra-HEEM",
     meaning: "The Most Merciful",
     description: "The Most Merciful - The One who has plenty of mercy for the believers.",
+    detailedExplanation: "Ar-Raheem, the Most Merciful, speaks to the tender compassion of the Divine. This name highlights God's unwavering love and care for those who believe, offering solace and comfort in times of need.  It reminds us that mercy is not merely a concept, but a living force that sustains and protects.",
     relatedNames: ["Ar-Rahman", "Al-Latif", "Al-Wadud"],
     orderNumber: 2,
     category: nameCategories.MERCY
@@ -28,6 +30,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-MA-lik",
     meaning: "The King",
     description: "The King - The One with complete dominion, the One whose dominion is clear from imperfection.",
+    detailedExplanation: "Al-Malik, the King, signifies absolute sovereignty and perfect governance.  This name reminds us that God's power is absolute, His rule just and unwavering. It inspires awe and reverence, reminding us of the majesty and authority of the Divine.",
     relatedNames: ["Al-Maalik", "Al-Aziz", "Al-Jabbar"],
     orderNumber: 3,
     category: nameCategories.POWER
@@ -38,6 +41,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-QUDD-oos",
     meaning: "The Most Sacred",
     description: "The Most Sacred - The One who is pure from any imperfection and clear from children and adversaries.",
+    detailedExplanation: "Al-Quddus, the Most Sacred, speaks to the absolute purity and holiness of God.  This name transcends human understanding of purity, representing a state beyond all imperfection and blemish.  It inspires a deep sense of reverence and respect for the Divine.",
     relatedNames: ["As-Salam", "Al-Mu'min", "Al-Muhaymin"],
     orderNumber: 4,
     category: nameCategories.HOLINESS
@@ -48,6 +52,7 @@ export const namesData: InsertName[] = [
     pronunciation: "as-sa-LAAM",
     meaning: "The Source of Peace",
     description: "The Source of Peace - The One who is free from every imperfection and defect.",
+    detailedExplanation: "As-Salam, the Source of Peace, embodies tranquility and serenity. This name reminds us that true peace originates from the Divine, a peace that surpasses worldly understanding. It invites us to seek inner peace and harmony, knowing that God is the ultimate source of calm and composure.",
     relatedNames: ["Al-Mu'min", "Al-Muhaymin", "Al-Quddus"],
     orderNumber: 5,
     category: nameCategories.PEACE
@@ -58,6 +63,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-MU-min",
     meaning: "The Guardian of Faith",
     description: "The Guardian of Faith - The One who witnessed for Himself that no one is God but Him. And He witnessed for His believers that they are truthful in their belief that no one is God but Him.",
+    detailedExplanation: "Al-Mu'min, the Guardian of Faith, is a testament to God's unwavering commitment to those who believe.  This name offers strength and reassurance, emphasizing the Divine's steadfast support and protection for those who trust in Him. It is a beacon of hope in the face of adversity.",
     relatedNames: ["Al-Muhaymin", "As-Salam", "Al-Quddus"],
     orderNumber: 6,
     category: nameCategories.FAITH
@@ -68,6 +74,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-mu-HAY-min",
     meaning: "The Protector",
     description: "The Protector - The One who witnesses the saying and deeds of His creatures.",
+    detailedExplanation: "Al-Muhaymin, the Protector, signifies God's constant watchfulness and care. This name assures us that we are never alone, always under the watchful eye of the Divine. It offers comfort and security, reminding us that God's protection encompasses all aspects of our lives.",
     relatedNames: ["Al-Mu'min", "Al-Hafiz", "Al-Wakil"],
     orderNumber: 7,
     category: nameCategories.PROTECTION
@@ -78,6 +85,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-a-ZEEZ",
     meaning: "The Almighty",
     description: "The Almighty - The Strong, The Defeater who is not defeated.",
+    detailedExplanation: "Al-Aziz, the Almighty, represents the boundless power and might of God. This name inspires reverence and respect, highlighting God's absolute dominion over all creation. It is a reminder of the ultimate authority and strength of the Divine.",
     relatedNames: ["Al-Qawi", "Al-Malik", "Al-Jabbar"],
     orderNumber: 8,
     category: nameCategories.POWER
@@ -88,6 +96,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-jabb-AAR",
     meaning: "The Compeller",
     description: "The Compeller - The One that nothing happens in His dominion except what He willed.",
+    detailedExplanation: "Al-Jabbar, the Compeller, emphasizes God's absolute will and control over all events.  This name reminds us that everything happens according to God's plan, and that even seemingly random events are part of a larger, divinely orchestrated design.  It fosters trust and acceptance in the face of uncertainty.",
     relatedNames: ["Al-Aziz", "Al-Malik", "Al-Mutakabbir"],
     orderNumber: 9,
     category: nameCategories.POWER
@@ -98,6 +107,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-mu-ta-KAB-bir",
     meaning: "The Greatest",
     description: "The Greatest - The One who is clear from the attributes of the creatures and from resembling them.",
+    detailedExplanation: "Al-Mutakabbir, the Greatest, signifies God's transcendence and majesty. This name surpasses all human comprehension of greatness, representing a state beyond all comparison. It evokes a profound sense of awe and wonder at the Divine's immeasurable glory.",
     relatedNames: ["Al-Kabir", "Al-Azim", "Al-Jalil"],
     orderNumber: 10,
     category: nameCategories.GREATNESS
@@ -108,6 +118,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-KHA-liq",
     meaning: "The Creator",
     description: "The Creator - The One who brings everything from non-existence to existence.",
+    detailedExplanation: "Al-Khaliq, the Creator, speaks to the boundless power of God to bring forth existence from nothingness. This name reminds us of the miracle of creation, the intricate beauty and complexity of the universe, and the divine hand that shaped it all. It instills a deep appreciation for the wonder of creation.",
     relatedNames: ["Al-Bari", "Al-Musawwir"],
     orderNumber: 11,
     category: nameCategories.CREATION
@@ -118,6 +129,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-BAA-ri",
     meaning: "The Maker of Order",
     description: "The Maker of Order - The One who creates things with subtle knowledge.",
+    detailedExplanation: "Al-Bari, the Maker of Order, highlights God's meticulous craftsmanship in creating the universe.  This name emphasizes the intricate balance and harmony found in creation, a testament to God's wisdom and precision. It inspires a deeper understanding of the order and purpose within the cosmos.",
     relatedNames: ["Al-Khaliq", "Al-Musawwir"],
     orderNumber: 12,
     category: nameCategories.CREATION
@@ -128,6 +140,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-mu-SAW-wir",
     meaning: "The Shaper of Beauty",
     description: "The Shaper of Beauty - The One who shapes creatures and perfects their forms.",
+    detailedExplanation: "Al-Musawwir, the Shaper of Beauty, speaks to the aesthetic perfection and artistry of God's creation.  This name reminds us of the beauty and wonder that surrounds us, a testament to the Divine's creative power and artistic flair. It inspires a deeper appreciation for the beauty and harmony of the world.",
     relatedNames: ["Al-Khaliq", "Al-Bari"],
     orderNumber: 13,
     category: nameCategories.CREATION
@@ -138,6 +151,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-ghaf-FAAR",
     meaning: "The Forgiver",
     description: "The Forgiver - The One who forgives the sins of His servants time and time again.",
+    detailedExplanation: "Al-Ghaffar, the Forgiver, emphasizes God's boundless capacity for forgiveness. This name offers hope and redemption, reminding us that God's mercy extends even to those who have strayed. It encourages repentance and the pursuit of forgiveness.",
     relatedNames: ["At-Tawwab", "Al-'Afuw"],
     orderNumber: 14,
     category: nameCategories.FORGIVENESS
@@ -148,6 +162,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-qah-HAAR",
     meaning: "The Subduer",
     description: "The Subduer - The One who has the perfect Power and is not unable over anything.",
+    detailedExplanation: "Al-Qahhar, the Subduer, highlights God's absolute power and authority. This name reminds us that God is in control, capable of overcoming any obstacle or adversary.  It inspires confidence and trust in the face of challenges.",
     relatedNames: ["Al-Jabbar", "Al-Aziz"],
     orderNumber: 15,
     category: nameCategories.POWER
@@ -158,6 +173,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-wah-HAAB",
     meaning: "The Giver of All",
     description: "The Giver of All - The One who gives freely without expecting any return.",
+    detailedExplanation: "Al-Wahhab, the Giver of All, emphasizes God's generosity and abundance. This name reminds us that all blessings and gifts originate from the Divine, freely given without expectation of recompense. It inspires gratitude and appreciation for the gifts we receive.",
     relatedNames: ["Al-Karim", "Ar-Razzaq"],
     orderNumber: 16,
     category: nameCategories.GIVING
@@ -168,6 +184,7 @@ export const namesData: InsertName[] = [
     pronunciation: "ar-raz-ZAAQ",
     meaning: "The Sustainer",
     description: "The Sustainer - The One who creates all means of nourishment and sustenance.",
+    detailedExplanation: "Ar-Razzaq, the Sustainer, highlights God's provision for all of creation. This name reminds us that God provides for all our needs, both material and spiritual. It inspires trust and reliance on the Divine's provision.",
     relatedNames: ["Al-Wahhab", "Al-Karim"],
     orderNumber: 17,
     category: nameCategories.SUSTENANCE
@@ -178,6 +195,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-fat-TAAH",
     meaning: "The Opener",
     description: "The Opener - The One who opens the closed, whether it be gates of mercy or sustenance.",
+    detailedExplanation: "Al-Fattah, the Opener, signifies God's power to remove obstacles and open doors to opportunities. This name inspires hope and faith, reminding us that God can overcome any challenge and open paths to success and fulfillment. It encourages perseverance and trust in the Divine's guidance.",
     relatedNames: ["An-Nafi", "Al-Hadi"],
     orderNumber: 18,
     category: nameCategories.OPENING
@@ -188,6 +206,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-a-LEEM",
     meaning: "The All-Knowing",
     description: "The All-Knowing - The One who knows everything in the past, present and future.",
+    detailedExplanation: "Al-Alim, the All-Knowing, represents God's infinite wisdom and understanding. This name reminds us that God is aware of everything, past, present, and future. It inspires humility and respect for the Divine's omniscience.",
     relatedNames: ["Al-Khabir", "Al-Hakim"],
     orderNumber: 19,
     category: nameCategories.KNOWLEDGE
@@ -198,6 +217,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-QAA-bid",
     meaning: "The Constrictor",
     description: "The Constrictor - The One who constricts and withholds.",
+    detailedExplanation: "Al-Qabid, the Constrictor, highlights God's power to withhold and control. This name reminds us that God has the power to limit and restrict, often to test our faith and patience. It encourages humility and acceptance of God's will.",
     relatedNames: ["Al-Basit", "Al-Muqsit"],
     orderNumber: 20,
     category: nameCategories.POWER
@@ -208,6 +228,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-BAA-sit",
     meaning: "The Expander",
     description: "The Expander - The One who has the power to expand, enlarge, and extend.",
+    detailedExplanation: "Al-Basit, the Expander, emphasizes God's power to provide and bestow abundance. This name offers hope and reassurance, reminding us that God can expand our horizons and increase our blessings. It inspires gratitude and trust in the Divine's generosity.",
     relatedNames: ["Al-Qabid", "Al-Muqsit"],
     orderNumber: 21,
     category: nameCategories.POWER
@@ -218,6 +239,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-KHAA-fid",
     meaning: "The Abaser",
     description: "The Abaser - The One who lowers whoever He willed by His Destruction and raises whoever He willed by His Endowment.",
+    detailedExplanation: "Al-Khafid, the Abaser, highlights God's power to humble and lower those who defy Him.  This name reminds us that arrogance and pride are ultimately futile, and that true strength lies in humility and submission to God's will.",
     relatedNames: ["Ar-Rafi", "Al-Mu'izz", "Al-Muzil"],
     orderNumber: 22,
     category: nameCategories.POWER
@@ -228,6 +250,7 @@ export const namesData: InsertName[] = [
     pronunciation: "ar-RAA-fi",
     meaning: "The Exalter",
     description: "The Exalter - The One who raises the believers in rank through their obedience to Him.",
+    detailedExplanation: "Ar-Rafi, the Exalter, emphasizes God's power to elevate and honor those who serve Him. This name offers encouragement and hope, reminding us that through faith and obedience, we can achieve spiritual growth and attain a higher station in the eyes of God.",
     relatedNames: ["Al-Khafid", "Al-Mu'izz", "Al-Muzil"],
     orderNumber: 23,
     category: nameCategories.POWER
@@ -238,6 +261,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-mu-IZZ",
     meaning: "The Bestower of Honors",
     description: "The Bestower of Honors - The One who gives esteem to whoever He willed, hence there is no one to degrade Him.",
+    detailedExplanation: "Al-Mu'izz, the Bestower of Honors, signifies God's power to grant dignity and respect.  This name reminds us that true honor comes from God, and that those who seek His favor will be elevated and esteemed. It inspires humility and a striving for spiritual excellence.",
     relatedNames: ["Al-Muzil", "Ar-Rafi", "Al-Khafid"],
     orderNumber: 24,
     category: nameCategories.POWER
@@ -248,6 +272,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-mu-ZIL",
     meaning: "The Humiliator",
     description: "The Humiliator - The One who degrades whoever He willed, hence there is no one to give them esteem.",
+    detailedExplanation: "Al-Muzil, the Humiliator, highlights God's power to bring down those who are arrogant and defy Him. This name serves as a reminder of the consequences of disobedience and the importance of humility. It encourages a sense of humility and submission to God's will.",
     relatedNames: ["Al-Mu'izz", "Al-Khafid", "Ar-Rafi"],
     orderNumber: 25,
     category: nameCategories.POWER
@@ -258,6 +283,7 @@ export const namesData: InsertName[] = [
     pronunciation: "as-sa-MI",
     meaning: "The All-Hearing",
     description: "The All-Hearing - The One who hears all things that are heard by His eternal hearing without an ear, instrument or organ.",
+    detailedExplanation: "As-Sami', the All-Hearing, represents God's awareness of all sounds and whispers.  This name reminds us that our prayers, hopes, and concerns are always heard by God, even the unspoken ones.  It inspires trust and faith in the Divine's attentiveness.",
     relatedNames: ["Al-Basir", "Al-Khabir"],
     orderNumber: 26,
     category: nameCategories.ATTRIBUTES
@@ -268,6 +294,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-ba-SEER",
     meaning: "The All-Seeing",
     description: "The All-Seeing - The One who sees all things that are seen by His eternal seeing without a pupil or any other instrument.",
+    detailedExplanation: "Al-Basir, the All-Seeing, signifies God's awareness of all that occurs, both seen and unseen. This name reminds us that our actions, thoughts, and intentions are always observed by God.  It inspires honesty, integrity, and a commitment to righteous conduct.",
     relatedNames: ["As-Sami", "Ash-Shahid"],
     orderNumber: 27,
     category: nameCategories.ATTRIBUTES
@@ -278,6 +305,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-HA-kam",
     meaning: "The Judge",
     description: "The Judge - The One who judges between His servants in the present and will judge between them in the Hereafter.",
+    detailedExplanation: "Al-Hakam, the Judge, highlights God's ultimate authority in dispensing justice. This name reminds us that all actions will be judged, and that God's judgment is fair and impartial.  It encourages righteous conduct and a commitment to justice.",
     relatedNames: ["Al-Adl", "Al-Muqsit"],
     orderNumber: 28,
     category: nameCategories.JUDGEMENT
@@ -288,6 +316,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-ADL",
     meaning: "The Just",
     description: "The Just - The One who is entitled to do what He does in the way He does it.",
+    detailedExplanation: "Al-'Adl, the Just, represents God's inherent fairness and equity. This name assures us that God's actions are always just and righteous, even if we do not fully understand them.  It inspires trust and faith in God's perfect justice.",
     relatedNames: ["Al-Hakam", "Al-Muqsit"],
     orderNumber: 29,
     category: nameCategories.JUDGEMENT
@@ -298,6 +327,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-la-TEEF",
     meaning: "The Subtle One",
     description: "The Subtle One - The One who is kind to His believing servants and endows upon them.",
+    detailedExplanation: "Al-Latif, the Subtle One, speaks to God's gentle kindness and care.  This name highlights God's subtle ways of showing His love and compassion, often in unexpected and delicate ways. It inspires gratitude and a deeper appreciation for the Divine's subtle blessings.",
     relatedNames: ["Al-Khabir", "Ar-Ra'uf"],
     orderNumber: 30,
     category: nameCategories.MERCY
@@ -308,6 +338,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-kha-BEER",
     meaning: "The All-Aware",
     description: "The All-Aware - The One who knows the truth of things.",
+    detailedExplanation: "Al-Khabir, the All-Aware, represents God's intimate knowledge of all things, both visible and hidden. This name reminds us that God is aware of our deepest thoughts and intentions, inspiring honesty and sincerity in our actions.",
     relatedNames: ["Al-Alim", "Al-Latif"],
     orderNumber: 31,
     category: nameCategories.KNOWLEDGE
@@ -318,6 +349,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-ha-LEEM",
     meaning: "The Forbearing",
     description: "The Forbearing - The One who delays the punishment for those who deserve it and then He might forgive them.",
+    detailedExplanation: "Al-Halim, the Forbearing, emphasizes God's patience and forbearance.  This name reminds us that God does not rush to judgment, but rather grants time for repentance and amends.  It encourages patience and understanding in our dealings with others.",
     relatedNames: ["Al-Ghaffar", "At-Tawwab"],
     orderNumber: 32,
     category: nameCategories.FORGIVENESS
@@ -328,6 +360,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-a-ZEEM",
     meaning: "The Magnificent",
     description: "The Magnificent - The One who is clear from the attributes of the creatures and from resembling them.",
+    detailedExplanation: "Al-Azim, the Magnificent, represents God's boundless greatness and majesty. This name surpasses human comprehension, inspiring awe and wonder at the Divine's immeasurable glory.  It encourages humility and a recognition of God's supreme power.",
     relatedNames: ["Al-Kabir", "Al-Jalil"],
     orderNumber: 33,
     category: nameCategories.GREATNESS
@@ -338,6 +371,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-gha-FOOR",
     meaning: "The All-Forgiving",
     description: "The All-Forgiving - The One who forgives a lot.",
+    detailedExplanation: "Al-Ghafur, the All-Forgiving, underscores God's immense capacity for forgiveness.  This name offers comfort and hope, reminding us that God's mercy is vast and readily available to those who seek it. It encourages repentance and a renewed commitment to righteous living.",
     relatedNames: ["Al-Ghaffar", "At-Tawwab"],
     orderNumber: 34,
     category: nameCategories.FORGIVENESS
@@ -348,6 +382,7 @@ export const namesData: InsertName[] = [
     pronunciation: "ash-sha-KOOR",
     meaning: "The Most Appreciative",
     description: "The Most Appreciative - The One who gives a lot of reward for a little obedience.",
+    detailedExplanation: "Ash-Shakur, the Most Appreciative, emphasizes God's generosity in rewarding even the smallest acts of devotion.  This name inspires gratitude and a desire to please God, knowing that even minor efforts will be handsomely rewarded.  It encourages consistent acts of worship and service.",
     relatedNames: ["Al-Karim", "Al-Halim"],
     orderNumber: 35,
     category: nameCategories.APPRECIATION
@@ -358,6 +393,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-a-LEE",
     meaning: "The Most High",
     description: "The Most High - The One who is clear from the attributes of the creatures.",
+    detailedExplanation: "Al-Ali, the Most High, signifies God's transcendence and superiority over all creation. This name reminds us that God is beyond human comprehension, exceeding all limitations and boundaries. It inspires humility and reverence for the Divine's supreme authority.",
     relatedNames: ["Al-Kabir", "Al-Mutaal"],
     orderNumber: 36,
     category: nameCategories.GREATNESS
@@ -368,6 +404,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-ka-BEER",
     meaning: "The Greatest",
     description: "The Greatest - The One who is greater than everything in status.",
+    detailedExplanation: "Al-Kabir, the Greatest, represents God's immeasurable greatness and supremacy. This name underscores God's transcendence over all creation, inspiring awe and wonder at the Divine's immeasurable power and majesty.",
     relatedNames: ["Al-Azim", "Al-Jalil"],
     orderNumber: 37,
     category: nameCategories.GREATNESS
@@ -378,6 +415,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-ha-FEES",
     meaning: "The Preserver",
     description: "The Preserver - The One who protects whatever and whoever He willed to protect.",
+    detailedExplanation: "Al-Hafiz, the Preserver, emphasizes God's protective power and watchful care. This name reminds us that God is our constant guardian, protecting us from harm and guiding us towards safety. It inspires trust and reliance on God's unwavering protection.",
     relatedNames: ["Al-Wakil", "Al-Muhaymin"],
     orderNumber: 38,
     category: nameCategories.PROTECTION
@@ -388,6 +426,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-mu-QEET",
     meaning: "The Nourisher",
     description: "The Nourisher - The One who has the Power.",
+    detailedExplanation: "Al-Muqit, the Nourisher, signifies God's ability to sustain and provide for all of creation. This name reminds us that God is the source of all sustenance, providing for our physical and spiritual needs. It inspires gratitude and reliance on God's provision.",
     relatedNames: ["Ar-Razzaq", "Al-Hafiz"],
     orderNumber: 39,
     category: nameCategories.SUSTENANCE
@@ -398,6 +437,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-ha-SEEB",
     meaning: "The Reckoner",
     description: "The Reckoner - The One who gives the satisfaction.",
+    detailedExplanation: "Al-Hasib, the Reckoner, highlights God's ability to account for all actions and deeds. This name reminds us that we will be held accountable for our choices and actions, encouraging righteous conduct and a commitment to justice.",
     relatedNames: ["Al-Muqsit", "Al-Adl"],
     orderNumber: 40,
     category: nameCategories.JUDGEMENT
@@ -408,6 +448,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-ja-LEEL",
     meaning: "The Majestic",
     description: "The Majestic - The One who is attributed with greatness of Power and Glory of status.",
+    detailedExplanation: "Al-Jalil, the Majestic, represents God's awe-inspiring grandeur and magnificence.  This name evokes a sense of reverence and wonder, reminding us of the Divine's immeasurable power and glory. It inspires humility and a recognition of God's supreme status.",
     relatedNames: ["Al-Azim", "Al-Kabir", "Al-Mutakabbir"],
     orderNumber: 41,
     category: nameCategories.GREATNESS
@@ -418,6 +459,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-ka-REEM",
     meaning: "The Generous",
     description: "The Generous - The One who is attributed with greatness of Power and Glory of status.",
+    detailedExplanation: "Al-Karim, the Generous, emphasizes God's boundless kindness and generosity. This name reminds us that God bestows His blessings abundantly and freely, without expectation of return.  It inspires gratitude and appreciation for the Divine's generosity.",
     relatedNames: ["Al-Wahhab", "Ar-Razzaq"],
     orderNumber: 42,
     category: nameCategories.GIVING
@@ -428,6 +470,7 @@ export const namesData: InsertName[] = [
     pronunciation: "ar-ra-QEER",
     meaning: "The Watchful",
     description: "The Watchful - The One that nothing is absent from Him. Hence, it means the One who watches all things.",
+    detailedExplanation: "Ar-Raqib, the Watchful, signifies God's constant observation of all creation. This name reminds us that our actions, thoughts, and intentions are always witnessed by God, encouraging honesty, integrity, and a commitment to righteous conduct.",
     relatedNames: ["Al-Hafiz", "Ash-Shahid"],
     orderNumber: 43,
     category: nameCategories.ATTRIBUTES
@@ -438,6 +481,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-mu-JEB",
     meaning: "The Responsive",
     description: "The Responsive - The One who answers the one in need if he asks Him and rescues the yearning if he calls upon Him.",
+    detailedExplanation: "Al-Mujib, the Responsive, emphasizes God's willingness to answer the prayers and pleas of His servants. This name offers comfort and hope, reminding us that God hears our supplications and will respond in His own time and way. It encourages prayer and a reliance on God's responsiveness.",
     relatedNames: ["As-Sami", "Al-Qarib"],
     orderNumber: 44,
     category: nameCategories.ATTRIBUTES
@@ -448,6 +492,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-WAA-si",
     meaning: "The All-Encompassing",
     description: "The All-Encompassing - The One who encompasses everything in mercy and knowledge.",
+    detailedExplanation: "Al-Wasi', the All-Encompassing, represents God's infinite knowledge and boundless mercy. This name reminds us that God's power and compassion extend to all aspects of creation, encompassing all things, both seen and unseen.  It inspires trust and reliance on God's all-encompassing care.",
     relatedNames: ["Al-Muhit", "Al-Alim"],
     orderNumber: 45,
     category: nameCategories.ATTRIBUTES
@@ -458,6 +503,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-ha-KEEM",
     meaning: "The Wise",
     description: "The Wise - The One who is wise in His actions and His creation.",
+    detailedExplanation: "Al-Hakim, the Wise, emphasizes God's perfect wisdom and understanding. This name reminds us that God's actions are always guided by infinite wisdom, even if we do not understand them fully. It inspires trust and reliance on God's perfect plan.",
     relatedNames: ["Al-Alim", "Al-Khabir"],
     orderNumber: 46,
     category: nameCategories.KNOWLEDGE
@@ -468,6 +514,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-wa-DOOD",
     meaning: "The Most Loving",
     description: "The Most Loving - The One who loves His believing servants and His believing servants love Him.",
+    detailedExplanation: "Al-Wadud, the Most Loving, speaks to the deep and abiding love that God has for His creation. This name reminds us that God's love is unconditional and unwavering, a source of comfort and strength in times of need. It inspires a deeper connection with the Divine and a cultivation of love in our own hearts.",
     relatedNames: ["Ar-Rahman", "Ar-Rahim"],
     orderNumber: 47,
     category: nameCategories.LOVE
@@ -478,6 +525,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-ma-JEED",
     meaning: "The Most Glorious",
     description: "The Most Glorious - The One who is with perfect Power, High Status, Compassion, Generosity and Kindness.",
+    detailedExplanation: "Al-Majid, the Most Glorious, represents God's supreme majesty and magnificence. This name evokes a sense of awe and wonder, reminding us of the Divine's immeasurable power and glory. It inspires humility and a recognition of God's supreme status.",
     relatedNames: ["Al-Jalil", "Al-Karim"],
     orderNumber: 48,
     category: nameCategories.GREATNESS
@@ -488,6 +536,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-BAA-ith",
     meaning: "The Resurrector",
     description: "The Resurrector - The One who resurrects His slaves after death for reward and/or punishment.",
+    detailedExplanation: "Al-Ba'ith, the Resurrector, signifies God's power to bring back to life after death, emphasizing the ultimate accountability for our actions. This name reminds us of the Day of Judgment and the importance of living a life of faith and righteousness.",
     relatedNames: ["Al-Muhyi", "Al-Mumit"],
     orderNumber: 49,
     category: nameCategories.RESURRECTION
@@ -498,6 +547,7 @@ export const namesData: InsertName[] = [
     pronunciation: "ash-sha-HEED",
     meaning: "The Witness",
     description: "The Witness - The One who nothing is absent from Him.",
+    detailedExplanation: "Ash-Shahid, the Witness, represents God's complete awareness of all events and actions. This name reminds us that God sees and knows everything, inspiring honesty, integrity, and a commitment to righteous conduct.",
     relatedNames: ["Al-Basir", "Ar-Raqib"],
     orderNumber: 50,
     category: nameCategories.ATTRIBUTES
@@ -508,6 +558,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-HAQQ",
     meaning: "The Truth",
     description: "The Truth - The One who truly exists, whose existence is confirmed by His signs.",
+    detailedExplanation: "Al-Haqq, the Truth, represents God's inherent reality and absolute truthfulness. This name reminds us that God is the ultimate source of truth, and that all things ultimately point to Him.  It encourages a commitment to truthfulness and sincerity in all our dealings.",
     relatedNames: ["Al-Mubin", "An-Nur"],
     orderNumber: 51,
     category: nameCategories.TRUTH
@@ -518,6 +569,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-wa-KEEL",
     meaning: "The Trustee",
     description: "The Trustee - The One who gives the satisfaction and is relied upon.",
+    detailedExplanation: "Al-Wakil, the Trustee, signifies God's role as the ultimate protector and provider. This name reminds us that we can always rely on God's care and guidance, and that He will take care of our needs. It inspires trust and reliance on the Divine.",
     relatedNames: ["Al-Hafiz", "Al-Kafil"],
     orderNumber: 52,
     category: nameCategories.PROTECTION
@@ -528,6 +580,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-qa-WEE",
     meaning: "The Most Strong",
     description: "The Most Strong - The One with complete Power.",
+    detailedExplanation: "Al-Qawiyy, the Strongest, represents God's infinite power and ability.  This name reminds us that God is capable of anything, and that we can rely on His strength in times of difficulty. It inspires confidence and trust in the Divine's power.",
     relatedNames: ["Al-Matin", "Al-Aziz"],
     orderNumber: 53,
     category: nameCategories.POWER
@@ -538,6 +591,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-ma-TEEN",
     meaning: "The Firm",
     description: "The Firm - The One with extreme Power which is un-interrupted and He does not get tired.",
+    detailedExplanation: "Al-Matin, the Firm, signifies God's unwavering strength and steadfastness. This name reminds us that God's power is constant and enduring, never failing or weakening.  It inspires confidence and trust in God's enduring support.",
     relatedNames: ["Al-Qawiyy", "Al-Aziz"],
     orderNumber: 54,
     category: nameCategories.POWER
@@ -548,6 +602,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-wa-LEE",
     meaning: "The Protecting Friend",
     description: "The Protecting Friend - The One who supports His believing servants.",
+    detailedExplanation: "Al-Waliyy, the Protecting Friend, emphasizes God's constant companionship and support for His believers. This name offers comfort and reassurance, reminding us that God is always with us, guiding and protecting us on our journey. It inspires trust and reliance on God's friendship.",
     relatedNames: ["An-Nasir", "Al-Hafiz"],
     orderNumber: 55,
     category: nameCategories.PROTECTION
@@ -558,6 +613,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-ha-MEED",
     meaning: "The Praiseworthy",
     description: "The Praiseworthy - The One who deserves to be praised by His servants for His attributes.",
+    detailedExplanation: "Al-Hamid, the Praiseworthy, emphasizes God's worthiness of all praise and adoration. This name reminds us to express our gratitude and appreciation for God's countless blessings. It inspires a life of worship and thanksgiving.",
     relatedNames: ["Ash-Shakur", "Al-Majid"],
     orderNumber: 56,
     category: nameCategories.PRAISE
@@ -568,6 +624,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-muh-SEE",
     meaning: "The Accounter",
     description: "The Accounter - The One who the count of things are known to him.",
+    detailedExplanation: "Al-Muhsi, the Accounter, highlights God's awareness of every detail and event. This name reminds us that God is aware of all our actions and intentions, inspiring a commitment to righteous conduct and a life of accountability.",
     relatedNames: ["Al-Hasib", "Al-Hafiz"],
     orderNumber: 57,
     category: nameCategories.ATTRIBUTES
@@ -578,6 +635,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-MUB-di",
     meaning: "The Originator",
     description: "The Originator - The One who started the human being. That is, He created him.",
+    detailedExplanation: "Al-Mubdi', the Originator, signifies God's role in bringing forth creation from nothing. This name reminds us of the miracle of creation and the power of God to bring forth life and existence. It inspires awe and wonder at the Divine's creative power.",
     relatedNames: ["Al-Khaliq", "Al-Mu'id"],
     orderNumber: 58,
     category: nameCategories.CREATION
@@ -588,6 +646,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-mu-EED",
     meaning: "The Restorer",
     description: "The Restorer - The One who brings back the creatures after death.",
+    detailedExplanation: "Al-Mu'id, the Restorer, emphasizes God's power to restore and renew. This name reminds us that even after death, there is a possibility of resurrection and renewal, inspiring hope and faith in the afterlife.",
     relatedNames: ["Al-Mubdi", "Al-Ba'ith"],
     orderNumber: 59,
     category: nameCategories.RESURRECTION
@@ -598,6 +657,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-mu-HYEE",
     meaning: "The Giver of Life",
     description: "The Giver of Life - The One who took out a living human from semen that does not have a soul.",
+    detailedExplanation: "Al-Muhyi, the Giver of Life, signifies God's power to create and sustain life. This name reminds us of the miracle of life and the Divine's role in bringing forth and sustaining all living things. It inspires gratitude and a deeper appreciation for the gift of life.",
     relatedNames: ["Al-Mumit", "Al-Ba'ith"],
     orderNumber: 60,
     category: nameCategories.LIFE
@@ -608,6 +668,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-mu-MEET",
     meaning: "The Taker of Life",
     description: "The Taker of Life - The One who renders the living dead, bringing about the end of their worldly existence.",
+    detailedExplanation: "Al-Mumit, the Taker of Life, highlights God's power over life and death. This name reminds us of the inevitability of death and the importance of living a life of purpose and meaning.  It encourages preparation for the afterlife.",
     relatedNames: ["Al-Muhyi", "Al-Ba'ith"],
     orderNumber: 61,
     category: nameCategories.LIFE
@@ -618,6 +679,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-HAYY",
     meaning: "The Ever Living",
     description: "The Ever Living - The One who is attributed with a life that is unlike our life and is not that of a combination of soul, flesh or blood.",
+    detailedExplanation: "Al-Hayy, the Ever-Living, signifies God's eternal and unchanging existence. This name reminds us that God is beyond the limitations of time and space, existing eternally and unchangingly. It inspires trust and reliance on God's everlasting presence.",
     relatedNames: ["Al-Qayyum", "Al-Baqi"],
     orderNumber: 62,
     category: nameCategories.LIFE
@@ -628,6 +690,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-qay-YOOM",
     meaning: "The Self-Subsisting",
     description: "The Self-Subsisting - The One who remains and does not end.",
+    detailedExplanation: "Al-Qayyum, the Self-Subsisting, emphasizes God's independence and self-sufficiency. This name reminds us that God needs nothing and no one, existing eternally and independently.  It inspires awe and wonder at the Divine's self-sufficiency.",
     relatedNames: ["Al-Hayy", "Al-Baqi"],
     orderNumber: 63,
     category: nameCategories.LIFE
@@ -638,6 +701,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-WAA-jid",
     meaning: "The Perceiver",
     description: "The Perceiver - The One who finds what He wishes when He wishes.",
+    detailedExplanation: "Al-Wajid, the Perceiver, signifies God's ability to find and obtain whatever He desires. This name reminds us of God's omnipotence and control over all things.  It inspires trust and reliance on God's ability to fulfill His promises.",
     relatedNames: ["Al-Ghaniyy", "Al-Muqtadir"],
     orderNumber: 64,
     category: nameCategories.ATTRIBUTES
@@ -648,6 +712,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-MAA-jid",
     meaning: "The Noble",
     description: "The Noble - The One who is most glorious.",
+    detailedExplanation: "Al-Majid, the Noble, emphasizes God's inherent majesty and glory. This name reminds us of the Divine's supreme excellence and worthiness of honor and respect. It inspires a life of reverence and devotion.",
     relatedNames: ["Al-Karim", "Al-Jalil"],
     orderNumber: 65,
     category: nameCategories.GREATNESS
@@ -658,6 +723,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-WAA-hid",
     meaning: "The One",
     description: "The One - The One without partner, like, or equal.",
+    detailedExplanation: "Al-Wahid, the One, signifies God's unique and unparalleled nature. This name reminds us that God is the only true God, without partner or equal.  It inspires a commitment to monotheism and a rejection of idolatry.",
     relatedNames: ["Al-Ahad", "As-Samad"],
     orderNumber: 66,
     category: nameCategories.UNIQUENESS
@@ -668,6 +734,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-A-had",
     meaning: "The Unique",
     description: "The Unique - The One who has no partner in His essence, attributes, actions, and in commanding and forbidding.",
+    detailedExplanation: "Al-Ahad, the Unique, emphasizes God's absolute singularity and oneness. This name reminds us that God is unlike anything else in existence, possessing unique attributes and characteristics. It strengthens our commitment to monotheism and pure devotion.",
     relatedNames: ["Al-Wahid", "As-Samad"],
     orderNumber: 67,
     category: nameCategories.UNIQUENESS
@@ -678,6 +745,7 @@ export const namesData: InsertName[] = [
     pronunciation: "as-sa-MAAD",
     meaning: "The Eternal",
     description: "The Eternal - The Master who is relied upon in matters and who is free from needing food, drink, or any of the creatures' needs.",
+    detailedExplanation: "As-Samad, the Eternal, highlights God's self-sufficiency and independence. This name reminds us that God is the ultimate source of all things, needing nothing from creation.  It inspires trust and reliance on God's eternal provision.",
     relatedNames: ["Al-Wahid", "Al-Ahad"],
     orderNumber: 68,
     category: nameCategories.ETERNITY
@@ -688,6 +756,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-QAA-dir",
     meaning: "The Capable",
     description: "The Capable - The One who is attributed with Power and has the ability to accomplish everything.",
+    detailedExplanation: "Al-Qadir, the Capable, signifies God's infinite power and ability to accomplish anything. This name reminds us that God is capable of overcoming any obstacle or challenge.  It inspires trust and faith in God's ability to fulfill His promises.",
     relatedNames: ["Al-Muqtadir", "Al-Qawiyy"],
     orderNumber: 69,
     category: nameCategories.POWER
@@ -698,6 +767,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-muq-ta-DEER",
     meaning: "The All-Powerful",
     description: "The All-Powerful - The One who has perfect power and who creates all things according to His will.",
+    detailedExplanation: "Al-Muqtadir, the All-Powerful, emphasizes God's absolute power and control over all creation. This name reminds us that God is in charge of everything, and that all things happen according to His will. It inspires trust and acceptance of God's plan.",
     relatedNames: ["Al-Qadir", "Al-Qawiyy"],
     orderNumber: 70,
     category: nameCategories.POWER
@@ -708,6 +778,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-mu-qad-DIM",
     meaning: "The Expediter",
     description: "The Expediter - The One who puts things in their right places. He makes ahead what He wills and delayswhat He wills.",
+    detailedExplanation: "Al-Muqaddim, the Expediter, highlights God's power to hasten or delay events according to His will. This name reminds us that God is in control of time and events, and that everything happens in its appointed time.  It encourages patience and trust in God's timing.",
     relatedNames: ["Al-Mu'akhkhir", "Al-Hakam"],
     orderNumber: 71,
     category: nameCategories.POWER
@@ -718,6 +789,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-mu-akh-KHEER",
     meaning: "The Delayer",
     description: "The Delayer - The One who puts things in their right places. He makes ahead what He wills and delays what He wills.",
+    detailedExplanation: "Al-Mu'akhkhir, the Delayer, emphasizes God's power to postpone or delay events as He sees fit. This name reminds us that God's timing is always perfect, even if we do not understand it. It encourages patience and trust in God's plan.",
     relatedNames: ["Al-Muqaddim", "Al-Hakam"],
     orderNumber: 72,
     category: nameCategories.POWER
@@ -728,6 +800,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-AW-wal",
     meaning: "The First",
     description: "The First - The One whose existence is without a beginning.",
+    detailedExplanation: "Al-Awwal, the First, signifies God's eternal existence without beginning. This name reminds us that God has always existed and will always exist, transcending time and space.  It inspires awe and wonder at the Divine's eternal nature.",
     relatedNames: ["Al-Akhir", "Az-Zahir", "Al-Batin"],
     orderNumber: 73,
     category: nameCategories.TIME
@@ -738,6 +811,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-AA-khir",
     meaning: "The Last",
     description: "The Last - The One whose existence is without an end.",
+    detailedExplanation: "Al-Akhir, the Last, emphasizes God's eternal existence without end. This name reminds us that God's power and dominion will endure forever, transcending time and space. It inspires confidence and trust in God's eternal reign.",
     relatedNames: ["Al-Awwal", "Az-Zahir", "Al-Batin"],
     orderNumber: 74,
     category: nameCategories.TIME
@@ -748,6 +822,7 @@ export const namesData: InsertName[] = [
     pronunciation: "az-ZAA-hir",
     meaning: "The Manifest",
     description: "The Manifest - The One that nothing is above Him and nothing is underneath Him, hence He exists without a place.",
+    detailedExplanation: "Az-Zahir, the Manifest, highlights God's presence and influence throughout creation.  This name reminds us that God is everywhere and in everything, ever-present and actively involved in the world.  It inspires a sense of closeness and connection with the Divine.",
     relatedNames: ["Al-Batin", "Al-Awwal", "Al-Akhir"],
     orderNumber: 75,
     category: nameCategories.ATTRIBUTES
@@ -758,6 +833,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-BAA-tin",
     meaning: "The Hidden",
     description: "The Hidden - The One that nothing is above Him and nothing is underneath Him, hence He exists without a place.",
+    detailedExplanation: "Al-Batin, the Hidden, speaks to God's mysterious and unknowable aspects. This name reminds us that God's ways are beyond human comprehension, and that there is always more to discover about the Divine. It inspires humility and a recognition of God's infinite mysteries.",
     relatedNames: ["Az-Zahir", "Al-Awwal", "Al-Akhir"],
     orderNumber: 76,
     category: nameCategories.ATTRIBUTES
@@ -768,6 +844,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-WAA-li",
     meaning: "The Governor",
     description: "The Governor - The One who owns things and manages them.",
+    detailedExplanation: "Al-Wali, the Governor, emphasizes God's absolute authority and control over all creation. This name reminds us that God is in charge of everything, and that all things happen according to His will. It inspires trust and acceptance of God's governance.",
     relatedNames: ["Al-Malik", "Al-Wakil"],
     orderNumber: 77,
     category: nameCategories.POWER
@@ -778,6 +855,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-mu-ta-AA-li",
     meaning: "The Most Exalted",
     description: "The Most Exalted - The One who is clear from the attributes of the creation.",
+    detailedExplanation: "Al-Muta'ali, the Most Exalted, signifies God's transcendence and superiority over all creation. This name reminds us that God is beyond human comprehension, exceeding all limitations and boundaries. It inspires humility and reverence for the Divine's supreme authority.",
     relatedNames: ["Al-Ali", "Al-Kabir"],
     orderNumber: 78,
     category: nameCategories.GREATNESS
@@ -788,6 +866,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-BARR",
     meaning: "The Source of All Good",
     description: "The Source of All Good - The One who is kind to His creatures, who covered them with His sustenance and specified whoever He willed among them by His support, protection, and special mercy.",
+    detailedExplanation: "Al-Barr, the Source of All Good, emphasizes God's inherent goodness and benevolence.  This name reminds us that God is the source of all blessings and kindness, showering His creation with His mercy and compassion. It inspires gratitude and a deeper appreciation for God's goodness.",
     relatedNames: ["Ar-Rahman", "Ar-Rahim", "Al-Karim"],
     orderNumber: 79,
     category: nameCategories.GOODNESS
@@ -798,6 +877,7 @@ export const namesData: InsertName[] = [
     pronunciation: "at-taw-WAAB",
     meaning: "The Ever-Accepting of Repentance",
     description: "The Ever-Accepting of Repentance - The One who grants repentance to whoever He willed among His creatures and accepts his repentance.",
+    detailedExplanation: "At-Tawwab, the Ever-Accepting of Repentance, highlights God's willingness to forgive and accept those who sincerely repent. This name offers hope and redemption, reminding us that God is always ready to forgive our mistakes and guide us back to the right path. It encourages repentance and a renewed commitment to righteousness.",
     relatedNames: ["Al-Ghaffar", "Al-Afuw"],
     orderNumber: 80,
     category: nameCategories.REPENTANCE
@@ -808,6 +888,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-mun-ta-QIM",
     meaning: "The Avenger",
     description: "The Avenger - The One who victoriously prevails over His enemies and punishes them for their sins. It may mean the One who destroys them.",
+    detailedExplanation: "Al-Muntaqim, the Avenger, emphasizes God's justice and retribution against those who defy Him. This name reminds us that God will ultimately hold everyone accountable for their actions, and that justice will prevail. It encourages righteous conduct and a fear of God's punishment.",
     relatedNames: ["Al-Aziz", "Al-Qahhar"],
     orderNumber: 81,
     category: nameCategories.JUDGEMENT
@@ -818,6 +899,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-a-FOO",
     meaning: "The Pardoner",
     description: "The Pardoner - The One who forgives a lot and erases the traces of sins.",
+    detailedExplanation: "Al-'Afuw, the Pardoner, signifies God's capacity to forgive and erase sins completely. This name offers comfort and hope, reminding us that God's forgiveness is total and complete, erasing the traces of past transgressions. It encourages repentance and a renewed commitment to righteousness.",
     relatedNames: ["Al-Ghaffar", "At-Tawwab"],
     orderNumber: 82,
     category: nameCategories.FORGIVENESS
@@ -828,6 +910,7 @@ export const namesData: InsertName[] = [
     pronunciation: "ar-ra-OO",
     meaning: "The Most Kind",
     description: "The Most Kind - The One who is very compassionate with His creatures.",
+    detailedExplanation: "Ar-Ra'uf, the Most Kind, emphasizes God's compassionate and merciful nature.  This name reminds us that God is always kind and compassionate towards His creation, showing mercy and understanding. It inspires a life of kindness and compassion towards others.",
     relatedNames: ["Ar-Rahman", "Ar-Rahim"],
     orderNumber: 83,
     category: nameCategories.MERCY
@@ -838,6 +921,7 @@ export const namesData: InsertName[] = [
     pronunciation: "maa-lik-al-MULK",
     meaning: "The Owner of All",
     description: "The Owner of All - The One who controls the dominion and gives dominion to whoever He willed.",
+    detailedExplanation: "Malik al-Mulk, the Owner of All, emphasizes God's absolute sovereignty and dominion over all creation. This name reminds us that God is the ultimate authority, controlling all things and bestowing dominion as He sees fit. It inspires humility and submission to God's will.",
     relatedNames: ["Al-Malik", "Al-Wali"],
     orderNumber: 84,
     category: nameCategories.POWER
@@ -848,6 +932,7 @@ export const namesData: InsertName[] = [
     pronunciation: "dhul-ja-LAA-li-wal-ik-RAAM",
     meaning: "The Lord of Majesty and Bounty",
     description: "The Lord of Majesty and Bounty - The One who has the perfect Power and Authority, and deserves to be Glorified.",
+    detailedExplanation: "Dhul-Jalali wal-Ikram, the Lord of Majesty and Bounty, highlights God's supreme majesty and generosity. This name reminds us of the Divine's infinite power and boundless kindness, inspiring awe and gratitude. It encourages a life of worship and service.",
     relatedNames: ["Al-Majid", "Al-Karim"],
     orderNumber: 85,
     category: nameCategories.GREATNESS
@@ -858,6 +943,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-muq-SEET",
     meaning: "The Equitable One",
     description: "The Equitable One - The One who is Just in His judgment.",
+    detailedExplanation: "Al-Muqsit, the Equitable One, emphasizes God's perfect justice and fairness. This name reminds us that God's judgments are always just and impartial, ensuring that everyone receives what they deserve.  It encourages righteous conduct and a commitment to justice.",
     relatedNames: ["Al-Adl", "Al-Hakam"],
     orderNumber: 86,
     category: nameCategories.JUDGEMENT
@@ -868,6 +954,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-jaa-MI",
     meaning: "The Gatherer",
     description: "The Gatherer - The One who gathers the creatures on a day that there is no doubt about, that is the Day of Judgment.",
+    detailedExplanation: "Al-Jami', the Gatherer, signifies God's power to bring together all of creation on the Day of Judgment. This name reminds us of the ultimate accountability for our actions and the importance of living a life of faith and righteousness.",
     relatedNames: ["Al-Hasib", "Al-Muhsi"],
     orderNumber: 87,
     category: nameCategories.JUDGEMENT
@@ -878,6 +965,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-gha-NEE",
     meaning: "The Self-Sufficient",
     description: "The Self-Sufficient - The One who does not need the creation.",
+    detailedExplanation: "Al-Ghaniyy, the Self-Sufficient, emphasizes God's independence and lack of need for anything.  This name reminds us that God is complete in Himself, needing nothing from creation.  It inspires awe and wonder at the Divine's self-sufficiency.",
     relatedNames: ["As-Samad", "Al-Wajid"],
     orderNumber: 88,
     category: nameCategories.ATTRIBUTES
@@ -888,6 +976,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-MUGH-ni",
     meaning: "The Enricher",
     description: "The Enricher - The One who satisfies the necessities of the creatures.",
+    detailedExplanation: "Al-Mughni, the Enricher, emphasizes God's ability to provide and enrich His creation. This name reminds us that God is the source of all abundance and prosperity, providing for our needs both materially and spiritually. It inspires gratitude and reliance on God's provision.",
     relatedNames: ["Al-Ghaniyy", "Ar-Razzaq"],
     orderNumber: 89,
     category: nameCategories.SUSTENANCE
@@ -898,6 +987,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-MAA-ni",
     meaning: "The Preventer",
     description: "The Preventer - The One who prevents harmful things from reaching His creatures.",
+    detailedExplanation: "Al-Mani', the Preventer, highlights God's power to protect His creation from harm. This name reminds us that God is our protector, shielding us from danger and guiding us towards safety. It inspires trust and reliance on God's protection.",
     relatedNames: ["Al-Hafiz", "Al-Wali"],
     orderNumber: 90,
     category: nameCategories.PROTECTION
@@ -908,6 +998,7 @@ export const namesData: InsertName[] = [
     pronunciation: "ad-DAARR",
     meaning: "The Creator of Harm",
     description: "The Creator of Harm - The One who makes harm reach to whoever He willed and benefits to whoever He willed.",
+    detailedExplanation: "Ad-Darr, the Creator of Harm, signifies God's power to inflict harm as a test or punishment. This name reminds us that God has the power to inflict harm, but also the power to protect and provide. It encourages humility and submission to God's will.",
     relatedNames: ["An-Nafi", "Al-Qadir"],
     orderNumber: 91,
     category: nameCategories.POWER
@@ -918,6 +1009,7 @@ export const namesData: InsertName[] = [
     pronunciation: "an-NAA-fi",
     meaning: "The Creator of Good",
     description: "The Creator of Good - The One who makes harm reach to whoever He willed and benefits to whoever He willed.",
+    detailedExplanation: "An-Nafi', the Creator of Good, emphasizes God's power to bestow blessings and benefits.  This name reminds us that God is the source of all good, and that He bestows His blessings upon those who are deserving. It inspires gratitude and appreciation for God's generosity.",
     relatedNames: ["Ad-Darr", "Al-Qadir"],
     orderNumber: 92,
     category: nameCategories.POWER
@@ -928,6 +1020,7 @@ export const namesData: InsertName[] = [
     pronunciation: "an-NOOR",
     meaning: "The Light",
     description: "The Light - The One who guides whoever He willed by His light, the light of the heavens and the earth.",
+    detailedExplanation: "An-Nur, the Light, signifies God as the ultimate source of guidance and illumination. This name reminds us that God is our guide, leading ustowards truth and enlightenment. It inspires a seeking of knowledge and a commitment to following God's path.",
     relatedNames: ["Al-Hadi", "Al-Haqq"],
     orderNumber: 93,
     category: nameCategories.GUIDANCE
@@ -938,6 +1031,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-HAA-di",
     meaning: "The Guide",
     description: "The Guide - The One whom with His guidance His believing servants were guided, and with His guidance the living beings have been guided to what is beneficial for them.",
+    detailedExplanation: "Al-Hadi, the Guide, emphasizes God's role in leading and directing His creation. This name reminds us that God provides guidance and direction in our lives, leading us towards righteousness and fulfillment. It inspires trust and reliance on God's guidance.",
     relatedNames: ["An-Nur", "Ar-Rashid"],
     orderNumber: 94,
     category: nameCategories.GUIDANCE
@@ -948,6 +1042,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-ba-DEEE",
     meaning: "The Originator",
     description: "The Originator - The One who created the creation and formed it without any preceding example.",
+    detailedExplanation: "Al-Badi', the Originator, highlights God's unique and unparalleled creativity. This name reminds us that God's creation is without precedent, a testament to His infinite imagination and power. It inspires awe and wonder at the Divine's creative genius.",
     relatedNames: ["Al-Khaliq", "Al-Musawwir"],
     orderNumber: 95,
     category: nameCategories.CREATION
@@ -958,6 +1053,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-BAA-qi",
     meaning: "The Everlasting",
     description: "The Everlasting - The One that the state of non-existence is impossible for Him.",
+    detailedExplanation: "Al-Baqi, the Everlasting, signifies God's eternal and unchanging nature. This name reminds us that God's existence is without end, transcending time and space. It inspires trust and reliance on God's eternal presence and power.",
     relatedNames: ["Al-Hayy", "Al-Qayyum"],
     orderNumber: 96,
     category: nameCategories.LIFE
@@ -968,6 +1064,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-WAA-rith",
     meaning: "The Inheritor",
     description: "The Inheritor - The One who remains after the creatures have perished.",
+    detailedExplanation: "Al-Warith, the Inheritor, emphasizes God's ultimate dominion and control over all creation. This name reminds us that God will ultimately inherit all things, and that His power and authority will endure forever. It inspires humility and submission to God's will.",
     relatedNames: ["Al-Baqi", "Al-Hayy"],
     orderNumber: 97,
     category: nameCategories.LIFE
@@ -978,6 +1075,7 @@ export const namesData: InsertName[] = [
     pronunciation: "ar-ra-SHEED",
     meaning: "The Guide to the Right Path",
     description: "The Guide to the Right Path - The One who guides His creatures to what is beneficial for them.",
+    detailedExplanation: "Ar-Rashid, the Guide to the Right Path, emphasizes God's role in leading and guiding His creation towards righteousness and truth. This name reminds us that God provides guidance and direction in our lives, leading us towards a fulfilling and meaningful existence. It inspires trust and reliance on God's guidance.",
     relatedNames: ["Al-Hadi", "Al-Waliyy"],
     orderNumber: 98,
     category: nameCategories.GUIDANCE
@@ -988,6 +1086,7 @@ export const namesData: InsertName[] = [
     pronunciation: "as-sa-BOOR",
     meaning: "The Patient",
     description: "The Patient - The One who does not quickly punish the sinners.",
+    detailedExplanation: "As-Sabur, the Patient, highlights God's forbearance and long-suffering. This name reminds us that God does not rush to judgment, but rather gives time for repentance and amends. It encourages patience and understanding in our dealings with others, mirroring God's own patience.",
     relatedNames: ["Al-Halim", "Al-Ghafur"],
     orderNumber: 99,
     category: nameCategories.FORGIVENESS
