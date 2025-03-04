@@ -28,7 +28,7 @@ export default function Home() {
       {/* Main Content */}
       <div className="max-w-4xl mx-auto px-4">
         <div className="flex justify-between items-center mb-6">
-          <h1 className="text-4xl font-serif text-[#333333] dark:text-gray-200">
+          <h1 className="text-3xl font-serif text-[#333333] dark:text-gray-200">
             99 Names of the Body Beautiful
           </h1>
           <div className="flex gap-2">
