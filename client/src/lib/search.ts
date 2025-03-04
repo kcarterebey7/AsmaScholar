@@ -33,7 +33,7 @@ export function useSearch(query: string): SearchResult[] {
     queryKey: ['/api/names']
   });
 
-  if (!query) return names;
+  if (!query) return [];
 
   const fuse = new Fuse(names, fuseOptions);
   return fuse.search(query).map(result => ({
