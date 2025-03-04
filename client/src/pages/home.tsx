@@ -19,7 +19,7 @@ export default function Home() {
     <div className="max-w-4xl mx-auto">
       <div className="flex justify-between items-center mb-6">
         <h1 className="text-4xl font-serif text-[#333333] dark:text-gray-200">
-          The 99 Names of Allah
+          99 Names of the Body Beautiful
         </h1>
         <div className="flex gap-2">
           <Button

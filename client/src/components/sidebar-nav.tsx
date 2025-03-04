@@ -16,7 +16,7 @@ export default function SidebarNav() {
     <div className="w-64 border-r bg-[#F8F9FA] dark:bg-gray-900 hidden md:block">
       <div className="p-4 border-b flex justify-between items-center">
         <Link href="/" className="text-xl font-serif text-[#333333] dark:text-gray-200">
-          99 Names of Allah
+          99 Names of the Body Beautiful
         </Link>
         <ThemeToggle />
       </div>
