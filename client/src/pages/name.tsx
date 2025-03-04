@@ -3,6 +3,7 @@ import { useParams, Link, useLocation } from "wouter";
 import type { Name } from "@shared/schema";
 import { Card, CardContent } from "@/components/ui/card";
 import { ArrowLeft } from "lucide-react";
+import HighlightedText from "@/components/highlighted-text";
 
 export default function NamePage() {
   const { id } = useParams();
@@ -53,35 +54,47 @@ export default function NamePage() {
         <CardContent className="p-6">
           {/* Main Name Section */}
           <div className="text-4xl font-serif mb-4 dark:text-gray-200">{name.arabicName}</div>
-          <div className="text-2xl text-[#14866D] mb-2">{name.transliteration}</div>
+          <div className="text-2xl text-[#14866D] mb-2">
+            <HighlightedText text={name.transliteration} searchTerm={searchQuery || ''} />
+          </div>
           <div className="text-lg text-gray-600 dark:text-gray-400 mb-4">
             Pronunciation: <span className="font-medium">{name.pronunciation}</span>
           </div>
-          <div className="text-xl mb-4 text-[#333333] dark:text-gray-300">{name.meaning}</div>
+          <div className="text-xl mb-4 text-[#333333] dark:text-gray-300">
+            <HighlightedText text={name.meaning} searchTerm={searchQuery || ''} />
+          </div>
 
           {/* Detailed Content */}
           <div className="prose prose-slate dark:prose-invert max-w-none leading-relaxed">
             <h2 className="text-xl font-serif mt-6 mb-4 dark:text-gray-200">Basic Meaning</h2>
-            <p>{name.description}</p>
+            <p>
+              <HighlightedText text={name.description} searchTerm={searchQuery || ''} />
+            </p>
 
             {name.detailedExplanation && (
               <>
                 <h2 className="text-xl font-serif mt-6 mb-4 dark:text-gray-200">Deeper Understanding</h2>
-                <p className="whitespace-pre-wrap">{name.detailedExplanation}</p>
+                <p className="whitespace-pre-wrap">
+                  <HighlightedText text={name.detailedExplanation} searchTerm={searchQuery || ''} />
+                </p>
               </>
             )}
 
             {name.innerMeaning && (
               <>
                 <h2 className="text-xl font-serif mt-6 mb-4 dark:text-gray-200">Inner Meaning</h2>
-                <p className="whitespace-pre-wrap">{name.innerMeaning}</p>
+                <p className="whitespace-pre-wrap">
+                  <HighlightedText text={name.innerMeaning} searchTerm={searchQuery || ''} />
+                </p>
               </>
             )}
 
             {name.technique && (
               <>
                 <h2 className="text-xl font-serif mt-6 mb-4 dark:text-gray-200">Spiritual Practice</h2>
-                <p className="whitespace-pre-wrap">{name.technique}</p>
+                <p className="whitespace-pre-wrap">
+                  <HighlightedText text={name.technique} searchTerm={searchQuery || ''} />
+                </p>
               </>
             )}
           </div>

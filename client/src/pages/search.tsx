@@ -4,6 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "wouter";
 import SearchBox from "@/components/search-box";
 import { useState, useEffect } from "react";
+import HighlightedText from "@/components/highlighted-text";
 
 export default function SearchPage() {
   const [location] = useLocation();
@@ -35,8 +36,12 @@ export default function SearchPage() {
             <Card className="cursor-pointer hover:bg-[#F8F9FA] dark:hover:bg-gray-800 transition-colors">
               <CardContent className="p-4">
                 <div className="text-2xl font-serif mb-2">{result.arabicName}</div>
-                <div className="text-[#14866D] font-medium mb-2">{result.transliteration}</div>
-                <div className="text-[#333333] dark:text-gray-300">{result.meaning}</div>
+                <div className="text-[#14866D] font-medium mb-2">
+                  <HighlightedText text={result.transliteration} searchTerm={query} />
+                </div>
+                <div className="text-[#333333] dark:text-gray-300">
+                  <HighlightedText text={result.meaning} searchTerm={query} />
+                </div>
 
                 {result.matches?.map((match, index) => {
                   if (!match.value) return null;
@@ -54,7 +59,7 @@ export default function SearchPage() {
                     <div key={index} className="mt-3 text-sm">
                       <div className="font-medium text-gray-600 dark:text-gray-400">{fieldTitle}:</div>
                       <div className="text-gray-600 dark:text-gray-400 line-clamp-2">
-                        {match.value}
+                        <HighlightedText text={match.value} searchTerm={query} />
                       </div>
                     </div>
                   );
