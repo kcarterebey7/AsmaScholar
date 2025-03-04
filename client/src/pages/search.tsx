@@ -23,7 +23,7 @@ export default function SearchPage() {
 
       <div className="space-y-4">
         {results.map((result: SearchResult) => (
-          <Link key={result.id} href={`/name/${result.id}`}>
+          <Link key={result.id} href={`/name/${result.id}?q=${encodeURIComponent(query)}`}>
             <Card className="cursor-pointer hover:bg-[#F8F9FA] dark:hover:bg-gray-800 transition-colors">
               <CardContent className="p-4">
                 <div className="text-2xl font-serif mb-2">{result.arabicName}</div>
