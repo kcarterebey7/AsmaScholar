@@ -23,12 +23,16 @@ const fuseOptions = {
     { name: 'innerMeaning', weight: 1 },
     { name: 'technique', weight: 1 }
   ],
-  threshold: 0.4, // More lenient threshold
+  threshold: 0.2, // More strict threshold
   includeMatches: true,
-  minMatchCharLength: 2, // Allow shorter matches
-  ignoreLocation: true, // Search entire field content
-  useExtendedSearch: true, // Enable extended search features
-  findAllMatches: true // Find all possible matches
+  minMatchCharLength: 4, // Require longer matches
+  ignoreLocation: true,
+  useExtendedSearch: true,
+  findAllMatches: false, // Only find exact matches
+  tokenize: true,
+  matchAllTokens: true, // Must match all tokens in the search query
+  tokenSeparator: /[\s]+/, // Split on whitespace
+  exact: true // Require exact matches
 };
 
 export function useSearch(query: string): SearchResult[] {
