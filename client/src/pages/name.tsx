@@ -9,7 +9,7 @@ export default function NamePage() {
   const [location] = useLocation();
 
   // Get the search query from URL if it exists
-  const searchParams = new URLSearchParams(location.split('?')[1]);
+  const searchParams = new URLSearchParams(window.location.search);
   const searchQuery = searchParams.get('q');
 
   const { data: name, isLoading } = useQuery<Name>({
@@ -28,16 +28,26 @@ export default function NamePage() {
     name.relatedNames.includes(n.transliteration)
   ) || [];
 
-  // Determine the back link URL based on where user came from
-  const backUrl = searchQuery ? `/search?q=${encodeURIComponent(searchQuery)}` : '/';
-  const backText = searchQuery ? 'Back to Search Results' : 'Back to All Names';
-
   return (
     <div className="max-w-4xl mx-auto">
-      <Link href={backUrl} className="inline-flex items-center text-[#14866D] hover:text-[#0D5F4C] dark:hover:text-[#1A9E82] mb-6">
-        <ArrowLeft className="mr-2 h-4 w-4" />
-        {backText}
-      </Link>
+      {/* Back to Search/Home Link */}
+      {searchQuery ? (
+        <Link 
+          href={`/search?q=${encodeURIComponent(searchQuery)}`}
+          className="inline-flex items-center text-[#14866D] hover:text-[#0D5F4C] dark:hover:text-[#1A9E82] mb-6 bg-[#EAF3FF] dark:bg-gray-800 px-4 py-2 rounded-md"
+        >
+          <ArrowLeft className="mr-2 h-4 w-4" />
+          Back to Search Results
+        </Link>
+      ) : (
+        <Link 
+          href="/"
+          className="inline-flex items-center text-[#14866D] hover:text-[#0D5F4C] dark:hover:text-[#1A9E82] mb-6"
+        >
+          <ArrowLeft className="mr-2 h-4 w-4" />
+          Back to All Names
+        </Link>
+      )}
 
       <Card>
         <CardContent className="p-6">
