@@ -8,6 +8,7 @@ import { Grid2X2, List } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import CategorizedNames from "@/components/categorized-names";
 import { SparklesCore } from "@/components/ui/sparkles";
+import SplashCursor from "@/components/ui/splash-cursor";
 import SidebarNav from "@/components/sidebar-nav";
 
 export default function Home() {
@@ -25,7 +26,8 @@ export default function Home() {
       {/* Main Content */}
       <div className="flex-1 overflow-auto">
         {/* Hero Section */}
-        <div className="h-[30rem] md:h-[40rem] w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md px-4">
+        <div className="h-[30rem] md:h-[40rem] w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md px-4 relative">
+          <SplashCursor />
           <h1 className="text-4xl md:text-7xl lg:text-9xl font-bold text-center text-white relative z-20">
             99 Names
           </h1>
