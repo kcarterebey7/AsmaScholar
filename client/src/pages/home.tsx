@@ -14,9 +14,14 @@ export default function Home() {
   return (
     <div className="flex-1 overflow-auto">
       <div className="container mx-auto px-4 py-8">
-        <h1 className="text-3xl md:text-4xl font-serif text-center mb-8">
-          99 Names of the Body Beautiful
-        </h1>
+        <div className="text-center mb-8">
+          <h1 className="text-3xl md:text-4xl font-serif mb-2">
+            99 Names of the Body Beautiful
+          </h1>
+          <div className="text-lg md:text-xl text-muted-foreground italic">
+            (in the light of Moorish Science)
+          </div>
+        </div>
 
         <div className="max-w-2xl mx-auto mb-12">
           <NameOfTheDay name={nameOfTheDay} />
