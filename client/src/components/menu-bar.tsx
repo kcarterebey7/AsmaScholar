@@ -1,5 +1,5 @@
-import { Menu } from "lucide-react";
-import { Link } from "wouter";
+import { Menu, ChevronLeft } from "lucide-react";
+import { Link, useLocation } from "wouter";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -11,11 +11,20 @@ import { Button } from "@/components/ui/button";
 import { ThemeToggle } from "@/components/theme-toggle";
 
 export function MenuBar() {
+  const [location] = useLocation();
+  const showBackButton = location !== "/";
+
   return (
     <div className="fixed top-0 right-0 left-0 bg-background/80 backdrop-blur-sm border-b border-border/40 z-50">
       <div className="h-14 flex items-center justify-between px-4 md:px-6">
         <div>
-          {/* Left side - empty for now */}
+          {showBackButton && (
+            <Link href="/">
+              <Button variant="ghost" size="icon" className="mr-2">
+                <ChevronLeft className="h-5 w-5" />
+              </Button>
+            </Link>
+          )}
         </div>
         <div>
           <DropdownMenu>
