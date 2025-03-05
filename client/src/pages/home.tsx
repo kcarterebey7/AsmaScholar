@@ -4,7 +4,6 @@ import type { Name } from "@shared/schema";
 import { Link } from "wouter";
 import { NameOfTheDay } from "@/components/name-of-the-day";
 import { getNameOfTheDay } from "@/lib/utils";
-import SearchBox from "@/components/search-box";
 
 export default function Home() {
   const nameOfTheDay = getNameOfTheDay();
@@ -21,11 +20,6 @@ export default function Home() {
 
         <div className="max-w-2xl mx-auto mb-12">
           <NameOfTheDay name={nameOfTheDay} />
-        </div>
-
-        {/* Search Section */}
-        <div className="max-w-2xl mx-auto mb-12">
-          <SearchBox />
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
