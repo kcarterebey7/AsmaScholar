@@ -5,8 +5,10 @@ import {
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
+  DropdownMenuSeparator,
 } from "@/components/ui/dropdown-menu";
 import { Button } from "@/components/ui/button";
+import { ThemeToggle } from "@/components/theme-toggle";
 
 export function MenuBar() {
   return (
@@ -27,6 +29,13 @@ export function MenuBar() {
                 <Link href="/search" className="w-full cursor-pointer">
                   Search Names
                 </Link>
+              </DropdownMenuItem>
+              <DropdownMenuSeparator />
+              <DropdownMenuItem>
+                <div className="w-full flex items-center justify-between">
+                  <span>Theme</span>
+                  <ThemeToggle />
+                </div>
               </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>

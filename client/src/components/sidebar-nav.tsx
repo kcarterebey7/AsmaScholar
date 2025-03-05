@@ -1,7 +1,6 @@
 import { useQuery } from "@tanstack/react-query";
 import { Link, useLocation } from "wouter";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import { ThemeToggle } from "@/components/theme-toggle";
 import { Network } from "lucide-react";
 import type { Name } from "@shared/schema";
 import { cn } from "@/lib/utils";
@@ -14,10 +13,6 @@ export default function SidebarNav() {
 
   return (
     <div className="w-64 border-r bg-[#F8F9FA] dark:bg-gray-900 flex-shrink-0">
-      <div className="p-4 border-b flex justify-end items-center">
-        <ThemeToggle />
-      </div>
-
       <div className="p-4 border-b">
         <Link 
           href="/relationships"
@@ -33,7 +28,7 @@ export default function SidebarNav() {
         </Link>
       </div>
 
-      <ScrollArea className="h-[calc(100vh-8rem)]">
+      <ScrollArea className="h-[calc(100vh-4rem)]">
         <div className="p-4">
           {names?.map((name) => (
             <Link 
