@@ -30,6 +30,11 @@ export function MenuBar() {
                   Search Names
                 </Link>
               </DropdownMenuItem>
+              <DropdownMenuItem asChild>
+                <Link href="/relationships" className="w-full cursor-pointer">
+                  Name Relationships
+                </Link>
+              </DropdownMenuItem>
               <DropdownMenuSeparator />
               <DropdownMenuItem>
                 <div className="w-full flex items-center justify-between">
