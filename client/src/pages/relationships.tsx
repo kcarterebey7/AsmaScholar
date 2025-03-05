@@ -21,6 +21,7 @@ import {
   verticalListSortingStrategy,
 } from "@dnd-kit/sortable";
 import { SortableName } from "@/components/sortable-name";
+import { ShareGroupDialog } from "@/components/share-group-dialog";
 
 interface CustomGroup {
   id: string;
@@ -56,6 +57,20 @@ export default function RelationshipsPage() {
   useEffect(() => {
     localStorage.setItem('customNameGroups', JSON.stringify(customGroups));
   }, [customGroups]);
+
+  // Add URL parameter handling
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const sharedGroupId = params.get('group');
+
+    if (sharedGroupId) {
+      const element = document.getElementById(`group-${sharedGroupId}`);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }, []);
+
 
   if (isLoading || !names) return <div>Loading...</div>;
 
@@ -163,7 +178,7 @@ export default function RelationshipsPage() {
           {/* Display Custom Groups */}
           <div className="space-y-4">
             {customGroups.map((group) => (
-              <Card key={group.id}>
+              <Card key={group.id} id={`group-${group.id}`}>
                 <CardContent className="p-4">
                   <div className="flex items-center justify-between mb-3">
                     {editingGroupId === group.id ? (
@@ -192,6 +207,10 @@ export default function RelationshipsPage() {
                         >
                           <Edit2 className="h-4 w-4" />
                         </Button>
+                        <ShareGroupDialog
+                          groupId={group.id}
+                          groupName={group.name}
+                        />
                       </div>
                     )}
                     <Button
