@@ -24,7 +24,7 @@ function getNameOfTheDay(names: Name[] | undefined): Name | undefined {
 export default function Home() {
   const [viewMode, setViewMode] = useState<'grid' | 'categorized'>('grid');
 
-  const { data: names, isLoading } = useQuery<Name[]>({ 
+  const { data: names, isLoading } = useQuery<Name[]>({
     queryKey: ['/api/names']
   });
 
@@ -95,15 +95,6 @@ export default function Home() {
             <SearchBox />
           </div>
 
-          {/* Quote Section */}
-          <div className="text-center py-4 mb-8">
-            <p className="text-lg sm:text-xl md:text-2xl font-serif italic text-gray-600 dark:text-gray-400">
-              <span className="relative before:content-['\u201C'] before:absolute before:-left-4 before:-top-2 before:text-3xl before:text-gray-300 dark:before:text-gray-600 after:content-['\u201D'] after:absolute after:-right-4 after:-top-2 after:text-3xl after:text-gray-300 dark:after:text-gray-600">
-                And these soul attributes become a body beautiful
-              </span>
-            </p>
-          </div>
-
           {/* Name of the Day Section */}
           {nameOfTheDay && (
             <div className="mb-8 bg-[#F8F9FA] dark:bg-gray-800 rounded-lg p-6 border border-gray-200 dark:border-gray-700">
@@ -114,6 +105,15 @@ export default function Home() {
               <div className="text-[#333333] dark:text-gray-300">{nameOfTheDay.meaning}</div>
             </div>
           )}
+
+          {/* Quote Section */}
+          <div className="text-center py-4 mb-8">
+            <p className="text-lg sm:text-xl md:text-2xl font-serif italic text-gray-600 dark:text-gray-400">
+              <span className="relative before:content-['\u201C'] before:absolute before:-left-4 before:-top-2 before:text-3xl before:text-gray-300 dark:before:text-gray-600 after:content-['\u201D'] after:absolute after:-right-4 after:-top-2 after:text-3xl after:text-gray-300 dark:after:text-gray-600">
+                And these soul attributes become a body beautiful
+              </span>
+            </p>
+          </div>
 
           {/* Names Grid/List */}
           {isLoading ? (
