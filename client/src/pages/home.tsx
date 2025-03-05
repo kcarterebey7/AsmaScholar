@@ -90,18 +90,7 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Name of the Day Section */}
-          {nameOfTheDay && (
-            <div className="mb-8 bg-[#F8F9FA] dark:bg-gray-800 rounded-lg p-6 border border-gray-200 dark:border-gray-700">
-              <h2 className="text-lg font-medium text-gray-600 dark:text-gray-400 mb-4">Name of the Day</h2>
-              <div className="text-3xl font-serif mb-2 text-[#333333] dark:text-gray-200">{nameOfTheDay.arabicName}</div>
-              <div className="text-xl text-[#14866D] font-medium">{nameOfTheDay.transliteration}</div>
-              <div className="text-sm text-gray-500 dark:text-gray-400 mb-2">{nameOfTheDay.pronunciation}</div>
-              <div className="text-[#333333] dark:text-gray-300">{nameOfTheDay.meaning}</div>
-            </div>
-          )}
-
-          {/* Search Section */}
+          {/* Search Box */}
           <div className="mb-8">
             <SearchBox />
           </div>
@@ -114,6 +103,17 @@ export default function Home() {
               </span>
             </p>
           </div>
+
+          {/* Name of the Day Section */}
+          {nameOfTheDay && (
+            <div className="mb-8 bg-[#F8F9FA] dark:bg-gray-800 rounded-lg p-6 border border-gray-200 dark:border-gray-700">
+              <h2 className="text-lg font-medium text-gray-600 dark:text-gray-400 mb-4">Name of the Day</h2>
+              <div className="text-3xl font-serif mb-2 text-[#333333] dark:text-gray-200">{nameOfTheDay.arabicName}</div>
+              <div className="text-xl text-[#14866D] font-medium">{nameOfTheDay.transliteration}</div>
+              <div className="text-sm text-gray-500 dark:text-gray-400 mb-2">{nameOfTheDay.pronunciation}</div>
+              <div className="text-[#333333] dark:text-gray-300">{nameOfTheDay.meaning}</div>
+            </div>
+          )}
 
           {/* Names Grid/List */}
           {isLoading ? (
