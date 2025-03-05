@@ -10,9 +10,12 @@ import CategorizedNames from "@/components/categorized-names";
 import { SparklesCore } from "@/components/ui/sparkles";
 import SplashCursor from "@/components/ui/splash-cursor";
 import SidebarNav from "@/components/sidebar-nav";
+import { NameOfTheDay } from "@/components/name-of-the-day";
+import { getNameOfTheDay } from "@/lib/utils";
 
 export default function Home() {
   const [viewMode, setViewMode] = useState<'grid' | 'categorized'>('grid');
+  const nameOfTheDay = getNameOfTheDay();
 
   const { data: names, isLoading } = useQuery<Name[]>({ 
     queryKey: ['/api/names']
@@ -56,6 +59,11 @@ export default function Home() {
 
         {/* Content Section */}
         <div className="max-w-4xl mx-auto px-4 sm:px-6 -mt-16 md:-mt-20 pb-8">
+          {/* Name of the Day Section */}
+          <div className="mb-12">
+            <NameOfTheDay name={nameOfTheDay} />
+          </div>
+
           <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 sm:gap-0 mb-6">
             <h1 className="text-2xl sm:text-3xl font-serif text-[#333333] dark:text-gray-200">
               99 Names of the Body Beautiful
