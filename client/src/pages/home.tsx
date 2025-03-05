@@ -53,6 +53,37 @@ export default function Home() {
           </Button>
         </div>
       </div>
+      
+      {nameOfTheDay && (
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.6 }}
+          className="mb-8 bg-gradient-to-r from-[#f8f9fa] to-[#EAF3FF] dark:from-gray-800 dark:to-gray-700 p-6 rounded-lg shadow-sm border border-[#e0e4e8] dark:border-gray-700"
+        >
+          <div className="flex flex-col md:flex-row gap-6 items-start">
+            <div className="bg-[#14866D]/10 dark:bg-[#14866D]/20 rounded-full p-5 flex items-center justify-center">
+              <h2 className="text-3xl font-arabic text-[#14866D]">{nameOfTheDay.arabicName}</h2>
+            </div>
+            <div className="flex-1">
+              <div className="flex flex-col md:flex-row md:items-baseline justify-between mb-2">
+                <h3 className="text-xl font-medium text-[#14866D]">
+                  {nameOfTheDay.transliteration}
+                  <span className="ml-2 text-sm text-gray-500">({nameOfTheDay.pronunciation})</span>
+                </h3>
+                <span className="text-sm font-medium bg-[#14866D]/10 text-[#14866D] px-2 py-0.5 rounded-full">
+                  Name of the Day
+                </span>
+              </div>
+              <h4 className="text-lg font-medium text-gray-700 dark:text-gray-300 mb-2">{nameOfTheDay.meaning}</h4>
+              <p className="text-gray-600 dark:text-gray-400 text-sm mb-4 line-clamp-3">{nameOfTheDay.innerMeaning}</p>
+              <Link href={`/name/${nameOfTheDay.id}`} className="inline-flex items-center text-sm text-[#14866D] hover:underline">
+                Explore deeper meaning <ArrowRight className="ml-1 h-3 w-3" />
+              </Link>
+            </div>
+          </div>
+        </motion.div>
+      )}
 
       {/* Name of the Day Section */}
       {nameOfTheDay && (
