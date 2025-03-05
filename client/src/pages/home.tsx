@@ -4,23 +4,12 @@ import { useQuery } from "@tanstack/react-query";
 import type { Name } from "@shared/schema";
 import { Link } from "wouter";
 import { useState } from "react";
-import { Grid2X2, List, ArrowRight, Sparkles } from "lucide-react";
+import { Grid2X2, List } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { NameGrid } from "@/components/name-grid";
-import { CategorizedNames } from "@/components/categorized-names";
+import CategorizedNames from "@/components/categorized-names";
 import { SparklesCore } from "@/components/ui/sparkles";
 import SplashCursor from "@/components/ui/splash-cursor";
-import { motion } from "framer-motion";
-
-// Function to get the name of the day
-function getNameOfTheDay(names: Name[] | undefined): Name | undefined {
-  if (!names?.length) return undefined;
-
-  const today = new Date();
-  const dayOfYear = Math.floor((today.getTime() - new Date(today.getFullYear(), 0, 0).getTime()) / 86400000);
-  const index = dayOfYear % names.length;
-  return names[index];
-}
+import SidebarNav from "@/components/sidebar-nav";
 
 export default function Home() {
   const [viewMode, setViewMode] = useState<'grid' | 'categorized'>('grid');
@@ -29,109 +18,103 @@ export default function Home() {
     queryKey: ['/api/names']
   });
 
-  const nameOfTheDay = getNameOfTheDay(names);
-
   return (
-    <div className="max-w-5xl mx-auto px-4 sm:px-6 py-8">
-      {/* Hero Section */}
-      <div className="mb-10 text-center">
-        <motion.h1 
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-          className="text-3xl md:text-4xl font-serif text-[#14866D] dark:text-[#2EB894] mb-2"
-        >
-          The 99 Beautiful Names of Allah
-        </motion.h1>
-        <motion.p
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.5, delay: 0.2 }}
-          className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto"
-        >
-          Explore the divine attributes through the sacred names, each revealing a unique aspect of divine perfection
-        </motion.p>
-      </div>
+    <div className="flex h-screen overflow-hidden">
+      {/* Sidebar */}
+      <SidebarNav />
 
-      {/* Name of the Day Feature */}
-      {nameOfTheDay && (
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7 }}
-          className="mb-12 bg-gradient-to-r from-[#f8f9fa] to-[#EAF3FF] dark:from-gray-800 dark:to-gray-700 p-6 rounded-lg shadow-md border border-[#e0e4e8] dark:border-gray-700"
-        >
-          <div className="flex items-center justify-between mb-4">
-            <div className="flex items-center">
-              <Sparkles className="h-5 w-5 text-[#14866D] mr-2" />
-              <h3 className="text-lg font-medium text-[#14866D]">Name of the Day</h3>
+      {/* Main Content */}
+      <div className="flex-1 overflow-auto">
+        {/* Hero Section */}
+        <div className="h-[30rem] md:h-[40rem] w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md px-4 relative">
+          <SplashCursor />
+          <h1 className="text-4xl md:text-7xl lg:text-9xl font-bold text-center text-white relative z-20">
+            99 Names
+          </h1>
+          <div className="w-full md:w-[40rem] h-40 relative mt-8">
+            {/* Gradients */}
+            <div className="absolute inset-x-10 md:inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[2px] w-3/4 blur-sm" />
+            <div className="absolute inset-x-10 md:inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-px w-3/4" />
+            <div className="absolute inset-x-20 md:inset-x-60 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-[5px] w-1/4 blur-sm" />
+            <div className="absolute inset-x-20 md:inset-x-60 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-px w-1/4" />
+
+            {/* Core Sparkles */}
+            <SparklesCore
+              background="transparent"
+              minSize={0.2}
+              maxSize={0.8}
+              particleDensity={800}
+              className="w-full h-full"
+              particleColor="#FFFFFF"
+              speed={0.8}
+            />
+
+            {/* Radial Gradient */}
+            <div className="absolute inset-0 w-full h-full bg-black [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
+          </div>
+        </div>
+
+        {/* Content Section */}
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 -mt-16 md:-mt-20 pb-8">
+          <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 sm:gap-0 mb-6">
+            <h1 className="text-2xl sm:text-3xl font-serif text-[#333333] dark:text-gray-200">
+              99 Names of the Body Beautiful
+            </h1>
+            <div className="flex gap-2">
+              <Button
+                variant={viewMode === 'grid' ? 'default' : 'outline'}
+                size="sm"
+                onClick={() => setViewMode('grid')}
+              >
+                <Grid2X2 className="h-4 w-4" />
+              </Button>
+              <Button
+                variant={viewMode === 'categorized' ? 'default' : 'outline'}
+                size="sm"
+                onClick={() => setViewMode('categorized')}
+              >
+                <List className="h-4 w-4" />
+              </Button>
             </div>
-            <span className="text-sm bg-[#14866D]/10 text-[#14866D] px-2 py-0.5 rounded-full">
-              {new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric' })}
-            </span>
           </div>
 
-          <div className="flex flex-col md:flex-row gap-6 items-start">
-            <div className="bg-[#14866D]/10 dark:bg-[#14866D]/20 rounded-full p-5 flex items-center justify-center">
-              <h2 className="text-4xl font-arabic text-[#14866D]">{nameOfTheDay.arabicName}</h2>
-            </div>
-            <div className="flex-1">
-              <div className="flex flex-col md:flex-row md:items-baseline justify-between mb-2">
-                <h3 className="text-2xl font-medium text-[#14866D]">
-                  {nameOfTheDay.transliteration}
-                  <span className="ml-2 text-sm text-gray-500">({nameOfTheDay.pronunciation})</span>
-                </h3>
-              </div>
-              <h4 className="text-xl font-medium text-gray-700 dark:text-gray-300 mb-3">{nameOfTheDay.meaning}</h4>
-              <p className="text-gray-600 dark:text-gray-400 mb-4 line-clamp-3">{nameOfTheDay.innerMeaning}</p>
-              <Link href={`/name/${nameOfTheDay.id}`} className="inline-flex items-center text-sm font-medium text-[#14866D] hover:text-[#0F6952] transition-colors">
-                Explore deeper meaning <ArrowRight className="ml-1 h-3 w-3" />
-              </Link>
-            </div>
+          {/* Search Section */}
+          <div className="mb-8">
+            <SearchBox />
           </div>
-        </motion.div>
-      )}
 
-      {/* View Controls */}
-      <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 sm:gap-0 mb-6">
-        <h2 className="text-2xl font-serif text-[#333333] dark:text-gray-200">
-          Browse All Names
-        </h2>
-        <div className="flex gap-2">
-          <Button
-            variant={viewMode === 'grid' ? 'default' : 'outline'}
-            size="sm"
-            onClick={() => setViewMode('grid')}
-            className={viewMode === 'grid' ? 'bg-[#14866D] hover:bg-[#0F6952]' : ''}
-          >
-            <Grid2X2 className="h-4 w-4 mr-1" />
-            Grid
-          </Button>
-          <Button
-            variant={viewMode === 'categorized' ? 'default' : 'outline'}
-            size="sm"
-            onClick={() => setViewMode('categorized')}
-            className={viewMode === 'categorized' ? 'bg-[#14866D] hover:bg-[#0F6952]' : ''}
-          >
-            <List className="h-4 w-4 mr-1" />
-            Categories
-          </Button>
+          {/* Quote Section */}
+          <div className="text-center py-4 mb-8">
+            <p className="text-lg sm:text-xl md:text-2xl font-serif italic text-gray-600 dark:text-gray-400">
+              <span className="relative before:content-['\u201C'] before:absolute before:-left-4 before:-top-2 before:text-3xl before:text-gray-300 dark:before:text-gray-600 after:content-['\u201D'] after:absolute after:-right-4 after:-top-2 after:text-3xl after:text-gray-300 dark:after:text-gray-600">
+                And these soul attributes become a body beautiful
+              </span>
+            </p>
+          </div>
+
+          {/* Names Grid/List */}
+          {isLoading ? (
+            <div>Loading...</div>
+          ) : viewMode === 'grid' ? (
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              {names?.map((name) => (
+                <Link key={name.id} href={`/name/${name.id}`}>
+                  <Card className="cursor-pointer hover:bg-[#F8F9FA] dark:hover:bg-gray-800 transition-colors">
+                    <CardContent className="p-4">
+                      <div className="text-xl sm:text-2xl font-serif mb-2 dark:text-gray-200">{name.arabicName}</div>
+                      <div className="text-[#14866D] font-medium">{name.transliteration}</div>
+                      <div className="text-sm text-gray-500 dark:text-gray-400 mb-1">{name.pronunciation}</div>
+                      <div className="text-[#333333] dark:text-gray-300">{name.meaning}</div>
+                    </CardContent>
+                  </Card>
+                </Link>
+              ))}
+            </div>
+          ) : (
+            <CategorizedNames names={names || []} />
+          )}
         </div>
       </div>
-
-      {/* Names Display */}
-      {isLoading ? (
-        <div className="text-center py-20">
-          <div className="inline-block h-8 w-8 animate-spin rounded-full border-4 border-solid border-current border-r-transparent align-[-0.125em] motion-reduce:animate-[spin_1.5s_linear_infinite]" role="status">
-            <span className="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">Loading...</span>
-          </div>
-          <p className="mt-2 text-gray-600 dark:text-gray-400">Loading the sacred names...</p>
-        </div>
-      ) : (
-        <>
-          {viewMode === 'grid' ? <NameGrid names={names || []} /> : <CategorizedNames names={names || []} />}
-        </>
-      )}
     </div>
   );
 }
