@@ -61,15 +61,15 @@ export default function RelationshipsPage() {
   };
 
   const updateGroupName = (groupId: string, newName: string) => {
-    setCustomGroups(customGroups.map(g => 
+    setCustomGroups(customGroups.map(g =>
       g.id === groupId ? { ...g, name: newName } : g
     ));
     setEditingGroupId(null);
   };
 
   const toggleNameInGroup = (nameId: number) => {
-    setSelectedNames(prev => 
-      prev.includes(nameId) 
+    setSelectedNames(prev =>
+      prev.includes(nameId)
         ? prev.filter(id => id !== nameId)
         : [...prev, nameId]
     );
@@ -112,7 +112,10 @@ export default function RelationshipsPage() {
                     size="sm"
                     onClick={() => toggleNameInGroup(name.id)}
                   >
-                    {name.transliteration}
+                    <div className="text-left">
+                      <div>{name.transliteration}</div>
+                      <div className="text-xs opacity-80">{name.meaning}</div>
+                    </div>
                   </Button>
                 ))}
               </div>
@@ -165,12 +168,15 @@ export default function RelationshipsPage() {
                     {names
                       .filter(name => group.nameIds.includes(name.id))
                       .map(name => (
-                        <Link 
+                        <Link
                           key={name.id}
                           href={`/name/${name.orderNumber}`}
                           className="px-3 py-1 bg-[#EAF3FF] dark:bg-gray-800 rounded-md text-[#14866D] hover:bg-[#D5E5FF] dark:hover:bg-gray-700 transition-colors"
                         >
-                          {name.transliteration}
+                          <div>
+                            <div>{name.transliteration}</div>
+                            <div className="text-xs text-gray-600 dark:text-gray-400">{name.meaning}</div>
+                          </div>
                         </Link>
                       ))}
                   </div>
@@ -193,12 +199,15 @@ export default function RelationshipsPage() {
                   </h3>
                   <div className="flex flex-wrap gap-2">
                     {group.map(name => (
-                      <Link 
+                      <Link
                         key={name.id}
                         href={`/name/${name.orderNumber}`}
                         className="px-3 py-1 bg-[#EAF3FF] dark:bg-gray-800 rounded-md text-[#14866D] hover:bg-[#D5E5FF] dark:hover:bg-gray-700 transition-colors"
                       >
-                        {name.transliteration}
+                        <div>
+                          <div>{name.transliteration}</div>
+                          <div className="text-xs text-gray-600 dark:text-gray-400">{name.meaning}</div>
+                        </div>
                       </Link>
                     ))}
                   </div>
@@ -232,7 +241,12 @@ export default function RelationshipsPage() {
                             href={`/name/${related.orderNumber}`}
                             className="text-[#14866D] hover:underline dark:hover:text-[#1A9E82]"
                           >
-                            {related.transliteration}
+                            <div className="inline-block">
+                              <span>{related.transliteration}</span>
+                              <span className="text-xs text-gray-600 dark:text-gray-400 ml-1">
+                                ({related.meaning})
+                              </span>
+                            </div>
                           </Link>
                         ))}
                       </div>
@@ -251,7 +265,12 @@ export default function RelationshipsPage() {
                             href={`/name/${similar.orderNumber}`}
                             className="text-[#14866D] hover:underline dark:hover:text-[#1A9E82]"
                           >
-                            {similar.transliteration}
+                            <div className="inline-block">
+                              <span>{similar.transliteration}</span>
+                              <span className="text-xs text-gray-600 dark:text-gray-400 ml-1">
+                                ({similar.meaning})
+                              </span>
+                            </div>
                           </Link>
                         ))}
                       </div>
