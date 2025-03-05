@@ -76,7 +76,16 @@ export default function Home() {
             </div>
           </div>
 
-          <SearchBox className="mb-8" />
+          <SearchBox className="mb-4" />
+
+          {/* Artistic Quote Section */}
+          <div className="text-center mb-12">
+            <p className="text-lg sm:text-xl md:text-2xl font-serif italic text-gray-600 dark:text-gray-400 relative">
+              <span className="relative before:content-['\u201C'] before:absolute before:-left-4 before:-top-2 before:text-3xl before:text-gray-300 dark:before:text-gray-600 after:content-['\u201D'] after:absolute after:-right-4 after:-top-2 after:text-3xl after:text-gray-300 dark:after:text-gray-600">
+                And these soul attributes become a body beautiful
+              </span>
+            </p>
+          </div>
 
           {isLoading ? (
             <div>Loading...</div>
