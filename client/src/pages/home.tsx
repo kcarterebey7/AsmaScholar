@@ -87,6 +87,7 @@ export default function Home() {
             </p>
           </div>
 
+          {/* Names Grid/List */}
           {isLoading ? (
             <div>Loading...</div>
           ) : viewMode === 'grid' ? (
