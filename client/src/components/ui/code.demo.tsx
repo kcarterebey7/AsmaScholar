@@ -1,82 +1,79 @@
 "use client";
-import React from "react";
-import { SparklesCore } from "@/components/ui/sparkles";
+import React, { useState } from "react";
+import { Sidebar, SidebarBody, SidebarLink } from "@/components/ui/sidebar";
+import { LayoutDashboard, UserCog, Settings, LogOut } from "lucide-react";
+import { motion } from "framer-motion";
+import { cn } from "@/lib/utils";
 
-export function SparklesPreview() {
+export function SidebarDemo() {
+  const links = [
+    {
+      label: "Dashboard",
+      href: "#",
+      icon: (
+        <LayoutDashboard className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" />
+      ),
+    },
+    {
+      label: "Profile",
+      href: "#",
+      icon: (
+        <UserCog className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" />
+      ),
+    },
+    {
+      label: "Settings",
+      href: "#",
+      icon: (
+        <Settings className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" />
+      ),
+    },
+    {
+      label: "Logout",
+      href: "#",
+      icon: (
+        <LogOut className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" />
+      ),
+    },
+  ];
+  const [open, setOpen] = useState(false);
+
   return (
-    <div className="h-[40rem] w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
-      <h1 className="md:text-7xl text-3xl lg:text-9xl font-bold text-center text-white relative z-20">
+    <div
+      className={cn(
+        "rounded-md flex flex-col md:flex-row bg-gray-100 dark:bg-neutral-800 w-full flex-1 max-w-7xl mx-auto border border-neutral-200 dark:border-neutral-700 overflow-hidden",
+        "h-screen"
+      )}
+    >
+      <Sidebar open={open} setOpen={setOpen}>
+        <SidebarBody className="justify-between gap-10">
+          <div className="flex flex-col flex-1 overflow-y-auto overflow-x-hidden">
+            <Logo />
+            <div className="mt-8 flex flex-col gap-2">
+              {links.map((link, idx) => (
+                <SidebarLink key={idx} link={link} />
+              ))}
+            </div>
+          </div>
+        </SidebarBody>
+      </Sidebar>
+    </div>
+  );
+}
+
+export const Logo = () => {
+  return (
+    <div
+      className="font-normal flex space-x-2 items-center text-sm text-black py-1 relative z-20"
+    >
+      <div className="h-5 w-6 bg-black dark:bg-white rounded-br-lg rounded-tr-sm rounded-tl-lg rounded-bl-sm flex-shrink-0" />
+      <motion.span
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        className="font-medium text-black dark:text-white whitespace-pre"
+      >
         99 Names
-      </h1>
-      <div className="w-[40rem] h-40 relative">
-        {/* Gradients */}
-        <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[2px] w-3/4 blur-sm" />
-        <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-px w-3/4" />
-        <div className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-[5px] w-1/4 blur-sm" />
-        <div className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-px w-1/4" />
-
-        {/* Core component */}
-        <SparklesCore
-          background="transparent"
-          minSize={0.4}
-          maxSize={1}
-          particleDensity={1200}
-          className="w-full h-full"
-          particleColor="#FFFFFF"
-        />
-
-        {/* Radial Gradient to prevent sharp edges */}
-        <div className="absolute inset-0 w-full h-full bg-black [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
-      </div>
-    </div>
-  );
-}
-
-export function SparklesPreviewDark() {
-  return (
-    <div className="h-[40rem] relative w-full bg-slate-950 flex flex-col items-center justify-center overflow-hidden rounded-md">
-      <div className="w-full absolute inset-0 h-screen">
-        <SparklesCore
-          id="tsparticlesfullpage"
-          background="transparent"
-          minSize={0.6}
-          maxSize={1.4}
-          particleDensity={100}
-          className="w-full h-full"
-          particleColor="#FFFFFF"
-          speed={1}
-        />
-      </div>
-      <h1 className="md:text-7xl text-3xl lg:text-9xl font-bold text-center text-white relative z-20">
-        of the Body Beautiful
-      </h1>
-    </div>
-  );
-}
-
-export function SparklesPreviewColorful() {
-  return (
-    <div className="h-[40rem] relative w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
-      <div className="w-full absolute inset-0 h-screen">
-        <SparklesCore
-          id="tsparticlescolorful"
-          background="transparent"
-          minSize={0.6}
-          maxSize={1.4}
-          particleDensity={100}
-          className="w-full h-full"
-          particleColor="#00ff00"
-          speed={0.5}
-        />
-      </div>
-      <div className="flex flex-col items-center justify-center gap-4 relative z-20">
-        <h1 className="md:text-7xl text-3xl lg:text-9xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
-          Sacred Names
-        </h1>
-        <p className="text-neutral-300 cursor-default text-center">
-          Exploring Divine Beauty
-        </p>
-      </div>
+      </motion.span>
     </div>
   );
 }
