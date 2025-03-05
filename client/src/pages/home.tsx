@@ -11,12 +11,24 @@ import { SparklesCore } from "@/components/ui/sparkles";
 import SplashCursor from "@/components/ui/splash-cursor";
 import SidebarNav from "@/components/sidebar-nav";
 
+// Function to get the name of the day
+function getNameOfTheDay(names: Name[] | undefined): Name | undefined {
+  if (!names?.length) return undefined;
+
+  const today = new Date();
+  const dayOfYear = Math.floor((today.getTime() - new Date(today.getFullYear(), 0, 0).getTime()) / 86400000);
+  const index = dayOfYear % names.length;
+  return names[index];
+}
+
 export default function Home() {
   const [viewMode, setViewMode] = useState<'grid' | 'categorized'>('grid');
 
   const { data: names, isLoading } = useQuery<Name[]>({ 
     queryKey: ['/api/names']
   });
+
+  const nameOfTheDay = getNameOfTheDay(names);
 
   return (
     <div className="flex h-screen overflow-hidden">
@@ -77,6 +89,17 @@ export default function Home() {
               </Button>
             </div>
           </div>
+
+          {/* Name of the Day Section */}
+          {nameOfTheDay && (
+            <div className="mb-8 bg-[#F8F9FA] dark:bg-gray-800 rounded-lg p-6 border border-gray-200 dark:border-gray-700">
+              <h2 className="text-lg font-medium text-gray-600 dark:text-gray-400 mb-4">Name of the Day</h2>
+              <div className="text-3xl font-serif mb-2 text-[#333333] dark:text-gray-200">{nameOfTheDay.arabicName}</div>
+              <div className="text-xl text-[#14866D] font-medium">{nameOfTheDay.transliteration}</div>
+              <div className="text-sm text-gray-500 dark:text-gray-400 mb-2">{nameOfTheDay.pronunciation}</div>
+              <div className="text-[#333333] dark:text-gray-300">{nameOfTheDay.meaning}</div>
+            </div>
+          )}
 
           {/* Search Section */}
           <div className="mb-8">
