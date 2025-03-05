@@ -1,9 +1,10 @@
 "use client";
 import { useEffect, useRef } from "react";
 
-function SplashCursor({
+export function SplashCursor({
   SIM_RESOLUTION = 128,
   DYE_RESOLUTION = 1440,
+  CAPTURE_RESOLUTION = 512,
   DENSITY_DISSIPATION = 3.5,
   VELOCITY_DISSIPATION = 2,
   PRESSURE = 0.1,
@@ -13,7 +14,7 @@ function SplashCursor({
   SPLAT_FORCE = 6000,
   SHADING = true,
   COLOR_UPDATE_SPEED = 10,
-  BACK_COLOR = { r: 0, g: 0, b: 0 },
+  BACK_COLOR = { r: 0.5, g: 0, b: 0 },
   TRANSPARENT = true,
 }) {
   const canvasRef = useRef(null);
@@ -38,6 +39,7 @@ function SplashCursor({
     let config = {
       SIM_RESOLUTION,
       DYE_RESOLUTION,
+      CAPTURE_RESOLUTION,
       DENSITY_DISSIPATION,
       VELOCITY_DISSIPATION,
       PRESSURE,
@@ -53,7 +55,15 @@ function SplashCursor({
     };
 
     let pointers = [new pointerPrototype()];
+    let dye, velocity, divergence, curl, pressure;
+    let lastUpdateTime;
+    let colorUpdateTimer = 0;
+
     const { gl, ext } = getWebGLContext(canvas);
+    if (!ext.supportLinearFiltering) {
+      config.DYE_RESOLUTION = 256;
+      config.SHADING = false;
+    }
 
     function getWebGLContext(canvas) {
       const params = {
@@ -81,37 +91,17 @@ function SplashCursor({
       }
 
       gl.clearColor(0.0, 0.0, 0.0, 1.0);
-
-      const halfFloatTexType = isWebGL2
-        ? gl.HALF_FLOAT
-        : halfFloat.HALF_FLOAT_OES;
-
-      let formatRGBA, formatRG, formatR;
-
-      if (isWebGL2) {
-        formatRGBA = getSupportedFormat(
-          gl,
-          gl.RGBA16F,
-          gl.RGBA,
-          halfFloatTexType
-        );
-        formatRG = getSupportedFormat(gl, gl.RG16F, gl.RG, halfFloatTexType);
-        formatR = getSupportedFormat(gl, gl.R16F, gl.RED, halfFloatTexType);
-      } else {
-        formatRGBA = getSupportedFormat(gl, gl.RGBA, gl.RGBA, halfFloatTexType);
-        formatRG = getSupportedFormat(gl, gl.RGBA, gl.RGBA, halfFloatTexType);
-        formatR = getSupportedFormat(gl, gl.RGBA, gl.RGBA, halfFloatTexType);
-      }
+      const halfFloatTexType = isWebGL2 ? gl.HALF_FLOAT : halfFloat.HALF_FLOAT_OES;
 
       return {
         gl,
         ext: {
-          formatRGBA,
-          formatRG,
-          formatR,
+          formatRGBA: getSupportedFormat(gl, gl.RGBA16F, gl.RGBA, halfFloatTexType),
+          formatRG: getSupportedFormat(gl, gl.RG16F, gl.RG, halfFloatTexType),
+          formatR: getSupportedFormat(gl, gl.R16F, gl.RED, halfFloatTexType),
           halfFloatTexType,
-          supportLinearFiltering,
-        },
+          supportLinearFiltering
+        }
       };
     }
 
@@ -126,15 +116,14 @@ function SplashCursor({
             return null;
         }
       }
-
       return {
         internalFormat,
-        format,
+        format
       };
     }
 
     function supportRenderTextureFormat(gl, internalFormat, format, type) {
-      let texture = gl.createTexture();
+      const texture = gl.createTexture();
       gl.bindTexture(gl.TEXTURE_2D, texture);
       gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.NEAREST);
       gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.NEAREST);
@@ -142,27 +131,20 @@ function SplashCursor({
       gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.CLAMP_TO_EDGE);
       gl.texImage2D(gl.TEXTURE_2D, 0, internalFormat, 4, 4, 0, format, type, null);
 
-      let fbo = gl.createFramebuffer();
+      const fbo = gl.createFramebuffer();
       gl.bindFramebuffer(gl.FRAMEBUFFER, fbo);
-      gl.framebufferTexture2D(
-        gl.FRAMEBUFFER,
-        gl.COLOR_ATTACHMENT0,
-        gl.TEXTURE_2D,
-        texture,
-        0
-      );
+      gl.framebufferTexture2D(gl.FRAMEBUFFER, gl.COLOR_ATTACHMENT0, gl.TEXTURE_2D, texture, 0);
 
       const status = gl.checkFramebufferStatus(gl.FRAMEBUFFER);
       return status === gl.FRAMEBUFFER_COMPLETE;
     }
 
-    // Continue with more WebGL setup and render loop...
-    // This is a simplified version, you'll need to add the rest of the WebGL implementation
+    // Add more WebGL implementation here...  This is where the rendering logic goes.  This is incomplete.
+
 
     return () => {
-      // Cleanup WebGL context and resources
       if (gl) {
-        gl.getExtension('WEBGL_lose_context').loseContext();
+        gl.getExtension('WEBGL_lose_context')?.loseContext();
       }
     };
   }, []);
