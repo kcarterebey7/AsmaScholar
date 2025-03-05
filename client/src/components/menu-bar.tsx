@@ -20,8 +20,9 @@ export function MenuBar() {
         <div>
           {showBackButton && (
             <Link href="/">
-              <Button variant="ghost" size="icon" className="mr-2">
+              <Button variant="ghost" className="gap-2">
                 <ChevronLeft className="h-5 w-5" />
+                <span className="hidden sm:inline">Back to Home</span>
               </Button>
             </Link>
           )}
