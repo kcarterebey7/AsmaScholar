@@ -6,7 +6,21 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Link } from "wouter";
 import { classifyNames, findRelatedNameGroups } from "@/lib/nameClassification";
-import { Plus, X, Save, Edit2 } from "lucide-react";
+import { Plus, X, Save, Edit2, GripVertical } from "lucide-react";
+import {
+  DndContext,
+  DragEndEvent,
+  MouseSensor,
+  TouchSensor,
+  useSensor,
+  useSensors,
+} from "@dnd-kit/core";
+import {
+  SortableContext,
+  arrayMove,
+  verticalListSortingStrategy,
+} from "@dnd-kit/sortable";
+import { SortableName } from "@/components/sortable-name";
 
 interface CustomGroup {
   id: string;
@@ -23,6 +37,12 @@ export default function RelationshipsPage() {
   const [editingGroupId, setEditingGroupId] = useState<string | null>(null);
   const [newGroupName, setNewGroupName] = useState("");
   const [selectedNames, setSelectedNames] = useState<number[]>([]);
+
+  // Setup DnD sensors
+  const sensors = useSensors(
+    useSensor(MouseSensor),
+    useSensor(TouchSensor)
+  );
 
   // Load custom groups from localStorage
   useEffect(() => {
@@ -73,6 +93,24 @@ export default function RelationshipsPage() {
         ? prev.filter(id => id !== nameId)
         : [...prev, nameId]
     );
+  };
+
+  const handleDragEnd = (event: DragEndEvent, groupId: string) => {
+    const { active, over } = event;
+
+    if (!over || active.id === over.id) return;
+
+    const group = customGroups.find(g => g.id === groupId);
+    if (!group) return;
+
+    const oldIndex = group.nameIds.indexOf(Number(active.id));
+    const newIndex = group.nameIds.indexOf(Number(over.id));
+
+    const newNameIds = arrayMove(group.nameIds, oldIndex, newIndex);
+
+    setCustomGroups(customGroups.map(g =>
+      g.id === groupId ? { ...g, nameIds: newNameIds } : g
+    ));
   };
 
   return (
@@ -164,22 +202,27 @@ export default function RelationshipsPage() {
                       <X className="h-4 w-4" />
                     </Button>
                   </div>
-                  <div className="flex flex-wrap gap-2">
-                    {names
-                      .filter(name => group.nameIds.includes(name.id))
-                      .map(name => (
-                        <Link
-                          key={name.id}
-                          href={`/name/${name.orderNumber}`}
-                          className="px-3 py-1 bg-[#EAF3FF] dark:bg-gray-800 rounded-md text-[#14866D] hover:bg-[#D5E5FF] dark:hover:bg-gray-700 transition-colors"
-                        >
-                          <div>
-                            <div>{name.transliteration}</div>
-                            <div className="text-xs text-gray-600 dark:text-gray-400">{name.meaning}</div>
-                          </div>
-                        </Link>
-                      ))}
-                  </div>
+                  <DndContext
+                    sensors={sensors}
+                    onDragEnd={(event) => handleDragEnd(event, group.id)}
+                  >
+                    <SortableContext
+                      items={group.nameIds.map(String)}
+                      strategy={verticalListSortingStrategy}
+                    >
+                      <div className="flex flex-wrap gap-2">
+                        {names
+                          .filter(name => group.nameIds.includes(name.id))
+                          .map(name => (
+                            <SortableName
+                              key={name.id}
+                              id={String(name.id)}
+                              name={name}
+                            />
+                          ))}
+                      </div>
+                    </SortableContext>
+                  </DndContext>
                 </CardContent>
               </Card>
             ))}
