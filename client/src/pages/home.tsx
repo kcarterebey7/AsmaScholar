@@ -9,7 +9,6 @@ import { Button } from "@/components/ui/button";
 import CategorizedNames from "@/components/categorized-names";
 import { SparklesCore } from "@/components/ui/sparkles";
 import SidebarNav from "@/components/sidebar-nav";
-import { SplashCursor } from "@/components/ui/splash-cursor";
 
 export default function Home() {
   const [viewMode, setViewMode] = useState<'grid' | 'categorized'>('grid');
@@ -20,7 +19,6 @@ export default function Home() {
 
   return (
     <div className="flex h-screen overflow-hidden">
-      <SplashCursor />
       {/* Sidebar */}
       <SidebarNav />
 
