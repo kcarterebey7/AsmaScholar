@@ -16,7 +16,7 @@ function Router() {
     <div className="min-h-screen">
       <div className="flex flex-col h-screen">
         <MenuBar />
-        <div className="flex flex-1 overflow-hidden">
+        <div className="flex flex-1 overflow-hidden pt-14"> {/* Added pt-14 for menu bar height */}
           <SidebarNav />
           <main className="flex-1 px-6 pt-6 pb-8 bg-background overflow-auto">
             <Switch>
