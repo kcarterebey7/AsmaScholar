@@ -9,20 +9,24 @@ import Name from "@/pages/name";
 import Search from "@/pages/search";
 import Relationships from "@/pages/relationships";
 import SidebarNav from "@/components/sidebar-nav";
+import { MenuBar } from "@/components/menu-bar";
 
 function Router() {
   return (
     <div className="flex min-h-screen">
       <SidebarNav />
-      <main className="flex-1 px-6 py-8 bg-background">
-        <Switch>
-          <Route path="/" component={Home} />
-          <Route path="/name/:id" component={Name} />
-          <Route path="/search" component={Search} />
-          <Route path="/relationships" component={Relationships} />
-          <Route component={NotFound} />
-        </Switch>
-      </main>
+      <div className="flex-1 flex flex-col">
+        <MenuBar />
+        <main className="flex-1 px-6 py-8 bg-background mt-14">
+          <Switch>
+            <Route path="/" component={Home} />
+            <Route path="/name/:id" component={Name} />
+            <Route path="/search" component={Search} />
+            <Route path="/relationships" component={Relationships} />
+            <Route component={NotFound} />
+          </Switch>
+        </main>
+      </div>
     </div>
   );
 }
