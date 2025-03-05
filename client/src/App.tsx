@@ -17,7 +17,6 @@ function Router() {
       <div className="flex flex-col h-screen">
         <MenuBar />
         <div className="flex flex-1 overflow-hidden">
-          <SidebarNav />
           <main className="flex-1 px-6 pt-6 pb-8 bg-background overflow-auto">
             <Switch>
               <Route path="/" component={Home} />
@@ -27,6 +26,7 @@ function Router() {
               <Route component={NotFound} />
             </Switch>
           </main>
+          <SidebarNav />
         </div>
       </div>
     </div>
