@@ -45,13 +45,18 @@ export default function SidebarNav() {
             >
               <div
                 className={cn(
-                  "px-2 py-1.5 rounded-md text-sm transition-colors",
+                  "px-2 py-1.5 rounded-md transition-colors",
                   location === `/name/${name.id}`
-                    ? "bg-[#EAF3FF] dark:bg-gray-800 text-[#14866D]"
-                    : "text-[#333333] dark:text-gray-300 hover:bg-[#EAF3FF] dark:hover:bg-gray-800"
+                    ? "bg-[#EAF3FF] dark:bg-gray-800"
+                    : "hover:bg-[#EAF3FF] dark:hover:bg-gray-800"
                 )}
               >
-                {name.transliteration}
+                <div className="text-sm text-[#14866D] dark:text-[#14866D]">
+                  {name.transliteration}
+                </div>
+                <div className="text-xs text-gray-500 dark:text-gray-400">
+                  {name.meaning}
+                </div>
               </div>
             </Link>
           ))}
