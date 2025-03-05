@@ -24,7 +24,7 @@ export default function Home() {
 
       {/* Main Content */}
       <div className="flex-1 overflow-auto">
-        {/* Hero Section with Single Sparkles Effect */}
+        {/* Hero Section */}
         <div className="h-[30rem] md:h-[40rem] w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md px-4">
           <h1 className="text-4xl md:text-7xl lg:text-9xl font-bold text-center text-white relative z-20">
             99 Names
@@ -76,15 +76,18 @@ export default function Home() {
             </div>
           </div>
 
-          <SearchBox className="mb-4" />
+          {/* Search and Quote Section */}
+          <div className="space-y-8">
+            <SearchBox />
 
-          {/* Artistic Quote Section */}
-          <div className="text-center mb-12">
-            <p className="text-lg sm:text-xl md:text-2xl font-serif italic text-gray-600 dark:text-gray-400 relative">
-              <span className="relative before:content-['\u201C'] before:absolute before:-left-4 before:-top-2 before:text-3xl before:text-gray-300 dark:before:text-gray-600 after:content-['\u201D'] after:absolute after:-right-4 after:-top-2 after:text-3xl after:text-gray-300 dark:after:text-gray-600">
-                And these soul attributes become a body beautiful
-              </span>
-            </p>
+            {/* Artistic Quote */}
+            <div className="text-center py-4">
+              <p className="text-lg sm:text-xl md:text-2xl font-serif italic text-gray-600 dark:text-gray-400 relative inline-block">
+                <span className="relative before:content-['\u201C'] before:absolute before:-left-4 before:-top-2 before:text-3xl before:text-gray-300 dark:before:text-gray-600 after:content-['\u201D'] after:absolute after:-right-4 after:-top-2 after:text-3xl after:text-gray-300 dark:after:text-gray-600">
+                  And these soul attributes become a body beautiful
+                </span>
+              </p>
+            </div>
           </div>
 
           {/* Names Grid/List */}
