@@ -1,5 +1,4 @@
-import { motion } from "framer-motion";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/card";
 import type { Name } from "@shared/schema";
 import { Link } from "wouter";
 
@@ -9,38 +8,29 @@ interface NameOfTheDayProps {
 
 export function NameOfTheDay({ name }: NameOfTheDayProps) {
   return (
-    <motion.div
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.6 }}
-    >
-      <Card className="overflow-hidden bg-gradient-to-br from-background to-secondary/20">
-        <CardHeader className="space-y-1">
-          <CardTitle className="text-2xl font-serif text-center">Name of the Day</CardTitle>
-        </CardHeader>
-        <CardContent className="space-y-4">
-          <div className="text-center space-y-2">
-            <h3 className="text-4xl font-serif text-primary">{name.arabicName}</h3>
-            <p className="text-2xl font-medium text-foreground/80">{name.transliteration}</p>
-            <p className="text-sm text-muted-foreground italic">{name.pronunciation}</p>
-          </div>
-          
-          <div className="space-y-2 text-center">
-            <p className="text-lg font-medium">{name.meaning}</p>
-            <p className="text-sm text-muted-foreground line-clamp-3">{name.description}</p>
+    <Card className="bg-background border-2">
+      <CardContent className="p-6">
+        <div className="space-y-4">
+          <h2 className="text-2xl font-semibold text-center mb-4">Name of the Day</h2>
+
+          <div className="text-center">
+            <div className="text-3xl font-arabic mb-2">{name.arabicName}</div>
+            <div className="text-xl font-medium text-primary">{name.transliteration}</div>
+            <div className="text-sm text-muted-foreground">{name.pronunciation}</div>
           </div>
 
-          <Link href={`/name/${name.orderNumber}`}>
-            <motion.button
-              whileHover={{ scale: 1.02 }}
-              whileTap={{ scale: 0.98 }}
-              className="w-full py-2 px-4 bg-primary text-primary-foreground rounded-md hover:bg-primary/90 transition-colors"
-            >
-              Learn More
-            </motion.button>
-          </Link>
-        </CardContent>
-      </Card>
-    </motion.div>
+          <div className="text-center mt-4">
+            <div className="font-medium">{name.meaning}</div>
+            <p className="text-sm text-muted-foreground mt-2">{name.description}</p>
+          </div>
+
+          <div className="flex justify-center mt-4">
+            <Link href={`/name/${name.orderNumber}`} className="text-primary hover:underline">
+              Learn More →
+            </Link>
+          </div>
+        </div>
+      </CardContent>
+    </Card>
   );
 }
