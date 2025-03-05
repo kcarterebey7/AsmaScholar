@@ -34,7 +34,7 @@ export function MenuBar() {
                 <Menu className="h-5 w-5" />
               </Button>
             </DropdownMenuTrigger>
-            <DropdownMenuContent align="end">
+            <DropdownMenuContent align="end" className="w-56">
               <DropdownMenuItem asChild>
                 <Link href="/search" className="w-full cursor-pointer">
                   Search Names

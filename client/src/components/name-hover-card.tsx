@@ -9,7 +9,7 @@ interface NameHoverCardProps {
 
 export function NameHoverCard({ name, children }: NameHoverCardProps) {
   return (
-    <HoverCard>
+    <HoverCard openDelay={100}>
       <HoverCardTrigger asChild>
         {children}
       </HoverCardTrigger>
@@ -24,7 +24,7 @@ export function NameHoverCard({ name, children }: NameHoverCardProps) {
             <div className="text-sm font-medium text-primary">{name.transliteration}</div>
             <div className="text-xs text-muted-foreground">{name.pronunciation}</div>
           </div>
-          
+
           <div className="space-y-2">
             <div className="text-sm font-medium">{name.meaning}</div>
             <p className="text-xs text-muted-foreground line-clamp-3">{name.description}</p>
