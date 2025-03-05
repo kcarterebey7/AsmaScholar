@@ -15,9 +15,9 @@ function Router() {
   return (
     <div className="flex min-h-screen">
       <SidebarNav />
-      <div className="flex-1 flex flex-col">
+      <div className="flex-1 flex flex-col relative">
         <MenuBar />
-        <main className="flex-1 px-6 py-8 bg-background mt-14">
+        <main className="flex-1 px-6 pt-20 pb-8 bg-background">
           <Switch>
             <Route path="/" component={Home} />
             <Route path="/name/:id" component={Name} />
