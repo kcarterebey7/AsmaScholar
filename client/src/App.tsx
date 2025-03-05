@@ -17,8 +17,10 @@ function Router() {
       <div className="flex flex-col h-screen">
         <MenuBar />
         <div className="flex flex-1 overflow-hidden pt-14"> {/* Added pt-14 for menu bar height */}
-          <SidebarNav />
-          <main className="flex-1 px-6 pt-6 pb-8 bg-background overflow-auto">
+          <div className="hidden md:block">
+            <SidebarNav />
+          </div>
+          <main className="flex-1 px-4 md:px-6 pt-6 pb-8 bg-background overflow-auto">
             <Switch>
               <Route path="/" component={Home} />
               <Route path="/name/:id" component={Name} />

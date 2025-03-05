@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <div className="flex-1 overflow-auto">
       <div className="container mx-auto px-4 py-8">
-        <h1 className="text-4xl font-serif text-center mb-8">
+        <h1 className="text-3xl md:text-4xl font-serif text-center mb-8">
           99 Names of the Body Beautiful
         </h1>
 
@@ -27,7 +27,7 @@ export default function Home() {
             <div>Loading names...</div>
           ) : (
             names?.map((name) => (
-              <Link key={name.id} href={`/name/${name.id}`}>
+              <Link key={name.id} href={`/name/${name.orderNumber}`}>
                 <Card className="h-full hover:shadow-md transition-shadow">
                   <CardContent className="p-4">
                     <div className="text-xl font-arabic">{name.arabicName}</div>
