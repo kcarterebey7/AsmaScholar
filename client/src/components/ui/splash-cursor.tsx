@@ -63,9 +63,3 @@ export function SplashCursor() {
     </AnimatePresence>
   );
 }
-
-export function NoiseDemo() {
-  return (
-    <SplashCursor />
-  );
-}
