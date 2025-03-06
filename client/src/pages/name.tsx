@@ -4,6 +4,7 @@ import type { Name } from "@shared/schema";
 import { Card, CardContent } from "@/components/ui/card";
 import { ArrowLeft } from "lucide-react";
 import HighlightedText from "@/components/highlighted-text";
+import { QuranVerses } from "@/components/quran-verses";
 
 export default function NamePage() {
   const { id } = useParams();
@@ -97,6 +98,9 @@ export default function NamePage() {
                 </p>
               </>
             )}
+
+            {/* Quranic Verses Section */}
+            <QuranVerses name={name} />
           </div>
 
           {/* Related Names Section */}

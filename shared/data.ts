@@ -13,7 +13,21 @@ export const namesData: InsertName[] = [
     technique: "Practice loving-kindness meditation, starting with yourself and gradually expanding to include all beings. Begin each day by setting an intention to embody divine mercy in your interactions. When faced with difficulty, pause and ask: 'How would infinite compassion respond in this moment?' Let your heart soften and expand beyond its usual limits.",
     relatedNames: ["Ar-Raheem", "Al-Latif", "Al-Wadud"],
     orderNumber: 1,
-    category: nameCategories.MERCY
+    category: nameCategories.MERCY,
+    quranVerses: [
+      {
+        verse: "In the name of Allah, the Most Gracious, the Most Merciful",
+        reference: "1:1",
+        arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+        explanation: "This verse, known as the Bismillah, appears at the beginning of 113 chapters of the Quran, emphasizing the all-encompassing nature of divine mercy."
+      },
+      {
+        verse: "The Most Merciful, taught the Quran, created man, taught him eloquence.",
+        reference: "55:1-4",
+        arabicText: "الرَّحْمَٰنُ عَلَّمَ الْقُرْآنَ خَلَقَ الْإِنسَانَ عَلَّمَهُ الْبَيَانَ",
+        explanation: "These verses directly connect Ar-Rahman with divine teaching and the creation of humanity, showing how mercy manifests through knowledge and understanding."
+      }
+    ]
   },
   {
     arabicName: "الرَّحِيمُ",
@@ -26,7 +40,21 @@ export const namesData: InsertName[] = [
     technique: "When reciting this name, envision divine mercy as a healing light penetrating every cell of your being. Practice random acts of kindness with focused attention on the recipient's heart. Before sleep, review your day and send healing mercy to any situations or relationships that need resolution.",
     relatedNames: ["Ar-Rahman", "Al-Latif", "Al-Wadud"],
     orderNumber: 2,
-    category: nameCategories.MERCY
+    category: nameCategories.MERCY,
+    quranVerses: [
+      {
+        verse: "And He is ever Merciful to the believers.",
+        reference: "33:43",
+        arabicText: "وَكَانَ بِالْمُؤْمِنِينَ رَحِيمًا",
+        explanation: "This verse emphasizes the special mercy that Allah shows to the believers, highlighting the nurturing aspect of divine compassion."
+      },
+      {
+        verse: "My mercy embraces all things.",
+        reference: "7:156",
+        arabicText: "وَرَحْمَتِي وَسِعَتْ كُلَّ شَيْءٍ",
+        explanation: "This verse reveals the all-encompassing nature of divine mercy, showing how it extends to every aspect of creation."
+      }
+    ]
   },
   {
     arabicName: "الْمَلِكُ",

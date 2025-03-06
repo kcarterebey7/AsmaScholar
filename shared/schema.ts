@@ -3,6 +3,14 @@ import { sql } from "drizzle-orm";
 import { createInsertSchema } from "drizzle-zod";
 import { z } from "zod";
 
+// Define the QuranVerse type
+interface QuranVerse {
+  verse: string;
+  reference: string;
+  arabicText: string;
+  explanation: string;
+}
+
 export const names = pgTable("names", {
   id: serial("id").primaryKey(),
   arabicName: text("arabic_name").notNull(),
@@ -16,10 +24,17 @@ export const names = pgTable("names", {
   relatedNames: text("related_names").notNull().$type<string[]>(),
   orderNumber: integer("order_number").notNull(),
   category: text("category").notNull(),
+  quranVerses: text("quran_verses").$type<QuranVerse[]>(),
 });
 
 export const insertNameSchema = createInsertSchema(names, {
-  relatedNames: z.array(z.string())
+  relatedNames: z.array(z.string()),
+  quranVerses: z.array(z.object({
+    verse: z.string(),
+    reference: z.string(),
+    arabicText: z.string(),
+    explanation: z.string()
+  })).optional()
 }).omit({ id: true });
 
 export type InsertName = z.infer<typeof insertNameSchema>;
