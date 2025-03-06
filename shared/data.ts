@@ -363,10 +363,186 @@ export const namesData: InsertName[] = [
     description: "The All-Hearing - The One who hears all things that are heard by His eternal hearing without an ear, instrument or organ.",
     detailedExplanation: "As-Sami', the All-Hearing, represents God's awareness of all sounds and whispers.  This name reminds us that our prayers, hopes, and concerns are always heard by God, even the unspoken ones.  It inspires trust and faith in the Divine's attentiveness.",
     innerMeaning: "This name connects you to the divine capacity to listen deeply and compassionately.  It's about recognizing the importance of active listening and creating space for others to share their thoughts and feelings. It's about creating a safe space for vulnerability.",
-    technique: "Practice active listening.  Pay close attention to what others are saying, both verbally and nonverbally.  Create space for others to share their thoughts and feelings without judgment. When faced with conflict, remember that listening is a powerful tool for resolution.",
+    technique: "Practice active listening. Pay close attention to what others are saying, both verbally and nonverbally. Create space for others to share their thoughts and feelings without judgment. When faced with conflict, remember that listening is a powerful tool for resolution.",
     relatedNames: ["Al-Basir", "Al-Khabir"],
     orderNumber: 26,
-    category: nameCategories.ATTRIBUTES
+    category: nameCategories.ATTRIBUTES,
+    quranVerses: [
+      {
+        verse: "Indeed, Allah is ever Hearing and Seeing.",
+        reference: "4:58", 
+        arabicText: "إِنَّ اللَّهَ كَانَ سَمِيعًا بَصِيرًا",
+        explanation: "This verse emphasizes Allah's perfect ability to hear all things, highlighting the comprehensive nature of divine hearing."
+      },
+      {
+        verse: "Our Lord, indeed You are the Hearing, the Knowing.",
+        reference: "2:127",
+        arabicText: "رَبَّنَا تَقَبَّلْ مِنَّا ۖ إِنَّكَ أَنتَ السَّمِيعُ الْعَلِيمُ",
+        explanation: "This prayer of Ibrahim emphasizes how Allah hears all supplications and knows the intentions behind them."
+      }
+    ]
+  },
+  {
+    arabicName: "الْمُتَعَالِي",
+    transliteration: "Al-Muta'ali",
+    pronunciation: "al-mu-ta-AA-li",
+    meaning: "The Most Exalted",
+    description: "The Most Exalted - The One who is clear from the attributes of the creation.",
+    detailedExplanation: "Al-Muta'ali, the Most Exalted, signifies God's transcendence and superiority over all creation. This name reminds us that God is beyond human comprehension, exceeding all limitations and boundaries. It inspires humility and reverence for the Divine's supreme authority.",
+    innerMeaning: "This name connects you to the divine capacity for transcendence and elevation. It's about rising above limitations and embracing your full potential. It's about living a life of purpose and meaning, guided by your highest aspirations.",
+    technique: "Practice mindfulness and meditation to connect with your higher self. Set ambitious goals and work towards them with unwavering determination. When faced with limitations, remember that your capacity for transcendence is limitless.",
+    relatedNames: ["Al-Ali", "Al-Kabir"],
+    orderNumber: 78,
+    category: nameCategories.GREATNESS,
+    quranVerses: [
+      {
+        verse: "He is the Grand, the Exalted.",
+        reference: "13:9",
+        arabicText: "الْكَبِيرُ الْمُتَعَالِ",
+        explanation: "This verse directly mentions the name Al-Muta'ali, emphasizing Allah's supreme elevation above all creation."
+      },
+      {
+        verse: "[He is] Knower of the unseen and the witnessed, the Grand, the Exalted.",
+        reference: "13:9",
+        arabicText: "عَالِمُ الْغَيْبِ وَالشَّهَادَةِ الْكَبِيرُ الْمُتَعَالِ",
+        explanation: "This verse connects Allah's exalted nature with His comprehensive knowledge of all things, visible and invisible."
+      }
+    ]
+  },
+  {
+    arabicName: "الْبَرُّ",
+    transliteration: "Al-Barr",
+    pronunciation: "al-BARR",
+    meaning: "The Source of All Good",
+    description: "The Source of All Good - The One who is kind to His creatures, who covered them with His sustenance and specified whoever He willed among them by His support, protection, and special mercy.",
+    detailedExplanation: "Al-Barr, the Source of All Good, emphasizes God's inherent goodness and benevolence. This name reminds us that God is the source of all blessings and kindness, showering His creation with His mercy and compassion. It inspires gratitude and a deeper appreciation for God's goodness.",
+    innerMeaning: "This name connects you to the divine source of goodness and benevolence. It's about recognizing your own capacity for kindness and compassion, and extending that to others. It's about living a life of service and generosity.",
+    technique: "Practice acts of kindness and compassion. Share your time, talents, and resources with others. When faced with negativity, remember that your capacity for goodness is limitless.",
+    relatedNames: ["Ar-Rahman", "Ar-Rahim", "Al-Karim"],
+    orderNumber: 79,
+    category: nameCategories.GOODNESS,
+    quranVerses: [
+      {
+        verse: "Indeed, He is the Most Beneficent, the Most Merciful.",
+        reference: "52:28",
+        arabicText: "إِنَّهُ هُوَ الْبَرُّ الرَّحِيمُ",
+        explanation: "This verse directly mentions Al-Barr, highlighting Allah's perfect benevolence and mercy towards His creation."
+      },
+      {
+        verse: "And We will increase them from Our bounty, and indeed, Allah is Forgiving and Appreciative.",
+        reference: "35:30",
+        arabicText: "وَيَزِيدَهُم مِّن فَضْلِهِ ۚ إِنَّهُ غَفُورٌ شَكُورٌ",
+        explanation: "This verse demonstrates Allah's boundless generosity and kindness towards those who do good."
+      }
+    ]
+  },
+  {
+    arabicName: "الْعَفُوُّ",
+    transliteration: "Al-'Afuw",
+    pronunciation: "al-a-FOO",
+    meaning: "The Pardoner",
+    description: "The Pardoner - The One who forgives a lot and erases the traces of sins.",
+    detailedExplanation: "Al-'Afuw, the Pardoner, signifies God's capacity to forgive and erase sins completely. This name offers comfort and hope, reminding us that God's forgiveness is total and complete, erasing the traces of past transgressions. It encourages repentance and a renewed commitment to righteousness.",
+    innerMeaning: "This name connects you to the divine capacity for forgiveness and compassion.  It's about recognizing the importance of letting go of resentment and embracing compassion, both towards yourself and others. It's about healing and release.",
+    technique: "Practice self-forgiveness and compassion.  Let go of past mistakes and embrace the opportunity for growth. When faced with the transgressions of others, extend forgiveness and compassion. Remember that true forgiveness sets you free.",
+    relatedNames: ["Al-Ghaffar", "At-Tawwab"],
+    orderNumber: 82,
+    category: nameCategories.FORGIVENESS,
+    quranVerses: [
+      {
+        verse: "Indeed, Allah is ever Pardoning and Competent.",
+        reference: "4:149",
+        arabicText: "فَإِنَّ اللَّهَ كَانَ عَفُوًّا قَدِيرًا",
+        explanation: "This verse emphasizes Allah's perfect ability to pardon and forgive, showing how divine forgiveness is coupled with power."
+      },
+      {
+        verse: "Let them pardon and overlook. Would you not love that Allah should forgive you?",
+        reference: "24:22",
+        arabicText: "وَلْيَعْفُوا وَلْيَصْفَحُوا ۗ أَلَا تُحِبُّونَ أَن يَغْفِرَ اللَّهُ لَكُمْ",
+        explanation: "This verse connects human forgiveness with divine forgiveness, encouraging believers to embody this divine attribute."
+      }
+    ]
+  },
+  {
+    arabicName: "الرَّؤُوفُ",
+    transliteration: "Ar-Ra'uf",
+    pronunciation: "ar-ra-OO",
+    meaning: "The Most Kind",
+    description: "The Most Kind - The One who is very compassionate with His creatures.",
+    detailedExplanation: "Ar-Ra'uf, the Most Kind, emphasizes God's compassionate and merciful nature.",
+    innerMeaning: "This name connects you to the boundless kindness and compassion of the divine.",
+    technique: "Practice extending kindness and compassion to others.",
+    relatedNames: ["Ar-Rahman", "Ar-Rahim"],
+    orderNumber: 83,
+    category: nameCategories.MERCY,
+    quranVerses: [
+      {
+        verse: "Indeed, Allah is Most Kind and Most Merciful to the people.",
+        reference: "2:143",
+        arabicText: "إِنَّ اللَّهَ بِالنَّاسِ لَرَءُوفٌ رَّحِيمٌ",
+        explanation: "This verse highlights Allah's kindness and mercy towards humanity, showing the depth of divine compassion."
+      },
+      {
+        verse: "And [Allah is] Most Kind and Most Merciful to the believers.",
+        reference: "9:117",
+        arabicText: "إِنَّهُ بِهِمْ رَءُوفٌ رَّحِيمٌ",
+        explanation: "This verse emphasizes the special kindness that Allah shows to the believers, demonstrating His nurturing care."
+      }
+    ]
+  },
+  {
+    arabicName: "الْعَفُوُّ",
+    transliteration: "Al-'Afuw",
+    pronunciation: "al-a-FOO",
+    meaning: "The Pardoner",
+    description: "The Pardoner - The One who forgives a lot and erases the traces of sins.",
+    detailedExplanation: "Al-'Afuw, the Pardoner, signifies God's capacity to forgive and erase sins completely. This name offers comfort and hope, reminding us that God's forgiveness is total and complete, erasing the traces of past transgressions. It encourages repentance and a renewed commitment to righteousness.",
+    innerMeaning: "This name connects you to the divine capacity for forgiveness and compassion.  It's about recognizing the importance of letting go of resentment and embracing compassion, both towards yourself and others. It's about healing and release.",
+    technique: "Practice self-forgiveness and compassion.  Let go of past mistakes and embrace the opportunity for growth. When faced with the transgressions of others, extend forgiveness and compassion. Remember that true forgiveness sets you free.",
+    relatedNames: ["Al-Ghaffar", "At-Tawwab"],
+    orderNumber: 82,
+    category: nameCategories.FORGIVENESS,
+    quranVerses: [
+      {
+        verse: "Indeed, Allah is ever Pardoning and Competent.",
+        reference: "4:149",
+        arabicText: "فَإِنَّ اللَّهَ كَانَ عَفُوًّا قَدِيرًا",
+        explanation: "This verse emphasizes Allah's perfect ability to pardon and forgive, showing how divine forgiveness is coupled with power."
+      },
+      {
+        verse: "Let them pardon and overlook. Would you not love that Allah should forgive you?",
+        reference: "24:22",
+        arabicText: "وَلْيَعْفُوا وَلْيَصْفَحُوا ۗ أَلَا تُحِبُّونَ أَن يَغْفِرَ اللَّهُ لَكُمْ",
+        explanation: "This verse connects human forgiveness with divine forgiveness, encouraging believers to embody this divine attribute."
+      }
+    ]
+  },
+  {
+    arabicName: "الرَّؤُوفُ",
+    transliteration: "Ar-Ra'uf",
+    pronunciation: "ar-ra-OO",
+    meaning: "The Most Kind",
+    description: "The Most Kind - The One who is very compassionate with His creatures.",
+    detailedExplanation: "Ar-Ra'uf, the Most Kind, emphasizes God's compassionate and merciful nature.",
+    innerMeaning: "This name connects you to the boundless kindness and compassion of the divine.",
+    technique: "Practice extending kindness and compassion to others.",
+    relatedNames: ["Ar-Rahman", "Ar-Rahim"],
+    orderNumber: 83,
+    category: nameCategories.MERCY,
+    quranVerses: [
+      {
+        verse: "Indeed, Allah is Most Kind and Most Merciful to the people.",
+        reference: "2:143",
+        arabicText: "إِنَّ اللَّهَ بِالنَّاسِ لَرَءُوفٌ رَّحِيمٌ",
+        explanation: "This verse highlights Allah's kindness and mercy towards humanity, showing the depth of divine compassion."
+      },
+      {
+        verse: "And [Allah is] Most Kind and Most Merciful to the believers.",
+        reference: "9:117",
+        arabicText: "إِنَّهُ بِهِمْ رَءُوفٌ رَّحِيمٌ",
+        explanation: "This verse emphasizes the special kindness that Allah shows to the believers, demonstrating His nurturing care."
+      }
+    ]
   },
   {
     arabicName: "الْبَصِيرُ",
@@ -379,7 +555,21 @@ export const namesData: InsertName[] = [
     technique: "Practice cultivating clarity and discernment.  Pay attention to details and seek to understand the underlying causes of events.  When faced with deception, remember that your capacity for clear vision is a gift from the divine.",
     relatedNames: ["As-Sami", "Ash-Shahid"],
     orderNumber: 27,
-    category: nameCategories.ATTRIBUTES
+    category: nameCategories.ATTRIBUTES,
+    quranVerses: [
+      {
+        verse: "Vision perceives Him not, but He perceives [all] vision; and He is the Subtle, the Acquainted.",
+        reference: "6:103",
+        arabicText: "لَّا تُدْرِكُهُ الْأَبْصَارُ وَهُوَ يُدْرِكُ الْأَبْصَارَ ۖ وَهُوَ اللَّطِيفُ الْخَبِيرُ",
+        explanation: "This verse highlights Allah's perfect vision and knowledge, which transcends human limitations."
+      },
+      {
+        verse: "And Allah is Seeing of what you do.",
+        reference: "2:237",
+        arabicText: "إِنَّ اللَّهَ بِمَا تَعْمَلُونَ بَصِيرٌ",
+        explanation: "This verse reminds us that Allah sees all our actions and deeds, emphasizing divine awareness and observation."
+      }
+    ]
   },
   {
     arabicName: "الْحَكَمُ",
@@ -392,7 +582,21 @@ export const namesData: InsertName[] = [
     technique: "Practice impartiality and fairness in your judgments.  Seek to understand all sides of a situation before forming an opinion.  When faced with conflict, remember that justice is a reflection of the divine will.",
     relatedNames: ["Al-Adl", "Al-Muqsit"],
     orderNumber: 28,
-    category: nameCategories.JUDGEMENT
+    category: nameCategories.JUDGEMENT,
+    quranVerses: [
+      {
+        verse: "Is not Allah the most just of judges?",
+        reference: "95:8",
+        arabicText: "أَلَيْسَ اللَّهُ بِأَحْكَمِ الْحَاكِمِينَ",
+        explanation: "This rhetorical question affirms Allah's position as the ultimate and most just judge."
+      },
+      {
+        verse: "And He is the best of judges.",
+        reference: "7:87",
+        arabicText: "وَهُوَ خَيْرُ الْحَاكِمِينَ",
+        explanation: "This verse emphasizes Allah's supreme authority in judgment and His perfect justice."
+      }
+    ]
   },
   {
     arabicName: "الْعَدْلُ",
