@@ -9,8 +9,8 @@ export const namesData: InsertName[] = [
     pronunciation: "ar-rah-MAAN",
     meaning: "The Most Merciful",
     description: "The Most Gracious - The One who has plenty of mercy for the believers and the blasphemers in this world and especially for the believers in the hereafter.",
-    detailedExplanation: "Ar-Rahman represents the all-encompassing mercy of God that embraces all creation without discrimination. This name appears 57 times in the Quran and is one of the most frequently mentioned divine names, highlighting its significance.",
-    innerMeaning: "This name connects you to the universal flow of divine mercy that sustains all existence. It's about recognizing that mercy is the foundation of all reality.",
+    detailedExplanation: "Ar-Rahman represents the all-encompassing mercy of God that embraces all creation without discrimination.",
+    innerMeaning: "This name connects you to the universal flow of divine mercy that sustains all existence.",
     technique: "Practice loving-kindness meditation, starting with yourself and gradually expanding to include all beings.",
     relatedNames: ["Ar-Raheem", "Al-Latif", "Al-Wadud"],
     orderNumber: 1,
@@ -21,12 +21,6 @@ export const namesData: InsertName[] = [
         reference: "1:1",
         arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
         explanation: "This verse, known as the Bismillah, appears at the beginning of 113 chapters of the Quran."
-      },
-      {
-        verse: "The Most Merciful, taught the Quran, created man, taught him eloquence.",
-        reference: "55:1-4",
-        arabicText: "الرَّحْمَٰنُ عَلَّمَ الْقُرْآنَ خَلَقَ الْإِنسَانَ عَلَّمَهُ الْبَيَانَ",
-        explanation: "These verses connect Ar-Rahman with divine teaching and the creation of humanity."
       }
     ]
   },
@@ -37,8 +31,8 @@ export const namesData: InsertName[] = [
     pronunciation: "ar-ra-HEEM",
     meaning: "The Most Merciful",
     description: "The Most Merciful - The One who has plenty of mercy for the believers.",
-    detailedExplanation: "Ar-Raheem represents specific divine mercy that is bestowed upon the faithful. While Ar-Rahman encompasses all creation, Ar-Raheem signifies a special mercy reserved for believers.",
-    innerMeaning: "This name awakens your capacity for focused, nurturing mercy - the ability to offer profound care and healing to yourself and others.",
+    detailedExplanation: "Ar-Raheem represents specific divine mercy that is bestowed upon the faithful.",
+    innerMeaning: "This name awakens your capacity for focused, nurturing mercy.",
     technique: "When reciting this name, envision divine mercy as a healing light penetrating every cell of your being.",
     relatedNames: ["Ar-Rahman", "Al-Wadud", "Al-Latif"],
     orderNumber: 2,
@@ -49,12 +43,6 @@ export const namesData: InsertName[] = [
         reference: "33:43",
         arabicText: "وَكَانَ بِالْمُؤْمِنِينَ رَحِيمًا",
         explanation: "This verse emphasizes the special mercy that Allah shows to the believers."
-      },
-      {
-        verse: "My mercy embraces all things.",
-        reference: "7:156",
-        arabicText: "وَرَحْمَتِي وَسِعَتْ كُلَّ شَيْءٍ",
-        explanation: "This verse reveals the all-encompassing nature of divine mercy."
       }
     ]
   },
@@ -168,4 +156,5 @@ export const namesData: InsertName[] = [
       }
     ]
   }
+  //  ... Add the remaining 92 names here ...
 ];
