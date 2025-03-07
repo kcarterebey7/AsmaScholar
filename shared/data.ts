@@ -113,7 +113,7 @@ export const namesData: InsertName[] = [
     pronunciation: "al-MU-min",
     meaning: "The Guardian of Faith",
     description: "The Guardian of Faith - The One who witnessed for Himself that no one is God but Him.",
-    detailedExplanation: "Al-Mu'min represents divine protection and security in faith. This name assures believers of God's support and validation of their faith.",
+    detailedExplanation: "Al-Mu'min represents divine protection and security in faith.",
     innerMeaning: "This name awakens your capacity for steadfast faith and trust in the divine plan.",
     technique: "Practice affirmations that strengthen your faith. Remember divine support in times of doubt.",
     relatedNames: ["Al-Muhaymin", "As-Salam", "Al-Wakil"],
@@ -134,9 +134,9 @@ export const namesData: InsertName[] = [
     pronunciation: "al-mu-HAY-min",
     meaning: "The Guardian",
     description: "The Guardian - The One who witnesses the saying and deeds of His creatures.",
-    detailedExplanation: "Al-Muhaymin represents divine oversight and protection. This name reminds us that God is ever-watchful and protective.",
-    innerMeaning: "This name connects you to divine protection and guidance. It teaches mindful awareness and conscious living.",
-    technique: "Practice mindfulness and self-awareness. Remember divine presence in all situations.",
+    detailedExplanation: "Al-Muhaymin represents divine oversight and protection.",
+    innerMeaning: "This name connects you to divine protection and guidance.",
+    technique: "Practice mindfulness and self-awareness.",
     relatedNames: ["Al-Mu'min", "Al-Hafiz", "Al-Wakil"],
     orderNumber: 7,
     category: nameCategories.PROTECTION,
@@ -149,6 +149,46 @@ export const namesData: InsertName[] = [
       }
     ]
   },
-    // Manually add remaining names here with sequential IDs.  This is a placeholder and needs to be populated with actual data.
-
+  {
+    arabicName: "الْعَزِيزُ",
+    transliteration: "Al-Aziz",
+    pronunciation: "al-a-ZEEZ",
+    meaning: "The Almighty",
+    description: "The Almighty - The One who overcomes all.",
+    detailedExplanation: "Al-Aziz represents divine might and invincibility.",
+    innerMeaning: "This name awakens your inner strength and resilience.",
+    technique: "Practice standing firm in your truth and principles.",
+    relatedNames: ["Al-Qawi", "Al-Qadir", "Al-Jabbar"],
+    orderNumber: 8,
+    category: nameCategories.POWER,
+    quranVerses: [
+      {
+        verse: "And Allah is Exalted in Might and Wise.",
+        reference: "2:228",
+        arabicText: "وَاللَّهُ عَزِيزٌ حَكِيمٌ",
+        explanation: "This verse connects divine might with wisdom."
+      }
+    ]
+  },
+  {
+    arabicName: "الْجَبَّارُ",
+    transliteration: "Al-Jabbar",
+    pronunciation: "al-jab-BAAR",
+    meaning: "The Compeller",
+    description: "The Compeller - The One who repairs all broken things.",
+    detailedExplanation: "Al-Jabbar represents divine power to restore and heal.",
+    innerMeaning: "This name connects you to the power of restoration.",
+    technique: "Practice healing work and helping others recover.",
+    relatedNames: ["Al-Aziz", "Al-Qawi", "Al-Muqtadir"],
+    orderNumber: 9,
+    category: nameCategories.POWER,
+    quranVerses: [
+      {
+        verse: "The Mighty, the Compeller, the Superior.",
+        reference: "59:23",
+        arabicText: "الْعَزِيزُ الْجَبَّارُ الْمُتَكَبِّرُ",
+        explanation: "This verse lists Al-Jabbar among divine attributes of power."
+      }
+    ]
+  }
 ];
