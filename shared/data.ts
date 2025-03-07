@@ -3,12 +3,11 @@ import { nameCategories } from "./schema";
 
 export const namesData: InsertName[] = [
   {
-    id: 1,
     arabicName: "الرَّحْمَنُ",
     transliteration: "Ar-Rahman",
     pronunciation: "ar-rah-MAAN",
     meaning: "The Most Merciful",
-    description: "The Most Gracious - The One who has plenty of mercy for the believers and the blasphemers in this world and especially for the believers in the hereafter.",
+    description: "The Most Gracious - The One who has plenty of mercy for all creation.",
     detailedExplanation: "Ar-Rahman represents the all-encompassing mercy of God that embraces all creation without discrimination.",
     innerMeaning: "This name connects you to the universal flow of divine mercy that sustains all existence.",
     technique: "Practice loving-kindness meditation, starting with yourself and gradually expanding to include all beings.",
@@ -25,7 +24,6 @@ export const namesData: InsertName[] = [
     ]
   },
   {
-    id: 2,
     arabicName: "الرَّحِيمُ",
     transliteration: "Ar-Raheem",
     pronunciation: "ar-ra-HEEM",
@@ -47,15 +45,14 @@ export const namesData: InsertName[] = [
     ]
   },
   {
-    id: 3,
     arabicName: "الْمَلِكُ",
     transliteration: "Al-Malik",
     pronunciation: "al-MA-lik",
     meaning: "The King",
     description: "The King - The One with complete dominion, whose dominion is clear from imperfection.",
-    detailedExplanation: "Al-Malik signifies absolute sovereignty and perfect governance. This name reminds us that God's rule is just and unwavering.",
+    detailedExplanation: "Al-Malik signifies absolute sovereignty and perfect governance.",
     innerMeaning: "Within you resides an inner sovereignty - the capacity to govern yourself with wisdom and justice.",
-    technique: "Practice mindful leadership in all areas of life. Cultivate inner authority through self-discipline and noble character.",
+    technique: "Practice mindful leadership in all areas of life. Cultivate inner authority through self-discipline.",
     relatedNames: ["Al-Maalik", "Al-Aziz", "Al-Jabbar"],
     orderNumber: 3,
     category: nameCategories.POWER,
@@ -69,7 +66,6 @@ export const namesData: InsertName[] = [
     ]
   },
   {
-    id: 4,
     arabicName: "الْقُدُّوسُ",
     transliteration: "Al-Quddus",
     pronunciation: "al-QUDD-oos",
@@ -91,7 +87,6 @@ export const namesData: InsertName[] = [
     ]
   },
   {
-    id: 5,
     arabicName: "السَّلاَمُ",
     transliteration: "As-Salam",
     pronunciation: "as-sa-LAAM",
@@ -113,7 +108,6 @@ export const namesData: InsertName[] = [
     ]
   },
   {
-    id: 6,
     arabicName: "الْمُؤْمِنُ",
     transliteration: "Al-Mu'min",
     pronunciation: "al-MU-min",
@@ -135,7 +129,6 @@ export const namesData: InsertName[] = [
     ]
   },
   {
-    id: 7,
     arabicName: "الْمُهَيْمِنُ",
     transliteration: "Al-Muhaymin",
     pronunciation: "al-mu-HAY-min",
@@ -155,6 +148,7 @@ export const namesData: InsertName[] = [
         explanation: "This verse shows how the divine guardian watches over and protects revelation."
       }
     ]
-  }
-  //  ... Add the remaining 92 names here ...
+  },
+    // Manually add remaining names here with sequential IDs.  This is a placeholder and needs to be populated with actual data.
+
 ];
