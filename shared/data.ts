@@ -657,7 +657,7 @@ export const namesData: InsertName[] = [
     arabicName: "الْحَلِيمُ",
     transliteration: "Al-Halim",
     pronunciation: "al-ha-LEEM",
-    meaning: "The Forbearing",
+    meaning: "TheForbearing",
     description: "The Forbearing - The One who delays punishment for those who deserve it and then might forgive them.",
     detailedExplanation: "Al-Halim represents divine patience and forbearance.",
     innerMeaning: "This name awakens patience and tolerance.",
@@ -1154,6 +1154,426 @@ export const namesData: InsertName[] = [
         reference: "47:11",
         arabicText: "ذَٰلِكَ بِأَنَّ اللَّهَ مَوْلَى الَّذِينَ آمَنُوا",
         explanation: "This verse affirms Allah's guardianship of believers."
+      }
+    ]
+  },
+  {
+    arabicName: "الْحَمِيدُ",
+    transliteration: "Al-Hamid",
+    pronunciation: "al-ha-MEED",
+    meaning: "The Praiseworthy",
+    description: "The Praiseworthy - The One who deserves all praise.",
+    detailedExplanation: "Al-Hamid represents divine praiseworthiness.",
+    innerMeaning: "This name awakens gratitude and praise.",
+    technique: "Practice praising the Divine.",
+    relatedNames: ["Al-Majid", "Ash-Shakur"],
+    orderNumber: 56,
+    category: nameCategories.PRAISE,
+    quranVerses: [
+      {
+        verse: "Indeed, He is Praiseworthy and Honorable.",
+        reference: "11:73",
+        arabicText: "إِنَّهُ حَمِيدٌ مَجِيدٌ",
+        explanation: "This verse affirms Allah's praiseworthiness."
+      }
+    ]
+  },
+  {
+    arabicName: "الْمُحْصِي",
+    transliteration: "Al-Muhsi",
+    pronunciation: "al-MUH-see",
+    meaning: "The Counter",
+    description: "The Counter - The One who knows the number of all things.",
+    detailedExplanation: "Al-Muhsi represents divine enumeration.",
+    innerMeaning: "This name awakens precise awareness.",
+    technique: "Practice mindful counting.",
+    relatedNames: ["Al-Alim", "Al-Khabir"],
+    orderNumber: 57,
+    category: nameCategories.KNOWLEDGE,
+    quranVerses: [
+      {
+        verse: "And all things We have enumerated in a clear register.",
+        reference: "36:12",
+        arabicText: "وَكُلَّ شَيْءٍ أَحْصَيْنَاهُ فِي إِمَامٍ مُبِينٍ",
+        explanation: "This verse shows Allah's complete enumeration."
+      }
+    ]
+  },
+  {
+    arabicName: "الْمُبْدِئُ",
+    transliteration: "Al-Mubdi",
+    pronunciation: "al-MUB-di",
+    meaning: "The Originator",
+    description: "The Originator - The One who brings things into existence.",
+    detailedExplanation: "Al-Mubdi represents divine origination.",
+    innerMeaning: "This name awakens creative beginnings.",
+    technique: "Practice initiating good actions.",
+    relatedNames: ["Al-Khaliq", "Al-Bari"],
+    orderNumber: 58,
+    category: nameCategories.CREATION,
+    quranVerses: [
+      {
+        verse: "Indeed, He originates and repeats.",
+        reference: "85:13",
+        arabicText: "إِنَّهُ هُوَ يُبْدِئُ وَيُعِيدُ",
+        explanation: "This verse affirms Allah's power of origination."
+      }
+    ]
+  },
+  {
+    arabicName: "الْمُعِيدُ",
+    transliteration: "Al-Mu'id",
+    pronunciation: "al-mu-EED",
+    meaning: "The Restorer",
+    description: "The Restorer - The One who brings back after death.",
+    detailedExplanation: "Al-Mu'id represents divine restoration.",
+    innerMeaning: "This name awakens renewal.",
+    technique: "Practice spiritual renewal.",
+    relatedNames: ["Al-Mubdi", "Al-Baaith"],
+    orderNumber: 59,
+    category: nameCategories.RESURRECTION,
+    quranVerses: [
+      {
+        verse: "As We began the first creation, We will repeat it.",
+        reference: "21:104",
+        arabicText: "كَمَا بَدَأْنَا أَوَّلَ خَلْقٍ نُّعِيدُهُ",
+        explanation: "This verse shows Allah's power of restoration."
+      }
+    ]
+  },
+  {
+    arabicName: "الْمُحْيِي",
+    transliteration: "Al-Muhyi",
+    pronunciation: "al-MUH-yee",
+    meaning: "The Giver of Life",
+    description: "The Giver of Life - The One who gives life to the dead.",
+    detailedExplanation: "Al-Muhyi represents divine life-giving.",
+    innerMeaning: "This name awakens spiritual vitality.",
+    technique: "Practice reviving the heart.",
+    relatedNames: ["Al-Mumit", "Al-Baaith"],
+    orderNumber: 60,
+    category: nameCategories.LIFE,
+    quranVerses: [
+      {
+        verse: "Indeed, it is He who gives life and causes death.",
+        reference: "10:56",
+        arabicText: "إِنَّهُ هُوَ يُحْيِي وَيُمِيتُ",
+        explanation: "This verse affirms Allah's power over life."
+      }
+    ]
+  },
+  {
+    arabicName: "اَلْمُمِيتُ",
+    transliteration: "Al-Mumit",
+    pronunciation: "al-mu-MEET",
+    meaning: "The Taker of Life",
+    description: "The Taker of Life - The One who causes death.",
+    detailedExplanation: "Al-Mumit represents divine power over death.",
+    innerMeaning: "This name teaches acceptance of mortality.",
+    technique: "Practice detachment.",
+    relatedNames: ["Al-Muhyi", "Al-Baaith"],
+    orderNumber: 61,
+    category: nameCategories.LIFE,
+    quranVerses: [
+      {
+        verse: "He gives life and causes death.",
+        reference: "7:158",
+        arabicText: "يُحْيِي وَيُمِيتُ",
+        explanation: "This verse shows Allah's power over death."
+      }
+    ]
+  },
+  {
+    arabicName: "الْحَيُّ",
+    transliteration: "Al-Hayy",
+    pronunciation: "al-HAYY",
+    meaning: "The Ever-Living",
+    description: "The Ever-Living - The One who is eternally alive.",
+    detailedExplanation: "Al-Hayy represents eternal life.",
+    innerMeaning: "This name awakens awareness of eternal life.",
+    technique: "Practice living in the eternal now.",
+    relatedNames: ["Al-Qayyum", "Al-Baqi"],
+    orderNumber: 62,
+    category: nameCategories.LIFE,
+    quranVerses: [
+      {
+        verse: "Allah - there is no deity except Him, the Ever-Living, the Sustainer of existence.",
+        reference: "2:255",
+        arabicText: "اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ",
+        explanation: "This verse affirms Allah's eternal life."
+      }
+    ]
+  },
+  {
+    arabicName: "الْقَيُّومُ",
+    transliteration: "Al-Qayyum",
+    pronunciation: "al-qay-YOOM",
+    meaning: "The Self-Subsisting",
+    description: "The Self-Subsisting - The One who sustains all existence.",
+    detailedExplanation: "Al-Qayyum represents divine self-subsistence.",
+    innerMeaning: "This name awakens awareness of divine support.",
+    technique: "Practice reliance on divine support.",
+    relatedNames: ["Al-Hayy", "Al-Wajid"],
+    orderNumber: 63,
+    category: nameCategories.ATTRIBUTES,
+    quranVerses: [
+      {
+        verse: "Allah - there is no deity except Him, the Ever-Living, the Self-Sustaining.",
+        reference: "3:2",
+        arabicText: "اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ",
+        explanation: "This verse shows Allah's self-sustaining nature."
+      }
+    ]
+  },
+  {
+    arabicName: "الْوَاجِدُ",
+    transliteration: "Al-Wajid",
+    pronunciation: "al-WAA-jid",
+    meaning: "The Perceiver",
+    description: "The Perceiver - The One who finds what He seeks.",
+    detailedExplanation: "Al-Wajid represents divine perception.",
+    innerMeaning: "This name awakens divine perception.",
+    technique: "Practice spiritual perception.",
+    relatedNames: ["Al-Khabir", "Ash-Shahid"],
+    orderNumber: 64,
+    category: nameCategories.KNOWLEDGE,
+    quranVerses: [
+      {
+        verse: "And found you lost and guided you.",
+        reference: "93:7",
+        arabicText: "وَوَجَدَكَ ضَالًّا فَهَدَىٰ",
+        explanation: "This verse shows Allah's perceptive guidance."
+      }
+    ]
+  },
+  {
+    arabicName: "الْمَاجِدُ",
+    transliteration: "Al-Majid",
+    pronunciation: "al-MAA-jid",
+    meaning: "The Noble",
+    description: "The Noble - The One who is most noble.",
+    detailedExplanation: "Al-Majid represents divine nobility.",
+    innerMeaning: "This name awakens noble character.",
+    technique: "Practice noble behavior.",
+    relatedNames: ["Al-Karim", "Al-Jalil"],
+    orderNumber: 65,
+    category: nameCategories.MAJESTY,
+    quranVerses: [
+      {
+        verse: "Owner of the Throne, the Glorious.",
+        reference: "85:15",
+        arabicText: "ذُو الْعَرْشِ الْمَجِيدُ",
+        explanation: "This verse affirms Allah's nobility and glory."
+      }
+    ]
+  },
+  {
+    arabicName: "الْوَاحِدُ",
+    transliteration: "Al-Wahid",
+    pronunciation: "al-WAA-hid",
+    meaning: "The One",
+    description: "The One - The One who has no partners.",
+    detailedExplanation: "Al-Wahid represents divine unity.",
+    innerMeaning: "This name awakens awareness of unity.",
+    technique: "Practice unity consciousness.",
+    relatedNames: ["Al-Ahad", "As-Samad"],
+    orderNumber: 66,
+    category: nameCategories.UNIQUENESS,
+    quranVerses: [
+      {
+        verse: "Your god is but one God.",
+        reference: "16:22",
+        arabicText: "إِلَٰهُكُمْ إِلَٰهٌ وَاحِدٌ",
+        explanation: "This verse affirms divine oneness."
+      }
+    ]
+  },
+  {
+    arabicName: "الأَحَد",
+    transliteration: "Al-Ahad",
+    pronunciation: "al-A-had",
+    meaning: "The Unique",
+    description: "The Unique - The One who is absolutely unique.",
+    detailedExplanation: "Al-Ahad represents absolute uniqueness.",
+    innerMeaning: "This name awakens recognition of divine uniqueness.",
+    technique: "Practice recognizing divine uniqueness.",
+    relatedNames: ["Al-Wahid", "As-Samad"],
+    orderNumber: 67,
+    category: nameCategories.UNIQUENESS,
+    quranVerses: [
+      {
+        verse: "Say, 'He is Allah, [who is] One.'",
+        reference: "112:1",
+        arabicText: "قُلْ هُوَ اللَّهُ أَحَدٌ",
+        explanation: "This verse declares Allah's absolute uniqueness."
+      }
+    ]
+  },
+  {
+    arabicName: "الصَّمَدُ",
+    transliteration: "As-Samad",
+    pronunciation: "as-SA-mad",
+    meaning: "The Eternal",
+    description: "The Eternal - The One who is eternally sought.",
+    detailedExplanation: "As-Samad represents eternal independence.",
+    innerMeaning: "This name awakens recognition of divine self-sufficiency.",
+    technique: "Practice reliance on the Divine.",
+    relatedNames: ["Al-Ahad", "Al-Ghani"],
+    orderNumber: 68,
+    category: nameCategories.ETERNITY,
+    quranVerses: [
+      {
+        verse: "Allah, the Eternal Refuge.",
+        reference: "112:2",
+        arabicText: "اللَّهُ الصَّمَدُ",
+        explanation: "This verse affirms Allah's eternal nature."
+      }
+    ]
+  },
+  {
+    arabicName: "الْقَادِرُ",
+    transliteration: "Al-Qadir",
+    pronunciation: "al-QAA-dir",
+    meaning: "The Able",
+    description: "The Able - The One who has complete power.",
+    detailedExplanation: "Al-Qadir represents divine ability.",
+    innerMeaning: "This name awakens recognition of divine power.",
+    technique: "Practice trusting in divine capability.",
+    relatedNames: ["Al-Muqtadir", "Al-Qawi"],
+    orderNumber: 69,
+    category: nameCategories.POWER,
+    quranVerses: [
+      {
+        verse: "Indeed, Allah is over all things competent.",
+        reference: "2:20",
+        arabicText: "إِنَّ اللَّهَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ",
+        explanation: "This verse affirms Allah's complete ability."
+      }
+    ]
+  },
+  {
+    arabicName: "الْمُقْتَدِرُ",
+    transliteration: "Al-Muqtadir",
+    pronunciation: "al-muq-TA-dir",
+    meaning: "The Powerful",
+    description: "The Powerful - The One who has absolute power.",
+    detailedExplanation: "Al-Muqtadir represents absolute power.",
+    innerMeaning: "This name awakens recognition of divine might.",
+    technique: "Practice submission to divine power.",
+    relatedNames: ["Al-Qadir", "Al-Qawi"],
+    orderNumber: 70,
+    category: nameCategories.POWER,
+    quranVerses: [
+      {
+        verse: "In a seat of honor near a Sovereign, Perfect in Ability.",
+        reference: "54:55",
+        arabicText: "فِي مَقْعَدِ صِدْقٍ عِندَ مَلِيكٍ مُّقْتَدِرٍ",
+        explanation: "This verse shows Allah's perfect power."
+      }
+    ]
+  },
+  {
+    arabicName: "الْمُقَدِّمُ",
+    transliteration: "Al-Muqaddim",
+    pronunciation: "al-mu-QAD-dim",
+    meaning: "The Expediter",
+    description: "The Expediter - The One who brings forward whom He wills.",
+    detailedExplanation: "Al-Muqaddim represents divine advancement.",
+    innerMeaning: "This name awakens forward movement.",
+    technique: "Practice positive progression.",
+    relatedNames: ["Al-Mu'akhkhir", "Al-Wali"],
+    orderNumber: 71,
+    category: nameCategories.TIME,
+    quranVerses: [
+      {
+        verse: "None can delay what Allah hastens.",
+        reference: "10:11",
+        arabicText: "لَا مُعَقِّبَ لِحُكْمِهِ",
+        explanation: "This verse shows Allah's power to expedite."
+      }
+    ]
+  },
+  {
+    arabicName: "الْمُؤَخِّرُ",
+    transliteration: "Al-Mu'akhkhir",
+    pronunciation: "al-mu-AKH-khir",
+    meaning: "The Delayer",
+    description: "The Delayer - The One who delays what He wills.",
+    detailedExplanation: "Al-Mu'akhkhir represents divine delay.",
+    innerMeaning: "This name teaches divine timing.",
+    technique: "Practice patience with divine timing.",
+    relatedNames: ["Al-Muqaddim", "Al-Hakam"],
+    orderNumber: 72,
+    category: nameCategories.TIME,
+    quranVerses: [
+      {
+        verse: "Allah delays a soul when its time comes.",
+        reference: "63:11",
+        arabicText: "وَلَن يُؤَخِّرَ اللَّهُ نَفْسًا إِذَا جَاءَ أَجَلُهَا",
+        explanation: "This verse shows Allah's power to delay."
+      }
+    ]
+  },
+  {
+    arabicName: "الْأَوَّلُ",
+    transliteration: "Al-Awwal",
+    pronunciation: "al-AW-wal",
+    meaning: "The First",
+    description: "The First - The One who is before all things.",
+    detailedExplanation: "Al-Awwal represents divine precedence.",
+    innerMeaning: "This name awakens awareness of origins.",
+    technique: "Practice remembering the Source.",
+    relatedNames: ["Al-Akhir", "Az-Zahir"],
+    orderNumber: 73,
+    category: nameCategories.TIME,
+    quranVerses: [
+      {
+        verse: "He is the First and the Last.",
+        reference: "57:3",
+        arabicText: "هُوَ الْأَوَّلُ وَالْآخِرُ",
+        explanation: "This verse affirms Allah as the First."
+      }
+    ]
+  },
+  {
+    arabicName: "الْآخِرُ",
+    transliteration: "Al-Akhir",
+    pronunciation: "al-AA-khir",
+    meaning: "The Last",
+    description: "The Last - The One who remains after all things.",
+    detailedExplanation: "Al-Akhir represents divine permanence.",
+    innerMeaning: "This name awakens awareness of endings.",
+    technique: "Practice awareness of finality.",
+    relatedNames: ["Al-Awwal", "Al-Baqi"],
+    orderNumber: 74,
+    category: nameCategories.TIME,
+    quranVerses: [
+      {
+        verse: "He is the First and the Last.",
+        reference: "57:3",
+        arabicText: "هُوَ الْأَوَّلُ وَالْآخِرُ",
+        explanation: "This verse affirms Allah as the Last."
+      }
+    ]
+  },
+  {
+    arabicName: "الظَّاهِرُ",
+    transliteration: "Az-Zahir",
+    pronunciation: "az-ZAA-hir",
+    meaning: "The Manifest",
+    description: "The Manifest - The One who is apparent through His signs.",
+    detailedExplanation: "Az-Zahir represents divine manifestation.",
+    innerMeaning: "This name awakens recognition of divine signs.",
+    technique: "Practice seeing divine manifestation.",
+    relatedNames: ["Al-Batin", "An-Nur"],
+    orderNumber: 75,
+    category: nameCategories.ATTRIBUTES,
+    quranVerses: [
+      {
+        verse: "He is the First and the Last, and the Outward and the Inward.",
+        reference: "57:3",
+        arabicText: "هُوَ الْأَوَّلُ وَالْآخِرُ وَالظَّاهِرُ وَالْبَاطِنُ",
+        explanation: "This verse affirms Allah's manifest nature."
       }
     ]
   }
