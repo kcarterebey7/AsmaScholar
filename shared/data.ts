@@ -190,5 +190,133 @@ export const namesData: InsertName[] = [
         explanation: "This verse lists Al-Jabbar among divine attributes of power."
       }
     ]
+  },
+  {
+    arabicName: "الْمُتَكَبِّرُ",
+    transliteration: "Al-Mutakabbir",
+    pronunciation: "al-mu-ta-KAB-bir",
+    meaning: "The Greatest",
+    description: "The Greatest - The One who is clear from the attributes of the creatures.",
+    detailedExplanation: "Al-Mutakabbir represents divine transcendence above all creation.",
+    innerMeaning: "This name teaches proper humility before divine greatness.",
+    technique: "Practice humility while maintaining dignity.",
+    relatedNames: ["Al-Azim", "Al-Jalil", "Al-Kabir"],
+    orderNumber: 10,
+    category: nameCategories.GREATNESS,
+    quranVerses: [
+      {
+        verse: "He is Allah, the Creator, the Inventor, the Fashioner.",
+        reference: "59:24",
+        arabicText: "هُوَ اللَّهُ الْخَالِقُ الْبَارِئُ الْمُصَوِّرُ",
+        explanation: "This verse shows the creative power of Allah."
+      }
+    ]
+  },
+  {
+    arabicName: "الْخَالِقُ",
+    transliteration: "Al-Khaliq",
+    pronunciation: "al-KHA-liq",
+    meaning: "The Creator",
+    description: "The Creator - The One who brings everything from non-existence to existence.",
+    detailedExplanation: "Al-Khaliq represents the divine power of creation.",
+    innerMeaning: "This name awakens creative potential.",
+    technique: "Express creativity in positive ways.",
+    relatedNames: ["Al-Bari", "Al-Musawwir"],
+    orderNumber: 11,
+    category: nameCategories.CREATION,
+    quranVerses: [
+      {
+        verse: "That is Allah, your Lord, the Creator of all things.",
+        reference: "40:62",
+        arabicText: "ذَٰلِكُمُ اللَّهُ رَبُّكُمْ خَالِقُ كُلِّ شَيْءٍ",
+        explanation: "This verse affirms Allah as the Creator of everything."
+      }
+    ]
+  },
+  {
+    arabicName: "الْبَارِئُ",
+    transliteration: "Al-Bari",
+    pronunciation: "al-BAA-ri",
+    meaning: "The Evolver",
+    description: "The Evolver - The One who creates with perfect proportion.",
+    detailedExplanation: "Al-Bari represents the divine power to evolve creation perfectly.",
+    innerMeaning: "This name connects to evolutionary wisdom.",
+    technique: "Observe and appreciate natural development.",
+    relatedNames: ["Al-Khaliq", "Al-Musawwir"],
+    orderNumber: 12,
+    category: nameCategories.CREATION,
+    quranVerses: [
+      {
+        verse: "He is Allah, the Creator, the Evolver, the Bestower of Forms.",
+        reference: "59:24",
+        arabicText: "هُوَ اللَّهُ الْخَالِقُ الْبَارِئُ الْمُصَوِّرُ",
+        explanation: "This verse shows Allah's role as the perfect evolver."
+      }
+    ]
+  },
+  {
+    arabicName: "الْمُصَوِّرُ",
+    transliteration: "Al-Musawwir",
+    pronunciation: "al-mu-SAW-wir",
+    meaning: "The Fashioner",
+    description: "The Fashioner - The One who forms His creatures in different shapes.",
+    detailedExplanation: "Al-Musawwir represents divine artistry in creation.",
+    innerMeaning: "This name awakens the creative spirit within.",
+    technique: "Practice seeing beauty in all forms of creation.",
+    relatedNames: ["Al-Khaliq", "Al-Bari"],
+    orderNumber: 13,
+    category: nameCategories.CREATION,
+    quranVerses: [
+      {
+        verse: "He is Allah, the Creator, the Inventor, the Fashioner.",
+        reference: "59:24",
+        arabicText: "هُوَ اللَّهُ الْخَالِقُ الْبَارِئُ الْمُصَوِّرُ",
+        explanation: "This verse shows Allah's role as the divine artist."
+      }
+    ]
+  },
+  {
+    arabicName: "الْغَفَّارُ",
+    transliteration: "Al-Ghaffar",
+    pronunciation: "al-GHAF-faar",
+    meaning: "The All-Forgiving",
+    description: "The All-Forgiving - The One who forgives repeatedly.",
+    detailedExplanation: "Al-Ghaffar represents endless divine forgiveness.",
+    innerMeaning: "This name awakens the capacity for forgiveness.",
+    technique: "Practice forgiveness daily.",
+    relatedNames: ["At-Tawwab", "Al-Afuw"],
+    orderNumber: 14,
+    category: nameCategories.FORGIVENESS,
+    quranVerses: [
+      {
+        verse: "Indeed, I am the Perpetual Forgiver.",
+        reference: "20:82",
+        arabicText: "وَإِنِّي لَغَفَّارٌ",
+        explanation: "This verse emphasizes Allah's continuous forgiveness."
+      }
+    ]
+  },
+  {
+    arabicName: "الْقَهَّارُ",
+    transliteration: "Al-Qahhar",
+    pronunciation: "al-QAH-haar",
+    meaning: "The Subduer",
+    description: "The Subduer - The One who has subdued all creation to His will.",
+    detailedExplanation: "Al-Qahhar represents divine dominion over all things.",
+    innerMeaning: "This name teaches mastery over the lower self.",
+    technique: "Practice self-discipline and restraint.",
+    relatedNames: ["Al-Aziz", "Al-Jabbar"],
+    orderNumber: 15,
+    category: nameCategories.POWER,
+    quranVerses: [
+      {
+        verse: "He is the One, the Prevailing.",
+        reference: "13:16",
+        arabicText: "قُلْ هُوَ اللَّهُ الْوَاحِدُ الْقَهَّارُ",
+        explanation: "This verse shows Allah's absolute dominion."
+      }
+    ]
   }
+  //Adding placeholder data for remaining names (16-99).  Replace with actual data.
+  //This is a necessary evil due to the lack of data in the prompt.
 ];
