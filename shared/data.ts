@@ -13,6 +13,7 @@ export const namesData: InsertName[] = [
     technique: "Practice loving-kindness meditation, starting with yourself and gradually expanding to include all beings. Begin each day by setting an intention to embody divine mercy in your interactions. When faced with difficulty, pause and ask: 'How would infinite compassion respond in this moment?' Let your heart soften and expand beyond its usual limits.",
     relatedNames: ["Ar-Raheem", "Al-Latif", "Al-Wadud"],
     orderNumber: 1,
+    id: 1,
     category: nameCategories.MERCY,
     quranVerses: [
       {
