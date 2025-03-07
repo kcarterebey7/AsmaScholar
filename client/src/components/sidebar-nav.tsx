@@ -18,12 +18,12 @@ export default function SidebarNav() {
           {names?.map((name) => (
             <NameHoverCard key={name.id} name={name}>
               <Link 
-                href={`/name/${name.id}`}
+                href={`/name/${name.orderNumber}`}
               >
                 <div
                   className={cn(
                     "px-2 py-1.5 rounded-md transition-colors",
-                    location === `/name/${name.id}`
+                    location === `/name/${name.orderNumber}`
                       ? "bg-[#EAF3FF] dark:bg-gray-800"
                       : "hover:bg-[#EAF3FF] dark:hover:bg-gray-800"
                   )}

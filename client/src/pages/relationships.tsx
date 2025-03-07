@@ -263,7 +263,7 @@ export default function RelationshipsPage() {
                     {group.map(name => (
                       <Link
                         key={name.id}
-                        href={`/name/${name.id}`}
+                        href={`/name/${name.orderNumber}`}
                         className="px-3 py-1 bg-[#EAF3FF] dark:bg-gray-800 rounded-md text-[#14866D] hover:bg-[#D5E5FF] dark:hover:bg-gray-700 transition-colors"
                       >
                         <div>
@@ -300,7 +300,7 @@ export default function RelationshipsPage() {
                         {relatedTo.map(related => (
                           <Link
                             key={related.id}
-                            href={`/name/${related.id}`}
+                            href={`/name/${related.orderNumber}`}
                             className="text-[#14866D] hover:underline dark:hover:text-[#1A9E82]"
                           >
                             <div className="inline-block">
@@ -324,7 +324,7 @@ export default function RelationshipsPage() {
                         {similarCategory.map(similar => (
                           <Link
                             key={similar.id}
-                            href={`/name/${similar.id}`}
+                            href={`/name/${similar.orderNumber}`}
                             className="text-[#14866D] hover:underline dark:hover:text-[#1A9E82]"
                           >
                             <div className="inline-block">

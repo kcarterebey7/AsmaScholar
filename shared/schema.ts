@@ -27,7 +27,6 @@ export const names = pgTable("names", {
   quranVerses: text("quran_verses").$type<QuranVerse[]>(),
 });
 
-// Create insert schema with proper ID handling
 export const insertNameSchema = createInsertSchema(names, {
   relatedNames: z.array(z.string()),
   quranVerses: z.array(z.object({
@@ -35,12 +34,11 @@ export const insertNameSchema = createInsertSchema(names, {
     reference: z.string(),
     arabicText: z.string(),
     explanation: z.string()
-  })).optional(),
-  id: z.number().optional() // Make ID optional for inserts but required for selects
-}).omit({ id: true }); // Remove id from insert schema since it's auto-generated
+  })).optional()
+}).omit({ id: true });
 
 export type InsertName = z.infer<typeof insertNameSchema>;
-export type Name = typeof names.$inferSelect; // This will include the ID
+export type Name = typeof names.$inferSelect;
 
 // Define available categories
 export const nameCategories = {

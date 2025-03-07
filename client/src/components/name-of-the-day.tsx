@@ -25,7 +25,7 @@ export function NameOfTheDay({ name }: NameOfTheDayProps) {
           </div>
 
           <div className="flex justify-center mt-4">
-            <Link href={`/name/${name.id}`} className="text-primary hover:underline">
+            <Link href={`/name/${name.orderNumber}`} className="text-primary hover:underline">
               Learn More →
             </Link>
           </div>
