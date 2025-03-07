@@ -1249,9 +1249,9 @@ export const namesData: InsertName[] = [
     category: nameCategories.POWER
   },
   {
-    arabicName: "الْمُتَعَالِي",
+    arabicName: "المتعالي",
     transliteration: "Al-Muta'ali",
-    pronunciation: "al-mu-ta-AA-li",
+    pronunciation: "Al-Mu-ta-'aa-lee",
     meaning: "The Most Exalted",
     description: "The Most Exalted - The One who is clear from the attributes of the creation.",
     detailedExplanation: "Al-Muta'ali, the Most Exalted, signifies God's transcendence and superiority over all creation. This name reminds us that God is beyond human comprehension, exceeding all limitations and boundaries. It inspires humility and reverence for the Divine's supreme authority.",
