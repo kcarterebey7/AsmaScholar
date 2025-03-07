@@ -29,7 +29,7 @@ export default function CategorizedNames({ names }: CategorizedNamesProps) {
             <h2 className="text-xl sm:text-2xl font-serif text-[#333333] dark:text-gray-200">{categoryName}</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {categoryNames.map((name) => (
-                <Link key={name.id} href={`/name/${name.id}`}>
+                <Link key={name.id} href={`/name/${name.orderNumber}`}>
                   <Card className="cursor-pointer hover:bg-[#F8F9FA] dark:hover:bg-gray-800 transition-colors">
                     <CardContent className="p-4">
                       <div className="text-xl sm:text-2xl font-serif mb-2 dark:text-gray-200">{name.arabicName}</div>

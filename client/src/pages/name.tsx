@@ -111,7 +111,7 @@ export default function NamePage() {
                 {relatedNamesDetails.map((relatedName) => (
                   <Link 
                     key={relatedName.id}
-                    href={`/name/${relatedName.id}${searchQuery ? `?q=${encodeURIComponent(searchQuery)}` : ''}`}
+                    href={`/name/${relatedName.orderNumber}`}
                     className="text-[#14866D] hover:underline dark:hover:text-[#1A9E82]"
                   >
                     {relatedName.transliteration}
