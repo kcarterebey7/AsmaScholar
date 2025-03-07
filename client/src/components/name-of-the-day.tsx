@@ -18,11 +18,13 @@ export function NameOfTheDay({ name }: NameOfTheDayProps) {
             </div>
           </div>
 
-          <div className="text-center">
-            <div className="text-3xl font-arabic mb-2">{name.arabicName}</div>
-            <div className="text-xl font-medium text-primary">{name.transliteration}</div>
-            <div className="text-sm text-muted-foreground">{name.pronunciation}</div>
-          </div>
+          <Link href={`/name/${name.orderNumber}`}>
+            <div className="text-center cursor-pointer hover:opacity-80 transition-opacity">
+              <div className="text-3xl font-arabic mb-2">{name.arabicName}</div>
+              <div className="text-xl font-medium text-primary">{name.transliteration}</div>
+              <div className="text-sm text-muted-foreground">{name.pronunciation}</div>
+            </div>
+          </Link>
 
           <div className="text-center mt-4">
             <div className="font-medium">{name.meaning}</div>
@@ -30,7 +32,7 @@ export function NameOfTheDay({ name }: NameOfTheDayProps) {
           </div>
 
           <div className="flex justify-center mt-4">
-            <Link href={`/name/${name.id}`} className="text-primary hover:underline">
+            <Link href={`/name/${name.orderNumber}`} className="text-primary hover:underline">
               Learn More →
             </Link>
           </div>
