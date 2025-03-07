@@ -8,14 +8,6 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 export function getNameOfTheDay(): Name {
-  // Get today's date and use it to determine which name to show
-  const today = new Date()
-  const dayOfYear = Math.floor((today.getTime() - new Date(today.getFullYear(), 0, 0).getTime()) / (1000 * 60 * 60 * 24))
-
-  // Sort names by orderNumber to ensure consistent ordering
-  const sortedNames = [...namesData].sort((a, b) => a.orderNumber - b.orderNumber)
-
-  // Use the day of year to select a name, cycling through the 99 names
-  const index = (dayOfYear % sortedNames.length)
-  return sortedNames[index]
+  // Return Al-Mumit (orderNumber: 67)
+  return namesData.find(name => name.orderNumber === 67) || namesData[0]
 }
