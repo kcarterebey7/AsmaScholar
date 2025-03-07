@@ -12,10 +12,10 @@ export function getNameOfTheDay(): Name {
   const today = new Date()
   const dayOfYear = Math.floor((today.getTime() - new Date(today.getFullYear(), 0, 0).getTime()) / (1000 * 60 * 60 * 24))
 
-  // Use the day of year to select a name, cycling through the 99 names
-  const index = (dayOfYear % namesData.length)
-  const selectedName = namesData[index]
+  // Sort names by orderNumber to ensure consistent ordering
+  const sortedNames = [...namesData].sort((a, b) => a.orderNumber - b.orderNumber)
 
-  // Find the name by its orderNumber to ensure we get the complete record with ID
-  return namesData.find(name => name.orderNumber === selectedName.orderNumber) || selectedName
+  // Use the day of year to select a name, cycling through the 99 names
+  const index = (dayOfYear % sortedNames.length)
+  return sortedNames[index]
 }

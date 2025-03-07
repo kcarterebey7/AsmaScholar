@@ -1024,7 +1024,7 @@ export const namesData: InsertName[] = [
     innerMeaning: "This name connects you to the divine cycle of life and death. It’s about recognizing the impermanence of all things and living in a way that is meaningful and fulfilling. It’s about living fully in the present moment.",
     technique: "Practice living fully in the present moment.  Let go of attachments to material possessions. When faced with loss, remember that your capacity for renewal is limitless.",
     relatedNames: ["Al-Muhyi", "Al-Ba'ith"],
-    orderNumber: 61,
+    orderNumber: 62,
     category: nameCategories.LIFE
   },
   {
