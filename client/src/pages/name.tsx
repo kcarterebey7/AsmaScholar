@@ -9,13 +9,14 @@ import { QuranVerses } from "@/components/quran-verses";
 export default function NamePage() {
   const { id } = useParams();
   const [location] = useLocation();
+  const orderNumber = parseInt(id || "1", 10);
 
   // Get the search query from URL if it exists
   const searchParams = new URLSearchParams(window.location.search);
   const searchQuery = searchParams.get('q');
 
   const { data: name, isLoading } = useQuery<Name>({
-    queryKey: [`/api/names/${id}`]
+    queryKey: [`/api/names/${orderNumber}`]
   });
 
   const { data: allNames } = useQuery<Name[]>({
