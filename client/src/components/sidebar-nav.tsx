@@ -3,7 +3,6 @@ import { Link, useLocation } from "wouter";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import type { Name } from "@shared/schema";
 import { cn } from "@/lib/utils";
-import { NameHoverCard } from "@/components/name-hover-card";
 
 export default function SidebarNav() {
   const [location] = useLocation();
@@ -16,27 +15,26 @@ export default function SidebarNav() {
       <ScrollArea className="h-[calc(100vh-4rem)]">
         <div className="p-4">
           {names?.map((name) => (
-            <NameHoverCard key={name.id} name={name}>
-              <Link 
-                href={`/name/${name.orderNumber}`}
+            <Link 
+              key={name.id}
+              href={`/name/${name.orderNumber}`}
+            >
+              <div
+                className={cn(
+                  "px-2 py-1.5 rounded-md transition-colors",
+                  location === `/name/${name.orderNumber}`
+                    ? "bg-[#EAF3FF] dark:bg-gray-800"
+                    : "hover:bg-[#EAF3FF] dark:hover:bg-gray-800"
+                )}
               >
-                <div
-                  className={cn(
-                    "px-2 py-1.5 rounded-md transition-colors",
-                    location === `/name/${name.orderNumber}`
-                      ? "bg-[#EAF3FF] dark:bg-gray-800"
-                      : "hover:bg-[#EAF3FF] dark:hover:bg-gray-800"
-                  )}
-                >
-                  <div className="text-sm text-[#14866D] dark:text-[#14866D]">
-                    {name.transliteration}
-                  </div>
-                  <div className="text-xs text-gray-500 dark:text-gray-400">
-                    {name.meaning}
-                  </div>
+                <div className="text-sm text-[#14866D] dark:text-[#14866D]">
+                  {name.transliteration}
                 </div>
-              </Link>
-            </NameHoverCard>
+                <div className="text-xs text-gray-500 dark:text-gray-400">
+                  {name.meaning}
+                </div>
+              </div>
+            </Link>
           ))}
         </div>
       </ScrollArea>
