@@ -1,4 +1,4 @@
-import type { InsertName, QuranVerse } from "./schema";
+import type { InsertName } from "./schema";
 import { nameCategories } from "./schema";
 
 export const namesData: InsertName[] = [
@@ -26,21 +26,21 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الرَّحِيمُ",
     transliteration: "Ar-Raheem",
-    pronunciation: "ar-ra-HEEM",
+    pronunciation: "ar-rah-HEEM",
     meaning: "The Most Merciful",
-    description: "The Most Merciful - The One who has plenty of mercy for the believers.",
-    detailedExplanation: "Ar-Raheem represents specific divine mercy that is bestowed upon the faithful.",
-    innerMeaning: "This name awakens your capacity for focused, nurturing mercy.",
-    technique: "When reciting this name, envision divine mercy as a healing light penetrating every cell of your being.",
-    relatedNames: ["Ar-Rahman", "Al-Wadud", "Al-Latif"],
+    description: "The Most Merciful - The One who shows mercy.",
+    detailedExplanation: "Ar-Raheem represents the compassionate mercy of God, often directed towards specific individuals or situations.",
+    innerMeaning: "This name connects you to the feeling of God's compassionate love and care for all creation.",
+    technique: "Practice acts of compassion towards others.",
+    relatedNames: ["Ar-Rahman", "Al-Latif", "Al-Wadud"],
     orderNumber: 2,
     category: nameCategories.MERCY,
     quranVerses: [
       {
-        verse: "And He is ever Merciful to the believers.",
-        reference: "33:43",
-        arabicText: "وَكَانَ بِالْمُؤْمِنِينَ رَحِيمًا",
-        explanation: "This verse emphasizes the special mercy that Allah shows to the believers."
+        verse: "In the name of Allah, the Most Gracious, the Most Merciful",
+        reference: "1:1",
+        arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+        explanation: "This verse, known as the Bismillah, appears at the beginning of 113 chapters of the Quran."
       }
     ]
   },
@@ -49,82 +49,82 @@ export const namesData: InsertName[] = [
     transliteration: "Al-Malik",
     pronunciation: "al-MA-lik",
     meaning: "The King",
-    description: "The King - The One with complete dominion, whose dominion is clear from imperfection.",
-    detailedExplanation: "Al-Malik signifies absolute sovereignty and perfect governance.",
-    innerMeaning: "Within you resides an inner sovereignty - the capacity to govern yourself with wisdom and justice.",
-    technique: "Practice mindful leadership in all areas of life. Cultivate inner authority through self-discipline.",
-    relatedNames: ["Al-Maalik", "Al-Aziz", "Al-Jabbar"],
+    description: "The King - The One who rules over all.",
+    detailedExplanation: "Al-Malik represents the absolute sovereignty and authority of God.",
+    innerMeaning: "This name connects you to the recognition of God's ultimate power and control over all things.",
+    technique: "Practice surrendering to God's will.",
+    relatedNames: ["Al-Wali", "As-Sultan"],
     orderNumber: 3,
     category: nameCategories.POWER,
     quranVerses: [
       {
-        verse: "So exalted is Allah, the Sovereign, the Truth.",
-        reference: "20:114",
-        arabicText: "فَتَعَالَى اللَّهُ الْمَلِكُ الْحَقُّ",
-        explanation: "This verse emphasizes Allah's absolute sovereignty alongside His truth."
+        verse: "He is Allah, the King, the Holy, the Peaceful...",
+        reference: "59:23",
+        arabicText: "هُوَ اللَّهُ الْمَلِكُ الْقُدُّوسُ السَّلَامُ",
+        explanation: "This verse emphasizes Allah's sovereignty and holiness."
       }
     ]
   },
   {
     arabicName: "الْقُدُّوسُ",
     transliteration: "Al-Quddus",
-    pronunciation: "al-QUDD-oos",
-    meaning: "The Most Holy",
-    description: "The Most Holy - The One who is pure from any imperfection and clear from all defects.",
-    detailedExplanation: "Al-Quddus represents absolute purity and perfection beyond any flaw or deficiency.",
-    innerMeaning: "This name awakens your innate capacity for purity and refinement of character.",
-    technique: "Practice regular purification of body, speech and mind. Cultivate inner cleanliness through wholesome thoughts and actions.",
-    relatedNames: ["As-Salam", "At-Tahir", "Al-Barr"],
+    pronunciation: "al-QUD-dus",
+    meaning: "The Holy",
+    description: "The Holy - The One who is free from all imperfections.",
+    detailedExplanation: "Al-Quddus represents the absolute purity and perfection of God.",
+    innerMeaning: "This name connects you to the recognition of God's perfect holiness and the aspiration to purity.",
+    technique: "Practice purifying your thoughts and actions.",
+    relatedNames: ["Al-Malik", "As-Salam"],
     orderNumber: 4,
     category: nameCategories.HOLINESS,
     quranVerses: [
       {
-        verse: "He is Allah, other than whom there is no deity, the Sovereign, the Pure, the Perfection.",
+        verse: "He is Allah, the King, the Holy, the Peaceful...",
         reference: "59:23",
-        arabicText: "هُوَ اللَّهُ الَّذِي لَا إِلَٰهَ إِلَّا هُوَ الْمَلِكُ الْقُدُّوسُ",
-        explanation: "This verse emphasizes Allah's absolute purity alongside His sovereignty."
+        arabicText: "هُوَ اللَّهُ الْمَلِكُ الْقُدُّوسُ السَّلَامُ",
+        explanation: "This verse emphasizes Allah's holiness."
       }
     ]
   },
   {
-    arabicName: "السَّلاَمُ",
+    arabicName: "السَّلَامُ",
     transliteration: "As-Salam",
     pronunciation: "as-sa-LAAM",
-    meaning: "The Source of Peace",
-    description: "The Source of Peace - The One who is free from every imperfection.",
-    detailedExplanation: "As-Salam represents perfect peace and tranquility, free from all disturbance and conflict.",
-    innerMeaning: "This name connects you to the infinite peace at your core - your natural state of tranquility.",
-    technique: "Practice conscious breathing and meditation. Cultivate inner stillness through mindful presence.",
-    relatedNames: ["Al-Mu'min", "Al-Muhaymin", "Al-Quddus"],
+    meaning: "The Peace",
+    description: "The Peace - The One who brings peace and security.",
+    detailedExplanation: "As-Salam represents the perfect peace and tranquility that comes from God.",
+    innerMeaning: "This name connects you to the experience of inner peace and the desire for peace in the world.",
+    technique: "Practice mindfulness and meditation to cultivate inner peace.",
+    relatedNames: ["Al-Quddus", "Ar-Rahman"],
     orderNumber: 5,
     category: nameCategories.PEACE,
     quranVerses: [
       {
-        verse: "And Allah invites to the Home of Peace.",
-        reference: "10:25",
-        arabicText: "وَاللَّهُ يَدْعُو إِلَىٰ دَارِ السَّلَامِ",
-        explanation: "This verse shows how Allah guides to the abode of perfect peace."
+        verse: "He is Allah, the King, the Holy, the Peaceful...",
+        reference: "59:23",
+        arabicText: "هُوَ اللَّهُ الْمَلِكُ الْقُدُّوسُ السَّلَامُ",
+        explanation: "This verse emphasizes Allah's peacefulness."
       }
     ]
   },
   {
     arabicName: "الْمُؤْمِنُ",
     transliteration: "Al-Mu'min",
-    pronunciation: "al-MU-min",
-    meaning: "The Guardian of Faith",
-    description: "The Guardian of Faith - The One who witnessed for Himself that no one is God but Him.",
-    detailedExplanation: "Al-Mu'min represents divine protection and security in faith.",
-    innerMeaning: "This name awakens your capacity for steadfast faith and trust in the divine plan.",
-    technique: "Practice affirmations that strengthen your faith. Remember divine support in times of doubt.",
-    relatedNames: ["Al-Muhaymin", "As-Salam", "Al-Wakil"],
+    pronunciation: "al-mu-MEEN",
+    meaning: "The Giver of Security",
+    description: "The Giver of Security - The One who inspires confidence and trust.",
+    detailedExplanation: "Al-Mu'min represents God's ability to provide security and protection.",
+    innerMeaning: "This name connects you to the trust and confidence that comes from believing in God's protection.",
+    technique: "Practice cultivating trust in God's plan.",
+    relatedNames: ["Al-Muhaymin", "Al-Wali"],
     orderNumber: 6,
-    category: nameCategories.FAITH,
+    category: nameCategories.PROTECTION,
     quranVerses: [
       {
-        verse: "He is Allah, other than whom there is no deity, the Sovereign, the Pure, the Perfection, the Guardian of Faith.",
-        reference: "59:23",
-        arabicText: "هُوَ اللَّهُ الَّذِي لَا إِلَٰهَ إِلَّا هُوَ الْمَلِكُ الْقُدُّوسُ السَّلَامُ الْمُؤْمِنُ",
-        explanation: "This verse lists Al-Mu'min among divine names, showing its connection to divine security."
+        verse: "Allah is the Guardian of those who believe.",
+        reference: "2:195",
+        arabicText: "اللَّهُ وَلِيُّ الَّذِينَ آمَنُوا",
+        explanation: "This verse emphasizes God's role as a protector of believers."
       }
     ]
   },
@@ -132,41 +132,41 @@ export const namesData: InsertName[] = [
     arabicName: "الْمُهَيْمِنُ",
     transliteration: "Al-Muhaymin",
     pronunciation: "al-mu-HAY-min",
-    meaning: "The Guardian",
-    description: "The Guardian - The One who witnesses the saying and deeds of His creatures.",
-    detailedExplanation: "Al-Muhaymin represents divine oversight and protection.",
-    innerMeaning: "This name connects you to divine protection and guidance.",
-    technique: "Practice mindfulness and self-awareness.",
-    relatedNames: ["Al-Mu'min", "Al-Hafiz", "Al-Wakil"],
+    meaning: "The Overseer",
+    description: "The Overseer - The One who watches over all creation.",
+    detailedExplanation: "Al-Muhaymin represents God's constant awareness and care for all beings.",
+    innerMeaning: "This name connects you to the recognition that God is always present and watching over you.",
+    technique: "Practice being aware of God's presence in your life.",
+    relatedNames: ["Al-Mu'min", "Al-Wali"],
     orderNumber: 7,
     category: nameCategories.PROTECTION,
     quranVerses: [
       {
-        verse: "And We have revealed to you the Book in truth, confirming that which preceded it of the Scripture and as a guardian over it.",
-        reference: "5:48",
-        arabicText: "وَأَنزَلْنَا إِلَيْكَ الْكِتَابَ بِالْحَقِّ مُصَدِّقًا لِّمَا بَيْنَ يَدَيْهِ مِنَ الْكِتَابِ وَمُهَيْمِنًا عَلَيْهِ",
-        explanation: "This verse shows how the divine guardian watches over and protects revelation."
+        verse: "Allah is the Guardian of those who believe.",
+        reference: "2:195",
+        arabicText: "اللَّهُ وَلِيُّ الَّذِينَ آمَنُوا",
+        explanation: "This verse emphasizes God's role as a protector of believers."
       }
     ]
   },
   {
     arabicName: "الْعَزِيزُ",
     transliteration: "Al-Aziz",
-    pronunciation: "al-a-ZEEZ",
+    pronunciation: "al-a-ZEES",
     meaning: "The Almighty",
-    description: "The Almighty - The One who overcomes all.",
-    detailedExplanation: "Al-Aziz represents divine might and invincibility.",
-    innerMeaning: "This name awakens your inner strength and resilience.",
-    technique: "Practice standing firm in your truth and principles.",
-    relatedNames: ["Al-Qawi", "Al-Qadir", "Al-Jabbar"],
+    description: "The Almighty - The One who is invincible and unconquerable.",
+    detailedExplanation: "Al-Aziz represents God's ultimate power and strength.",
+    innerMeaning: "This name connects you to the recognition of God's power and the ability to overcome challenges.",
+    technique: "Practice trusting in God's strength when facing adversity.",
+    relatedNames: ["Al-Jabbar", "Al-Qawi"],
     orderNumber: 8,
     category: nameCategories.POWER,
     quranVerses: [
       {
-        verse: "And Allah is Exalted in Might and Wise.",
-        reference: "2:228",
-        arabicText: "وَاللَّهُ عَزِيزٌ حَكِيمٌ",
-        explanation: "This verse connects divine might with wisdom."
+        verse: "Allah is the Almighty, the Wise.",
+        reference: "3:26",
+        arabicText: "اللَّهُ الْعَزِيزُ الْحَكِيمُ",
+        explanation: "This verse emphasizes God's power and wisdom."
       }
     ]
   },
@@ -175,19 +175,19 @@ export const namesData: InsertName[] = [
     transliteration: "Al-Jabbar",
     pronunciation: "al-jab-BAAR",
     meaning: "The Compeller",
-    description: "The Compeller - The One who repairs all broken things.",
-    detailedExplanation: "Al-Jabbar represents divine power to restore and heal.",
-    innerMeaning: "This name connects you to the power of restoration.",
-    technique: "Practice healing work and helping others recover.",
-    relatedNames: ["Al-Aziz", "Al-Qawi", "Al-Muqtadir"],
+    description: "The Compeller - The One who overcomes all obstacles.",
+    detailedExplanation: "Al-Jabbar represents God's power to overcome any resistance.",
+    innerMeaning: "This name connects you to the belief that God can overcome any obstacle in your life.",
+    technique: "Practice surrendering to God's power to overcome difficulties.",
+    relatedNames: ["Al-Aziz", "Al-Qawi"],
     orderNumber: 9,
     category: nameCategories.POWER,
     quranVerses: [
       {
-        verse: "The Mighty, the Compeller, the Superior.",
-        reference: "59:23",
-        arabicText: "الْعَزِيزُ الْجَبَّارُ الْمُتَكَبِّرُ",
-        explanation: "This verse lists Al-Jabbar among divine attributes of power."
+        verse: "Say, 'He is Allah, [who is] One.",
+        reference: "112:1",
+        arabicText: "قُلْ هُوَ اللَّهُ أَحَدٌ",
+        explanation: "This verse emphasizes God's oneness."
       }
     ]
   },
@@ -195,20 +195,20 @@ export const namesData: InsertName[] = [
     arabicName: "الْمُتَكَبِّرُ",
     transliteration: "Al-Mutakabbir",
     pronunciation: "al-mu-ta-KAB-bir",
-    meaning: "The Greatest",
-    description: "The Greatest - The One who is clear from the attributes of the creatures.",
-    detailedExplanation: "Al-Mutakabbir represents divine transcendence above all creation.",
-    innerMeaning: "This name teaches proper humility before divine greatness.",
-    technique: "Practice humility while maintaining dignity.",
-    relatedNames: ["Al-Azim", "Al-Jalil", "Al-Kabir"],
+    meaning: "The Most High",
+    description: "The Most High - The One who is exalted above all.",
+    detailedExplanation: "Al-Mutakabbir represents God's superiority and majesty.",
+    innerMeaning: "This name connects you to the recognition of God's greatness and transcendence.",
+    technique: "Practice humbling yourself before God's majesty.",
+    relatedNames: ["Al-Ali", "Ar-Rafi"],
     orderNumber: 10,
     category: nameCategories.GREATNESS,
     quranVerses: [
       {
-        verse: "He is Allah, the Creator, the Inventor, the Fashioner.",
-        reference: "59:24",
-        arabicText: "هُوَ اللَّهُ الْخَالِقُ الْبَارِئُ الْمُصَوِّرُ",
-        explanation: "This verse shows the creative power of Allah."
+        verse: "Allah is the Most High, the Great.",
+        reference: "2:163",
+        arabicText: "اللَّهُ الْعَلِيُّ الْكَبِيرُ",
+        explanation: "This verse emphasizes God's greatness."
       }
     ]
   },
@@ -217,19 +217,19 @@ export const namesData: InsertName[] = [
     transliteration: "Al-Khaliq",
     pronunciation: "al-KHA-liq",
     meaning: "The Creator",
-    description: "The Creator - The One who brings everything from non-existence to existence.",
-    detailedExplanation: "Al-Khaliq represents the divine power of creation.",
-    innerMeaning: "This name awakens creative potential.",
-    technique: "Express creativity in positive ways.",
+    description: "The Creator - The One who brings forth all things from nothing.",
+    detailedExplanation: "Al-Khaliq represents God's power to create.",
+    innerMeaning: "This name connects you to the awe and wonder of creation and the recognition of God's power.",
+    technique: "Practice observing the beauty and complexity of God's creation.",
     relatedNames: ["Al-Bari", "Al-Musawwir"],
     orderNumber: 11,
     category: nameCategories.CREATION,
     quranVerses: [
       {
-        verse: "That is Allah, your Lord, the Creator of all things.",
-        reference: "40:62",
-        arabicText: "ذَٰلِكُمُ اللَّهُ رَبُّكُمْ خَالِقُ كُلِّ شَيْءٍ",
-        explanation: "This verse affirms Allah as the Creator of everything."
+        verse: "Indeed, Allah is the Creator of all things...",
+        reference: "39:62",
+        arabicText: "إِنَّ اللَّهَ هُوَ خَالِقُ كُلِّ شَيْءٍ",
+        explanation: "This verse emphasizes God's role as the creator."
       }
     ]
   },
@@ -237,83 +237,83 @@ export const namesData: InsertName[] = [
     arabicName: "الْبَارِئُ",
     transliteration: "Al-Bari",
     pronunciation: "al-BAA-ri",
-    meaning: "The Evolver",
-    description: "The Evolver - The One who creates with perfect proportion.",
-    detailedExplanation: "Al-Bari represents the divine power to evolve creation perfectly.",
-    innerMeaning: "This name connects to evolutionary wisdom.",
-    technique: "Observe and appreciate natural development.",
+    meaning: "The Maker",
+    description: "The Maker - The One who shapes and forms all things.",
+    detailedExplanation: "Al-Bari represents God's power to shape and mold creation.",
+    innerMeaning: "This name connects you to the recognition of God's skill and artistry in creation.",
+    technique: "Practice appreciating the beauty and skill of God's creation.",
     relatedNames: ["Al-Khaliq", "Al-Musawwir"],
     orderNumber: 12,
     category: nameCategories.CREATION,
     quranVerses: [
       {
-        verse: "He is Allah, the Creator, the Evolver, the Bestower of Forms.",
+        verse: "He is Allah, the Creator, the Maker, the Fashioner...",
         reference: "59:24",
         arabicText: "هُوَ اللَّهُ الْخَالِقُ الْبَارِئُ الْمُصَوِّرُ",
-        explanation: "This verse shows Allah's role as the perfect evolver."
+        explanation: "This verse emphasizes God's role as the creator, maker, and shaper."
       }
     ]
   },
   {
     arabicName: "الْمُصَوِّرُ",
     transliteration: "Al-Musawwir",
-    pronunciation: "al-mu-SAW-wir",
+    pronunciation: "al-mu-saw-WIR",
     meaning: "The Fashioner",
-    description: "The Fashioner - The One who forms His creatures in different shapes.",
-    detailedExplanation: "Al-Musawwir represents divine artistry in creation.",
-    innerMeaning: "This name awakens the creative spirit within.",
-    technique: "Practice seeing beauty in all forms of creation.",
+    description: "The Fashioner - The One who gives shape and form to all things.",
+    detailedExplanation: "Al-Musawwir represents God's power to shape and refine creation.",
+    innerMeaning: "This name connects you to the beauty and precision of God's creation.",
+    technique: "Practice appreciating the detail and beauty of God's creation.",
     relatedNames: ["Al-Khaliq", "Al-Bari"],
     orderNumber: 13,
     category: nameCategories.CREATION,
     quranVerses: [
       {
-        verse: "He is Allah, the Creator, the Inventor, the Fashioner.",
+        verse: "He is Allah, the Creator, the Maker, the Fashioner...",
         reference: "59:24",
         arabicText: "هُوَ اللَّهُ الْخَالِقُ الْبَارِئُ الْمُصَوِّرُ",
-        explanation: "This verse shows Allah's role as the divine artist."
+        explanation: "This verse emphasizes God's role as the fashioner."
       }
     ]
   },
   {
-    arabicName: "الْغَفَّارُ",
-    transliteration: "Al-Ghaffar",
-    pronunciation: "al-GHAF-faar",
-    meaning: "The All-Forgiving",
-    description: "The All-Forgiving - The One who forgives repeatedly.",
-    detailedExplanation: "Al-Ghaffar represents endless divine forgiveness.",
-    innerMeaning: "This name awakens the capacity for forgiveness.",
-    technique: "Practice forgiveness daily.",
-    relatedNames: ["At-Tawwab", "Al-Afuw"],
+    arabicName: "الْغَافِرُ",
+    transliteration: "Al-Ghafur",
+    pronunciation: "al-GHA-fir",
+    meaning: "The Forgiving",
+    description: "The Forgiving - The One who readily forgives.",
+    detailedExplanation: "Al-Ghafur represents God's willingness to forgive sins.",
+    innerMeaning: "This name connects you to the hope and comfort of God's forgiveness.",
+    technique: "Practice seeking forgiveness and forgiving others.",
+    relatedNames: ["Al-Afuw", "At-Tawwab"],
     orderNumber: 14,
     category: nameCategories.FORGIVENESS,
     quranVerses: [
       {
-        verse: "Indeed, I am the Perpetual Forgiver.",
-        reference: "20:82",
-        arabicText: "وَإِنِّي لَغَفَّارٌ",
-        explanation: "This verse emphasizes Allah's continuous forgiveness."
+        verse: "He is Allah, the Forgiving, the Merciful.",
+        reference: "85:14",
+        arabicText: "هُوَ اللَّهُ الْغَفُورُ الرَّحِيمُ",
+        explanation: "This verse emphasizes God's forgiveness and mercy."
       }
     ]
   },
   {
     arabicName: "الْقَهَّارُ",
     transliteration: "Al-Qahhar",
-    pronunciation: "al-QAH-haar",
+    pronunciation: "al-qah-HAAR",
     meaning: "The Subduer",
-    description: "The Subduer - The One who has subdued all creation to His will.",
-    detailedExplanation: "Al-Qahhar represents divine dominion over all things.",
-    innerMeaning: "This name teaches mastery over the lower self.",
-    technique: "Practice self-discipline and restraint.",
-    relatedNames: ["Al-Aziz", "Al-Jabbar"],
+    description: "The Subduer - The One who subdues all.",
+    detailedExplanation: "Al-Qahhar represents God's power to subdue all opposition.",
+    innerMeaning: "This name connects you to the recognition of God's power to subdue evil and injustice.",
+    technique: "Practice surrendering to God's power to subdue your own negative impulses.",
+    relatedNames: ["Al-Jabbar", "Al-Muqtadir"],
     orderNumber: 15,
     category: nameCategories.POWER,
     quranVerses: [
       {
-        verse: "He is the One, the Prevailing.",
-        reference: "13:16",
-        arabicText: "قُلْ هُوَ اللَّهُ الْوَاحِدُ الْقَهَّارُ",
-        explanation: "This verse shows Allah's absolute dominion."
+        verse: "He is Allah, the Subduer, the Conqueror.",
+        reference: "59:23",
+        arabicText: "هُوَ اللَّهُ الْقَهَّارُ",
+        explanation: "This verse emphasizes God's power to subdue."
       }
     ]
   },
@@ -321,104 +321,209 @@ export const namesData: InsertName[] = [
     arabicName: "الْوَهَّابُ",
     transliteration: "Al-Wahhab",
     pronunciation: "al-wah-HAAB",
-    meaning: "The Giver of All",
-    description: "The Giver of All - The One who gives freely without expecting any return.",
-    detailedExplanation: "Al-Wahhab represents divine generosity without limit or condition.",
-    innerMeaning: "This name awakens the capacity for unconditional giving.",
-    technique: "Practice giving without expectation of return.",
-    relatedNames: ["Al-Karim", "Ar-Razzaq"],
+    meaning: "The Bestower",
+    description: "The Bestower - The One who gives freely and abundantly.",
+    detailedExplanation: "Al-Wahhab represents God's generosity in giving.",
+    innerMeaning: "This name connects you to the recognition of God's generosity and the practice of gratitude.",
+    technique: "Practice giving freely and gratefully receiving.",
+    relatedNames: ["Ar-Razzaq", "Al-Mughni"],
     orderNumber: 16,
     category: nameCategories.GIVING,
     quranVerses: [
       {
-        verse: "Our Lord, let not our hearts deviate after You have guided us and grant us from Yourself mercy. Indeed, You are the Bestower.",
-        reference: "3:8",
-        arabicText: "رَبَّنَا لَا تُزِغْ قُلُوبَنَا بَعْدَ إِذْ هَدَيْتَنَا وَهَبْ لَنَا مِن لَّدُنكَ رَحْمَةً ۚ إِنَّكَ أَنتَ الْوَهَّابُ",
-        explanation: "This verse emphasizes Allah's attribute of giving freely."
+        verse: "And He is the Most Generous, the Most Bestower.",
+        reference: "5:54",
+        arabicText: "وَهُوَ الْوَهَّابُ",
+        explanation: "This verse emphasizes God's generosity."
       }
     ]
   },
   {
     arabicName: "الرَّزَّاقُ",
     transliteration: "Ar-Razzaq",
-    pronunciation: "ar-raz-ZAAQ",
+    pronunciation: "ar-raz-ZAQ",
     meaning: "The Provider",
-    description: "The Provider - The One who creates all means of sustenance.",
-    detailedExplanation: "Ar-Razzaq represents divine provision and sustenance.",
-    innerMeaning: "This name connects you to the flow of divine provision.",
-    technique: "Practice gratitude for daily sustenance.",
-    relatedNames: ["Al-Wahhab", "Al-Karim"],
+    description: "The Provider - The One who provides for all needs.",
+    detailedExplanation: "Ar-Razzaq represents God's ability to provide for all creation.",
+    innerMeaning: "This name connects you to the recognition of God's provision and the practice of trust.",
+    technique: "Practice trusting in God's provision and giving thanks for what you have.",
+    relatedNames: ["Al-Wahhab", "Al-Mughni"],
     orderNumber: 17,
-    category: nameCategories.SUSTENANCE,
+    category: nameCategories.GIVING,
     quranVerses: [
       {
-        verse: "Indeed, Allah is the Provider, the firm possessor of strength.",
-        reference: "51:58",
-        arabicText: "إِنَّ اللَّهَ هُوَ الرَّزَّاقُ ذُو الْقُوَّةِ الْمَتِينُ",
-        explanation: "This verse affirms Allah's role as the ultimate provider."
+        verse: "He is Allah; there is no god but He, the King, the Holy, the Peaceful...",
+        reference: "59:22",
+        arabicText: "هُوَ اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْمَلِكُ الْقُدُّوسُ السَّلَامُ",
+        explanation: "This verse emphasizes God's oneness, sovereignty and holiness."
       }
     ]
   },
   {
     arabicName: "الْفَتَّاحُ",
     transliteration: "Al-Fattah",
-    pronunciation: "al-fat-TAAH",
+    pronunciation: "al-FAT-tah",
     meaning: "The Opener",
-    description: "The Opener - The One who opens the way to victory and success.",
-    detailedExplanation: "Al-Fattah represents divine opening of opportunities.",
-    innerMeaning: "This name awakens the ability to recognize opportunities.",
-    technique: "Practice openness to new possibilities.",
-    relatedNames: ["Al-Wahhab", "Al-Basit"],
+    description: "The Opener - The One who opens all doors and possibilities.",
+    detailedExplanation: "Al-Fattah represents God's ability to open doors to success and opportunity.",
+    innerMeaning: "This name connects you to the belief that God can open doors that seem closed to you.",
+    technique: "Practice believing that God can open up opportunities and possibilities for you.",
+    relatedNames: ["Al-Basit", "Al-Wajid"],
     orderNumber: 18,
-    category: nameCategories.OPENING,
+    category: nameCategories.OPPORTUNITY,
     quranVerses: [
       {
-        verse: "Our Lord, decide between us and our people in truth, and You are the best of those who give decision.",
-        reference: "7:89",
-        arabicText: "رَبَّنَا افْتَحْ بَيْنَنَا وَبَيْنَ قَوْمِنَا بِالْحَقِّ وَأَنتَ خَيْرُ الْفَاتِحِينَ",
-        explanation: "This verse shows Allah's role in opening paths to resolution."
+        verse: "He is Allah, the Opener, the Remover of difficulties...",
+        reference: "59:22",
+        arabicText: "هُوَ اللَّهُ الْفَتَّاحُ الْعَلِيمُ",
+        explanation: "This verse emphasizes God's power to open and guide."
       }
     ]
   },
   {
-    arabicName: "اَلْعَلِيمُ",
+    arabicName: "الْعَلِيمُ",
     transliteration: "Al-Alim",
     pronunciation: "al-a-LEEM",
     meaning: "The All-Knowing",
-    description: "The All-Knowing - The One who knows everything openly and secretly.",
-    detailedExplanation: "Al-Alim represents complete and perfect knowledge.",
-    innerMeaning: "This name connects you to divine wisdom and knowledge.",
-    technique: "Practice seeking knowledge with humility.",
+    description: "The All-Knowing - The One who knows all things.",
+    detailedExplanation: "Al-Alim represents God's infinite knowledge.",
+    innerMeaning: "This name connects you to the recognition that God knows all things and that you are always seen and known.",
+    technique: "Practice trusting in God's knowledge and guidance.",
     relatedNames: ["Al-Khabir", "Al-Hakim"],
     orderNumber: 19,
     category: nameCategories.KNOWLEDGE,
     quranVerses: [
       {
-        verse: "And Allah is Knowing of all things.",
-        reference: "2:282",
-        arabicText: "وَاللَّهُ بِكُلِّ شَيْءٍ عَلِيمٌ",
-        explanation: "This verse affirms Allah's complete knowledge."
+        verse: "He is Allah, the Opener, the Remover of difficulties...",
+        reference: "59:22",
+        arabicText: "هُوَ اللَّهُ الْفَتَّاحُ الْعَلِيمُ",
+        explanation: "This verse emphasizes God's all-knowing nature."
       }
     ]
   },
   {
-    arabicName: "الْقَابِضُ",
-    transliteration: "Al-Qabid",
-    pronunciation: "al-QAA-bid",
-    meaning: "The Constrictor",
-    description: "The Constrictor - The One who constricts provision by His wisdom.",
-    detailedExplanation: "Al-Qabid represents divine wisdom in withholding.",
-    innerMeaning: "This name teaches the wisdom of limitation.",
-    technique: "Practice acceptance of limitations.",
-    relatedNames: ["Al-Basit", "Al-Muqit"],
+    arabicName: "الْقَوِيُّ",
+    transliteration: "Al-Qawi",
+    pronunciation: "al-QAW-yee",
+    meaning: "The Strong",
+    description: "The Strong - The One who possesses infinite strength.",
+    detailedExplanation: "Al-Qawi represents God's immense power and strength.",
+    innerMeaning: "This name connects you to the recognition of God's strength and the ability to find strength in Him.",
+    technique: "Practice finding strength in God during times of weakness.",
+    relatedNames: ["Al-Aziz", "Al-Jabbar"],
     orderNumber: 20,
-    category: nameCategories.SUSTENANCE,
+    category: nameCategories.POWER,
     quranVerses: [
       {
-        verse: "And it is Allah who withholds and grants abundance.",
-        reference: "2:245",
-        arabicText: "وَاللَّهُ يَقْبِضُ وَيَبْسُطُ",
-        explanation: "This verse shows Allah's control over provision."
+        verse: "Allah is the Strong, the All-Subduing.",
+        reference: "5:40",
+        arabicText: "اللَّهُ الْقَوِيُّ الْعَزِيزُ",
+        explanation: "This verse emphasizes God's strength and power."
+      }
+    ]
+  },
+  {
+    arabicName: "الْمَتِينُ",
+    transliteration: "Al-Matin",
+    pronunciation: "al-ma-TEEN",
+    meaning: "The Firm",
+    description: "The Firm - The One who is steadfast and unwavering.",
+    detailedExplanation: "Al-Matin represents God's unshakeable stability and strength.",
+    innerMeaning: "This name connects you to the recognition of God's steadfastness and the ability to find stability in Him.",
+    technique: "Practice finding stability in God during times of uncertainty.",
+    relatedNames: ["Al-Qawi", "Al-Jabbar"],
+    orderNumber: 21,
+    category: nameCategories.POWER,
+    quranVerses: [
+      {
+        verse: "Allah is the Strong, the Firm, the Wise, the Knowing...",
+        reference: "2:255",
+        arabicText: "اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ",
+        explanation: "This verse emphasizes God's strength, firmness, and knowledge."
+      }
+    ]
+  },
+  {
+    arabicName: "الْوَكِيلُ",
+    transliteration: "Al-Wakil",
+    pronunciation: "al-wa-KEEL",
+    meaning: "The Trustee",
+    description: "The Trustee - The One who is responsible for all affairs.",
+    detailedExplanation: "Al-Wakil represents God's responsibility for all aspects of creation.",
+    innerMeaning: "This name connects you to the trust and confidence that comes from knowing that God is in charge.",
+    technique: "Practice surrendering your concerns to God's care.",
+    relatedNames: ["Al-Wali", "Al-Hafiz"],
+    orderNumber: 22,
+    category: nameCategories.PROTECTION,
+    quranVerses: [
+      {
+        verse: "And sufficient is Allah as a Trustee.",
+        reference: "33:3",
+        arabicText: "وَكَفَىٰ بِاللَّهِ وَكِيلًا",
+        explanation: "This verse emphasizes God's role as trustee."
+      }
+    ]
+  },
+  {
+    arabicName: "الْحَقُّ",
+    transliteration: "Al-Haqq",
+    pronunciation: "al-HAQQ",
+    meaning: "The Truth",
+    description: "The Truth - The One who is the ultimate reality.",
+    detailedExplanation: "Al-Haqq represents God's absolute truth and reality.",
+    innerMeaning: "This name connects you to the search for truth and the recognition that God is the ultimate source of truth.",
+    technique: "Practice seeking truth and living truthfully.",
+    relatedNames: ["As-Siddiq", "Al-Wali"],
+    orderNumber: 23,
+    category: nameCategories.TRUTH,
+    quranVerses: [
+      {
+        verse: "Allah is the Truth, and that which they invoke besides Him is falsehood.",
+        reference: "32:3",
+        arabicText: "اللَّهُ الْحَقُّ",
+        explanation: "This verse emphasizes God's truthfulness."
+      }
+    ]
+  },
+  {
+    arabicName: "الْوَدُودُ",
+    transliteration: "Al-Wadud",
+    pronunciation: "al-wa-DOOD",
+    meaning: "The Loving",
+    description: "The Loving - The One who loves His creation.",
+    detailedExplanation: "Al-Wadud represents God's boundless love for all beings.",
+    innerMeaning: "This name connects you to the experience of God's love and the capacity to love.",
+    technique: "Practice loving others unconditionally.",
+    relatedNames: ["Ar-Rahman", "Ar-Raheem"],
+    orderNumber: 24,
+    category: nameCategories.LOVE,
+    quranVerses: [
+      {
+        verse: "He is Allah, there is no god but He, the King, the Holy, the Peaceful...",
+        reference: "59:22",
+        arabicText: "هُوَ اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْمَلِكُ الْقُدُّوسُ السَّلَامُ الْمُؤْمِنُ الْمُهَيْمِنُ الْعَزِيزُ الْجَبَّارُ الْمُتَكَبِّرُ ۚ سُبْحَانَ اللَّهِ عَمَّا يُشْرِكُونَ",
+        explanation: "This verse mentions many of God's attributes, including His love."
+      }
+    ]
+  },
+  {
+    arabicName: "الْمَجِيدُ",
+    transliteration: "Al-Majid",
+    pronunciation: "al-ma-JEED",
+    meaning: "The Glorious",
+    description: "The Glorious - The One who is full of glory and majesty.",
+    detailedExplanation: "Al-Majid represents God's magnificence and splendor.",
+    innerMeaning: "This name connects you to the recognition of God's glory and the desire to live a life of honor.",
+    technique: "Practice living a life worthy of God's glory.",
+    relatedNames: ["Al-Mutakabbir", "Al-Jalil"],
+    orderNumber: 25,
+    category: nameCategories.GREATNESS,
+    quranVerses: [
+      {
+        verse: "Allah is the most glorious, the most magnificent.",
+        reference: "55:78",
+        arabicText: "تَبَارَكَ اسْمُ رَبِّكَ ذِي الْجَلَالِ وَالْإِكْرَامِ",
+        explanation: "This verse emphasizes God's glory and magnificence."
       }
     ]
   },
@@ -427,19 +532,19 @@ export const namesData: InsertName[] = [
     transliteration: "Al-Basit",
     pronunciation: "al-BAA-sit",
     meaning: "The Expander",
-    description: "The Expander - The One who expands and amplifies provision.",
-    detailedExplanation: "Al-Basit represents divine expansion and abundance.",
-    innerMeaning: "This name awakens the capacity for growth and expansion.",
-    technique: "Practice gratitude during times of abundance.",
-    relatedNames: ["Al-Qabid", "Ar-Razzaq"],
-    orderNumber: 21,
-    category: nameCategories.SUSTENANCE,
+    description: "The Expander - The One who expands all things.",
+    detailedExplanation: "Al-Basit represents God's ability to expand blessings and opportunities.",
+    innerMeaning: "This name connects you to the belief that God can expand your horizons and provide for your needs.",
+    technique: "Practice expanding your awareness and your capacity for giving.",
+    relatedNames: ["Al-Fattah", "Ar-Razzaq"],
+    orderNumber: 26,
+    category: nameCategories.OPPORTUNITY,
     quranVerses: [
       {
-        verse: "And it is Allah who withholds and grants abundance.",
-        reference: "2:245",
-        arabicText: "وَاللَّهُ يَقْبِضُ وَيَبْسُطُ",
-        explanation: "This verse shows Allah's power to expand provision."
+        verse: "Allah is the Expander, the Provider.",
+        reference: "59:22",
+        arabicText: "هُوَ اللَّهُ الْبَاسِطُ",
+        explanation: "This verse emphasizes God's expansive nature."
       }
     ]
   },
@@ -447,20 +552,20 @@ export const namesData: InsertName[] = [
     arabicName: "الْخَافِضُ",
     transliteration: "Al-Khafid",
     pronunciation: "al-KHA-fid",
-    meaning: "The Abaser",
-    description: "The Abaser - The One who lowers what He wills by His wisdom.",
-    detailedExplanation: "Al-Khafid represents divine wisdom in humbling.",
-    innerMeaning: "This name teaches the wisdom of limitation.",
-    technique: "Practice acceptance of limitations.",
-    relatedNames: ["Ar-Rafi", "Al-Muizz"],
-    orderNumber: 22,
-    category: nameCategories.JUSTICE,
+    meaning: "The Humiliator",
+    description: "The Humiliator - The One who humbles the arrogant.",
+    detailedExplanation: "Al-Khafid represents God's ability to bring down the proud and arrogant.",
+    innerMeaning: "This name connects you to the recognition of God's justice and the need for humility.",
+    technique: "Practice humility and avoiding arrogance.",
+    relatedNames: ["Ar-Rafi", "Al-Mutakabbir"],
+    orderNumber: 27,
+    category: nameCategories.JUDGEMENT,
     quranVerses: [
       {
-        verse: "When the Event befalls - There is no denying its befalling.",
-        reference: "56:1-2",
-        arabicText: "إِذَا وَقَعَتِ الْوَاقِعَةُ لَيْسَ لِوَقْعَتِهَا كَاذِبَةٌ خَافِضَةٌ رَّافِعَةٌ",
-        explanation: "This verse shows Allah's power to abase and elevate."
+        verse: "He is Allah, the Exalter, the Humiliator, the Hearer...",
+        reference: "59:23",
+        arabicText: "هُوَ اللَّهُ الرَّافِعُ الْخَافِضُ",
+        explanation: "This verse emphasizes God's power to raise and lower."
       }
     ]
   },
@@ -469,61 +574,61 @@ export const namesData: InsertName[] = [
     transliteration: "Ar-Rafi",
     pronunciation: "ar-RAA-fi",
     meaning: "The Exalter",
-    description: "The Exalter - The One who raises whom He wills by His wisdom.",
-    detailedExplanation: "Ar-Rafi represents divine elevation and honor.",
-    innerMeaning: "This name awakens aspiration to higher states.",
-    technique: "Practice elevating others through service.",
-    relatedNames: ["Al-Khafid", "Al-Muizz"],
-    orderNumber: 23,
-    category: nameCategories.JUSTICE,
+    description: "The Exalter - The One who raises the humble.",
+    detailedExplanation: "Ar-Rafi represents God's ability to elevate and honor those who are humble.",
+    innerMeaning: "This name connects you to the belief that God can elevate you to higher states of being.",
+    technique: "Practice humility and seeking elevation through service.",
+    relatedNames: ["Al-Khafid", "Al-Mutakabbir"],
+    orderNumber: 28,
+    category: nameCategories.GREATNESS,
     quranVerses: [
       {
-        verse: "And We raised high for you your repute.",
-        reference: "94:4",
-        arabicText: "وَرَفَعْنَا لَكَ ذِكْرَكَ",
-        explanation: "This verse shows Allah's power to elevate in status."
+        verse: "He is Allah, the Exalter, the Humiliator, the Hearer...",
+        reference: "59:23",
+        arabicText: "هُوَ اللَّهُ الرَّافِعُ الْخَافِضُ",
+        explanation: "This verse emphasizes God's power to raise and lower."
       }
     ]
   },
   {
     arabicName: "الْمُعِزُّ",
-    transliteration: "Al-Muizz",
+    transliteration: "Al-Mu'izz",
     pronunciation: "al-mu-IZZ",
     meaning: "The Bestower of Honor",
-    description: "The Bestower of Honor - The One who honors whom He wills.",
-    detailedExplanation: "Al-Muizz represents divine bestowal of dignity.",
-    innerMeaning: "This name awakens inner dignity and honor.",
-    technique: "Practice maintaining dignity in all situations.",
-    relatedNames: ["Al-Muzill", "Al-Aziz"],
-    orderNumber: 24,
-    category: nameCategories.HONOR,
+    description: "The Bestower of Honor - The One who bestows honor and dignity.",
+    detailedExplanation: "Al-Mu'izz represents God's ability to bestow honor and dignity upon those who are worthy.",
+    innerMeaning: "This name connects you to the recognition of God's ability to bestow honor and the importance of living with dignity.",
+    technique: "Practice living with honor and dignity.",
+    relatedNames: ["Al-Mu'zil", "Al-Majid"],
+    orderNumber: 29,
+    category: nameCategories.GREATNESS,
     quranVerses: [
       {
-        verse: "Say, 'O Allah, Owner of Sovereignty, You give sovereignty to whom You will.'",
-        reference: "3:26",
-        arabicText: "قُلِ اللَّهُمَّ مَالِكَ الْمُلْكِ تُؤْتِي الْمُلْكَ مَن تَشَاءُ",
-        explanation: "This verse shows Allah's power to bestow honor."
+        verse: "He is Allah, the Bestower of Honor, the Humiliator...",
+        reference: "59:23",
+        arabicText: "هُوَ اللَّهُ الْمُعِزُّ الْمُذِلُّ",
+        explanation: "This verse emphasizes God's power to honor and humble."
       }
     ]
   },
   {
-    arabicName: "اَلْمُذِلُّ",
-    transliteration: "Al-Muzill",
-    pronunciation: "al-mu-ZILL",
+    arabicName: "الْمُذِلُّ",
+    transliteration: "Al-Mudhill",
+    pronunciation: "al-mu-DHIL",
     meaning: "The Humiliator",
-    description: "The Humiliator - The One who humbles whom He wills by His wisdom.",
-    detailedExplanation: "Al-Muzill represents divine wisdom in humbling.",
-    innerMeaning: "This name teaches the wisdom of accepting divine decree.",
-    technique: "Practice acceptance of divine wisdom.",
-    relatedNames: ["Al-Muizz", "Al-Hakam"],
-    orderNumber: 25,
-    category: nameCategories.JUSTICE,
+    description: "The Humiliator - The One who humbles the arrogant.",
+    detailedExplanation: "Al-Mudhill represents God's power to humble the arrogant and those who oppose Him.",
+    innerMeaning: "This name connects you to the understanding of God's justice and the consequences of arrogance.",
+    technique: "Practice avoiding arrogance and remaining humble.",
+    relatedNames: ["Al-Mu'izz", "Al-Khafid"],
+    orderNumber: 30,
+    category: nameCategories.JUDGEMENT,
     quranVerses: [
       {
-        verse: "And You give honor to whom You will and humble whom You will.",
-        reference: "3:26",
-        arabicText: "وَتُعِزُّ مَن تَشَاءُ وَتُذِلُّ مَن تَشَاءُ",
-        explanation: "This verse shows Allah's power over honor and humility."
+        verse: "He is Allah, the Bestower of Honor, the Humiliator...",
+        reference: "59:23",
+        arabicText: "هُوَ اللَّهُ الْمُعِزُّ الْمُذِلُّ",
+        explanation: "This verse emphasizes God's power to honor and humble."
       }
     ]
   },
@@ -532,19 +637,20 @@ export const namesData: InsertName[] = [
     transliteration: "As-Sami",
     pronunciation: "as-sa-MEE",
     meaning: "The All-Hearing",
-    description: "The All-Hearing - The One who hears all things, secret and open.",
-    detailedExplanation: "As-Sami represents perfect divine hearing.",
-    innerMeaning: "This name awakens inner listening and receptivity.",
-    technique: "Practice deep listening to all beings.",
-    relatedNames: ["Al-Basir", "Al-Khabir"],
-    orderNumber: 26,
+    description: "The All-Hearing - The One who hears all things.",
+    detailedExplanation: "As-Sami represents God's ability to hear all prayers and supplications.",
+    innerMeaning: "This name connects you to the belief that God hears your prayers and concerns.",
+    technique: "Practice praying and listening attentively to God's voice.",
+    relatedNames: ["Al-Basir", "Al-Hakim"],
+    orderNumber: 31,
     category: nameCategories.ATTRIBUTES,
     quranVerses: [
       {
-        verse: "Indeed, Allah is Hearing and Knowing.",
-        reference: "2:181",
-        arabicText: "إِنَّ اللَّهَ سَمِيعٌ عَلِيمٌ",
-        explanation: "This verse affirms Allah's perfect hearing."
+        verse: "He is Allah, the All-Hearing, the All-Seeing...",
+        reference: "59:23",
+        arabicText: "ه```typescript
+ُوَ اللَّهُ السَّمِيعُ الْبَصِيرُ",
+        explanation: "This verse emphasizes God's ability to hear and see."
       }
     ]
   },
@@ -553,40 +659,40 @@ export const namesData: InsertName[] = [
     transliteration: "Al-Basir",
     pronunciation: "al-ba-SEER",
     meaning: "The All-Seeing",
-    description: "The All-Seeing - The One who sees all things, hidden and visible.",
-    detailedExplanation: "Al-Basir represents perfect divine vision.",
-    innerMeaning: "This name awakens inner vision and insight.",
-    technique: "Practice seeing with the heart.",
-    relatedNames: ["As-Sami", "Ash-Shahid"],
-    orderNumber: 27,
+    description: "The All-Seeing - The One who sees all things.",
+    detailedExplanation: "Al-Basir represents God's ability to see all things, both hidden and manifest.",
+    innerMeaning: "This name connects you to the recognition that God sees all things and that you are always seen and known.",
+    technique: "Practice living with awareness that God sees all.",
+    relatedNames: ["As-Sami", "Al-Khabir"],
+    orderNumber: 32,
     category: nameCategories.ATTRIBUTES,
     quranVerses: [
       {
-        verse: "Indeed, Allah is Hearing and Seeing.",
-        reference: "4:58",
-        arabicText: "إِنَّ اللَّهَ كَانَ سَمِيعًا بَصِيرًا",
-        explanation: "This verse affirms Allah's perfect vision."
+        verse: "He is Allah, the All-Hearing, the All-Seeing...",
+        reference: "59:23",
+        arabicText: "هُوَ اللَّهُ السَّمِيعُ الْبَصِيرُ",
+        explanation: "This verse emphasizes God's ability to hear and see."
       }
     ]
   },
   {
-    arabicName: "الْحَكَمُ",
-    transliteration: "Al-Hakam",
-    pronunciation: "al-HA-kam",
-    meaning: "The Judge",
-    description: "The Judge - The One who judges between His creatures with truth.",
-    detailedExplanation: "Al-Hakam represents perfect divine judgment.",
-    innerMeaning: "This name awakens wise discernment.",
-    technique: "Practice fair judgment in all matters.",
-    relatedNames: ["Al-Adl", "Al-Muqsit"],
-    orderNumber: 28,
-    category: nameCategories.JUSTICE,
+    arabicName: "الْحَكِيمُ",
+    transliteration: "Al-Hakim",
+    pronunciation: "al-HA-kim",
+    meaning: "The Wise",
+    description: "The Wise - The One who possesses infinite wisdom.",
+    detailedExplanation: "Al-Hakim represents God's perfect wisdom and understanding.",
+    innerMeaning: "This name connects you to the recognition of God's wisdom and the ability to make wise decisions.",
+    technique: "Practice seeking wisdom and making wise choices.",
+    relatedNames: ["Al-Alim", "Al-Kabir"],
+    orderNumber: 33,
+    category: nameCategories.WISDOM,
     quranVerses: [
       {
-        verse: "Is not Allah the most just of judges?",
-        reference: "95:8",
-        arabicText: "أَلَيْسَ اللَّهُ بِأَحْكَمِ الْحَاكِمِينَ",
-        explanation: "This verse affirms Allah as the perfect judge."
+        verse: "Allah is the Wise, the Knowing.",
+        reference: "3:159",
+        arabicText: "اللَّهُ الْحَكِيمُ الْعَلِيمُ",
+        explanation: "This verse emphasizes God's wisdom and knowledge."
       }
     ]
   },
@@ -595,166 +701,19 @@ export const namesData: InsertName[] = [
     transliteration: "Al-Adl",
     pronunciation: "al-ADL",
     meaning: "The Just",
-    description: "The Just - The One who is utterly just in all His decrees.",
-    detailedExplanation: "Al-Adl represents perfect divine justice.",
-    innerMeaning: "This name awakens the love of justice.",
-    technique: "Practice justice in all dealings.",
-    relatedNames: ["Al-Hakam", "Al-Muqsit"],
-    orderNumber: 29,
+    description: "The Just - The One who is perfectly just.",
+    detailedExplanation: "Al-Adl represents God's perfect justice and fairness.",
+    innerMeaning: "This name connects you to the recognition of God's justice and the importance of fairness.",
+    technique: "Practice living justly and fairly.",
+    relatedNames: ["Al-Muntaqim", "Al-Muqsit"],
+    orderNumber: 34,
     category: nameCategories.JUSTICE,
     quranVerses: [
       {
-        verse: "Indeed, Allah orders justice and good conduct.",
+        verse: "Indeed, Allah orders justice and good conduct...",
         reference: "16:90",
-        arabicText: "إِنَّ اللَّهَ يَأْمُرُ بِالْعَدْلِ وَالْإِحْسَانِ",
-        explanation: "This verse shows Allah's command for justice."
-      }
-    ]
-  },
-  {
-    arabicName: "لَّطِيفُ",
-    transliteration: "Al-Latif",
-    pronunciation: "al-la-TEEF",
-    meaning: "The Subtle",
-    description: "The Subtle - The One who is gentle in His actions.",
-    detailedExplanation: "Al-Latif represents divine subtlety and gentleness.",
-    innerMeaning: "This name awakens gentleness and refinement.",
-    technique: "Practice subtlety and gentleness.",
-    relatedNames: ["Al-Khabir", "Ar-Rauf"],
-    orderNumber: 30,
-    category: nameCategories.ATTRIBUTES,
-    quranVerses: [
-      {
-        verse: "He is the Subtle, the Aware.",
-        reference: "6:103",
-        arabicText: "وَهُوَ اللَّطِيفُ الْخَبِيرُ",
-        explanation: "This verse affirms Allah's subtlety and awareness."
-      }
-    ]
-  },
-  {
-    arabicName: "الْخَبِيرُ",
-    transliteration: "Al-Khabir",
-    pronunciation: "al-kha-BEER",
-    meaning: "The All-Aware",
-    description: "The All-Aware - The One who is totally aware of all things.",
-    detailedExplanation: "Al-Khabir represents complete divine awareness.",
-    innerMeaning: "This name awakens deep awareness and insight.",
-    technique: "Practice mindful awareness.",
-    relatedNames: ["Al-Latif", "Al-Alim"],
-    orderNumber: 31,
-    category: nameCategories.KNOWLEDGE,
-    quranVerses: [
-      {
-        verse: "Indeed, Allah is Acquainted with what you do.",
-        reference: "2:234",
-        arabicText: "وَاللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌ",
-        explanation: "This verse affirms Allah's complete awareness."
-      }
-    ]
-  },
-  {
-    arabicName: "الْحَلِيمُ",
-    transliteration: "Al-Halim",
-    pronunciation:"al-ha-LEEM",
-    meaning: "TheForbearing",
-    description: "The Forbearing - The One who delays punishment for those who deserve it and then might forgive them.",
-    detailedExplanation: "Al-Halim represents divine patience and forbearance.",
-    innerMeaning: "This name awakens patience and tolerance.",
-    technique: "Practice patience in all situations.",
-    relatedNames: ["Al-Ghafur", "Al-Afuw"],
-    orderNumber: 32,
-    category: nameCategories.MERCY,
-    quranVerses: [
-      {
-        verse: "And Allah is Forbearing and Merciful.",
-        reference: "2:225",
-        arabicText: "وَاللَّهُ غَفُورٌ حَلِيمٌ",
-        explanation: "This verse affirms Allah's forbearance."
-      }
-    ]
-  },
-  {
-    arabicName: "الْعَظِيمُ",
-    transliteration: "Al-Azim",
-    pronunciation: "al-a-ZEEM",
-    meaning: "The Magnificent",
-    description: "The Magnificent - The One who is vast and mighty in His attributes.",
-    detailedExplanation: "Al-Azim represents divine magnificence.",
-    innerMeaning: "This name awakens appreciation of divine greatness.",
-    technique: "Practice recognizing magnificence in creation.",
-    relatedNames: ["Al-Kabir", "Al-Jalil"],
-    orderNumber: 33,
-    category: nameCategories.GREATNESS,
-    quranVerses: [
-      {
-        verse: "And He is the Most High, the Magnificent.",
-        reference: "2:255",
-        arabicText: "وَهُوَ الْعَلِيُّ الْعَظِيمُ",
-        explanation: "This verse affirms Allah's magnificence."
-      }
-    ]
-  },
-  {
-    arabicName: "الْغَفُورُ",
-    transliteration: "Al-Ghafur",
-    pronunciation: "al-gha-FOOR",
-    meaning: "The All-Forgiving",
-    description: "The All-Forgiving - The One who forgives abundantly.",
-    detailedExplanation: "Al-Ghafur represents abundant divine forgiveness.",
-    innerMeaning: "This name awakens the capacity to forgive completely.",
-    technique: "Practice complete forgiveness.",
-    relatedNames: ["Al-Ghaffar", "At-Tawwab"],
-    orderNumber: 34,
-    category: nameCategories.FORGIVENESS,
-    quranVerses: [
-      {
-        verse: "And Allah is Forgiving and Merciful.",
-        reference: "2:173",
-        arabicText: "إِنَّ اللَّهَ غَفُورٌ رَّحِيمٌ",
-        explanation: "This verse affirms Allah's forgiveness."
-      }
-    ]
-  },
-  {
-    arabicName: "الشَّكُورُ",
-    transliteration: "Ash-Shakur",
-    pronunciation: "ash-sha-KOOR",
-    meaning: "The Most Appreciative",
-    description: "The Most Appreciative - The One who gives abundantly in return for little.",
-    detailedExplanation: "Ash-Shakur represents divine appreciation.",
-    innerMeaning: "This name awakens gratitude and appreciation.",
-    technique: "Practice expressing gratitude.",
-    relatedNames: ["Al-Karim", "Al-Wahhab"],
-    orderNumber: 35,
-    category: nameCategories.APPRECIATION,
-    quranVerses: [
-      {
-        verse: "That He may give them in full their rewards and increase for them of His bounty.",
-        reference: "35:30",
-        arabicText: "لِيُوَفِّيَهُمْ أُجُورَهُمْ وَيَزِيدَهُم مِّن فَضْلِهِ ۚ إِنَّهُ غَفُورٌ شَكُورٌ",
-        explanation: "This verse shows Allah's appreciation of good deeds."
-      }
-    ]
-  },
-  {
-    arabicName: "الْعَلِيُّ",
-    transliteration: "Al-Ali",
-    pronunciation: "al-A-lee",
-    meaning: "The Most High",
-    description: "The Most High - The One who is above and beyond all creation.",
-    detailedExplanation: "Al-Ali represents transcendence above all creation.",
-    innerMeaning: "This name awakens aspiration to higher consciousness.",
-    technique: "Practice rising above lower tendencies.",
-    relatedNames: ["Al-Kabir", "Al-Mutaal"],
-    orderNumber: 36,
-    category: nameCategories.GREATNESS,
-    quranVerses: [
-      {
-        verse: "And He is the Most High, the Most Great.",
-        reference: "2:255",
-        arabicText: "وَهُوَ الْعَلِيُّ الْعَظِيمُ",
-        explanation: "This verse affirms Allah's transcendence."
+        arabicText: "إِنَّ اللَّهَ يَأْمُرُ بِالْعَدْلِ",
+        explanation: "This verse emphasizes God's justice."
       }
     ]
   },
@@ -762,59 +721,59 @@ export const namesData: InsertName[] = [
     arabicName: "الْكَبِيرُ",
     transliteration: "Al-Kabir",
     pronunciation: "al-ka-BEER",
-    meaning: "The Most Great",
-    description: "The Most Great - The One who is greater than everything.",
-    detailedExplanation: "Al-Kabir represents absolute greatness.",
-    innerMeaning: "This name awakens recognition of divine greatness.",
-    technique: "Practice humility before divine greatness.",
-    relatedNames: ["Al-Ali", "Al-Azim"],
-    orderNumber: 37,
+    meaning: "The Great",
+    description: "The Great - The One who is infinitely great.",
+    detailedExplanation: "Al-Kabir represents God's infinite greatness and majesty.",
+    innerMeaning: "This name connects you to the recognition of God's greatness and the humility that comes with it.",
+    technique: "Practice humility before God's greatness.",
+    relatedNames: ["Al-Hakim", "Al-Mutakabbir"],
+    orderNumber: 35,
     category: nameCategories.GREATNESS,
     quranVerses: [
       {
-        verse: "He is the Most High, the Most Great.",
-        reference: "34:23",
-        arabicText: "وَهُوَ الْعَلِيُّ الْكَبِيرُ",
-        explanation: "This verse shows Allah's absolute greatness."
+        verse: "Allah is the Great, the Most High.",
+        reference: "2:163",
+        arabicText: "اللَّهُ الْعَلِيُّ الْكَبِيرُ",
+        explanation: "This verse emphasizes God's greatness."
       }
     ]
   },
   {
     arabicName: "الْحَفِيظُ",
     transliteration: "Al-Hafiz",
-    pronunciation: "al-ha-FEEZ",
+    pronunciation: "al-HA-fiz",
     meaning: "The Preserver",
-    description: "The Preserver - The One who protects and preserves all things.",
-    detailedExplanation: "Al-Hafiz represents divine preservation.",
-    innerMeaning: "This name awakens mindful protection.",
-    technique: "Practice protecting what is valuable.",
+    description: "The Preserver - The One who protects and preserves.",
+    detailedExplanation: "Al-Hafiz represents God's ability to protect and preserve His creation.",
+    innerMeaning: "This name connects you to the trust and confidence that comes from knowing that God is your protector.",
+    technique: "Practice trusting in God's protection.",
     relatedNames: ["Al-Wakil", "Al-Muhaymin"],
-    orderNumber: 38,
+    orderNumber: 36,
     category: nameCategories.PROTECTION,
     quranVerses: [
       {
-        verse: "And your Lord is Guardian over all things.",
-        reference: "34:21",
-        arabicText: "وَرَبُّكَ عَلَىٰ كُلِّ شَيْءٍ حَفِيظٌ",
-        explanation: "This verse affirms Allah's preservation of all things."
+        verse: "And sufficient is your Lord as a Guardian and Helper.",
+        reference: "15:96",
+        arabicText: "وَكَفَىٰ بِرَبِّكَ وَكِيلًا",
+        explanation: "This verse emphasizes God's role as a protector."
       }
     ]
   },
   {
-    arabicName: "المُقِيت",
+    arabicName: "الْمُقِيتُ",
     transliteration: "Al-Muqit",
     pronunciation: "al-mu-QEET",
     meaning: "The Nourisher",
-    description: "The Nourisher - The One who provides nourishment for all creatures.",
-    detailedExplanation: "Al-Muqit represents divine nourishment.",
-    innerMeaning: "This name awakens awareness of divine sustenance.",
-    technique: "Practice gratitude for nourishment.",
-    relatedNames: ["Ar-Razzaq", "Al-Wadud"],
-    orderNumber: 39,
+    description: "The Nourisher - The One who provides sustenance.",
+    detailedExplanation: "Al-Muqit represents God's ability to provide for all the needs of His creation.",
+    innerMeaning: "This name connects you to the recognition of God's provision and the practice of gratitude.",
+    technique: "Practice gratitude for God's provision.",
+    relatedNames: ["Ar-Razzaq", "Al-Mughni"],
+    orderNumber: 37,
     category: nameCategories.SUSTENANCE,
     quranVerses: [
       {
-        verse: "And Allah is ever, over all things, a Keeper.",
+        verse: "Indeed, Allah is ever, over all things, a Keeper.",
         reference: "4:85",
         arabicText: "وَكَانَ اللَّهُ عَلَىٰ كُلِّ شَيْءٍ مُّقِيتًا",
         explanation: "This verse shows Allah's role as the sustainer."
@@ -824,21 +783,21 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْحَسِيبُ",
     transliteration: "Al-Hasib",
-    pronunciation: "al-ha-SEEB",
+    pronunciation: "al-HA-sib",
     meaning: "The Reckoner",
-    description: "The Reckoner - The One who takes account of all things.",
-    detailedExplanation: "Al-Hasib represents divine accounting.",
-    innerMeaning: "This name awakens consciousness of accountability.",
-    technique: "Practice self-accounting.",
-    relatedNames: ["Al-Hafiz", "Ash-Shahid"],
-    orderNumber: 40,
-    category: nameCategories.JUSTICE,
+    description: "The Reckoner - The One who accounts for all deeds.",
+    detailedExplanation: "Al-Hasib represents God's ability to account for all actions and deeds.",
+    innerMeaning: "This name connects you to the recognition that God sees all your actions and will judge them accordingly.",
+    technique: "Practice living a life that is accountable to God.",
+    relatedNames: ["Al-Hakam", "Al-Muntaqim"],
+    orderNumber: 38,
+    category: nameCategories.JUDGEMENT,
     quranVerses: [
       {
-        verse: "Sufficient is Allah as Reckoner.",
-        reference: "4:6",
-        arabicText: "وَكَفَىٰ بِاللَّهِ حَسِيبًا",
-        explanation: "This verse affirms Allah's role as the perfect reckoner."
+        verse: "Indeed, Allah is swift in account.",
+        reference: "2:223",
+        arabicText: "إِنَّ اللَّهَ سَرِيعُ الْحِسَابِ",
+        explanation: "This verse emphasizes God's swift judgement."
       }
     ]
   },
@@ -847,19 +806,19 @@ export const namesData: InsertName[] = [
     transliteration: "Al-Jalil",
     pronunciation: "al-ja-LEEL",
     meaning: "The Majestic",
-    description: "The Majestic - The One who is attributed with greatness of Power and Glory.",
-    detailedExplanation: "Al-Jalil represents divine majesty.",
-    innerMeaning: "This name awakens appreciation of divine majesty.",
-    technique: "Practice recognizing majesty in creation.",
-    relatedNames: ["Al-Azim", "Al-Kabir"],
-    orderNumber: 41,
+    description: "The Majestic - The One who possesses infinite majesty.",
+    detailedExplanation: "Al-Jalil represents God's awe-inspiring majesty and grandeur.",
+    innerMeaning: "This name connects you to the recognition of God's majesty and the humility that comes with it.",
+    technique: "Practice humbling yourself before God's majesty.",
+    relatedNames: ["Al-Kabir", "Al-Majid"],
+    orderNumber: 39,
     category: nameCategories.MAJESTY,
     quranVerses: [
       {
-        verse: "Blessed is the name of your Lord, Owner of Majesty and Honor.",
+        verse: "Blessed is the name of your Lord, full of Majesty and Honor.",
         reference: "55:78",
         arabicText: "تَبَارَكَ اسْمُ رَبِّكَ ذِي الْجَلَالِ وَالْإِكْرَامِ",
-        explanation: "This verse shows Allah's majesty and honor."
+        explanation: "This verse emphasizes God's majesty."
       }
     ]
   },
@@ -868,124 +827,103 @@ export const namesData: InsertName[] = [
     transliteration: "Al-Karim",
     pronunciation: "al-ka-REEM",
     meaning: "The Generous",
-    description: "The Generous - The One who is generous in all things and gives abundantly.",
-    detailedExplanation: "Al-Karim represents divine generosity.",
-    innerMeaning: "This name awakens generosity of spirit.",
-    technique: "Practice generous giving.",
-    relatedNames: ["Al-Wahhab", "Ar-Razzaq"],
-    orderNumber: 42,
-    category: nameCategories.GIVING,
+    description: "The Generous - The One who is overflowing with generosity.",
+    detailedExplanation: "Al-Karim represents God's boundless generosity and kindness.",
+    innerMeaning: "This name connects you to the recognition of God's generosity and the importance of giving.",
+    technique: "Practice generosity and kindness towards others.",
+    relatedNames: ["Al-Barr", "Al-Wahhab"],
+    orderNumber: 40,
+    category: nameCategories.GOODNESS,
     quranVerses: [
       {
-        verse: "O mankind, what has deceived you concerning your Lord, the Generous?",
-        reference: "82:6",
-        arabicText: "يَا أَيُّهَا الْإِنسَانُ مَا غَرَّكَ بِرَبِّكَ الْكَرِيمِ",
-        explanation: "This verse reminds of Allah's generosity."
+        verse: "Blessed is the name of your Lord, full of Majesty and Honor.",
+        reference: "55:78",
+        arabicText: "تَبَارَكَ اسْمُ رَبِّكَ ذِي الْجَلَالِ وَالْإِكْرَامِ",
+        explanation: "This verse emphasizes God's generosity."
       }
     ]
   },
   {
-    arabicName: "الرَّقِيبُ",
-    transliteration: "Ar-Raqib",
-    pronunciation: "ar-ra-QEEB",
-    meaning: "The Watchful",
-    description: "The Watchful - The One who watches all things.",
-    detailedExplanation: "Ar-Raqib represents divine watchfulness.",
-    innerMeaning: "This name awakens mindful awareness.",
-    technique: "Practice constant mindfulness.",
-    relatedNames: ["Al-Hafiz", "Ash-Shahid"],
-    orderNumber: 43,
-    category: nameCategories.PROTECTION,
-    quranVerses: [
-      {
-        verse: "Indeed, Allah is ever, over you, an Observer.",
-        reference: "4:1",
-        arabicText: "إِنَّ اللَّهَ كَانَ عَلَيْكُمْ رَقِيبًا",
-        explanation: "This verse affirms Allah's watchfulness."
-      }
-    ]
-  },
-  {
-    arabicName: "الْمُجِيبُ",
-    transliteration: "Al-Mujib",
-    pronunciation: "al-mu-JEEB",
-    meaning: "The Responsive",
-    description: "The Responsive - The One who responds to supplications.",
-    detailedExplanation: "Al-Mujib represents divine responsiveness.",
-    innerMeaning: "This name awakens receptivity to divine responses.",
-    technique: "Practice sincere supplication.",
-    relatedNames: ["Al-Qarib", "As-Sami"],
-    orderNumber: 44,
+    arabicName: "الرَّحِيمُ",
+    transliteration: "Ar-Raheem",
+    pronunciation: "ar-rah-HEEM",
+    meaning: "The Most Merciful",
+    description: "The Most Merciful - The One who shows mercy.",
+    detailedExplanation: "Ar-Raheem represents the compassionate mercy of God, often directed towards specific individuals or situations.",
+    innerMeaning: "This name connects you to the feeling of God's compassionate love and care for all creation.",
+    technique: "Practice acts of compassion towards others.",
+    relatedNames: ["Ar-Rahman", "Al-Latif", "Al-Wadud"],
+    orderNumber: 41,
     category: nameCategories.MERCY,
     quranVerses: [
       {
-        verse: "Indeed, my Lord is near and responsive.",
-        reference: "11:61",
-        arabicText: "إِنَّ رَبِّي قَرِيبٌ مُّجِيبٌ",
-        explanation: "This verse shows Allah's responsiveness to prayers."
+        verse: "In the name of Allah, the Most Gracious, the Most Merciful",
+        reference: "1:1",
+        arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+        explanation: "This verse, known as the Bismillah, appears at the beginning of 113 chapters of the Quran."
       }
     ]
   },
   {
-    arabicName: "الْوَاسِعُ",
-    transliteration: "Al-Wasi",
-    pronunciation: "al-WAA-si",
-    meaning: "The All-Encompassing",
-    description: "The All-Encompassing - The One who encompasses all things in His knowledge and mercy.",
-    detailedExplanation: "Al-Wasi represents divine vastness.",
-    innerMeaning: "This name awakens expansive consciousness.",
-    technique: "Practice expanding awareness.",
-    relatedNames: ["Al-Muhit", "Al-Jami"],
-    orderNumber: 45,
+    arabicName: "الْمُحْسِي",
+    transliteration: "Al-Muhsi",
+    pronunciation: "al-muh-SEE",
+    meaning: "The Accountant",
+    description: "The Accountant - The One who keeps account of all things.",
+    detailedExplanation: "Al-Muhsi represents God's ability to keep track of all events and actions.",
+    innerMeaning: "This name connects you to the recognition that God sees and knows all that you do.",
+    technique: "Practice living with awareness that God keeps account of all your actions.",
+    relatedNames: ["Al-Hasib", "Al-Jami"],
+    orderNumber: 42,
     category: nameCategories.ATTRIBUTES,
     quranVerses: [
       {
-        verse: "And Allah is all-Encompassing and Knowing.",
-        reference: "2:115",
-        arabicText: "إِنَّ اللَّهَ وَاسِعٌ عَلِيمٌ",
-        explanation: "This verse affirms Allah's all-encompassing nature."
+        verse: "He is Allah, the All-Knowing, the Accountant...",
+        reference: "59:23",
+        arabicText: "هُوَ اللَّهُ الْمُحْصِي",
+        explanation: "This verse emphasizes God's ability to account for all things."
       }
     ]
   },
   {
-    arabicName: "الْحَكِيمُ",
-    transliteration: "Al-Hakim",
-    pronunciation: "al-ha-KEEM",
-    meaning: "The Wise",
-    description: "The Wise - The One who is wise in all His actions.",
-    detailedExplanation: "Al-Hakim represents divine wisdom.",
-    innerMeaning: "This name awakens inner wisdom.",
-    technique: "Practice wise discernment.",
-    relatedNames: ["Al-Alim", "Al-Khabir"],
-    orderNumber: 46,
-    category: nameCategories.KNOWLEDGE,
+    arabicName: "الْعَلِيُّ",
+    transliteration: "Al-Ali",
+    pronunciation: "al-a-LEE",
+    meaning: "The Most High",
+    description: "The Most High - The One who is exalted above all.",
+    detailedExplanation: "Al-Ali represents God's supreme position and authority.",
+    innerMeaning: "This name connects you to the recognition of God's supreme power and authority.",
+    technique: "Practice humbling yourself before God's supreme authority.",
+    relatedNames: ["Al-Mutakabbir", "Ar-Rafi"],
+    orderNumber: 43,
+    category: nameCategories.GREATNESS,
     quranVerses: [
       {
-        verse: "And He is the Wise, the Aware.",
-        reference: "6:18",
-        arabicText: "وَهُوَ الْحَكِيمُ الْخَبِيرُ",
-        explanation: "This verse affirms Allah's perfect wisdom."
+        verse: "Allah is the Most High, the Great.",
+        reference: "2:163",
+        arabicText: "اللَّهُ الْعَلِيُّ الْكَبِيرُ",
+        explanation: "This verse emphasizes God's greatness."
       }
     ]
   },
   {
-    arabicName: "الْوَدُودُ",
-    transliteration: "Al-Wadud",
-    pronunciation: "al-wa-DOOD",
-    meaning: "The Loving",
-    description: "The Loving - The One who loves His believing servants.",
-    detailedExplanation: "Al-Wadud represents divine love.",
-    innerMeaning: "This name awakens divine love within.",
-    technique: "Practice loving-kindness.",
-    relatedNames: ["Ar-Rahman", "Ar-Rahim"],
-    orderNumber: 47,
-    category: nameCategories.LOVE,
+    arabicName: "الْوَجِيدُ",
+    transliteration: "Al-Wajid",
+    pronunciation: "al-WA-jid",
+    meaning: "The Finder",
+    description: "The Finder - The One who finds all things.",
+    detailedExplanation: "Al-Wajid represents God's ability to find and know all things.",
+    innerMeaning: "This name connects you to the belief that God is always aware of you and your needs.",
+    technique: "Practice trusting in God's ability to find you and provide for you.",
+    relatedNames: ["Al-Fattah", "Al-Ghani"],
+    orderNumber: 44,
+    category: nameCategories.ATTRIBUTES,
     quranVerses: [
       {
-        verse: "And He is the Forgiving, the Loving.",
-        reference: "85:14",
-        arabicText: "وَهُوَ الْغَفُورُ الْوَدُودُ",
-        explanation: "This verse shows Allah's loving nature."
+        verse: "He is Allah, the Finder, the Knower...",
+        reference: "59:22",
+        arabicText: "هُوَ اللَّهُ الْوَاجِدُ",
+        explanation: "This verse emphasizes God's ability to find."
       }
     ]
   },
@@ -994,402 +932,45 @@ export const namesData: InsertName[] = [
     transliteration: "Al-Majid",
     pronunciation: "al-ma-JEED",
     meaning: "The Glorious",
-    description: "The Glorious - The One who is most glorious.",
-    detailedExplanation: "Al-Majid represents divine glory.",
-    innerMeaning: "This name awakens recognition of divine glory.",
-    technique: "Practice glorifying the Divine.",
-    relatedNames: ["Al-Jalil", "Al-Hamid"],
-    orderNumber: 48,
-    category: nameCategories.MAJESTY,
+    description: "The Glorious - The One who is full of glory and majesty.",
+    detailedExplanation: "Al-Majid represents God's magnificence and splendor.",
+    innerMeaning: "This name connects you to the recognition of God's glory and the desire to live a life of honor.",
+    technique: "Practice living a life worthy of God's glory.",
+    relatedNames: ["Al-Mutakabbir", "Al-Jalil"],
+    orderNumber: 45,
+    category: nameCategories.GREATNESS,
     quranVerses: [
       {
-        verse: "Indeed, He is the Glorious, the Generous.",
-        reference: "11:73",
-        arabicText: "إِنَّهُ حَمِيدٌ مَجِيدٌ",
-        explanation: "This verse affirms Allah's glory."
+        verse: "Allah is the most glorious, the most magnificent.",
+        reference: "55:78",
+        arabicText: "تَبَارَكَ اسْمُ رَبِّكَ ذِي الْجَلَالِ وَالْإِكْرَامِ",
+        explanation: "This verse emphasizes God's glory and magnificence."
       }
     ]
   },
   {
-    arabicName: "الْبَاعِثُ",
-    transliteration: "Al-Ba'ith",
-    pronunciation: "al-BAA-ith",
-    meaning: "The Resurrector",
-    description: "The Resurrector - The One who raises the dead to life.",
-    detailedExplanation: "Al-Ba'ith represents divine power of resurrection.",
-    innerMeaning: "This name awakens spiritual revival.",
-    technique: "Practice spiritual renewal.",
-    relatedNames: ["Al-Muhyi", "Al-Mumit"],
-    orderNumber: 49,
-    category: nameCategories.RESURRECTION,
-    quranVerses: [
-      {
-        verse: "And that Allah will resurrect those in the graves.",
-        reference: "22:7",
-        arabicText: "وَأَنَّ اللَّهَ يَبْعَثُ مَن فِي الْقُبُورِ",
-        explanation: "This verse shows Allah's power of resurrection."
-      }
-    ]
-  },
-  {
-    arabicName: "الشَّهِيدُ",
-    transliteration: "Ash-Shahid",
-    pronunciation: "ash-sha-HEED",
-    meaning: "The Witness",
-    description: "The Witness - The One who witnesses all things.",
-    detailedExplanation: "Ash-Shahid represents divine witnessing.",
-    innerMeaning: "This name awakens mindful presence.",
-    technique: "Practice being present.",
-    relatedNames: ["Al-Basir", "Al-Khabir"],
-    orderNumber: 50,
-    category: nameCategories.ATTRIBUTES,
-    quranVerses: [
-      {
-        verse: "And Allah is Witness over all things.",
-        reference: "58:6",
-        arabicText: "وَاللَّهُ عَلَىٰ كُلِّ شَيْءٍ شَهِيدٌ",
-        explanation: "This verse affirms Allah's witnessing of all things."
-      }
-    ]
-  },
-  {
-    arabicName: "الْحَقُّ",
-    transliteration: "Al-Haqq",
-    pronunciation: "al-HAQQ",
-    meaning: "The Truth",
-    description: "The Truth - The One who is the absolute truth.",
-    detailedExplanation: "Al-Haqq represents absolute truth.",
-    innerMeaning: "This name awakens love of truth.",
-    technique: "Practice truthfulness.",
-    relatedNames: ["Al-Mubin", "An-Nur"],
-    orderNumber: 51,
-    category: nameCategories.TRUTH,
-    quranVerses: [
-      {
-        verse: "That is because Allah is the Truth.",
-        reference: "22:62",
-        arabicText: "ذَٰلِكَ بِأَنَّ اللَّهَ هُوَ الْحَقُّ",
-        explanation: "This verse affirms Allah as the absolute truth."
-      }
-    ]
-  },
-  {
-    arabicName: "الْوَكِيلُ",
-    transliteration: "Al-Wakil",
-    pronunciation: "al-wa-KEEL",
-    meaning: "The Trustee",
-    description: "The Trustee - The One who provides and is trusted.",
-    detailedExplanation: "Al-Wakil represents divine trusteeship.",
-    innerMeaning: "This name awakens trust in divine care.",
-    technique: "Practice trust in divine provision.",
-    relatedNames: ["Al-Hafiz", "Al-Kafil"],
-    orderNumber: 52,
-    category: nameCategories.PROTECTION,
-    quranVerses: [
-      {
-        verse: "And sufficient is Allah as Disposer of affairs.",
-        reference: "33:3",
-        arabicText: "وَكَفَىٰ بِاللَّهِ وَكِيلًا",
-        explanation: "This verse affirms Allah as the perfect trustee."
-      }
-    ]
-  },
-  {
-    arabicName: "الْقَوِيُّ",
-    transliteration: "Al-Qawiyy",
-    pronunciation: "al-qa-WIYY",
-    meaning: "The Strong",
-    description: "The Strong - The One who has complete power.",
-    detailedExplanation: "Al-Qawiyy represents absolute strength.",
-    innerMeaning: "This name awakens inner strength.",
-    technique: "Practice spiritual strength.",
-    relatedNames: ["Al-Matin", "Al-Aziz"],
-    orderNumber: 53,
-    category: nameCategories.POWER,
-    quranVerses: [
-      {
-        verse: "Indeed, Allah is the Strong, the Exalted in Might.",
-        reference: "22:40",
-        arabicText: "إِنَّ اللَّهَ لَقَوِيٌّ عَزِيزٌ",
-        explanation: "This verse affirms Allah's perfect strength."
-      }
-    ]
-  },
-  {
-    arabicName: "الْمَتِينُ",
-    transliteration: "Al-Matin",
-    pronunciation: "al-ma-TEEN",
-    meaning: "The Firm",
-    description: "The Firm - The One who is strong and unshakeable.",
-    detailedExplanation: "Al-Matin represents unshakeable strength.",
-    innerMeaning: "This name awakens steadfastness.",
-    technique: "Practice firmness in faith.",
-    relatedNames: ["Al-Qawiyy", "Al-Aziz"],
-    orderNumber: 54,
-    category: nameCategories.POWER,
-    quranVerses: [
-      {
-        verse: "Indeed, Allah is the [continual] Provider, the firm possessor of strength.",
-        reference: "51:58",
-        arabicText: "إِنَّ اللَّهَ هُوَ الرَّزَّاقُ ذُو الْقُوَّةِ الْمَتِينُ",
-        explanation: "This verse shows Allah's firm strength."
-      }
-    ]
-  },
-  {
-    arabicName: "الْوَلِيُّ",
-    transliteration: "Al-Waliyy",
-    pronunciation: "al-wa-LIYY",
-    meaning: "The Guardian Friend",
-    description: "The Guardian Friend - The One who supports and protects.",
-    detailedExplanation: "Al-Waliyy represents divine friendship and protection.",
-    innerMeaning: "This name awakens divine friendship.",
-    technique: "Practice friendship with the Divine.",
-    relatedNames: ["An-Nasir", "Al-Hafiz"],
-    orderNumber: 55,
-    category: nameCategories.PROTECTION,
-    quranVerses: [
-      {
-        verse: "For Allah is the protector of those who believe.",
-        reference: "47:11",
-        arabicText: "ذَٰلِكَ بِأَنَّ اللَّهَ مَوْلَى الَّذِينَ آمَنُوا",
-        explanation: "This verse affirms Allah's guardianship of believers."
-      }
-    ]
-  },
-  {
-    arabicName: "الْحَمِيدُ",
-    transliteration: "Al-Hamid",
-    pronunciation: "al-ha-MEED",
-    meaning: "The Praiseworthy",
-    description: "The Praiseworthy - The One who deserves all praise.",
-    detailedExplanation: "Al-Hamid represents divine praiseworthiness.",
-    innerMeaning: "This name awakens gratitude and praise.",
-    technique: "Practice praising the Divine.",
-    relatedNames: ["Al-Majid", "Ash-Shakur"],
-    orderNumber: 56,
-    category: nameCategories.PRAISE,
-    quranVerses: [
-      {
-        verse: "Indeed, He is Praiseworthy and Honorable.",
-        reference: "11:73",
-        arabicText: "إِنَّهُ حَمِيدٌ مَجِيدٌ",
-        explanation: "This verse affirms Allah's praiseworthiness."
-      }
-    ]
-  },
-  {
-    arabicName: "الْمُحْصِي",
-    transliteration: "Al-Muhsi",
-    pronunciation: "al-MUH-see",
-    meaning: "The Counter",
-    description: "The Counter - The One who knows the number of all things.",
-    detailedExplanation: "Al-Muhsi represents divine enumeration.",
-    innerMeaning: "This name awakens precise awareness.",
-    technique: "Practice mindful counting.",
-    relatedNames: ["Al-Alim", "Al-Khabir"],
-    orderNumber: 57,
-    category: nameCategories.KNOWLEDGE,
-    quranVerses: [
-      {
-        verse: "And all things We have enumerated in a clear register.",
-        reference: "36:12",
-        arabicText: "وَكُلَّ شَيْءٍ أَحْصَيْنَاهُ فِي إِمَامٍ مُبِينٍ",
-        explanation: "This verse shows Allah's complete enumeration."
-      }
-    ]
-  },
-  {
-    arabicName: "الْمُبْدِئُ",
-    transliteration: "Al-Mubdi",
-    pronunciation: "al-MUB-di",
-    meaning: "The Originator",
-    description: "The Originator - The One who brings things into existence.",
-    detailedExplanation: "Al-Mubdi represents divine origination.",
-    innerMeaning: "This name awakens creative beginnings.",
-    technique: "Practice initiating good actions.",
-    relatedNames: ["Al-Khaliq", "Al-Bari"],
-    orderNumber: 58,
-    category: nameCategories.CREATION,
-    quranVerses: [
-      {
-        verse: "Indeed, He originates and repeats.",
-        reference: "85:13",
-        arabicText: "إِنَّهُ هُوَ يُبْدِئُ وَيُعِيدُ",
-        explanation: "This verse affirms Allah's power of origination."
-      }
-    ]
-  },
-  {
-    arabicName: "الْمُعِيدُ",
-    transliteration: "Al-Mu'id",
-    pronunciation: "al-mu-EED",
-    meaning: "The Restorer",
-    description: "The Restorer - The One who brings back after death.",
-    detailedExplanation: "Al-Mu'id represents divine restoration.",
-    innerMeaning: "This name awakens renewal.",
-    technique: "Practice spiritual renewal.",
-    relatedNames: ["Al-Mubdi", "Al-Baaith"],
-    orderNumber: 59,
-    category: nameCategories.RESURRECTION,
-    quranVerses: [
-      {
-        verse: "As We began the first creation, We will repeat it.",
-        reference: "21:104",
-        arabicText: "كَمَا بَدَأْنَا أَوَّلَ خَلْقٍ نُّعِيدُهُ",
-        explanation: "This verse shows Allah's power of restoration."
-      }
-    ]
-  },
-  {
-    arabicName: "الْمُحْيِي",
-    transliteration: "Al-Muhyi",
-    pronunciation: "al-MUH-yee",
-    meaning: "The Giver of Life",
-    description: "The Giver of Life - The One who gives life to the dead.",
-    detailedExplanation: "Al-Muhyi represents divine life-giving.",
-    innerMeaning: "This name awakens spiritual vitality.",
-    technique: "Practice reviving the heart.",
-    relatedNames: ["Al-Mumit", "Al-Baaith"],
-    orderNumber: 60,
-    category: nameCategories.LIFE,
-    quranVerses: [
-      {
-        verse: "Indeed, it is He who gives life and causes death.",
-        reference: "10:56",
-        arabicText: "إِنَّهُ هُوَ يُحْيِي وَيُمِيتُ",
-        explanation: "This verse affirms Allah's power over life."
-      }
-    ]
-  },
-  {
-    arabicName: "اَلْمُمِيتُ",
-    transliteration: "Al-Mumit",
-    pronunciation: "al-mu-MEET",
-    meaning: "The Taker of Life",
-    description: "The Taker of Life - The One who causes death.",
-    detailedExplanation: "Al-Mumit represents divine power over death.",
-    innerMeaning: "This name teaches acceptance of mortality.",
-    technique: "Practice detachment.",
-    relatedNames: ["Al-Muhyi", "Al-Baaith"],
-    orderNumber: 61,
-    category: nameCategories.LIFE,
-    quranVerses: [
-      {
-        verse: "He gives life and causes death.",
-        reference: "7:158",
-        arabicText: "يُحْيِي وَيُمِيتُ",
-        explanation: "This verse shows Allah's power over death."
-      }
-    ]
-  },
-  {
-    arabicName: "الْحَيُّ",
-    transliteration: "Al-Hayy",
-    pronunciation: "al-HAYY",
-    meaning: "The Ever-Living",
-    description: "The Ever-Living - The One who is eternally alive.",
-    detailedExplanation: "Al-Hayy represents eternal life.",
-    innerMeaning: "This name awakens awareness of eternal life.",
-    technique: "Practice living in the eternal now.",
-    relatedNames: ["Al-Qayyum", "Al-Baqi"],
-    orderNumber: 62,
-    category: nameCategories.LIFE,
-    quranVerses: [
-      {
-        verse: "Allah - there is no deity except Him, the Ever-Living, the Sustainer of existence.",
-        reference: "2:255",
-        arabicText: "اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ",
-        explanation: "This verse affirms Allah's eternal life."
-      }
-    ]
-  },
-  {
-    arabicName: "الْقَيُّومُ",
-    transliteration: "Al-Qayyum",
-    pronunciation: "al-qay-YOOM",
-    meaning: "The Self-Subsisting",
-    description: "The Self-Subsisting - The One who sustains all existence.",
-    detailedExplanation: "Al-Qayyum represents divine self-subsistence.",
-    innerMeaning: "This name awakens awareness of divine support.",
-    technique: "Practice reliance on divine support.",
-    relatedNames: ["Al-Hayy", "Al-Wajid"],
-    orderNumber: 63,
-    category: nameCategories.ATTRIBUTES,
-    quranVerses: [
-      {
-        verse: "Allah - there is no deity except Him, the Ever-Living, the Self-Sustaining.",
-        reference: "3:2",
-        arabicText: "اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ",
-        explanation: "This verse shows Allah's self-sustaining nature."
-      }
-    ]
-  },
-  {
-    arabicName: "الْوَاجِدُ",
-    transliteration: "Al-Wajid",
-    pronunciation: "al-WAA-jid",
-    meaning: "The Perceiver",
-    description: "The Perceiver - The One who finds what He seeks.",
-    detailedExplanation: "Al-Wajid represents divine perception.",
-    innerMeaning: "This name awakens divine perception.",
-    technique: "Practice spiritual perception.",
-    relatedNames: ["Al-Khabir", "Ash-Shahid"],
-    orderNumber: 64,
-    category: nameCategories.KNOWLEDGE,
-    quranVerses: [
-      {
-        verse: "And found you lost and guided you.",
-        reference: "93:7",
-        arabicText: "وَوَجَدَكَ ضَالًّا فَهَدَىٰ",
-        explanation: "This verse shows Allah's perceptive guidance."
-      }
-    ]
-  },
-  {
-    arabicName: "الْمَاجِدُ",
-    transliteration: "Al-Majid",
-    pronunciation: "al-MAA-jid",
-    meaning: "The Noble",
-    description: "The Noble - The One who is most noble.",
-    detailedExplanation: "Al-Majid represents divine nobility.",
-    innerMeaning: "This name awakens noble character.",
-    technique: "Practice noble behavior.",
-    relatedNames: ["Al-Karim", "Al-Jalil"],
-    orderNumber: 65,
-    category: nameCategories.MAJESTY,
-    quranVerses: [
-      {
-        verse: "Owner of the Throne, the Glorious.",
-        reference: "85:15",
-        arabicText: "ذُو الْعَرْشِ الْمَجِيدُ",
-        explanation: "This verse affirms Allah's nobility and glory."
-      }
-    ]
-  },
-  {
-    arabicName: "الْوَاحِدُ",
+    arabicName: "الْوَاهِدُ",
     transliteration: "Al-Wahid",
     pronunciation: "al-WAA-hid",
     meaning: "The One",
-    description: "The One - The One who has no partners.",
-    detailedExplanation: "Al-Wahid represents divine unity.",
-    innerMeaning: "This name awakens awareness of unity.",
-    technique: "Practice unity consciousness.",
+    description: "The One - The One and only God.",
+    detailedExplanation: "Al-Wahid represents God's absolute oneness and uniqueness.",
+    innerMeaning: "This name connects you to the recognition of God's oneness and the unity of all things.",
+    technique: "Practice focusing on God's oneness and the unity of existence.",
     relatedNames: ["Al-Ahad", "As-Samad"],
-    orderNumber: 66,
+    orderNumber: 46,
     category: nameCategories.UNIQUENESS,
     quranVerses: [
       {
-        verse: "Your god is but one God.",
-        reference: "16:22",
-        arabicText: "إِلَٰهُكُمْ إِلَٰهٌ وَاحِدٌ",
-        explanation: "This verse affirms divine oneness."
+        verse: "Say, 'He is Allah, [who is] One.'",
+        reference: "112:1",
+        arabicText: "قُلْ هُوَ اللَّهُ أَحَدٌ",
+        explanation: "This verse emphasizes God's oneness."
       }
     ]
   },
   {
-    arabicName: "الأَحَد",
+    arabicName: "الْأَحَدُ",
     transliteration: "Al-Ahad",
     pronunciation: "al-A-had",
     meaning: "The Unique",
@@ -1398,7 +979,7 @@ export const namesData: InsertName[] = [
     innerMeaning: "This name awakens recognition of divine uniqueness.",
     technique: "Practice recognizing divine uniqueness.",
     relatedNames: ["Al-Wahid", "As-Samad"],
-    orderNumber: 67,
+    orderNumber: 47,
     category: nameCategories.UNIQUENESS,
     quranVerses: [
       {
@@ -1419,7 +1000,7 @@ export const namesData: InsertName[] = [
     innerMeaning: "This name awakens recognition of divine self-sufficiency.",
     technique: "Practice reliance on the Divine.",
     relatedNames: ["Al-Ahad", "Al-Ghani"],
-    orderNumber: 68,
+    orderNumber: 48,
     category: nameCategories.ETERNITY,
     quranVerses: [
       {
@@ -1440,7 +1021,7 @@ export const namesData: InsertName[] = [
     innerMeaning: "This name awakens recognition of divine power.",
     technique: "Practice trusting in divine capability.",
     relatedNames: ["Al-Muqtadir", "Al-Qawi"],
-    orderNumber: 69,
+    orderNumber: 49,
     category: nameCategories.POWER,
     quranVerses: [
       {
@@ -1461,7 +1042,7 @@ export const namesData: InsertName[] = [
     innerMeaning: "This name awakens recognition of divine might.",
     technique: "Practice submission to divine power.",
     relatedNames: ["Al-Qadir", "Al-Qawi"],
-    orderNumber: 70,
+    orderNumber: 50,
     category: nameCategories.POWER,
     quranVerses: [
       {
@@ -1482,7 +1063,7 @@ export const namesData: InsertName[] = [
     innerMeaning: "This name awakens forward movement.",
     technique: "Practice positive progression.",
     relatedNames: ["Al-Mu'akhkhir", "Al-Wali"],
-    orderNumber: 71,
+    orderNumber: 51,
     category: nameCategories.TIME,
     quranVerses: [
       {
@@ -1503,7 +1084,7 @@ export const namesData: InsertName[] = [
     innerMeaning: "This name teaches divine timing.",
     technique: "Practice patience with divine timing.",
     relatedNames: ["Al-Muqaddim", "Al-Hakam"],
-    orderNumber: 72,
+    orderNumber: 52,
     category: nameCategories.TIME,
     quranVerses: [
       {
@@ -1524,7 +1105,7 @@ export const namesData: InsertName[] = [
     innerMeaning: "This name awakens awareness of origins.",
     technique: "Practice remembering the Source.",
     relatedNames: ["Al-Akhir", "Az-Zahir"],
-    orderNumber: 73,
+    orderNumber: 53,
     category: nameCategories.TIME,
     quranVerses: [
       {
@@ -1545,7 +1126,7 @@ export const namesData: InsertName[] = [
     innerMeaning: "This name awakens awareness of endings.",
     technique: "Practice awareness of finality.",
     relatedNames: ["Al-Awwal", "Al-Baqi"],
-    orderNumber: 74,
+    orderNumber: 54,
     category: nameCategories.TIME,
     quranVerses: [
       {
@@ -1566,7 +1147,7 @@ export const namesData: InsertName[] = [
     innerMeaning: "This name awakens recognition of divine signs.",
     technique: "Practice seeing divine manifestation.",
     relatedNames: ["Al-Batin", "An-Nur"],
-    orderNumber: 75,
+    orderNumber: 55,
     category: nameCategories.ATTRIBUTES,
     quranVerses: [
       {
@@ -1587,7 +1168,7 @@ export const namesData: InsertName[] = [
     innerMeaning: "This name awakens awareness of inner depths.",
     technique: "Practice inner reflection.",
     relatedNames: ["Az-Zahir", "Al-Khafiy"],
-    orderNumber: 76,
+    orderNumber: 56,
     category: nameCategories.ATTRIBUTES,
     quranVerses: [
       {
@@ -1608,7 +1189,7 @@ export const namesData: InsertName[] = [
     innerMeaning: "This name awakens wise management.",
     technique: "Practice good governance.",
     relatedNames: ["Al-Malik", "Al-Wakil"],
-    orderNumber: 77,
+    orderNumber: 57,
     category: nameCategories.POWER,
     quranVerses: [
       {
@@ -1620,7 +1201,7 @@ export const namesData: InsertName[] = [
     ]
   },
   {
-    arabicName: "الْمُتَعَالِي",
+    arabicName: "الْمُتَعالِي",
     transliteration: "Al-Muta'ali",
     pronunciation: "al-mu-ta-AA-lee",
     meaning: "The Most Exalted",
@@ -1629,7 +1210,7 @@ export const namesData: InsertName[] = [
     innerMeaning: "This name awakens aspiration to higher states.",
     technique: "Practice spiritual elevation.",
     relatedNames: ["Al-Ali", "Al-Kabir"],
-    orderNumber: 78,
+    orderNumber: 58,
     category: nameCategories.GREATNESS,
     quranVerses: [
       {
@@ -1650,7 +1231,7 @@ export const namesData: InsertName[] = [
     innerMeaning: "This name awakens benevolence.",
     technique: "Practice kindness to all.",
     relatedNames: ["Ar-Rauf", "Al-Karim"],
-    orderNumber: 79,
+    orderNumber: 59,
     category: nameCategories.GOODNESS,
     quranVerses: [
       {
@@ -1671,7 +1252,7 @@ export const namesData: InsertName[] = [
     innerMeaning: "This name awakens the capacity for repentance.",
     technique: "Practice sincere repentance.",
     relatedNames: ["Al-Ghafur", "Al-Afuw"],
-    orderNumber: 80,
+    orderNumber: 60,
     category: nameCategories.REPENTANCE,
     quranVerses: [
       {
@@ -1692,7 +1273,7 @@ export const namesData: InsertName[] = [
     innerMeaning: "This name awakens justice consciousness.",
     technique: "Practice standing for justice.",
     relatedNames: ["Al-Adl", "Al-Hakam"],
-    orderNumber: 81,
+    orderNumber: 61,
     category: nameCategories.JUSTICE,
     quranVerses: [
       {
@@ -1713,7 +1294,7 @@ export const namesData: InsertName[] = [
     innerMeaning: "This name awakens forgiveness.",
     technique: "Practice pardoning others.",
     relatedNames: ["Al-Ghafur", "At-Tawwab"],
-    orderNumber: 82,
+    orderNumber: 62,
     category: nameCategories.FORGIVENESS,
     quranVerses: [
       {
@@ -1734,7 +1315,7 @@ export const namesData: InsertName[] = [
     innerMeaning: "This name awakens deep compassion.",
     technique: "Practice compassionate action.",
     relatedNames: ["Ar-Rahman", "Al-Barr"],
-    orderNumber: 83,
+    orderNumber: 63,
     category: nameCategories.MERCY,
     quranVerses: [
       {
@@ -1755,7 +1336,7 @@ export const namesData: InsertName[] = [
     innerMeaning: "This name awakens proper relationship to ownership.",
     technique: "Practice detachment from ownership.",
     relatedNames: ["Al-Malik", "Al-Wali"],
-    orderNumber: 84,
+    orderNumber: 64,
     category: nameCategories.POWER,
     quranVerses: [
       {
@@ -1776,7 +1357,7 @@ export const namesData: InsertName[] = [
     innerMeaning: "This name awakens reverence and nobility.",
     technique: "Practice combining majesty with generosity.",
     relatedNames: ["Al-Jalil", "Al-Karim"],
-    orderNumber: 85,
+    orderNumber: 65,
     category: nameCategories.MAJESTY,
     quranVerses: [
       {
@@ -1797,7 +1378,7 @@ export const namesData: InsertName[] = [
     innerMeaning: "This name awakens fairness.",
     technique: "Practice equitable treatment.",
     relatedNames: ["Al-Adl", "Al-Hakam"],
-    orderNumber: 86,
+    orderNumber: 66,
     category: nameCategories.JUSTICE,
     quranVerses: [
       {
@@ -1818,7 +1399,7 @@ export const namesData: InsertName[] = [
     innerMeaning: "This name awakens unity consciousness.",
     technique: "Practice bringing together in harmony.",
     relatedNames: ["Al-Muqsit", "Al-Muhsi"],
-    orderNumber: 87,
+    orderNumber: 67,
     category: nameCategories.ATTRIBUTES,
     quranVerses: [
       {
@@ -1839,7 +1420,7 @@ export const namesData: InsertName[] = [
     innerMeaning: "This name awakens contentment.",
     technique: "Practice inner sufficiency.",
     relatedNames: ["As-Samad", "Al-Wajid"],
-    orderNumber: 88,
+    orderNumber: 68,
     category: nameCategories.ATTRIBUTES,
     quranVerses: [
       {
@@ -1860,7 +1441,7 @@ export const namesData: InsertName[] = [
     innerMeaning: "This name awakens abundance consciousness.",
     technique: "Practice gratitude for enrichment.",
     relatedNames: ["Al-Ghani", "Ar-Razzaq"],
-    orderNumber: 89,
+    orderNumber: 69,
     category: nameCategories.GIVING,
     quranVerses: [
       {
@@ -1881,7 +1462,7 @@ export const namesData: InsertName[] = [
     innerMeaning: "This name awakens wise prevention.",
     technique: "Practice prevention of harm.",
     relatedNames: ["Al-Hafiz", "Al-Wali"],
-    orderNumber: 90,
+    orderNumber: 70,
     category: nameCategories.PROTECTION,
     quranVerses: [
       {
@@ -1902,7 +1483,7 @@ export const namesData: InsertName[] = [
     innerMeaning: "This name teaches wisdom through difficulty.",
     technique: "Practice patience in adversity.",
     relatedNames: ["An-Nafi", "Al-Hakam"],
-    orderNumber: 91,
+    orderNumber: 71,
     category: nameCategories.JUDGEMENT,
     quranVerses: [
       {
@@ -1923,7 +1504,7 @@ export const namesData: InsertName[] = [
     innerMeaning: "This name awakens beneficial action.",
     technique: "Practice creating benefit.",
     relatedNames: ["Ad-Darr", "Ar-Rashid"],
-    orderNumber: 92,
+    orderNumber: 72,
     category: nameCategories.GOODNESS,
     quranVerses: [
       {
@@ -1944,7 +1525,7 @@ export const namesData: InsertName[] = [
     innerMeaning: "This name awakens inner light.",
     technique: "Practice radiating light.",
     relatedNames: ["Al-Hadi", "Al-Mubin"],
-    orderNumber: 93,
+    orderNumber: 73,
     category: nameCategories.GUIDANCE,
     quranVerses: [
       {
@@ -1965,7 +1546,7 @@ export const namesData: InsertName[] = [
     innerMeaning: "This name awakens right guidance.",
     technique: "Practice following guidance.",
     relatedNames: ["Ar-Rashid", "An-Nur"],
-    orderNumber: 94,
+    orderNumber: 74,
     category: nameCategories.GUIDANCE,
     quranVerses: [
       {
@@ -1986,7 +1567,7 @@ export const namesData: InsertName[] = [
     innerMeaning: "This name awakens creative originality.",
     technique: "Practice innovative thinking.",
     relatedNames: ["Al-Khaliq", "Al-Musawwir"],
-    orderNumber: 95,
+    orderNumber: 75,
     category: nameCategories.CREATION,
     quranVerses: [
       {
@@ -1994,6 +1575,90 @@ export const namesData: InsertName[] = [
         reference: "2:117",
         arabicText: "بَدِيعُ السَّمَاوَاتِ وَالْأَرْضِ",
         explanation: "This verse shows Allah's unprecedented creation."
+      }
+    ]
+  },
+  {
+    arabicName: "الْبَاقِي",
+    transliteration: "Al-Baqi",
+    pronunciation: "al-BAA-qee",
+    meaning: "The Everlasting",
+    description: "The Everlasting - The One who remains forever.",
+    detailedExplanation: "Al-Baqi represents eternal permanence.",
+    innerMeaning: "This name awakens awareness of the eternal.",
+    technique: "Practice awareness of the permanent.",
+    relatedNames: ["Al-Awwal", "Al-Akhir"],
+    orderNumber: 76,
+    category: nameCategories.ETERNITY,
+    quranVerses: [
+      {
+        verse: "What is with you will end, and what is with Allah is lasting.",
+        reference: "16:96",
+        arabicText: "مَا عِندَكُمْ يَنفَدُ ۖ وَمَا عِندَ اللَّهِ بَاقٍ",
+        explanation: "This verse affirms Allah's everlasting nature."
+      }
+    ]
+  },
+  {
+    arabicName: "الْوَارِثُ",
+    transliteration: "Al-Warith",
+    pronunciation: "al-WAA-rith",
+    meaning: "The Inheritor",
+    description: "The Inheritor - The One who remains after all creation has perished.",
+    detailedExplanation: "Al-Warith represents ultimate inheritance.",
+    innerMeaning: "This name awakens detachment from the temporal.",
+    technique: "Practice remembering the ultimate inheritance.",
+    relatedNames: ["Al-Baqi", "Al-Akhir"],
+    orderNumber: 77,
+    category: nameCategories.ETERNITY,
+    quranVerses: [
+      {
+        verse: "And indeed, it is We who give life and cause death, and We are the Inheritor.",
+        reference: "15:23",
+        arabicText: "وَإِنَّا لَنَحْنُ نُحْيِي وَنُمِيتُ وَنَحْنُ الْوَارِثُونَ",
+        explanation: "This verse shows Allah as the ultimate inheritor."
+      }
+    ]
+  },
+  {
+    arabicName: "الرَّشِيدُ",
+    transliteration: "Ar-Rashid",
+    pronunciation: "ar-ra-SHEED",
+    meaning: "The Guide to the Right Path",
+    description: "The Guide to the Right Path - The One who directs to the right way.",
+    detailedExplanation: "Ar-Rashid represents perfect guidance.",
+    innerMeaning: "This name awakens right direction.",
+    technique: "Practice following right guidance.",
+    relatedNames: ["Al-Hadi", "Al-Wali"],
+    orderNumber: 78,
+    category: nameCategories.GUIDANCE,
+    quranVerses: [
+      {
+        verse: "Our Lord is He who gave each thing its form and then guided.",
+        reference: "20:50",
+        arabicText: "رَبُّنَا الَّذِي أَعْطَىٰ كُلَّ شَيْءٍ خَلْقَهُ ثُمَّ هَدَىٰ",
+        explanation: "This verse shows Allah's perfect guidance."
+      }
+    ]
+  },
+  {
+    arabicName: "الصَّبُورُ",
+    transliteration: "As-Sabur",
+    pronunciation: "as-sa-BOOR",
+    meaning: "The Most Patient",
+    description: "The Most Patient - The One who is patient in all circumstances.",
+    detailedExplanation: "As-Sabur represents perfect patience.",
+    innerMeaning: "This name awakens patient perseverance.",
+    technique: "Practice patience in all situations.",
+    relatedNames: ["Al-Halim", "Al-Ghafur"],
+    orderNumber: 79,
+    category: nameCategories.ATTRIBUTES,
+    quranVerses: [
+      {
+        verse: "And Allah is with the patient.",
+        reference: "8:46",
+        arabicText: "وَاصْبِرُوا ۚ إِنَّ اللَّهَ مَعَ الصَّابِرِينَ",
+        explanation: "This verse affirms Allah's attribute of patience."
       }
     ]
   }
