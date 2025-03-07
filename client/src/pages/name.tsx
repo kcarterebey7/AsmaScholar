@@ -1,6 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
 import { useParams, Link, useLocation } from "wouter";
 import type { Name } from "@shared/schema";
+import { namesData } from "@shared/data";
 import { Card, CardContent } from "@/components/ui/card";
 import { ArrowLeft } from "lucide-react";
 import HighlightedText from "@/components/highlighted-text";
@@ -15,12 +16,17 @@ export default function NamePage() {
   const searchParams = new URLSearchParams(window.location.search);
   const searchQuery = searchParams.get('q');
 
+  // Find the name directly from namesData first
+  const nameFromData = namesData.find(n => n.orderNumber === orderNumber);
+
   const { data: name, isLoading } = useQuery<Name>({
-    queryKey: [`/api/names/${orderNumber}`]
+    queryKey: [`/api/names/${orderNumber}`],
+    initialData: nameFromData // Use the name from data as initial data
   });
 
   const { data: allNames } = useQuery<Name[]>({
-    queryKey: ['/api/names']
+    queryKey: ['/api/names'],
+    initialData: namesData // Use namesData as initial data
   });
 
   if (isLoading) return <div>Loading...</div>;
@@ -111,7 +117,7 @@ export default function NamePage() {
               <div className="flex gap-2 flex-wrap">
                 {relatedNamesDetails.map((relatedName) => (
                   <Link 
-                    key={relatedName.id}
+                    key={relatedName.orderNumber}
                     href={`/name/${relatedName.orderNumber}`}
                     className="text-[#14866D] hover:underline dark:hover:text-[#1A9E82]"
                   >
