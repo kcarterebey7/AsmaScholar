@@ -1,15 +1,15 @@
-import type { InsertName, QuranVerse } from "./schema";
+import type { InsertName } from "./schema";
 import { nameCategories } from "./schema";
 
 export const namesData: InsertName[] = [
   {
     arabicName: "الرَّحْمَنُ",
     transliteration: "Ar-Rahman",
-    pronunciation: "ar-rah-MAAN",
-    meaning: "The Most Merciful",
+    pronunciation: "ar-RAH-maan",
+    meaning: "The Most Gracious",
     description: "The Most Gracious - The One who has plenty of mercy for the believers and the blasphemers in this world and especially for the believers in the hereafter.",
-    detailedExplanation: "Ar-Rahman represents the all-encompassing mercy of God that embraces all creation without discrimination. This name appears 57 times in the Quran and is one of the most frequently mentioned divine names, highlighting its significance. It inspires hope and trust in God's infinite compassion.",
-    innerMeaning: "This name connects you to the universal flow of divine mercy that sustains all existence. It's about recognizing that mercy is the foundation of all reality and allowing that understanding to shape how you view and interact with the world. It's about cultivating unconditional compassion.",
+    detailedExplanation: "Beloved seekers, let your heart be an open vessel, ready to receive without measure. Ar-Rahman represents boundless love, as vast as the ocean. This name teaches us that divine mercy flows continuously, touching every aspect of existence with its gentle grace. It is a reminder that in every moment, we are surrounded by unlimited compassion and care.",
+    innerMeaning: "Within the depths of your heart flows a mercy as vast as the oceans. This divine quality of boundless compassion exists as a seed within every soul, waiting to blossom. When you connect with Ar-Rahman, you tap into this infinite wellspring of mercy that dissolves all boundaries and embraces all of creation without discrimination.",
     technique: "Practice loving-kindness meditation, starting with yourself and gradually expanding to include all beings. Begin each day by setting an intention to embody divine mercy in your interactions. When faced with difficulty, pause and ask: 'How would infinite compassion respond in this moment?' Let your heart soften and expand beyond its usual limits.",
     relatedNames: ["Ar-Raheem", "Al-Latif", "Al-Wadud"],
     orderNumber: 1,
@@ -58,7 +58,7 @@ export const namesData: InsertName[] = [
   },
   {
     arabicName: "الْمَلِكُ",
-    transliteration: "Al-Malik", 
+    transliteration: "Al-Malik",
     pronunciation: "al-MA-lik",
     meaning: "The King",
     description: "The King - The One with complete dominion, the One whose dominion is clear from imperfection.",
@@ -67,26 +67,12 @@ export const namesData: InsertName[] = [
     technique: "Practice mindful leadership, whether in personal relationships or community initiatives. Cultivate a sense of inner authority by aligning your actions with your highest values.  Engage in practices that bring you into a state of grounded presence, such as yoga or tai chi.",
     relatedNames: ["Al-Maalik", "Al-Aziz", "Al-Jabbar"],
     orderNumber: 3,
-    category: nameCategories.POWER,
-    quranVerses: [
-      {
-        verse: "So exalted is Allah, the Sovereign, the Truth.",
-        reference: "20:114",
-        arabicText: "فَتَعَالَى اللَّهُ الْمَلِكُ الْحَقُّ",
-        explanation: "This verse directly mentions Al-Malik, emphasizing Allah's sovereignty alongside His truth."
-      },
-      {
-        verse: "The Sovereign, the Pure, the Perfection, the Bestower of Faith.",
-        reference: "59:23",
-        arabicText: "الْمَلِكُ الْقُدُّوسُ السَّلَامُ الْمُؤْمِنُ",
-        explanation: "This verse lists Al-Malik among other divine names, showing how sovereignty relates to other divine attributes."
-      }
-    ]
+    category: nameCategories.POWER
   },
   {
     arabicName: "الْقُدُّوسُ",
     transliteration: "Al-Quddus",
-    pronunciation: "al-QUDD-oos", 
+    pronunciation: "al-QUDD-oos",
     meaning: "The Most Sacred",
     description: "The Most Sacred - The One who is pure from any imperfection and clear from children and adversaries.",
     detailedExplanation: "Al-Quddus, the Most Sacred, speaks to the absolute purity and holiness of God.  This name transcends human understanding of purity, representing a state beyond all imperfection and blemish.  It inspires a deep sense of reverence and respect for the Divine.",
@@ -94,21 +80,7 @@ export const namesData: InsertName[] = [
     technique: "Practice daily purification rituals such as prayer or meditation. Engage in acts of service that express your respect for the sacredness of life.  Cultivate a daily practice of self-reflection to identify and release any impurities that cloud your inner light.",
     relatedNames: ["As-Salam", "Al-Mu'min", "Al-Muhaymin"],
     orderNumber: 4,
-    category: nameCategories.HOLINESS,
-    quranVerses: [
-      {
-        verse: "He is Allah, other than whom there is no deity, the Sovereign, the Pure, the Perfection.",
-        reference: "59:23",
-        arabicText: "هُوَ اللَّهُ الَّذِي لَا إِلَٰهَ إِلَّا هُوَ الْمَلِكُ الْقُدُّوسُ",
-        explanation: "This verse lists Al-Quddus among the divine names, emphasizing Allah's absolute purity and perfection."
-      },
-      {
-        verse: "Whatever is in the heavens and whatever is on the earth is exalting Allah, the Sovereign, the Pure, the Exalted in Might, the Wise.",
-        reference: "62:1",
-        arabicText: "يُسَبِّحُ لِلَّهِ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ الْمَلِكِ الْقُدُّوسِ الْعَزِيزِ الْحَكِيمِ",
-        explanation: "This verse shows how all creation glorifies Allah's purity and perfection."
-      }
-    ]
+    category: nameCategories.HOLINESS
   },
   {
     arabicName: "السَّلاَمُ",
@@ -121,21 +93,7 @@ export const namesData: InsertName[] = [
     technique: "Practice deep, conscious breathing. Engage in activities that bring you a sense of calm, such as spending time in nature or listening to soothing music.  When facing conflict, pause, take a deep breath and ground yourself in the awareness of your inner peace.",
     relatedNames: ["Al-Mu'min", "Al-Muhaymin", "Al-Quddus"],
     orderNumber: 5,
-    category: nameCategories.PEACE,
-    quranVerses: [
-      {
-        verse: "He is Allah, other than whom there is no deity, the Sovereign, the Pure, the Source of Peace.",
-        reference: "59:23",
-        arabicText: "هُوَ اللَّهُ الَّذِي لَا إِلَٰهَ إِلَّا هُوَ الْمَلِكُ الْقُدُّوسُ السَّلَامُ",
-        explanation: "This verse lists As-Salam among the divine names, emphasizing Allah's perfect peace and freedom from all defects."
-      },
-      {
-        verse: "And Allah invites to the Home of Peace.",
-        reference: "10:25",
-        arabicText: "وَاللَّهُ يَدْعُو إِلَىٰ دَارِ السَّلَامِ",
-        explanation: "This verse shows how Allah guides to the abode of peace, reflecting His attribute of peace."
-      }
-    ]
+    category: nameCategories.PEACE
   },
   {
     arabicName: "الْمُؤْمِنُ",
@@ -148,21 +106,7 @@ export const namesData: InsertName[] = [
     technique: "Practice affirmations that reinforce your faith and trust in the divine. Engage in acts of service that reflect your commitment to your beliefs.  When facing doubt, recall moments of unwavering faith and let that strength guide you.",
     relatedNames: ["Al-Muhaymin", "As-Salam", "Al-Quddus"],
     orderNumber: 6,
-    category: nameCategories.FAITH,
-    quranVerses: [
-      {
-        verse: "He is Allah, other than whom there is no deity, the Sovereign, the Pure, the Perfection, the Guardian of Faith.",
-        reference: "59:23",
-        arabicText: "هُوَ اللَّهُ الَّذِي لَا إِلَٰهَ إِلَّا هُوَ الْمَلِكُ الْقُدُّوسُ السَّلَامُ الْمُؤْمِنُ",
-        explanation: "This verse lists Al-Mu'min among the divine names, showing its connection to divine attributes of security and faith."
-      },
-      {
-        verse: "O you who have believed, when you go forth [to fight] in the cause of Allah, investigate; and do not say to one who gives you [a greeting of] peace 'You are not a believer'.",
-        reference: "4:94", 
-        arabicText: "يَا أَيُّهَا الَّذِينَ آمَنُوا إِذَا ضَرَبْتُمْ فِي سَبِيلِ اللَّهِ فَتَبَيَّنُوا وَلَا تَقُولُوا لِمَنْ أَلْقَىٰ إِلَيْكُمُ السَّلَامَ لَسْتَ مُؤْمِنًا",
-        explanation: "This verse shows how Al-Mu'min relates to both belief and security in faith."
-      }
-    ]
+    category: nameCategories.FAITH
   },
   {
     arabicName: "الْمُهَيْمِنُ",
@@ -175,117 +119,20 @@ export const namesData: InsertName[] = [
     technique: "Practice mindfulness to cultivate an awareness of your surroundings and the forces at play in your life. Visualize yourself surrounded by a protective light, allowing you to feel safe and secure.  When facing danger, call upon the divine protector within you.",
     relatedNames: ["Al-Mu'min", "Al-Hafiz", "Al-Wakil"],
     orderNumber: 7,
-    category: nameCategories.PROTECTION,
-    quranVerses: [
-      {
-        verse: "He is Allah, other than whom there is no deity, the Sovereign, the Pure, the Perfection, the Guardian of Faith, the Overseer.",
-        reference: "59:23",
-        arabicText: "هُوَ اللَّهُ الَّذِي لَا إِلَٰهَ إِلَّا هُوَ الْمَلِكُ الْقُدُّوسُ السَّلَامُ الْمُؤْمِنُ الْمُهَيْمِنُ",
-        explanation: "This verse lists Al-Muhaymin among other divine names, showing its connection to divine oversight and protection."
-      },
-      {
-        verse: "And We have revealed to you the Book in truth, confirming that which preceded it of the Scripture and as a guardian over it.",
-        reference: "5:48",
-        arabicText: "وَأَنزَلْنَا إِلَيْكَ الْكِتَابَ بِالْحَقِّ مُصَدِّقًا لِّمَا بَيْنَ يَدَيْهِ مِنَ الْكِتَابِ وَمُهَيْمِنًا عَلَيْهِ",
-        explanation: "This verse uses muhaymin to describe the Quran's role as guardian over previous scriptures, reflecting divine protection and oversight."
-      }
-    ]
+    category: nameCategories.PROTECTION
   },
   {
     arabicName: "الْعَزِيزُ",
     transliteration: "Al-Aziz",
-    pronunciation: "al-a-ZEEZ", 
+    pronunciation: "al-a-ZEEZ",
     meaning: "The Almighty",
     description: "The Almighty - The Strong, The Defeater who is not defeated.",
     detailedExplanation: "Al-Aziz, the Almighty, represents the boundless power and might of God. This name inspires reverence and respect, highlighting God's absolute dominion over all creation. It is a reminder of the ultimate authority and strength of the Divine.",
-    innerMeaning: "This name connects you to the boundless strength and resilience that exists within you. It is a reminder that you are capable of overcoming any obstacle, as long as you align yourself with the divine source of power. It is the unwavering strength that empowers you to face any challenge.",
-    technique: "Practice strength-building activities that nourish both your body and spirit. Engage in activities that push your boundaries and expand your sense of capacity. When faced with a challenge, call upon the inner strength that dwells within you.",
+    innerMeaning: "This name connects you to the boundless strength and resilience that exists within you. It is a reminder that you are capable of overcoming any obstacle, as long as you align yourself with the divine source of power.  It is the unwavering strength that empowers you to face any challenge.",
+    technique: "Practice strength-building activities that nourish both your body and spirit.  Engage in activities that push your boundaries and expand your sense of capacity.  When faced with a challenge, call upon the inner strength that dwells within you.",
     relatedNames: ["Al-Qawi", "Al-Malik", "Al-Jabbar"],
     orderNumber: 8,
-    category: nameCategories.POWER,
-    quranVerses: [
-      {
-        verse: "And Allah is Exalted in Might and Wise.",
-        reference: "2:228",
-        arabicText: "وَاللَّهُ عَزِيزٌ حَكِيمٌ",
-        explanation: "This verse directly mentions Al-Aziz, connecting Allah's might with His wisdom."
-      },
-      {
-        verse: "Indeed, Allah is Exalted in Might and Owner of Retribution.",
-        reference: "3:4", 
-        arabicText: "وَاللَّهُ عَزِيزٌ ذُو انتِقَامٍ",
-        explanation: "This verse emphasizes Allah's absolute power and authority."
-      }
-    ]
-  },
-  {
-    arabicName: "الْعَدْلُ",
-    transliteration: "Al-Adl",
-    pronunciation: "al-ADL",
-    meaning: "The Just",
-    description: "The Just - The One who is entitled to do what He does.",
-    detailedExplanation: "Al-Adl represents absolute justice and fairness. This name reminds us that divine justice is perfect and complete, encompassing both mercy and wisdom.",
-    innerMeaning: "This name connects you to the divine attribute of justice. It teaches the importance of being fair and equitable in all dealings.",
-    technique: "Practice fairness in all your interactions. When making decisions, consider all perspectives and seek balanced solutions.",
-    relatedNames: ["Al-Hakam", "Al-Muqsit"],
-    orderNumber: 29,
-    category: nameCategories.JUSTICE,
-    quranVerses: [
-      {
-        verse: "Indeed, Allah orders justice and good conduct.",
-        reference: "16:90",
-        arabicText: "إِنَّ اللَّهَ يَأْمُرُ بِالْعَدْلِ وَالْإِحْسَانِ",
-        explanation: "This verse emphasizes Allah's command for justice, showing its central importance in divine law."
-      },
-      {
-        verse: "And the word of your Lord has been fulfilled in truth and justice.",
-        reference: "6:115",
-        arabicText: "وَتَمَّتْ كَلِمَتُ رَبِّكَ صِدْقًا وَعَدْلًا",
-        explanation: "This verse shows how justice is an essential aspect of divine revelation and guidance."
-      }
-    ]
-  },
-  {
-    arabicName: "اللَّطِيفُ",
-    transliteration: "Al-Latif",
-    pronunciation: "al-la-TEEF",
-    meaning: "The Subtle",
-    description: "The Subtle - The One who is gentle and kind to His slaves and endows them with favors, both secretly and openly.",
-    detailedExplanation: "Al-Latif represents the gentle, subtle ways in which divine grace operates in our lives.",
-    innerMeaning: "This name connects you to divine subtlety and kindness.",
-    technique: "Practice gentleness and subtlety in your actions. Notice the small blessings in life.",
-    relatedNames: ["Ar-Ra'uf", "Al-Halim"],
-    orderNumber: 30,
-    category: nameCategories.MERCY,
-    quranVerses: [
-      {
-        verse: "He is the Subtle, the Aware.",
-        reference: "6:103",
-        arabicText: "وَهُوَ اللَّطِيفُ الْخَبِيرُ",
-        explanation: "This verse directly mentions Al-Latif, pairing divine subtlety with complete awareness."
-      },
-      {
-        verse: "Does He who created not know, while He is the Subtle, the Aware?",
-        reference: "67:14",
-        arabicText: "أَلَا يَعْلَمُ مَنْ خَلَقَ وَهُوَ اللَّطِيفُ الْخَبِيرُ",
-        explanation: "This verse connects Allah's subtle knowledge with His role as Creator."
-      }
-    ]
-  },
-    quranVerses: [
-      {
-        verse: "And Allah is Exalted in Might and Wise.",
-        reference: "2:228",
-        arabicText: "وَاللَّهُ عَزِيزٌ حَكِيمٌ",
-        explanation: "This verse directly mentions Al-Aziz, connecting Allah's might with His wisdom."
-      },
-      {
-        verse: "Indeed, Allah is Exalted in Might and Owner of Retribution.",
-        reference: "3:4",
-        arabicText: "وَاللَّهُ عَزِيزٌ ذُو انتِقَامٍ",
-        explanation: "This verse emphasizes Allah's absolute power and authority."
-      }
-    ]
+    category: nameCategories.POWER
   },
   {
     arabicName: "الْجَبَّارُ",
@@ -293,26 +140,12 @@ export const namesData: InsertName[] = [
     pronunciation: "al-jabb-AAR",
     meaning: "The Compeller",
     description: "The Compeller - The One that nothing happens in His dominion except what He willed.",
-    detailedExplanation: "Al-Jabbar, the Compeller, emphasizes God's absolute will and control over all events. This name reminds us that everything happens according to God's plan, and that even seemingly random events are part of a larger, divinely orchestrated design. It fosters trust and acceptance in the face of uncertainty.",
-    innerMeaning: "This name connects you to the power of divine will, the understanding that even in chaos, there is a larger plan at work. It is the capacity to surrender to the flow of life, trusting that even in difficult times, there is a divine purpose. It is a source of strength and resilience.",
-    technique: "Practice surrendering to the unknown. When faced with uncertainty, trust that there is a larger plan in motion. Engage in practices that help you to let go of control, such as meditation or yoga.",
+    detailedExplanation: "Al-Jabbar, the Compeller, emphasizes God's absolute will and control over all events.  This name reminds us that everything happens according to God's plan, and that even seemingly random events are part of a larger, divinely orchestrated design.  It fosters trust and acceptance in the face of uncertainty.",
+    innerMeaning: "This name connects you to the power of divine will, the understanding that even in chaos, there is a larger plan at work.  It is the capacity to surrender to the flow of life, trusting that even in difficult times, there is a divine purpose. It is a source of strength and resilience.",
+    technique: "Practice surrendering to the unknown.  When faced with uncertainty, trust that there is a larger plan in motion.  Engage in practices that help you to let go of control, such as meditation or yoga.",
     relatedNames: ["Al-Aziz", "Al-Malik", "Al-Mutakabbir"],
     orderNumber: 9,
-    category: nameCategories.POWER,
-    quranVerses: [
-      {
-        verse: "He is Allah, other than whom there is no deity, the King, the Holy, the All-Peaceable, the Giver of Faith, the Overseer, the Exalted in Might, the Compeller, the Superior.",
-        reference: "59:23",
-        arabicText: "هُوَ اللَّهُ الَّذِي لَا إِلَٰهَ إِلَّا هُوَ الْمَلِكُ الْقُدُّوسُ السَّلَامُ الْمُؤْمِنُ الْمُهَيْمِنُ الْعَزِيزُ الْجَبَّارُ الْمُتَكَبِّرُ",
-        explanation: "This verse lists Al-Jabbar among other divine names, showing its connection to Allah's absolute authority and power."
-      },
-      {
-        verse: "They have taken gods besides Him that create nothing, while they are created, and possess not for themselves any harm or benefit and possess not [power to cause] death or life or resurrection.",
-        reference: "25:3",
-        arabicText: "وَاتَّخَذُوا مِن دُونِهِ آلِهَةً لَّا يَخْلُقُونَ شَيْئًا وَهُمْ يُخْلَقُونَ وَلَا يَمْلِكُونَ لِأَنفُسِهِمْ ضَرًّا وَلَا نَفْعًا وَلَا يَمْلِكُونَ مَوْتًا وَلَا حَيَاةً وَلَا نُشُورًا",
-        explanation: "This verse contrasts the absolute power of Al-Jabbar with the powerlessness of false deities."
-      }
-    ]
+    category: nameCategories.POWER
   },
   {
     arabicName: "الْمُتَكَبِّرُ",
@@ -365,60 +198,6 @@ export const namesData: InsertName[] = [
     relatedNames: ["Al-Khaliq", "Al-Bari"],
     orderNumber: 13,
     category: nameCategories.CREATION
-  },
-  {
-    arabicName: "الْعَدْلُ",
-    transliteration: "Al-Adl",
-    pronunciation: "al-ADL",
-    meaning: "The Just",
-    description: "The Just - The One who is entitled to do what He does.",
-    detailedExplanation: "Al-Adl represents absolute justice and fairness. This name reminds us that divine justice is perfect and complete, encompassing both mercy and wisdom.",
-    innerMeaning: "This name connects you to the divine attribute of justice. It teaches the importance of being fair and equitable in all dealings.",
-    technique: "Practice fairness in all your interactions. When making decisions, consider all perspectives and seek balanced solutions.",
-    relatedNames: ["Al-Hakam", "Al-Muqsit"],
-    orderNumber: 29,
-    category: nameCategories.JUSTICE,
-    quranVerses: [
-      {
-        verse: "Indeed, Allah orders justice and good conduct.",
-        reference: "16:90",
-        arabicText: "إِنَّ اللَّهَ يَأْمُرُ بِالْعَدْلِ وَالْإِحْسَانِ",
-        explanation: "This verse emphasizes Allah's command for justice, showing its central importance in divine law."
-      },
-      {
-        verse: "And the word of your Lord has been fulfilled in truth and justice.",
-        reference: "6:115",
-        arabicText: "وَتَمَّتْ كَلِمَتُ رَبِّكَ صِدْقًا وَعَدْلًا",
-        explanation: "This verse shows how justice is an essential aspect of divine revelation and guidance."
-      }
-    ]
-  },
-  {
-    arabicName: "اللَّطِيفُ",
-    transliteration: "Al-Latif",
-    pronunciation: "al-la-TEEF",
-    meaning: "The Subtle",
-    description: "The Subtle - The One who is gentle and kind to His slaves and endows them with favors, both secretly and openly.",
-    detailedExplanation: "Al-Latif represents the gentle, subtle ways in which divine grace operates in our lives.",
-    innerMeaning: "This name connects you to divine subtlety and kindness.",
-    technique: "Practice gentleness and subtlety in your actions. Notice the small blessings in life.",
-    relatedNames: ["Ar-Ra'uf", "Al-Halim"],
-    orderNumber: 30,
-    category: nameCategories.MERCY,
-    quranVerses: [
-      {
-        verse: "He is the Subtle, the Aware.",
-        reference: "6:103",
-        arabicText: "وَهُوَ اللَّطِيفُ الْخَبِيرُ",
-        explanation: "This verse directly mentions Al-Latif, pairing divine subtlety with complete awareness."
-      },
-      {
-        verse: "Does He who created not know, while He is the Subtle, the Aware?",
-        reference: "67:14",
-        arabicText: "أَلَا يَعْلَمُ مَنْ خَلَقَ وَهُوَ اللَّطِيفُ الْخَبِيرُ",
-        explanation: "This verse connects Allah's subtle knowledge with His role as Creator."
-      }
-    ]
   },
   {
     arabicName: "الْغَفَّارُ",
@@ -501,7 +280,7 @@ export const namesData: InsertName[] = [
   {
     arabicName: "الْقَابِضُ",
     transliteration: "Al-Qabid",
-    pronunciation: "al-QAA-bid", 
+    pronunciation: "al-QAA-bid",
     meaning: "The Constrictor",
     description: "The Constrictor - The One who constricts and withholds.",
     detailedExplanation: "Al-Qabid, the Constrictor, highlights God's power to withhold and control. This name reminds us that God has the power to limit and restrict, often to test our faith and patience. It encourages humility and acceptance of God's will.",
@@ -511,143 +290,18 @@ export const namesData: InsertName[] = [
     orderNumber: 20,
     category: nameCategories.POWER
   },
-
-
-  {
-    arabicName: "الْبَاسِطُ",
-    transliteration: "Al-Basit",
-    pronunciation: "al-BAA-sit",
-    meaning: "The Expander",
-    description: "The Expander - The One who eases and expands.",
-    detailedExplanation: "Al-Basit, the Expander, represents God's power to extend and expand provision, knowledge, and opportunities. This name reminds us that God is the source of all abundance and expansion, capable of opening doors and creating pathways where none seemed possible.",
-    innerMeaning: "This name connects you to the divine capacity for expansion and growth. It's about recognizing opportunities for development and embracing new possibilities. It's about trusting in abundance.",
-    technique: "Practice openness to new possibilities. When faced with limitations, remember that expansion often follows contraction. Cultivate an abundance mindset.",
-    relatedNames: ["Al-Qabid", "Ar-Razzaq"],
-    orderNumber: 21,
-    category: nameCategories.SUSTENANCE,
-    quranVerses: [
-      {
-        verse: "Allah extends provision for whom He wills and restricts [it].",
-        reference: "13:26",
-        arabicText: "اللَّهُ يَبْسُطُ الرِّزْقَ لِمَن يَشَاءُ وَيَقْدِرُ",
-        explanation: "This verse demonstrates Allah's power to expand provision as He wills."
-      },
-      {
-        verse: "And it is Allah who withholds and grants abundance.",
-        reference: "2:245",
-        arabicText: "وَاللَّهُ يَقْبِضُ وَيَبْسُطُ",
-        explanation: "This verse pairs Al-Basit with Al-Qabid, showing the divine control over expansion and contraction."
-      }
-    ]
-  },
-  {
-    arabicName: "الْخَافِضُ",
-    transliteration: "Al-Khafid",
-    pronunciation: "al-KHAA-fid",
-    meaning: "The Abaser",
-    description: "The Abaser - The One who lowers whoever He willed by His Destruction and raises whoever He willed by His Endowment.",
-    detailedExplanation: "Al-Khafid represents divine justice through the lowering of the arrogant and oppressive. This name teaches the importance of humility and the natural balance of existence.",
-    innerMeaning: "This name reminds us of the importance of humility and the natural cycles of life. It teaches that true elevation comes through sincere humility.",
-    technique: "Practice humility in your daily interactions. Remember that every position of authority comes with responsibility.",
-    relatedNames: ["Ar-Rafi", "Al-Muizz", "Al-Muzil"],
-    orderNumber: 22,
-    category: nameCategories.JUSTICE,
-    quranVerses: [
-      {
-        verse: "The Day will come when it will lower [some] and raise [others].",
-        reference: "56:3",
-        arabicText: "خَافِضَةٌ رَّافِعَةٌ",
-        explanation: "This verse shows how Allah both lowers and raises, demonstrating perfect justice."
-      },
-      {
-        verse: "And He is the [one] who withholds and grants abundance.",
-        reference: "2:245",
-        arabicText: "وَاللَّهُ يَقْبِضُ وَيَبْسُطُ",
-        explanation: "This verse illustrates Allah's power to lower some and raise others according to His wisdom."
-      }
-    ]
-  },
-
-  {
-    arabicName: "الْمُقْسِطُ",
-    transliteration: "Al-Muqsit",
-    pronunciation: "al-muq-SEET",
-    meaning: "The Equitable One",
-    description: "The Equitable One - The One who is Just in His judgment.",
-    detailedExplanation: "Al-Muqsit, the Equitable One, emphasizes God's perfect justice and fairness. This name reminds us that God's judgments are always just and impartial, ensuring that everyone receives what they deserve. It encourages righteous conduct and a commitment to justice.",
-    innerMeaning: "This name connects you to the divine principle of justice and fairness. It's about recognizing the importance of equity and impartiality in all your interactions. It's about creating a world where everyone is treated with respect and dignity.",
-    technique: "Practice fairness and impartiality in your interactions. Treat everyone with respect and dignity. When faced with injustice, remember that your capacity for justice is a reflection of the divine will.",
-    relatedNames: ["Al-Adl", "Al-Hakam"],
-    orderNumber: 86,
-    category: nameCategories.JUDGEMENT,
-    quranVerses: [
-      {
-        verse: "Say, 'My Lord has ordered justice.'",
-        reference: "7:29",
-        arabicText: "قُلْ أَمَرَ رَبِّي بِالْقِسْطِ",
-        explanation: "This verse emphasizes Allah's command for justice and equity, reflecting the essence of Al-Muqsit."
-      },
-      {
-        verse: "Indeed, Allah loves those who act justly.",
-        reference: "60:8",
-        arabicText: "إِنَّ اللَّهَ يُحِبُّ الْمُقْسِطِينَ",
-        explanation: "This verse shows Allah's love for those who embody justice and fairness."
-      }
-    ]
-  },
-  {
-    arabicName: "الْجَامِعُ",
-    transliteration: "Al-Jami",
-    pronunciation: "al-jaa-MI",
-    meaning: "The Gatherer",
-    description: "The Gatherer - The One who gathers the creatures on a day that there is no doubt about, that is the Day of Judgment.",
-    detailedExplanation: "Al-Jami', the Gatherer, signifies God's power to bring together all of creation on the Day of Judgment. This name reminds us of the ultimate accountability for our actions and the importance of living a life of faith and righteousness.",
-    innerMeaning: "This name connects you to the divine principle of unity and wholeness. It's about recognizing the interconnectedness of all things and embracing a sense of belonging and community. It's about unity and connection.",
-    technique: "Practice cultivating a sense of community and belonging. Connect with others and share your experiences. When faced with challenges, remember that your capacity for connection is limitless.",
-    relatedNames: ["Al-Hasib", "Al-Muhsi"],
-    orderNumber: 87,
-    category: nameCategories.JUDGEMENT,
-    quranVerses: [
-      {
-        verse: "Our Lord, surely You will gather the people for a Day about which there is no doubt.",
-        reference: "3:9",
-        arabicText: "رَبَّنَا إِنَّكَ جَامِعُ النَّاسِ لِيَوْمٍ لَّا رَيْبَ فِيهِ",
-        explanation: "This verse directly references Al-Jami's role in gathering all creation for the Day of Judgment."
-      },
-      {
-        verse: "That is a Day for which the people will be gathered, and that is a Day [which will be] witnessed.",
-        reference: "11:103",
-        arabicText: "ذَٰلِكَ يَوْمٌ مَّجْمُوعٌ لَّهُ النَّاسُ وَذَٰلِكَ يَوْمٌ مَّشْهُودٌ",
-        explanation: "This verse describes the gathering of all people, demonstrating the attribute of Al-Jami."
-      }
-    ]
-  },
   {
     arabicName: "الْبَاسِطُ",
     transliteration: "Al-Basit",
     pronunciation: "al-BAA-sit",
     meaning: "The Expander",
     description: "The Expander - The One who has the power to expand, enlarge, and extend.",
-    detailedExplanation: "Al-Basit, the Expander, represents God's power to extend and expand provision, knowledge, and opportunities. This name reminds us that God is the source of all abundance and expansion, capable of opening doors and creating pathways where none seemed possible.",
-    innerMeaning: "This name connects you to the divine capacity for expansion and growth. It's about recognizing opportunities for development and embracing new possibilities. It's about trusting in abundance.",
-    technique: "Practice openness to new possibilities. When faced with limitations, remember that expansion often follows contraction. Cultivate an abundance mindset.",
-    relatedNames: ["Al-Qabid", "Ar-Razzaq"],
+    detailedExplanation: "Al-Basit, the Expander, emphasizes God's power to provide and bestow abundance. This name offers hope and reassurance, reminding us that God can expand our horizons and increase our blessings. It inspires gratitude and trust in the Divine's generosity.",
+    innerMeaning: "This name connects you to the boundless potential for expansion and growth that exists within you. It's about embracing new opportunities and pushing your boundaries, knowing that your capacity for growth is limitless.",
+    technique: "Practice setting expansive goals and working towards them with unwavering determination.  Embrace new opportunities and step outside your comfort zone. When faced with limitations, remember that your capacity for expansion is limitless.",
+    relatedNames: ["Al-Qabid", "Al-Muqsit"],
     orderNumber: 21,
-    category: nameCategories.SUSTENANCE,
-    quranVerses: [
-      {
-        verse: "Allah extends provision for whom He wills and restricts [it].",
-        reference: "13:26",
-        arabicText: "اللَّهُ يَبْسُطُ الرِّزْقَ لِمَن يَشَاءُ وَيَقْدِرُ",
-        explanation: "This verse demonstrates Allah's power to expand provision as He wills."
-      },
-      {
-        verse: "And it is Allah who withholds and grants abundance.",
-        reference: "2:245",
-        arabicText: "وَاللَّهُ يَقْبِضُ وَيَبْسُطُ",
-        explanation: "This verse pairs Al-Basit with Al-Qabid, showing the divine control over expansion and contraction."
-      }
-    ]
+    category: nameCategories.POWER
   },
   {
     arabicName: "الْخَافِضُ",
@@ -655,26 +309,12 @@ export const namesData: InsertName[] = [
     pronunciation: "al-KHAA-fid",
     meaning: "The Abaser",
     description: "The Abaser - The One who lowers whoever He willed by His Destruction and raises whoever He willed by His Endowment.",
-    detailedExplanation: "Al-Khafid represents divine justice through the lowering of the arrogant and oppressive. This name teaches the importance of humility and the natural balance of existence.",
-    innerMeaning: "This name reminds us of the importance of humility and the natural cycles of life. It teaches that true elevation comes through sincere humility.",
-    technique: "Practice humility in your daily interactions. Remember that every position of authority comes with responsibility.",
-    relatedNames: ["Ar-Rafi", "Al-Muizz", "Al-Muzil"],
+    detailedExplanation: "Al-Khafid, the Abaser, highlights God's power to humble and lower those who defy Him.  This name reminds us that arrogance and pride are ultimately futile, and that true strength lies in humility and submission to God's will.",
+    innerMeaning: "This name helps you to recognize the importance of humility and surrender.  It's about letting go of ego and pride, recognizing that true strength comes from aligning with the divine will.  It is a reminder that growth often comes from surrendering to the process.",
+    technique: "Practice humility and self-reflection.  Let go of ego and pride.  When faced with challenges, remember that humility is a source of strength.",
+    relatedNames: ["Ar-Rafi", "Al-Mu'izz", "Al-Muzil"],
     orderNumber: 22,
-    category: nameCategories.JUSTICE,
-    quranVerses: [
-      {
-        verse: "The Day will come when it will lower [some] and raise [others].",
-        reference: "56:3",
-        arabicText: "خَافِضَةٌ رَّافِعَةٌ",
-        explanation: "This verse shows how Allah both lowers and raises, demonstrating perfect justice."
-      },
-      {
-        verse: "And He is the [one] who withholds and grants abundance.",
-        reference: "2:245",
-        arabicText: "وَاللَّهُ يَقْبِضُ وَيَبْسُطُ",
-        explanation: "This verse illustrates Allah's power to lower some and raise others according to His wisdom."
-      }
-    ]
+    category: nameCategories.POWER
   },
   {
     arabicName: "الرَّافِعُ",
@@ -723,79 +363,6 @@ export const namesData: InsertName[] = [
     description: "The All-Hearing - The One who hears all things that are heard by His eternal hearing without an ear, instrument or organ.",
     detailedExplanation: "As-Sami', the All-Hearing, represents God's awareness of all sounds and whispers.  This name reminds us that our prayers, hopes, and concerns are always heard by God, even the unspoken ones.  It inspires trust and faith in the Divine's attentiveness.",
     innerMeaning: "This name connects you to the divine capacity to listen deeply and compassionately.  It's about recognizing the importance of active listening and creating space for others to share their thoughts and feelings. It's about creating a safe space for vulnerability.",
-    technique: "Practice active listening with full attention and presence. Create spaces for others to share openly. When faced with difficult conversations, remember that listening is a divine attribute.",
-    relatedNames: ["Al-Basir", "Al-Khabir"],
-    orderNumber: 26,
-    category: nameCategories.ATTRIBUTES,
-    quranVerses: [
-      {
-        verse: "Indeed, I am with you both; I hear and I see.",
-        reference: "20:46",
-        arabicText: "إِنَّنِي مَعَكُمَا أَسْمَعُ وَأَرَىٰ",
-        explanation: "This verse demonstrates Allah's attribute of hearing, showing His constant awareness of His servants."
-      },
-      {
-        verse: "Or do they think that We hear not their secrets and their private conversations? Yes [We do], and Our messengers are with them recording.",
-        reference: "43:80",
-        arabicText: "أَمْ يَحْسَبُونَ أَنَّا لَا نَسْمَعُ سِرَّهُمْ وَنَجْوَاهُم ۚ بَلَىٰ وَرُسُلُنَا لَدَيْهِمْ يَكْتُبُونَ",
-        explanation: "This verse further emphasizes Allah's all-hearing nature, extending even to the most private of conversations."
-      }
-    ]
-  },
-  {
-    arabicName: "الْمُجِيبُ",
-    transliteration: "Al-Mujib",
-    pronunciation: "al-mu-JEEB", 
-    meaning: "The Responsive",
-    description: "The Responsive - The One who answers the one in need if he asks Him and rescues the yearning if he calls upon Him.",
-    detailedExplanation: "Al-Mujib, the Responsive, emphasizes God's willingness to answer the prayers and pleas of His servants. This name offers comfort and hope, reminding us that God hears our supplications and will respond in His own time and way. It encourages prayer and a reliance on God's responsiveness.",
-    innerMeaning: "This name connects you to the divine capacity for responsiveness and compassion. It's about recognizing the importance of being present and available for others, and offering support and understanding when needed. It's about empathy and connection.",
-    technique: "Practice being responsive to the needs of others. Offer support and understanding when needed. When faced with challenges, remember that your capacity for responsiveness is a gift from the divine.",
-    relatedNames: ["As-Sami", "Al-Qarib"],
-    orderNumber: 44,
-    category: nameCategories.ATTRIBUTES,
-    quranVerses: [
-      {
-        verse: "Indeed, my Lord is near and responsive.",
-        reference: "11:61",
-        arabicText: "إِنَّ رَبِّي قَرِيبٌ مُّجِيبٌ",
-        explanation: "This verse directly mentions Al-Mujib, emphasizing Allah's nearness and responsiveness to His servants."
-      },
-      {
-        verse: "And your Lord says, 'Call upon Me; I will respond to you.'",
-        reference: "40:60",
-        arabicText: "وَقَالَ رَبُّكُمُ ادْعُونِي أَسْتَجِبْ لَكُمْ",
-        explanation: "This verse demonstrates Allah's promise to respond to those who call upon Him, embodying the essence of Al-Mujib."
-      }
-    ]
-  },
-  {
-    arabicName: "الْوَاسِعُ",
-    transliteration: "Al-Wasi",
-    pronunciation: "al-WAA-si",
-    meaning: "The All-Encompassing",
-    description: "The All-Encompassing - The One who encompasses everything in mercy and knowledge.",
-    detailedExplanation: "Al-Wasi', the All-Encompassing, represents God's infinite knowledge and boundless mercy. This name reminds us that God's power and compassion extend to all aspects of creation, encompassing all things, both seen and unseen. It inspires trust and reliance on God's all-encompassing care.",
-    innerMeaning: "This name connects you to the boundless compassion and understanding of the divine. It's about recognizing the interconnectedness of all things and embracing a sense of unity and belonging. It's about expanding your awareness.",
-    technique: "Practice expanding your awareness and cultivating a sense of interconnectedness. Embrace diversity and seek to understand different perspectives. When faced with conflict, remember that your capacity for compassion is limitless.",
-    relatedNames: ["Al-Muhit", "Al-Alim"],
-    orderNumber: 45,
-    category: nameCategories.ATTRIBUTES,
-    quranVerses: [
-      {
-        verse: "And Allah is all-Encompassing and Knowing.",
-        reference: "2:247",
-        arabicText: "وَاللَّهُ وَاسِعٌ عَلِيمٌ",
-        explanation: "This verse directly mentions Al-Wasi, connecting Allah's all-encompassing nature with His knowledge."
-      },
-      {
-        verse: "And to Allah belongs the east and the west. So wherever you [might] turn, there is the Face of Allah. Indeed, Allah is all-Encompassing and Knowing.",
-        reference: "2:115",
-        arabicText: "وَلِلَّهِ الْمَشْرِقُ وَالْمَغْرِبُ ۚ فَأَيْنَمَا تُوَلُّوا فَثَمَّ وَجْهُ اللَّهِ ۚ إِنَّ اللَّهَ وَاسِعٌ عَلِيمٌ",
-        explanation: "This verse illustrates the all-encompassing presence of Allah, showing how His presence extends everywhere."
-      }
-    ]
-  },
     technique: "Practice active listening. Pay close attention to what others are saying, both verbally and nonverbally. Create space for others to share their thoughts and feelings without judgment. When faced with conflict, remember that listening is a powerful tool for resolution.",
     relatedNames: ["Al-Basir", "Al-Khabir"],
     orderNumber: 26,
@@ -1760,60 +1327,10 @@ export const namesData: InsertName[] = [
     category: nameCategories.POWER
   },
   {
-    arabicName: "الْمَلِكُ الْمُلْكِ",
-    transliteration: "Malik-ul-Mulk",
-    pronunciation: "MAA-lik-ul-MULK",
-    meaning: "Owner of All Sovereignty",
-    description: "The Owner of All Sovereignty - The One who controls the dominion and gives dominion to whoever He willed.",
-    detailedExplanation: "Malik-ul-Mulk represents absolute sovereignty and ownership. This name reminds us that all power and authority ultimately belong to God.",
-    innerMeaning: "This name connects you to the divine sovereignty that exists within your own sphere of influence.",
-    technique: "Practice responsible stewardship over what has been entrusted to you.",
-    relatedNames: ["Al-Malik", "Al-Qadir"],
-    orderNumber: 84,
-    category: nameCategories.POWER,
-    quranVerses: [
-      {
-        verse: "Say, 'O Allah, Owner of Sovereignty, You give sovereignty to whom You will and You take sovereignty away from whom You will.'",
-        reference: "3:26",
-        arabicText: "قُلِ اللَّهُمَّ مَالِكَ الْمُلْكِ تُؤْتِي الْمُلْكَ مَن تَشَاءُ وَتَنزِعُ الْمُلْكَ مِمَّن تَشَاءُ",
-        explanation: "This verse directly mentions this divine name and demonstrates Allah's absolute authority over sovereignty."
-      },
-      {
-        verse: "Blessed is He in whose hand is dominion, and He is over all things competent.",
-        reference: "67:1",
-        arabicText: "تَبَارَكَ الَّذِي بِيَدِهِ الْمُلْكُ وَهُوَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ",
-        explanation: "This verse emphasizes Allah's absolute ownership and control over all creation."
-      }
-    ]
-  },
-  {
-    arabicName: "ذُو الْجَلَالِ وَالْإِكْرَامِ",
+    arabicName: "ذُوالْجَلَالِ وَالْإِكْرَامِ",
     transliteration: "Dhul-Jalali-wal-Ikram",
-    pronunciation: "DHUL-ja-LAA-li-wal-ik-RAAM",
-    meaning: "Lord of Majesty and Generosity",
-    description: "The Lord of Majesty and Generosity - The One who deserves to be exalted and not denied.",
-    detailedExplanation: "This name combines divine majesty with boundless generosity, showing how these qualities are perfectly united in the Divine.",
-    innerMeaning: "This name connects you to both the awe-inspiring and nurturing aspects of the divine.",
-    technique: "Practice balancing strength with kindness, authority with generosity.",
-    relatedNames: ["Al-Jalil", "Al-Karim"],
-    orderNumber: 85,
-    category: nameCategories.MAJESTY,
-    quranVerses: [
-      {
-        verse: "Blessed is the name of your Lord, Owner of Majesty and Honor.",
-        reference: "55:78",
-        arabicText: "تَبَارَكَ اسْمُ رَبِّكَ ذِي الْجَلَالِ وَالْإِكْرَامِ",
-        explanation: "This verse directly mentions this divine name, emphasizing both Allah's majesty and honor."
-      },
-      {
-        verse: "And there will remain the Face of your Lord, Owner of Majesty and Honor.",
-        reference: "55:27",
-        arabicText: "وَيَبْقَىٰ وَجْهُ رَبِّكَ ذُو الْجَلَالِ وَالْإِكْرَامِ",
-        explanation: "This verse highlights the eternal nature of Allah's majesty and honor."
-      }
-    ]
-  },
-
+    pronunciation: "dhul-ja-LAA-li-wal-ik-RAAM",
+    meaning: "The Lord of Majesty and Bounty",
     description: "The Lord of Majesty and Bounty - The One who has the perfect Power and Authority, and deserves to be Glorified.",
     detailedExplanation: "Dhul-Jalali wal-Ikram, the Lord of Majesty and Bounty, highlights God's supreme majesty and generosity. This name reminds us of the Divine's infinite power and boundless kindness, inspiring awe and gratitude. It encourages a life of worship and service.",
     innerMeaning: "This name connects you to the divine majesty and generosity that surrounds and sustains you.  It’s about recognizing the importance of living with grace and dignity, and extending kindness and compassion to others. It’s about gratitude and appreciation.",

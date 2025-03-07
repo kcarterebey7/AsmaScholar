@@ -4,7 +4,7 @@ import { createInsertSchema } from "drizzle-zod";
 import { z } from "zod";
 
 // Define the QuranVerse type
-export interface QuranVerse {
+interface QuranVerse {
   verse: string;
   reference: string;
   arabicText: string;
