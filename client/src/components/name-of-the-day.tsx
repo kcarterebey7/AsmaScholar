@@ -11,7 +11,12 @@ export function NameOfTheDay({ name }: NameOfTheDayProps) {
     <Card className="bg-background border-2">
       <CardContent className="p-6">
         <div className="space-y-4">
-          <h2 className="text-2xl font-semibold text-center mb-4">Name of the Day</h2>
+          <div className="text-center">
+            <h2 className="text-2xl font-semibold mb-1">Divine Name of the Day</h2>
+            <div className="text-sm text-muted-foreground mb-4">
+              A new divine name is revealed each day for contemplation and practice
+            </div>
+          </div>
 
           <div className="text-center">
             <div className="text-3xl font-arabic mb-2">{name.arabicName}</div>
@@ -25,7 +30,7 @@ export function NameOfTheDay({ name }: NameOfTheDayProps) {
           </div>
 
           <div className="flex justify-center mt-4">
-            <Link href={`/name/${name.orderNumber}`} className="text-primary hover:underline">
+            <Link href={`/name/${name.id}`} className="text-primary hover:underline">
               Learn More →
             </Link>
           </div>
