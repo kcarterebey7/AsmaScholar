@@ -3,41 +3,43 @@ import { nameCategories } from "./schema";
 
 export const namesData: InsertName[] = [
   {
+    id: 1,
     arabicName: "الرَّحْمَنُ",
     transliteration: "Ar-Rahman",
     pronunciation: "ar-rah-MAAN",
     meaning: "The Most Merciful",
     description: "The Most Gracious - The One who has plenty of mercy for the believers and the blasphemers in this world and especially for the believers in the hereafter.",
-    detailedExplanation: "Ar-Rahman represents the all-encompassing mercy of God that embraces all creation without discrimination. This name appears 57 times in the Quran and is one of the most frequently mentioned divine names, highlighting its significance. It inspires hope and trust in God's infinite compassion.",
-    innerMeaning: "This name connects you to the universal flow of divine mercy that sustains all existence. It's about recognizing that mercy is the foundation of all reality and allowing that understanding to shape how you view and interact with the world. It's about cultivating unconditional compassion.",
-    technique: "Practice loving-kindness meditation, starting with yourself and gradually expanding to include all beings. Begin each day by setting an intention to embody divine mercy in your interactions. When faced with difficulty, pause and ask: 'How would infinite compassion respond in this moment?' Let your heart soften and expand beyond its usual limits.",
+    detailedExplanation: "Ar-Rahman represents the all-encompassing mercy of God that embraces all creation without discrimination. This name appears 57 times in the Quran and is one of the most frequently mentioned divine names, highlighting its significance.",
+    innerMeaning: "This name connects you to the universal flow of divine mercy that sustains all existence. It's about recognizing that mercy is the foundation of all reality.",
+    technique: "Practice loving-kindness meditation, starting with yourself and gradually expanding to include all beings.",
     relatedNames: ["Ar-Raheem", "Al-Latif", "Al-Wadud"],
     orderNumber: 1,
     category: nameCategories.MERCY,
     quranVerses: [
       {
         verse: "In the name of Allah, the Most Gracious, the Most Merciful",
-        reference: "1:1", 
+        reference: "1:1",
         arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
-        explanation: "This verse, known as the Bismillah, appears at the beginning of 113 chapters of the Quran, emphasizing the all-encompassing nature of divine mercy."
+        explanation: "This verse, known as the Bismillah, appears at the beginning of 113 chapters of the Quran."
       },
       {
         verse: "The Most Merciful, taught the Quran, created man, taught him eloquence.",
         reference: "55:1-4",
         arabicText: "الرَّحْمَٰنُ عَلَّمَ الْقُرْآنَ خَلَقَ الْإِنسَانَ عَلَّمَهُ الْبَيَانَ",
-        explanation: "These verses directly connect Ar-Rahman with divine teaching and the creation of humanity, showing how mercy manifests through knowledge and understanding."
+        explanation: "These verses connect Ar-Rahman with divine teaching and the creation of humanity."
       }
     ]
   },
   {
+    id: 2,
     arabicName: "الرَّحِيمُ",
     transliteration: "Ar-Raheem",
     pronunciation: "ar-ra-HEEM",
     meaning: "The Most Merciful",
     description: "The Most Merciful - The One who has plenty of mercy for the believers.",
-    detailedExplanation: "Ar-Raheem represents specific divine mercy that is bestowed upon the faithful. While Ar-Rahman encompasses all creation, Ar-Raheem signifies a special mercy reserved for believers.", 
+    detailedExplanation: "Ar-Raheem represents specific divine mercy that is bestowed upon the faithful. While Ar-Rahman encompasses all creation, Ar-Raheem signifies a special mercy reserved for believers.",
     innerMeaning: "This name awakens your capacity for focused, nurturing mercy - the ability to offer profound care and healing to yourself and others.",
-    technique: "When reciting this name, envision divine mercy as a healing light penetrating every cell of your being. Practice acts of targeted kindness.",
+    technique: "When reciting this name, envision divine mercy as a healing light penetrating every cell of your being.",
     relatedNames: ["Ar-Rahman", "Al-Wadud", "Al-Latif"],
     orderNumber: 2,
     category: nameCategories.MERCY,
@@ -57,6 +59,7 @@ export const namesData: InsertName[] = [
     ]
   },
   {
+    id: 3,
     arabicName: "الْمَلِكُ",
     transliteration: "Al-Malik",
     pronunciation: "al-MA-lik",
@@ -78,13 +81,14 @@ export const namesData: InsertName[] = [
     ]
   },
   {
+    id: 4,
     arabicName: "الْقُدُّوسُ",
-    transliteration: "Al-Quddus", 
+    transliteration: "Al-Quddus",
     pronunciation: "al-QUDD-oos",
     meaning: "The Most Holy",
     description: "The Most Holy - The One who is pure from any imperfection and clear from all defects.",
     detailedExplanation: "Al-Quddus represents absolute purity and perfection beyond any flaw or deficiency.",
-    innerMeaning: "This name awakens your innate capacity for purity and refinement of character.", 
+    innerMeaning: "This name awakens your innate capacity for purity and refinement of character.",
     technique: "Practice regular purification of body, speech and mind. Cultivate inner cleanliness through wholesome thoughts and actions.",
     relatedNames: ["As-Salam", "At-Tahir", "Al-Barr"],
     orderNumber: 4,
@@ -99,9 +103,10 @@ export const namesData: InsertName[] = [
     ]
   },
   {
+    id: 5,
     arabicName: "السَّلاَمُ",
     transliteration: "As-Salam",
-    pronunciation: "as-sa-LAAM", 
+    pronunciation: "as-sa-LAAM",
     meaning: "The Source of Peace",
     description: "The Source of Peace - The One who is free from every imperfection.",
     detailedExplanation: "As-Salam represents perfect peace and tranquility, free from all disturbance and conflict.",
@@ -116,6 +121,50 @@ export const namesData: InsertName[] = [
         reference: "10:25",
         arabicText: "وَاللَّهُ يَدْعُو إِلَىٰ دَارِ السَّلَامِ",
         explanation: "This verse shows how Allah guides to the abode of perfect peace."
+      }
+    ]
+  },
+  {
+    id: 6,
+    arabicName: "الْمُؤْمِنُ",
+    transliteration: "Al-Mu'min",
+    pronunciation: "al-MU-min",
+    meaning: "The Guardian of Faith",
+    description: "The Guardian of Faith - The One who witnessed for Himself that no one is God but Him.",
+    detailedExplanation: "Al-Mu'min represents divine protection and security in faith. This name assures believers of God's support and validation of their faith.",
+    innerMeaning: "This name awakens your capacity for steadfast faith and trust in the divine plan.",
+    technique: "Practice affirmations that strengthen your faith. Remember divine support in times of doubt.",
+    relatedNames: ["Al-Muhaymin", "As-Salam", "Al-Wakil"],
+    orderNumber: 6,
+    category: nameCategories.FAITH,
+    quranVerses: [
+      {
+        verse: "He is Allah, other than whom there is no deity, the Sovereign, the Pure, the Perfection, the Guardian of Faith.",
+        reference: "59:23",
+        arabicText: "هُوَ اللَّهُ الَّذِي لَا إِلَٰهَ إِلَّا هُوَ الْمَلِكُ الْقُدُّوسُ السَّلَامُ الْمُؤْمِنُ",
+        explanation: "This verse lists Al-Mu'min among divine names, showing its connection to divine security."
+      }
+    ]
+  },
+  {
+    id: 7,
+    arabicName: "الْمُهَيْمِنُ",
+    transliteration: "Al-Muhaymin",
+    pronunciation: "al-mu-HAY-min",
+    meaning: "The Guardian",
+    description: "The Guardian - The One who witnesses the saying and deeds of His creatures.",
+    detailedExplanation: "Al-Muhaymin represents divine oversight and protection. This name reminds us that God is ever-watchful and protective.",
+    innerMeaning: "This name connects you to divine protection and guidance. It teaches mindful awareness and conscious living.",
+    technique: "Practice mindfulness and self-awareness. Remember divine presence in all situations.",
+    relatedNames: ["Al-Mu'min", "Al-Hafiz", "Al-Wakil"],
+    orderNumber: 7,
+    category: nameCategories.PROTECTION,
+    quranVerses: [
+      {
+        verse: "And We have revealed to you the Book in truth, confirming that which preceded it of the Scripture and as a guardian over it.",
+        reference: "5:48",
+        arabicText: "وَأَنزَلْنَا إِلَيْكَ الْكِتَابَ بِالْحَقِّ مُصَدِّقًا لِّمَا بَيْنَ يَدَيْهِ مِنَ الْكِتَابِ وَمُهَيْمِنًا عَلَيْهِ",
+        explanation: "This verse shows how the divine guardian watches over and protects revelation."
       }
     ]
   }
