@@ -1,4 +1,4 @@
-import type { InsertName } from "./schema";
+import type { Name } from "./schema";
 import { nameCategories } from "./schema";
 
 export const namesData: InsertName[] = [
@@ -172,6 +172,7 @@ export const namesData: InsertName[] = [
     technique: "Engage in creative activities that allow you to express your inner vision.  Practice visualizing your goals and creating a clear path towards their manifestation.  When faced with creative blocks, remember that your capacity for creation is boundless.",
     relatedNames: ["Al-Bari", "Al-Musawwir"],
     orderNumber: 11,
+    id: 11,
     category: nameCategories.CREATION
   },
   {
@@ -185,6 +186,7 @@ export const namesData: InsertName[] = [
     technique: "Practice organizing and decluttering your physical space. Create routines and systems that support your productivity and well-being. When faced with chaos, remember that your capacity to bring order is a gift from the divine.",
     relatedNames: ["Al-Khaliq", "Al-Musawwir"],
     orderNumber: 12,
+    id: 12,
     category: nameCategories.CREATION
   },
   {
@@ -198,6 +200,7 @@ export const namesData: InsertName[] = [
     technique: "Practice cultivating an appreciation for beauty in your daily life. Engage in creative activities that allow you to express your artistic talents.  When faced with ugliness, remember that your capacity to see and create beauty is a gift from the divine.",
     relatedNames: ["Al-Khaliq", "Al-Bari"],
     orderNumber: 13,
+    id: 13,
     category: nameCategories.CREATION
   },
   {
@@ -211,6 +214,7 @@ export const namesData: InsertName[] = [
     technique: "Practice self-forgiveness.  Let go of past mistakes and embrace the opportunity for growth.  When faced with the transgressions of others, extend forgiveness and compassion. Remember that true forgiveness sets you free.",
     relatedNames: ["At-Tawwab", "Al-'Afuw"],
     orderNumber: 14,
+    id: 14,
     category: nameCategories.FORGIVENESS
   },
   {
@@ -224,6 +228,7 @@ export const namesData: InsertName[] = [
     technique: "Practice self-discipline and self-control.  Set clear boundaries and learn to say no when necessary.  When faced with challenges, remember that your capacity for overcoming obstacles is a reflection of divine power.",
     relatedNames: ["Al-Jabbar", "Al-Aziz"],
     orderNumber: 15,
+    id: 15,
     category: nameCategories.POWER
   },
   {
@@ -237,6 +242,7 @@ export const namesData: InsertName[] = [
     technique: "Practice giving freely and without expectation of return.  Share your time, talents, and resources with those in need.  When faced with scarcity, remember that your capacity for generosity is a reflection of divine abundance.",
     relatedNames: ["Al-Karim", "Ar-Razzaq"],
     orderNumber: 16,
+    id: 16,
     category: nameCategories.GIVING
   },
   {
@@ -250,6 +256,7 @@ export const namesData: InsertName[] = [
     technique: "Practice gratitude for the abundance in your life.  Trust in the divine provision that meets your needs. When faced with lack, remember that your capacity for receiving is limitless.",
     relatedNames: ["Al-Wahhab", "Al-Karim"],
     orderNumber: 17,
+    id: 17,
     category: nameCategories.SUSTENANCE
   },
   {
@@ -263,6 +270,7 @@ export const namesData: InsertName[] = [
     technique: "Practice visualizing your goals and removing any obstacles that stand in your way.  Maintain a positive and hopeful attitude. When faced with challenges, remember that the divine power can open any door.",
     relatedNames: ["An-Nafi", "Al-Hadi"],
     orderNumber: 18,
+    id: 18,
     category: nameCategories.OPENING
   },
   {
@@ -276,6 +284,7 @@ export const namesData: InsertName[] = [
     technique: "Practice cultivating intuition and inner wisdom.  Pay attention to your inner voice and trust your gut feelings.  When faced with difficult decisions, remember that you have access to a higher level of understanding.",
     relatedNames: ["Al-Khabir", "Al-Hakim"],
     orderNumber: 19,
+    id: 19,
     category: nameCategories.KNOWLEDGE
   },
   {
@@ -289,6 +298,7 @@ export const namesData: InsertName[] = [
     technique: "Practice acceptance of limitations.  When faced with scarcity, remember that it is often a necessary step towards greater abundance.  Cultivate patience and trust in divine timing.",
     relatedNames: ["Al-Basit", "Al-Muqsit"],
     orderNumber: 20,
+    id: 20,
     category: nameCategories.POWER
   },
   {
