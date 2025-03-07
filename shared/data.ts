@@ -1,7 +1,7 @@
 import type { Name } from "./schema";
 import { nameCategories } from "./schema";
 
-export const namesData: InsertName[] = [
+export const namesData: Name[] = [
   {
     arabicName: "الرَّحْمَنُ",
     transliteration: "Ar-Rahman",
@@ -27,6 +27,12 @@ export const namesData: InsertName[] = [
         reference: "55:1-4",
         arabicText: "الرَّحْمَٰنُ عَلَّمَ الْقُرْآنَ خَلَقَ الْإِنسَانَ عَلَّمَهُ الْبَيَانَ",
         explanation: "These verses directly connect Ar-Rahman with divine teaching and the creation of humanity, showing how mercy manifests through knowledge and understanding."
+      },
+      {
+        verse: "Man is the truth and falsehood strangely mixed. Man is the Breath made flesh; so truth and falsehood are conjoined in him; and they strive, and naught goes down and man as truth abides.",
+        reference: "HKMSTP Ch.7:12-13",
+        arabicText: "",
+        explanation: "This verse from the Holy Koran of the Moorish Science Temple speaks to the divine mercy in creating mankind with both truth and falsehood, showing how mercy manifests in giving humans the capacity for spiritual growth."
       }
     ]
   },
@@ -36,11 +42,12 @@ export const namesData: InsertName[] = [
     pronunciation: "ar-ra-HEEM",
     meaning: "The Most Merciful",
     description: "The Most Merciful - The One who has plenty of mercy for the believers.",
-    detailedExplanation: "Ar-Raheem, the Most Merciful, speaks to the tender compassion of the Divine. This name highlights God's unwavering love and care for those who believe, offering solace and comfort in times of need.  It reminds us that mercy is not merely a concept, but a living force that sustains and protects.",
+    detailedExplanation: "Ar-Raheem, the Most Merciful, speaks to the tender compassion of the Divine. This name highlights God's unwavering love and care for those who believe, offering solace and comfort in times of need. It reminds us that mercy is not merely a concept, but a living force that sustains and protects.",
     innerMeaning: "While Ar-Rahman points to the vast ocean of divine mercy, Ar-Raheem represents the intimate rain of mercy that penetrates deeply into each receptive heart. This quality of focused, nurturing mercy exists within you as the capacity to offer profound care and healing to yourself and others. It is the gentle rain that brings life to parched soil.",
     technique: "When reciting this name, envision divine mercy as a healing light penetrating every cell of your being. Practice random acts of kindness with focused attention on the recipient's heart. Before sleep, review your day and send healing mercy to any situations or relationships that need resolution.",
     relatedNames: ["Ar-Rahman", "Al-Latif", "Al-Wadud"],
     orderNumber: 2,
+    id: 2,
     category: nameCategories.MERCY,
     quranVerses: [
       {
@@ -54,6 +61,12 @@ export const namesData: InsertName[] = [
         reference: "7:156",
         arabicText: "وَرَحْمَتِي وَسِعَتْ كُلَّ شَيْءٍ",
         explanation: "This verse reveals the all-encompassing nature of divine mercy, showing how it extends to every aspect of creation."
+      },
+      {
+        verse: "Teach them that Allah and man are one, but that through carnal thoughts and words and deeds, man tore himself away from Allah, debased himself. Teach that the Holy Breath would make them one again, restoring harmony and peace.",
+        reference: "HKMSTP Ch.2:18-19", 
+        arabicText: "",
+        explanation: "This passage speaks to the merciful nature of the Divine in restoring humanity to its original state of unity and peace."
       }
     ]
   },
@@ -63,12 +76,27 @@ export const namesData: InsertName[] = [
     pronunciation: "al-MA-lik",
     meaning: "The King",
     description: "The King - The One with complete dominion, the One whose dominion is clear from imperfection.",
-    detailedExplanation: "Al-Malik, the King, signifies absolute sovereignty and perfect governance.  This name reminds us that God's power is absolute, His rule just and unwavering. It inspires awe and reverence, reminding us of the majesty and authority of the Divine.",
-    innerMeaning: "Within you resides a kingly power, a sense of inherent authority that is both just and benevolent. This is the strength that allows you to align with divine governance, leading with integrity and compassion.  It is not a power to control, but a capacity to serve.",
-    technique: "Practice mindful leadership, whether in personal relationships or community initiatives. Cultivate a sense of inner authority by aligning your actions with your highest values.  Engage in practices that bring you into a state of grounded presence, such as yoga or tai chi.",
+    detailedExplanation: "Al-Malik, the King, signifies absolute sovereignty and perfect governance. This name reminds us that God's power is absolute, His rule just and unwavering. It inspires awe and reverence, reminding us of the majesty and authority of the Divine.",
+    innerMeaning: "Within you resides a kingly power, a sense of inherent authority that is both just and benevolent. This is the strength that allows you to align with divine governance, leading with integrity and compassion. It is not a power to control, but a capacity to serve.",
+    technique: "Practice mindful leadership, whether in personal relationships or community initiatives. Cultivate a sense of inner authority by aligning your actions with your highest values. Engage in practices that bring you into a state of grounded presence, such as yoga or tai chi.",
     relatedNames: ["Al-Maalik", "Al-Aziz", "Al-Jabbar"],
     orderNumber: 3,
-    category: nameCategories.POWER
+    id: 3,
+    category: nameCategories.POWER,
+    quranVerses: [
+      {
+        verse: "The Sovereign, the Pure, the Peace.",
+        reference: "59:23",
+        arabicText: "الْمَلِكُ الْقُدُّوسُ السَّلامُ",
+        explanation: "This verse lists several divine attributes together, emphasizing the connection between sovereignty and peace."
+      },
+      {
+        verse: "All men and all the things of earth, and things in heaven and in the earth below are one, are made of essence one; and when they die, they all are gone back to the Father-Mother-God who gave them birth.",
+        reference: "HKMSTP Ch.28:4",
+        arabicText: "",
+        explanation: "This verse speaks to the divine sovereignty and dominion over all creation, reflecting the comprehensive authority of Al-Malik."
+      }
+    ]
   },
   {
     arabicName: "الْقُدُّوسُ",
@@ -76,12 +104,27 @@ export const namesData: InsertName[] = [
     pronunciation: "al-QUDD-oos",
     meaning: "The Most Sacred",
     description: "The Most Sacred - The One who is pure from any imperfection and clear from children and adversaries.",
-    detailedExplanation: "Al-Quddus, the Most Sacred, speaks to the absolute purity and holiness of God.  This name transcends human understanding of purity, representing a state beyond all imperfection and blemish.  It inspires a deep sense of reverence and respect for the Divine.",
-    innerMeaning: "This name reveals the inherent sanctity within your being, a divine spark of purity that is untouched by the world's imperfections.  Connecting with Al-Quddus allows you to access this inner sanctuary, a place of stillness and profound peace. It is a reminder of your inherent worthiness.",
-    technique: "Practice daily purification rituals such as prayer or meditation. Engage in acts of service that express your respect for the sacredness of life.  Cultivate a daily practice of self-reflection to identify and release any impurities that cloud your inner light.",
+    detailedExplanation: "Al-Quddus, the Most Sacred, speaks to the absolute purity and holiness of God. This name transcends human understanding of purity, representing a state beyond all imperfection and blemish. It inspires a deep sense of reverence and respect for the Divine.",
+    innerMeaning: "This name reveals the inherent sanctity within your being, a divine spark of purity that is untouched by the world's imperfections. Connecting with Al-Quddus allows you to access this inner sanctuary, a place of stillness and profound peace. It is a reminder of your inherent worthiness.",
+    technique: "Practice daily purification rituals such as prayer or meditation. Engage in acts of service that express your respect for the sacredness of life. Cultivate a daily practice of self-reflection to identify and release any impurities that cloud your inner light.",
     relatedNames: ["As-Salam", "Al-Mu'min", "Al-Muhaymin"],
     orderNumber: 4,
-    category: nameCategories.HOLINESS
+    id: 4,
+    category: nameCategories.HOLINESS,
+    quranVerses: [
+      {
+        verse: "He is Allah, besides Whom there is no god; the King, the Holy, the Giver of peace.",
+        reference: "59:23",
+        arabicText: "هُوَ اللَّهُ الَّذِي لَا إِلَٰهَ إِلَّا هُوَ الْمَلِكُ الْقُدُّوسُ السَّلَامُ",
+        explanation: "This verse emphasizes the divine attributes of holiness and peace together with sovereignty."
+      },
+      {
+        verse: "The souls of men are structured in the substances of God, and human wills are but expressions of the will divine. And so God's thoughts become their thoughts, and God's desires become their own desires.",
+        reference: "HKMSTP Ch.20:14-15",
+        arabicText: "",
+        explanation: "This passage reflects on the sacred nature of the human soul and its connection to divine purity."
+      }
+    ]
   },
   {
     arabicName: "السَّلاَمُ",
