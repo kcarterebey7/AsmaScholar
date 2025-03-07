@@ -14,5 +14,8 @@ export function getNameOfTheDay(): Name {
 
   // Use the day of year to select a name, cycling through the 99 names
   const index = (dayOfYear % namesData.length)
-  return namesData[index]
+  const selectedName = namesData[index]
+
+  // Find the name by its orderNumber to ensure we get the complete record with ID
+  return namesData.find(name => name.orderNumber === selectedName.orderNumber) || selectedName
 }
