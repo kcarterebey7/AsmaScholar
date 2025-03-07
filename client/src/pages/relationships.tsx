@@ -2,6 +2,7 @@ import { useQuery } from "@tanstack/react-query";
 import { useState, useEffect } from "react";
 import type { Name } from "@shared/schema";
 import { Card, CardContent } from "@/components/ui/card";
+import { AuthButton } from "@/components/auth-button";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Link } from "wouter";
@@ -38,6 +39,7 @@ export default function RelationshipsPage() {
   const [editingGroupId, setEditingGroupId] = useState<string | null>(null);
   const [newGroupName, setNewGroupName] = useState("");
   const [selectedNames, setSelectedNames] = useState<number[]>([]);
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   // Setup DnD sensors
   const sensors = useSensors(
@@ -45,18 +47,62 @@ export default function RelationshipsPage() {
     useSensor(TouchSensor)
   );
 
-  // Load custom groups from localStorage
-  useEffect(() => {
-    const savedGroups = localStorage.getItem('customNameGroups');
-    if (savedGroups) {
-      setCustomGroups(JSON.parse(savedGroups));
-    }
-  }, []);
+  // Check if user is logged in
+  const { data: user } = useQuery({
+    queryKey: ['/api/auth/user'],
+    retry: false,
+    refetchOnWindowFocus: false
+  });
 
-  // Save custom groups to localStorage
+  // Fetch user groups from server or fallback to localStorage
   useEffect(() => {
+    const fetchGroups = async () => {
+      if (user?.authenticated) {
+        setIsLoggedIn(true);
+        try {
+          const response = await fetch('/api/user/groups');
+          if (response.ok) {
+            const data = await response.json();
+            setCustomGroups(data);
+          }
+        } catch (error) {
+          console.error("Failed to fetch groups:", error);
+          // Fallback to localStorage if server fetch fails
+          const savedGroups = localStorage.getItem('customNameGroups');
+          if (savedGroups) {
+            setCustomGroups(JSON.parse(savedGroups));
+          }
+        }
+      } else {
+        // Not logged in, use localStorage
+        const savedGroups = localStorage.getItem('customNameGroups');
+        if (savedGroups) {
+          setCustomGroups(JSON.parse(savedGroups));
+        }
+      }
+    };
+
+    fetchGroups();
+  }, [user]);
+
+  // Save custom groups
+  useEffect(() => {
+    // Always save to localStorage as a fallback
     localStorage.setItem('customNameGroups', JSON.stringify(customGroups));
-  }, [customGroups]);
+    
+    // If logged in, also save to server
+    if (isLoggedIn) {
+      fetch('/api/user/groups', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ groups: customGroups })
+      }).catch(error => {
+        console.error("Failed to save groups to server:", error);
+      });
+    }
+  }, [customGroups, isLoggedIn]);
 
   // Add URL parameter handling
   useEffect(() => {
@@ -130,9 +176,17 @@ export default function RelationshipsPage() {
 
   return (
     <div className="max-w-4xl mx-auto">
-      <h1 className="text-4xl font-serif text-[#333333] dark:text-gray-200 mb-6">
-        Name Relationships
-      </h1>
+      <div className="flex justify-between items-center mb-6">
+        <h1 className="text-4xl font-serif text-[#333333] dark:text-gray-200">
+          Name Relationships
+        </h1>
+        {!isLoggedIn && (
+          <div className="flex items-center gap-2">
+            <span className="text-sm text-gray-500">Login to save your groups across devices</span>
+            <AuthButton />
+          </div>
+        )}
+      </div>
 
       <div className="space-y-8">
         {/* Custom Groups Section */}
