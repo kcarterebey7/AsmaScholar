@@ -14,16 +14,33 @@ export default function NamePage() {
   const searchParams = new URLSearchParams(window.location.search);
   const searchQuery = searchParams.get('q');
 
-  const { data: name, isLoading } = useQuery<Name>({
-    queryKey: [`/api/names/${id}`]
+  const { data: name, isLoading, error } = useQuery<Name>({
+    queryKey: [`/api/names/${id}`],
+    enabled: !!id // Only run query when id is available
   });
 
   const { data: allNames } = useQuery<Name[]>({
     queryKey: ['/api/names']
   });
 
-  if (isLoading) return <div>Loading...</div>;
-  if (!name) return <div>Name not found</div>;
+  if (isLoading) {
+    return (
+      <div className="flex items-center justify-center min-h-screen">
+        <div className="text-lg">Loading...</div>
+      </div>
+    );
+  }
+
+  if (error || !name) {
+    return (
+      <div className="flex flex-col items-center justify-center min-h-screen gap-4">
+        <div className="text-lg text-red-500">Name not found</div>
+        <Link href="/" className="text-primary hover:underline">
+          Return to Home
+        </Link>
+      </div>
+    );
+  }
 
   // Find the related names' full details
   const relatedNamesDetails = allNames?.filter(n => 

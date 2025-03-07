@@ -32,7 +32,7 @@ export default function Home() {
             <div>Loading names...</div>
           ) : (
             names?.map((name) => (
-              <Link key={name.id} href={`/name/${name.orderNumber}`}>
+              <Link key={name.id} href={`/name/${name.id}`}>
                 <Card className="h-full hover:shadow-md transition-shadow">
                   <CardContent className="p-4">
                     <div className="text-xl font-arabic">{name.arabicName}</div>
