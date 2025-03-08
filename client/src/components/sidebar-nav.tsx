@@ -11,9 +11,14 @@ export default function SidebarNav() {
     queryKey: ['/api/names']
   });
 
-  // Scroll to top when location changes
+  // Scroll main content to top when location changes
   useEffect(() => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    const mainContent = document.querySelector('main');
+    if (mainContent) {
+      mainContent.scrollTo({ top: 0, behavior: 'instant' });
+    }
+    // Also reset window scroll
+    window.scrollTo({ top: 0, behavior: 'instant' });
   }, [location]);
 
   return (

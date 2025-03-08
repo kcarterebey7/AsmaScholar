@@ -17,6 +17,10 @@ function Router() {
 
   // Scroll to top whenever location changes
   useEffect(() => {
+    const mainContent = document.querySelector('main');
+    if (mainContent) {
+      mainContent.scrollTo({ top: 0, behavior: 'instant' });
+    }
     window.scrollTo({ top: 0, behavior: 'instant' });
   }, [location]);
 
