@@ -3,12 +3,18 @@ import { Link, useLocation } from "wouter";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import type { Name } from "@shared/schema";
 import { cn } from "@/lib/utils";
+import { useEffect } from "react";
 
 export default function SidebarNav() {
   const [location] = useLocation();
   const { data: names } = useQuery<Name[]>({ 
     queryKey: ['/api/names']
   });
+
+  // Scroll to top when location changes
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, [location]);
 
   return (
     <div className="w-64 border-r bg-[#F8F9FA] dark:bg-gray-900 flex-shrink-0">
