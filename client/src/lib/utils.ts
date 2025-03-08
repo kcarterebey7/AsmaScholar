@@ -12,6 +12,18 @@ export function getNameByOrder(orderNumber: number): Name | undefined {
 }
 
 export function getNameOfTheDay(): Name {
-  // Return name #73 for today
-  return getNameByOrder(73) || namesData[0];
+  // Get today's date
+  const today = new Date();
+
+  // Create a date string in YYYY-MM-DD format to ensure it changes daily
+  const dateString = today.toISOString().split('T')[0];
+
+  // Create a number from the date string that will be consistent for the whole day
+  const dateNum = dateString.split('-').join('');
+
+  // Use the date number to select a name, cycling through the names array
+  const index = parseInt(dateNum) % namesData.length;
+
+  // Return the name for today
+  return namesData[index] || namesData[0];
 }
