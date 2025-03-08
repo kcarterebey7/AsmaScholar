@@ -7,11 +7,7 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs))
 }
 
-export function getNameByOrder(orderNumber: number): Name | undefined {
-  return namesData.find(name => name.orderNumber === orderNumber);
-}
-
 export function getNameOfTheDay(): Name {
   // Return name #73 for today
-  return getNameByOrder(73) || namesData[0];
+  return namesData.find(name => name.orderNumber === 73) || namesData[0]
 }

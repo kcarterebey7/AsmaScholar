@@ -6,7 +6,6 @@ import { Card, CardContent } from "@/components/ui/card";
 import { ArrowLeft } from "lucide-react";
 import HighlightedText from "@/components/highlighted-text";
 import { QuranVerses } from "@/components/quran-verses";
-import { getNameByOrder } from "@/lib/utils";
 
 export default function NamePage() {
   const { id } = useParams();
@@ -17,15 +16,26 @@ export default function NamePage() {
   const searchParams = new URLSearchParams(window.location.search);
   const searchQuery = searchParams.get('q');
 
-  // Get name directly using orderNumber
-  const name = getNameByOrder(orderNumber);
+  // Find the name directly from namesData first
+  const nameFromData = namesData.find(n => n.orderNumber === orderNumber);
 
+  const { data: name, isLoading } = useQuery<Name>({
+    queryKey: [`/api/names/${orderNumber}`],
+    initialData: nameFromData // Use the name from data as initial data
+  });
+
+  const { data: allNames } = useQuery<Name[]>({
+    queryKey: ['/api/names'],
+    initialData: namesData // Use namesData as initial data
+  });
+
+  if (isLoading) return <div>Loading...</div>;
   if (!name) return <div>Name not found</div>;
 
-  // Find the related names' full details using orderNumber
-  const relatedNamesDetails = name.relatedNames
-    .map(relatedName => namesData.find(n => n.transliteration === relatedName))
-    .filter((n): n is Name => n !== undefined);
+  // Find the related names' full details
+  const relatedNamesDetails = allNames?.filter(n => 
+    name.relatedNames.includes(n.transliteration)
+  ) || [];
 
   return (
     <div className="max-w-4xl mx-auto">
