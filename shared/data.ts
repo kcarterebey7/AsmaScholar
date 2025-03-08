@@ -394,17 +394,18 @@ export const namesData: InsertName[] = [
     ]
   },
   {
-    arabicName: "المتعالي",
-    transliteration: "Al-Muta'ali",
-    pronunciation: "Al-Mu-ta-'aa-lee",
-    meaning: "The Exalted",
-    description: '"Al-Muta\'ali (Al-Mu-ta-\'aa-lee)" translates as "The Exalted," "The Supreme," or "The Transcendent." Derived from the Arabic root Ta\'ala (تعالى), meaning to be exalted, elevated, or transcendent, this attribute emphasizes Allah\'s absolute exaltation above creation, transcending all limits, boundaries, and comparisons.',
-    detailedExplanation: 'Mystics interpret "Al-Muta\'ali (Al-Mu-ta-\'aa-lee)" as signifying Allah\'s supreme transcendence, guiding believers toward humility and reverence. Reflecting upon this attribute inspires awe, respect, and recognition of human limitations, acknowledging that ultimate greatness and perfection belong exclusively to Allah.',
-    innerMeaning: "This name connects you to the divine capacity for transcendence and elevation. It's about rising above limitations and embracing your full potential. It's about living a life of purpose and meaning, guided by your highest aspirations.",
-    technique: "Practice mindfulness and meditation to connect with your higher self. Set ambitious goals and work towards them with unwavering determination. When faced with limitations, remember that your capacity for transcendence is limitless.",
-    relatedNames: ["Al-Ali", "Al-Kabir"],
+    arabicName: "الْمُؤَخِّرُ",
+    transliteration: "Al-Mu'akhkhir",
+    pronunciation: "al-mu-AKH-khir",
+    meaning: "The Delayer",
+    description: "The Delayer - The One who puts things in their right places. He makes ahead what He wills and delays what He wills.",
+    detailedExplanation: "Al-Mu'akhkhir, the Delayer, emphasizes God's wisdom in determining the timing of all things. This name reminds us that God delays certain matters for our benefit, even when we may not understand why. It inspires patience and trust in divine timing.",
+    innerMeaning: "This name connects you to divine timing and the wisdom of delay. It's about recognizing that sometimes waiting serves a higher purpose. It's about patience and trust in the process.",
+    technique: "Practice patience and trust in divine timing. Accept that delays may serve a greater purpose. When faced with setbacks, remember that your capacity for patience is limitless.",
+    relatedNames: ["Al-Muqaddim", "Al-Hakim"],
     orderNumber: 78,
-    category: nameCategories.GREATNESS,
+    id: 78,
+    category: nameCategories.TIME,
     quranVerses: [
       {
         verse: "He is the Grand, the Exalted.",
