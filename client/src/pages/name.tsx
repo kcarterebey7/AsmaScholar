@@ -7,11 +7,17 @@ import { ArrowLeft } from "lucide-react";
 import HighlightedText from "@/components/highlighted-text";
 import { QuranVerses } from "@/components/quran-verses";
 import { getNameByOrder } from "@/lib/utils";
+import { useEffect } from "react";
 
 export default function NamePage() {
   const { id } = useParams();
   const [location] = useLocation();
   const orderNumber = parseInt(id || "1", 10);
+
+  // Scroll to top when component mounts or orderNumber changes
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'instant' });
+  }, [orderNumber]);
 
   // Get the search query from URL if it exists
   const searchParams = new URLSearchParams(window.location.search);
