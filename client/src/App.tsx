@@ -1,4 +1,4 @@
-import { Switch, Route } from "wouter";
+import { Switch, Route, useLocation } from "wouter";
 import { QueryClientProvider } from "@tanstack/react-query";
 import { queryClient } from "./lib/queryClient";
 import { Toaster } from "@/components/ui/toaster";
@@ -10,8 +10,16 @@ import Search from "@/pages/search";
 import Relationships from "@/pages/relationships";
 import SidebarNav from "@/components/sidebar-nav";
 import { MenuBar } from "@/components/menu-bar";
+import { useEffect } from "react";
 
 function Router() {
+  const [location] = useLocation();
+
+  // Scroll to top whenever location changes
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'instant' });
+  }, [location]);
+
   return (
     <div className="min-h-screen">
       <div className="flex flex-col h-screen">
