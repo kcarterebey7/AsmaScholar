@@ -1,7 +1,21 @@
 import type { Name } from "./schema";
 import { nameCategories } from "./schema";
 
-export const namesData: InsertName[] = [
+export const namesData: Name[] = [
+  {
+    arabicName: "الله",
+    transliteration: "Allah",
+    pronunciation: "al-LAAH",
+    meaning: "The One True God",
+    description: 'Allah is the Eternal, the One Absolute Reality and the source of all creation. In classical understanding, this name signifies the all-encompassing power, wisdom, and presence that underlies every aspect of existence. It stands as the ultimate reality toward which all creation returns.',
+    detailedExplanation: "This supreme name encompasses all other divine names and attributes, representing the complete and perfect unity of the Divine. It is the most comprehensive of all names, containing within it all other divine qualities and attributes.",
+    innerMeaning: "Deep within your heart, Allah is the acknowledgment that the Divine is not distant-it dwells in every heartbeat and every breath you take. Recognize that the infinite love, wisdom, and energy of the Divine are mirrored in your own being, inviting you to awaken to your true, radiant essence.",
+    technique: "Begin each day with a centering meditation. Sit in silence, close your eyes, and take slow, mindful breaths. With each inhale, visualize drawing in brilliant light; with each exhale, feel yourself merging with that infinite presence. Softly repeat 'Allah' as a mantra, anchoring your awareness in the Divine source within.",
+    relatedNames: ["Ar-Rahman", "Ar-Raheem", "Al-Malik"],
+    orderNumber: 0,
+    id: 0,
+    category: nameCategories.UNITY
+  },
   {
     arabicName: "الرَّحْمَنُ",
     transliteration: "Ar-Rahman",
@@ -372,8 +386,7 @@ export const namesData: InsertName[] = [
     pronunciation: "as-sa-MI",
     meaning: "The All-Hearing",
     description: "The All-Hearing - The One who hears all things that are heard by His eternal hearing without an ear, instrument or organ.",
-    detailedExplanation: "As-Sami', the All-Hearing, represents God's awareness of all sounds and whispers.  This name reminds us that our prayers, hopes, and concerns are always heard by God, even the unspoken ones.  It inspires trust and faith in the Divine's attentiveness.",
-    innerMeaning: "This name connects you to the divine capacity to listen deeply and compassionately.  It's about recognizing the importance of active listening and creating space for others to share their thoughts and feelings. It's about creating a safe space for vulnerability.",
+    detailedExplanation: "As-Sami', the All-Hearing, represents God's awareness of all sounds and whispers.  This name reminds us that our prayers, hopes, and concerns are always heard by God, even the unspoken ones.  It inspires trust andfaith in the Divine's attentiveness.",innerMeaning: "This name connects you to the divine capacity to listen deeply and compassionately.  It's about recognizing the importance of active listening and creating space for others to share their thoughts and feelings. It's about creating a safe space for vulnerability.",
     technique: "Practice active listening. Pay close attention to what others are saying, both verbally and nonverbally. Create space for others to share their thoughts and feelings without judgment. When faced with conflict, remember that listening is a powerful tool for resolution.",
     relatedNames: ["Al-Basir", "Al-Khabir"],
     orderNumber: 26,
@@ -381,7 +394,7 @@ export const namesData: InsertName[] = [
     quranVerses: [
       {
         verse: "Indeed, Allah is ever Hearing and Seeing.",
-        reference: "4:58", 
+        reference: "4:58",
         arabicText: "إِنَّ اللَّهَ كَانَ سَمِيعًا بَصِيرًا",
         explanation: "This verse emphasizes Allah's perfect ability to hear all things, highlighting the comprehensive nature of divine hearing."
       },
@@ -396,7 +409,8 @@ export const namesData: InsertName[] = [
   {
     arabicName: "المتعالي",
     transliteration: "Al-Muta'ali",
-    pronunciation: "Al-Mu-ta-'aa-lee",meaning: "The Exalted",
+    pronunciation: "Al-Mu-ta-'aa-lee",
+    meaning: "The Exalted",
     description: '"Al-Muta\'ali (Al-Mu-ta-\'aa-lee)" translates as "The Exalted," "The Supreme," or "The Transcendent." Derived from the Arabic root Ta\'ala (تعالى), meaning to be exalted, elevated, or transcendent, this attribute emphasizes Allah\'s absolute exaltation above creation, transcending all limits, boundaries, and comparisons.',
     detailedExplanation: 'Mystics interpret "Al-Muta\'ali (Al-Mu-ta-\'aa-lee)" as signifying Allah\'s supreme transcendence, guiding believers toward humility and reverence. Reflecting upon this attribute inspires awe, respect, and recognition of human limitations, acknowledging that ultimate greatness and perfection belong exclusively to Allah.',
     innerMeaning: "This name connects you to the divine capacity for transcendence and elevation. It’s about rising above limitations and embracing your full potential. It’s about living a life of purpose and meaning, guided by your highest aspirations.",
