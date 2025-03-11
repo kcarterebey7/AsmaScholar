@@ -1,0 +1,90 @@
+Name,Transliteration,Meaning,Quranic Reference
+الرَّحْمٰن,Ar-Rahmān,The Most Gracious,1:1
+الرَّحِيْم,Ar-Rahīm,The Most Merciful,1:3
+المَلِك,Al-Malik,The King and Owner of Dominion,59:23
+القُدُّوس,Al-Quddūs,The Absolutely Pure,59:23
+السَّلَام,As-Salām,The Source of Peace and Safety,59:23
+المُؤْمِن,Al-Mu’min,The Giver of Faith and Security,59:23
+المُهَيْمِن,Al-Muhaymin,The Guardian, 59:23
+العَزِيز,Al-‘Azīz,The Almighty,59:23
+الجَبَّار,Al-Jabbār,The Compeller,59:23
+المُتَكَبِّر,Al-Mutakabbir,The Supreme, 59:23
+الخَالِق,Al-Khāliq,The Creator,59:24
+البَارِئ,Al-Bāri’,The Evolver,59:24
+المُصَوِّر,Al-Muṣawwir,The Fashioner,59:24
+الغَفَّار,Al-Ghaffār,The Constant Forgiver,20:82
+القَهَّار,Al-Qahhār,The All-Prevailing One,39:4
+الوَهَّاب,Al-Wahhāb,The Supreme Bestower,3:8
+الرَّزَّاق,Ar-Razzāq,The Provider,51:58
+الفَتَّاح,Al-Fattāḥ,The Supreme Solver,34:26
+العَلِيم,Al-‘Alīm,The All-Knowing,2:115
+القَابِض,Al-Qābiḍ,The Withholder,2:245
+البَاسِط,Al-Bāsiṭ,The Extender,2:245
+الخَافِض,Al-Khāfiḍ,The Reducer,56:3
+الرَّافِع,Ar-Rāfi‘,The Exalter,58:11
+المُعِز,Al-Mu‘izz,The Honourer-Bestower,3:26
+المُذِل,Al-Muḏill,The Dishonourer,3:26
+السَّمِيع,As-Samī‘,The All-Hearing,2:127
+البَصِير,Al-Baṣīr,The All-Seeing,4:58
+الحَكَم,Al-Ḥakam,The Impartial Judge,22:69
+العَدْل,Al-‘Adl,The Just One,6:115
+اللَّطِيف,Al-Laṭīf,The Subtle One,6:103
+الخَبِير,Al-Khabīr,The All-Aware,6:18
+الحَلِيم,Al-Ḥalīm,The Most Forbearing,2:235
+العَظِيم,Al-‘Aẓīm,The Magnificent,2:255
+الغَفُور,Al-Ghafūr,The Great Forgiver,8:69
+الشَّكُور,Ash-Shakūr,The Most Appreciative,35:30
+العَلِيّ,Al-‘Aliyy,The Most High,4:34
+الكَبِير,Al-Kabīr,The Most Great,13:9
+الحَفِيظ,Al-Ḥafīẓ,The Preserver,11:57
+المُقِيت,Al-Muqīt,The Sustainer,4:85
+الحسِيب,Al-Ḥasīb,The Reckoner,4:6
+الجَلِيل,Al-Jalīl,The Majestic,55:27
+الكَرِيم,Al-Karīm,The Most Generous,82:6
+الرَّقِيب,Ar-Raqīb,The Watchful,4:1
+المُجِيب,Al-Mujīb,The Responsive One,11:61
+الوَاسِع,Al-Wāsi‘,The All-Encompassing,2:115
+الحَكِيم,Al-Ḥakīm,The All-Wise,2:32
+الوَدُود,Al-Wadūd,The Most Loving,85:14
+المَجِيد,Al-Majīd,The Glorious,85:15
+البَاعِث,Al-Bā‘ith,The Infuser of New Life,22:7
+الشَّهِيد,Ash-Shahīd,The All-and-Ever Witnessing,4:166
+الحَق,Al-Ḥaqq,The Absolute Truth,22:6
+الوَكِيل,Al-Wakīl,The Trustee,3:173
+القَوِي,Al-Qawiyy,The All-Strong,22:74
+المَتِين,Al-Matīn,The Firm One,51:58
+الوَلِي,Al-Waliyy,The Solely Loyal,42:9
+الحَمِيد,Al-Ḥamīd,The Most Praiseworthy,31:12
+المُحْصِي,Al-Muḥṣī,The All-Enumerating One,72:28
+المُبْدِئ,Al-Mubdi’,The Originator,10:34
+المُعِيد,Al-Mu‘īd,The Restorer,10:34
+المُحْيِي,Al-Muḥyī,The Giver of Life,30:50
+المُمِيت,Al-Mumīt,The Creator of Death,3:156
+الحَي,Al-Ḥayy,The Ever-Living,2:255
+القَيُّوم,Al-Qayyūm,The Sustainer,2:255
+الوَاجِد,Al-Wājid,The Perceiver,38:39
+المَاجِد,Al-Mājid,The Glorious,85:15
+الوَاحِد,Al-Wāḥid,The Only One,112:1
+الأَحَد,Al-Aḥad,The Indivisible,112:1
+الصَّمَد,As-Ṣamad,The Self-Sufficient,112:2
+القَادِر,Al-Qādir,The Omnipotent,6:65
+المُقْتَدِر,Al-Muqtadir,The Creator of All Power,54:42
+المُقَدِّم,Al-Muqaddim,The Expediter,87:16
+المُؤَخِّر,Al-Mu’akhkhir,The Delayer,71:4
+الأوَّل,Al-Awwal,The First,57:3
+الآخِر,Al-Ākhir,The Last,57:3
+الظَّاهِر,Az-Zāhir,The Manifest One,57:3
+البَاطِن,Al-Bāṭin,The Hidden One,57:3
+الوَالِي,Al-Wālī,The Sole Governor,13:11
+المُتَعَالِي,Al-Muta‘āli,The Self Exalted,13:9
+البَر,Al-Barr,The Source of All Goodness,52:28
+التَّوَاب,At-Tawwāb,The Ever-Pardoning,49:12
+المُنْتَقِم,Al-Muntaqim,The Avenger,32:22
+العَفُو,Al-‘Afuww,The Pardoner,4:99
+الرَّؤُوف,Ar-Ra’ūf,The Most Kind,2:143
+مَالِكُ ٱلْمُلْكِ,Mālik-ul-Mulk,Master of the Kingdom,3:26
+ذُوالْجَلاَلِ وَالإكْرَامِ,Dhul-Jalāli wal-Ikrām,Possessor of Glory and Honor,55:27
+المُقْسِط,Al-Muqsiṭ,The Just One,3:18
+الجَامِع,Al-Jāmi‘,The Gatherer,3:9
+الغَني,Al-Ghaniyy,The Self-Sufficient,3:97
+المُغْني,Al-Mughnī,The Bestower of Wealth,9:28
