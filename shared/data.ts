@@ -1533,8 +1533,8 @@ export const namesData: InsertName[] = [
     relatedNames: ["Al-Halim", "Al-Ghafur"],
     orderNumber: 99,
     category: nameCategories.FORGIVENESS
-  }
-{
+  },
+  {
     arabicName: "اللَّهُ",
     transliteration: "Allah",
     pronunciation: "al-LAH",
@@ -1546,5 +1546,5 @@ export const namesData: InsertName[] = [
     relatedNames: ["Ar-Rahman", "Ar-Raheem", "Al-Malik"],
     orderNumber: 100,
     category: nameCategories.DIVINE
-}
+  }
 ];
