@@ -2,6 +2,7 @@ import type { Express } from "express";
 import { createServer } from "http";
 import { storage } from "./storage";
 import { namesData } from "@shared/data";
+import type { InsertName } from "@shared/schema";
 
 export async function registerRoutes(app: Express) {
   // Initialize data
@@ -26,6 +27,24 @@ export async function registerRoutes(app: Express) {
     }
 
     res.json(name);
+  });
+
+  // Add a new name
+  app.post("/api/names", async (req, res) => {
+    try {
+      const nameData: InsertName = req.body;
+      
+      // Basic validation
+      if (!nameData.arabicName || !nameData.transliteration || !nameData.meaning) {
+        return res.status(400).json({ message: "Missing required fields" });
+      }
+      
+      const name = await storage.createName(nameData);
+      res.status(201).json(name);
+    } catch (error) {
+      console.error("Error creating name:", error);
+      res.status(500).json({ message: "Failed to create name", error: String(error) });
+    }
   });
 
   return createServer(app);
