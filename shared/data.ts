@@ -4,11 +4,12 @@ import { nameCategories } from "./schema";
 export const namesData: InsertName[] = [
   {
     arabicName: "الرَّحْمَنُ",
+
     transliteration: "Ar-Rahman",
     pronunciation: "ar-RAH-maan",
     meaning: "The Most Gracious",
     description: "The Most Gracious - The One who has plenty of mercy for the believers and the blasphemers in this world and especially for the believers in the hereafter.",
-    detailedExplanation: "Beloved seekers, let your heart be an open vessel, ready to receive without measure. Ar-Rahman represents boundless love, as vast as the ocean. This name teaches us that divine mercy flows continuously, touching every aspect of existence with its gentle grace. It is a reminder that in every moment, we are surrounded by unlimited compassion and care.",
+    detailedExplanation: "Ar-Rahman represents boundless love, as vast as the ocean. This name teaches us that divine mercy flows continuously, touching every aspect of existence with its gentle grace. It is a reminder that in every moment, we are surrounded by unlimited compassion and care.",
     innerMeaning: "Within the depths of your heart flows a mercy as vast as the oceans. This divine quality of boundless compassion exists as a seed within every soul, waiting to blossom. When you connect with Ar-Rahman, you tap into this infinite wellspring of mercy that dissolves all boundaries and embraces all of creation without discrimination.",
     technique: "Practice loving-kindness meditation, starting with yourself and gradually expanding to include all beings. Begin each day by setting an intention to embody divine mercy in your interactions. When faced with difficulty, pause and ask: 'How would infinite compassion respond in this moment?' Let your heart soften and expand beyond its usual limits.",
     relatedNames: ["Ar-Raheem", "Al-Latif", "Al-Wadud"],
@@ -1533,4 +1534,17 @@ export const namesData: InsertName[] = [
     orderNumber: 99,
     category: nameCategories.FORGIVENESS
   }
+{
+    arabicName: "اللَّهُ",
+    transliteration: "Allah",
+    pronunciation: "al-LAH",
+    meaning: "The God",
+    description: "The God - The one true God, the divine being who is worshipped in Islam, with no partners or equals.",
+    detailedExplanation: "Allah, the name of God in Islam, signifies the singular, unparalleled divine presence that encompasses all of existence. Recognizing Allah is to acknowledge the absolute, the eternal, and the all-encompassing authority over the universe, a beacon of faith that guides believers into submission and worship.",
+    innerMeaning: "This name encapsulates the divine essence, offering believers a connection to the infinite and eternal which guides their faith and actions. It's a reflection of monotheism, at the core of Islamic belief.",
+    technique: "Engage in regular prayers and reflections to connect with Allah. Integrate the remembrance of Allah in daily activities to cultivate mindfulness and gratitude. Let the name 'Allah' be a source of peace and strength.",
+    relatedNames: ["Ar-Rahman", "Ar-Raheem", "Al-Malik"],
+    orderNumber: 100,
+    category: nameCategories.DIVINE
+}
 ];
