@@ -68,6 +68,13 @@ export default function NamePage() {
             <HighlightedText text={name.meaning} searchTerm={searchQuery || ''} />
           </div>
 
+          {/* Add Quranic Reference */}
+          {name.quranReference && (
+            <div className="text-sm text-gray-600 dark:text-gray-400 mb-4">
+              Quranic Reference: <span className="font-medium">Surah {name.quranReference}</span>
+            </div>
+          )}
+
           {/* Detailed Content */}
           <div className="prose prose-slate dark:prose-invert max-w-none leading-relaxed">
             <h2 className="text-xl font-serif mt-6 mb-4 dark:text-gray-200">Basic Meaning</h2>

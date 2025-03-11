@@ -25,6 +25,7 @@ export const names = pgTable("names", {
   orderNumber: integer("order_number").notNull(),
   category: text("category").notNull(),
   quranVerses: text("quran_verses").$type<QuranVerse[]>(),
+  quranReference: text("quran_reference"), // Added new field
 });
 
 export const insertNameSchema = createInsertSchema(names, {
@@ -34,7 +35,8 @@ export const insertNameSchema = createInsertSchema(names, {
     reference: z.string(),
     arabicText: z.string(),
     explanation: z.string()
-  })).optional()
+  })).optional(),
+  quranReference: z.string().optional()
 }).omit({ id: true });
 
 export type InsertName = z.infer<typeof insertNameSchema>;

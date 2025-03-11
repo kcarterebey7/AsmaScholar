@@ -3,15 +3,15 @@ import { nameCategories } from "./schema";
 
 export const namesData: InsertName[] = [
   {
-    arabicName: "الرَّحْمَنُ",
+    arabicName: "الرَّحْمٰن",
 
-    transliteration: "Ar-Rahman",
-    pronunciation: "ar-RAH-maan",
+    transliteration: "Ar-Rahman", 
+    pronunciation: "ar-rah-MAAN",
     meaning: "The Most Gracious",
     description: "The Most Gracious - The One who has plenty of mercy for the believers and the blasphemers in this world and especially for the believers in the hereafter.",
-    detailedExplanation: "Ar-Rahman represents boundless love, as vast as the ocean. This name teaches us that divine mercy flows continuously, touching every aspect of existence with its gentle grace. It is a reminder that in every moment, we are surrounded by unlimited compassion and care.",
-    innerMeaning: "Within the depths of your heart flows a mercy as vast as the oceans. This divine quality of boundless compassion exists as a seed within every soul, waiting to blossom. When you connect with Ar-Rahman, you tap into this infinite wellspring of mercy that dissolves all boundaries and embraces all of creation without discrimination.",
-    technique: "Practice loving-kindness meditation, starting with yourself and gradually expanding to include all beings. Begin each day by setting an intention to embody divine mercy in your interactions. When faced with difficulty, pause and ask: 'How would infinite compassion respond in this moment?' Let your heart soften and expand beyond its usual limits.",
+    detailedExplanation: "Ar-Rahman signifies the abundance of Divine mercy that encompasses all creation. This name represents the immediate, present manifestation of Allah's mercy in every moment, sustaining and nurturing all existence regardless of merit or belief.",
+    innerMeaning: "This name connects you to the boundless mercy and compassion that exists within you. It's about recognizing that at your core, you have an unlimited capacity for kindness and understanding. It's about being merciful to yourself and others.",
+    technique: "Practice showing kindness and mercy to yourself and others. When faced with hardship, remember that divine mercy surrounds you always.",
     relatedNames: ["Ar-Raheem", "Al-Latif", "Al-Wadud"],
     orderNumber: 1,
     id: 1,
@@ -32,14 +32,14 @@ export const namesData: InsertName[] = [
     ]
   },
   {
-    arabicName: "الرَّحِيمُ",
-    transliteration: "Ar-Raheem",
+    arabicName: "الرَّحِيْم",
+    transliteration: "Ar-Rahim",
     pronunciation: "ar-ra-HEEM",
     meaning: "The Most Merciful",
     description: "The Most Merciful - The One who has plenty of mercy for the believers.",
-    detailedExplanation: "Ar-Raheem, the Most Merciful, speaks to the tender compassion of the Divine. This name highlights God's unwavering love and care for those who believe, offering solace and comfort in times of need.  It reminds us that mercy is not merely a concept, but a living force that sustains and protects.",
-    innerMeaning: "While Ar-Rahman points to the vast ocean of divine mercy, Ar-Raheem represents the intimate rain of mercy that penetrates deeply into each receptive heart. This quality of focused, nurturing mercy exists within you as the capacity to offer profound care and healing to yourself and others. It is the gentle rain that brings life to parched soil.",
-    technique: "When reciting this name, envision divine mercy as a healing light penetrating every cell of your being. Practice random acts of kindness with focused attention on the recipient's heart. Before sleep, review your day and send healing mercy to any situations or relationships that need resolution.",
+    detailedExplanation: "Ar-Rahim represents the specialized, focused manifestation of Divine mercy particularly for the believers. While Ar-Rahman's mercy encompasses all creation, Ar-Rahim's mercy is a special grace reserved for those who believe and follow guidance.",
+    innerMeaning: "This name connects you to the deep, sustainable compassion that nurtures growth and transformation. It's about developing lasting kindness and mercy that can weather any storm.",
+    technique: "Practice consistent, sustainable acts of kindness. Build lasting relationships based on mercy and understanding.",
     relatedNames: ["Ar-Rahman", "Al-Latif", "Al-Wadud"],
     orderNumber: 2,
     category: nameCategories.MERCY,
