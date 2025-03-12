@@ -19,6 +19,12 @@ export const namesData: InsertName[] = [
     quranVerses: [
       {
         verse: "In the name of Allah, the Most Gracious, the Most Merciful",
+        {
+          verse: "To Allah (الله) belongs the East and the West, so wherever you turn, there is the Face of Allah (وجه الله). Indeed, Allah (الله) is All-Encompassing (الواسع, Al-Wāsi‘), All-Knowing (العليم, Al-‘Alīm).",
+          reference: "2:115",
+          arabicText: "وَلِلّهِ الْمَشْرِقُ وَالْمَغْرِبُ فَأَيْنَمَا تُوَلُّواْ فَثَمَّ وَجْهُ اللّهِ إِنَّ اللّهَ وَاسِعٌ عَلِيمٌ",
+          explanation: "This verse highlights Allah's presence and knowledge across all directions, indicating that His guidance and wisdom encompass everything."
+        },
         reference: "1:1",
         arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
         explanation: "This verse, known as the Bismillah, appears at the beginning of 113 chapters of the Quran, emphasizing the all-encompassing nature of divine mercy."
