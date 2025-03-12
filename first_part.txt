@@ -1,0 +1,19 @@
+import type { Name } from "./schema";
+import { nameCategories } from "./schema";
+
+export const namesData: InsertName[] = [
+  {
+    arabicName: "الرَّحْمٰن",
+
+    transliteration: "Ar-Rahman", 
+    pronunciation: "ar-rah-MAAN",
+    meaning: "The Most Gracious",
+    description: "The Most Gracious - The One who has plenty of mercy for the believers and the blasphemers in this world and especially for the believers in the hereafter.",
+    detailedExplanation: "Ar-Rahman signifies the abundance of Divine mercy that encompasses all creation. This name represents the immediate, present manifestation of Allah's mercy in every moment, sustaining and nurturing all existence regardless of merit or belief.",
+    innerMeaning: "This name connects you to the boundless mercy and compassion that exists within you. It's about recognizing that at your core, you have an unlimited capacity for kindness and understanding. It's about being merciful to yourself and others.",
+    technique: "Practice showing kindness and mercy to yourself and others. When faced with hardship, remember that divine mercy surrounds you always.",
+    relatedNames: ["Ar-Raheem", "Al-Latif", "Al-Wadud"],
+    orderNumber: 1,
+    id: 1,
+    category: nameCategories.MERCY,
+    quranVerses: [

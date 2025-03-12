@@ -1,33 +1,3 @@
-import type { InsertName, Name } from "./schema";
-import { nameCategories } from "./schema";
-
-export const namesData: InsertName[] = [
-  {
-    arabicName: "الرَّحْمٰن",
-    transliteration: "Ar-Rahman", 
-    pronunciation: "ar-rah-MAAN",
-    meaning: "The Most Gracious",
-    description: "The Most Gracious - The One who has plenty of mercy for the believers and the blasphemers in this world and especially for the believers in the hereafter.",
-    detailedExplanation: "Ar-Rahman signifies the abundance of Divine mercy that encompasses all creation. This name represents the immediate, present manifestation of Allah's mercy in every moment, sustaining and nurturing all existence regardless of merit or belief.",
-    innerMeaning: "This name connects you to the boundless mercy and compassion that exists within you. It's about recognizing that at your core, you have an unlimited capacity for kindness and understanding. It's about being merciful to yourself and others.",
-    technique: "Practice showing kindness and mercy to yourself and others. When faced with hardship, remember that divine mercy surrounds you always.",
-    relatedNames: ["Ar-Raheem", "Al-Latif", "Al-Wadud"],
-    orderNumber: 1,
-    id: 1,
-    category: nameCategories.MERCY,
-    quranVerses: [
-      {
-        verse: "In the name of Allah, the Most Gracious, the Most Merciful",
-        reference: "1:1",
-        arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
-        explanation: "This verse, known as the Bismillah, appears at the beginning of 113 chapters of the Quran, emphasizing the all-encompassing nature of divine mercy."
-      },
-      {
-        verse: "To Allah (الله) belongs the East and the West, so wherever you turn, there is the Face of Allah (وجه الله). Indeed, Allah (الله) is All-Encompassing (الواسع, Al-Wāsi'), All-Knowing (العليم, Al-'Alīm).",
-        reference: "2:115",
-        arabicText: "وَلِلّهِ الْمَشْرِقُ وَالْمَغْرِبُ فَأَيْنَمَا تُوَلُّواْ فَثَمَّ وَجْهُ اللّهِ إِنَّ اللّهَ وَاسِعٌ عَلِيمٌ",
-        explanation: "This verse highlights Allah's presence and knowledge across all directions, indicating that His guidance and wisdom encompass everything."
-      },
       {
         verse: "The Most Merciful, taught the Quran, created man, taught him eloquence.",
         reference: "55:1-4",

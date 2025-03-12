@@ -1,0 +1,700 @@
+import type { Name } from "./schema";
+import { nameCategories } from "./schema";
+
+export const namesData: InsertName[] = [
+  {
+    arabicName: "الرَّحْمٰن",
+
+    transliteration: "Ar-Rahman", 
+    pronunciation: "ar-rah-MAAN",
+    meaning: "The Most Gracious",
+    description: "The Most Gracious - The One who has plenty of mercy for the believers and the blasphemers in this world and especially for the believers in the hereafter.",
+    detailedExplanation: "Ar-Rahman signifies the abundance of Divine mercy that encompasses all creation. This name represents the immediate, present manifestation of Allah's mercy in every moment, sustaining and nurturing all existence regardless of merit or belief.",
+    innerMeaning: "This name connects you to the boundless mercy and compassion that exists within you. It's about recognizing that at your core, you have an unlimited capacity for kindness and understanding. It's about being merciful to yourself and others.",
+    technique: "Practice showing kindness and mercy to yourself and others. When faced with hardship, remember that divine mercy surrounds you always.",
+    relatedNames: ["Ar-Raheem", "Al-Latif", "Al-Wadud"],
+    orderNumber: 1,
+    id: 1,
+    category: nameCategories.MERCY,
+    quranVerses: [
+      {
+        verse: "In the name of Allah, the Most Gracious, the Most Merciful",
+        {
+          verse: "To Allah (الله) belongs the East and the West, so wherever you turn, there is the Face of Allah (وجه الله). Indeed, Allah (الله) is All-Encompassing (الواسع, Al-Wāsi‘), All-Knowing (العليم, Al-‘Alīm).",
+          reference: "2:115",
+          arabicText: "وَلِلّهِ الْمَشْرِقُ وَالْمَغْرِبُ فَأَيْنَمَا تُوَلُّواْ فَثَمَّ وَجْهُ اللّهِ إِنَّ اللّهَ وَاسِعٌ عَلِيمٌ",
+          explanation: "This verse highlights Allah's presence and knowledge across all directions, indicating that His guidance and wisdom encompass everything."
+        },
+        reference: "1:1",
+        arabicText: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+        explanation: "This verse, known as the Bismillah, appears at the beginning of 113 chapters of the Quran, emphasizing the all-encompassing nature of divine mercy."
+      },
+      {
+        verse: "The Most Merciful, taught the Quran, created man, taught him eloquence.",
+        reference: "55:1-4",
+        arabicText: "الرَّحْمَٰنُ عَلَّمَ الْقُرْآنَ خَلَقَ الْإِنسَانَ عَلَّمَهُ الْبَيَانَ",
+        explanation: "These verses directly connect Ar-Rahman with divine teaching and the creation of humanity, showing how mercy manifests through knowledge and understanding."
+      }
+    ]
+  },
+  {
+    arabicName: "الرَّحِيْم",
+    transliteration: "Ar-Rahim",
+    pronunciation: "ar-ra-HEEM",
+    meaning: "The Most Merciful",
+    description: "The Most Merciful - The One who has plenty of mercy for the believers.",
+    detailedExplanation: "Ar-Rahim represents the specialized, focused manifestation of Divine mercy particularly for the believers. While Ar-Rahman's mercy encompasses all creation, Ar-Rahim's mercy is a special grace reserved for those who believe and follow guidance.",
+    innerMeaning: "This name connects you to the deep, sustainable compassion that nurtures growth and transformation. It's about developing lasting kindness and mercy that can weather any storm.",
+    technique: "Practice consistent, sustainable acts of kindness. Build lasting relationships based on mercy and understanding.",
+    relatedNames: ["Ar-Rahman", "Al-Latif", "Al-Wadud"],
+    orderNumber: 2,
+    category: nameCategories.MERCY,
+    quranVerses: [
+      {
+        verse: "And He is ever Merciful to the believers.",
+        reference: "33:43",
+        arabicText: "وَكَانَ بِالْمُؤْمِنِينَ رَحِيمًا",
+        explanation: "This verse emphasizes the special mercy that Allah shows to the believers, highlighting the nurturing aspect of divine compassion."
+      },
+      {
+        verse: "My mercy embraces all things.",
+        reference: "7:156",
+        arabicText: "وَرَحْمَتِي وَسِعَتْ كُلَّ شَيْءٍ",
+        explanation: "This verse reveals the all-encompassing nature of divine mercy, showing how it extends to every aspect of creation."
+      }
+    ]
+  },
+  {
+    arabicName: "الْمَلِكُ",
+    transliteration: "Al-Malik",
+    pronunciation: "al-MA-lik",
+    meaning: "The King",
+    description: "The King - The One with complete dominion, the One whose dominion is clear from imperfection.",
+    detailedExplanation: "Al-Malik, the King, signifies absolute sovereignty and perfect governance.  This name reminds us that God's power is absolute, His rule just and unwavering. It inspires awe and reverence, reminding us of the majesty and authority of the Divine.",
+    innerMeaning: "Within you resides a kingly power, a sense of inherent authority that is both just and benevolent. This is the strength that allows you to align with divine governance, leading with integrity and compassion.  It is not a power to control, but a capacity to serve.",
+    technique: "Practice mindful leadership, whether in personal relationships or community initiatives. Cultivate a sense of inner authority by aligning your actions with your highest values.  Engage in practices that bring you into a state of grounded presence, such as yoga or tai chi.",
+    relatedNames: ["Al-Maalik", "Al-Aziz", "Al-Jabbar"],
+    orderNumber: 3,
+    category: nameCategories.POWER
+  },
+  {
+    arabicName: "الْقُدُّوسُ",
+    transliteration: "Al-Quddus",
+    pronunciation: "al-QUDD-oos",
+    meaning: "The Most Sacred",
+    description: "The Most Sacred - The One who is pure from any imperfection and clear from children and adversaries.",
+    detailedExplanation: "Al-Quddus, the Most Sacred, speaks to the absolute purity and holiness of God.  This name transcends human understanding of purity, representing a state beyond all imperfection and blemish.  It inspires a deep sense of reverence and respect for the Divine.",
+    innerMeaning: "This name reveals the inherent sanctity within your being, a divine spark of purity that is untouched by the world's imperfections.  Connecting with Al-Quddus allows you to access this inner sanctuary, a place of stillness and profound peace. It is a reminder of your inherent worthiness.",
+    technique: "Practice daily purification rituals such as prayer or meditation. Engage in acts of service that express your respect for the sacredness of life.  Cultivate a daily practice of self-reflection to identify and release any impurities that cloud your inner light.",
+    relatedNames: ["As-Salam", "Al-Mu'min", "Al-Muhaymin"],
+    orderNumber: 4,
+    category: nameCategories.HOLINESS
+  },
+  {
+    arabicName: "السَّلاَمُ",
+    transliteration: "As-Salam",
+    pronunciation: "as-sa-LAAM",
+    meaning: "The Source of Peace",
+    description: "The Source of Peace - The One who is free from every imperfection and defect.",
+    detailedExplanation: "As-Salam, the Source of Peace, embodies tranquility and serenity. This name reminds us that true peace originates from the Divine, a peace that surpasses worldly understanding. It invites us to seek inner peace and harmony, knowing that God is the ultimate source of calm and composure.",
+    innerMeaning: "You are inherently connected to the boundless peace of the divine. As-Salam is a reminder that this peace is your birthright and can be accessed anytime, regardless of external circumstances. The path to this peace begins with recognizing the source of your own inner turbulence.",
+    technique: "Practice deep, conscious breathing. Engage in activities that bring you a sense of calm, such as spending time in nature or listening to soothing music.  When facing conflict, pause, take a deep breath and ground yourself in the awareness of your inner peace.",
+    relatedNames: ["Al-Mu'min", "Al-Muhaymin", "Al-Quddus"],
+    orderNumber: 5,
+    category: nameCategories.PEACE
+  },
+  {
+    arabicName: "الْمُؤْمِنُ",
+    transliteration: "Al-Mu'min",
+    pronunciation: "al-MU-min",
+    meaning: "The Guardian of Faith",
+    description: "The Guardian of Faith - The One who witnessed for Himself that no one is God but Him. And He witnessed for His believers that they are truthful in their belief that no one is God but Him.",
+    detailedExplanation: "Al-Mu'min, the Guardian of Faith, is a testament to God's unwavering commitment to those who believe.  This name offers strength and reassurance, emphasizing the Divine's steadfast support and protection for those who trust in Him. It is a beacon of hope in the face of adversity.",
+    innerMeaning: "This name reveals the unshakeable foundation of faith that exists within you. Al-Mu'min is the unwavering trust in the divine, the knowing that you are always supported and guided, even in the face of doubt or fear. It is the strength that sustains you through life's challenges.",
+    technique: "Practice affirmations that reinforce your faith and trust in the divine. Engage in acts of service that reflect your commitment to your beliefs.  When facing doubt, recall moments of unwavering faith and let that strength guide you.",
+    relatedNames: ["Al-Muhaymin", "As-Salam", "Al-Quddus"],
+    orderNumber: 6,
+    category: nameCategories.FAITH
+  },
+  {
+    arabicName: "الْمُهَيْمِنُ",
+    transliteration: "Al-Muhaymin",
+    pronunciation: "al-mu-HAY-min",
+    meaning: "The Protector",
+    description: "The Protector - The One who witnesses the saying and deeds of His creatures.",
+    detailedExplanation: "Al-Muhaymin, the Protector, signifies God's constant watchfulness and care. This name assures us that we are never alone, always under the watchful eye of the Divine. It offers comfort and security, reminding us that God's protection encompasses all aspects of our lives.",
+    innerMeaning: "Al-Muhaymin embodies the divine protection that surrounds and sustains you at all times. This is not a protection from challenges, but a presence that allows you to navigate life's difficulties with strength and resilience.  It is the unwavering support that allows you to grow and evolve.",
+    technique: "Practice mindfulness to cultivate an awareness of your surroundings and the forces at play in your life. Visualize yourself surrounded by a protective light, allowing you to feel safe and secure.  When facing danger, call upon the divine protector within you.",
+    relatedNames: ["Al-Mu'min", "Al-Hafiz", "Al-Wakil"],
+    orderNumber: 7,
+    category: nameCategories.PROTECTION
+  },
+  {
+    arabicName: "الْعَزِيزُ",
+    transliteration: "Al-Aziz",
+    pronunciation: "al-a-ZEEZ",
+    meaning: "The Almighty",
+    description: "The Almighty - The Strong, The Defeater who is not defeated.",
+    detailedExplanation: "Al-Aziz, the Almighty, represents the boundless power and might of God. This name inspires reverence and respect, highlighting God's absolute dominion over all creation. It is a reminder of the ultimate authority and strength of the Divine.",
+    innerMeaning: "This name connects you to the boundless strength and resilience that exists within you. It is a reminder that you are capable of overcoming any obstacle, as long as you align yourself with the divine source of power.  It is the unwavering strength that empowers you to face any challenge.",
+    technique: "Practice strength-building activities that nourish both your body and spirit.  Engage in activities that push your boundaries and expand your sense of capacity.  When faced with a challenge, call upon the inner strength that dwells within you.",
+    relatedNames: ["Al-Qawi", "Al-Malik", "Al-Jabbar"],
+    orderNumber: 8,
+    category: nameCategories.POWER
+  },
+  {
+    arabicName: "الْجَبَّارُ",
+    transliteration: "Al-Jabbar",
+    pronunciation: "al-jabb-AAR",
+    meaning: "The Compeller",
+    description: "The Compeller - The One that nothing happens in His dominion except what He willed.",
+    detailedExplanation: "Al-Jabbar, the Compeller, emphasizes God's absolute will and control over all events.  This name reminds us that everything happens according to God's plan, and that even seemingly random events are part of a larger, divinely orchestrated design.  It fosters trust and acceptance in the face of uncertainty.",
+    innerMeaning: "This name connects you to the power of divine will, the understanding that even in chaos, there is a larger plan at work.  It is the capacity to surrender to the flow of life, trusting that even in difficult times, there is a divine purpose. It is a source of strength and resilience.",
+    technique: "Practice surrendering to the unknown.  When faced with uncertainty, trust that there is a larger plan in motion.  Engage in practices that help you to let go of control, such as meditation or yoga.",
+    relatedNames: ["Al-Aziz", "Al-Malik", "Al-Mutakabbir"],
+    orderNumber: 9,
+    category: nameCategories.POWER
+  },
+  {
+    arabicName: "الْمُتَكَبِّرُ",
+    transliteration: "Al-Mutakabbir",
+    pronunciation: "al-mu-ta-KAB-bir",
+    meaning: "The Greatest",
+    description: "The Greatest - The One who is clear from the attributes of the creatures and from resembling them.",
+    detailedExplanation: "Al-Mutakabbir, the Greatest, signifies God's transcendence and majesty. This name surpasses all human comprehension of greatness, representing a state beyond all comparison. It evokes a profound sense of awe and wonder at the Divine's immeasurable glory.",
+    innerMeaning: "This name reveals the boundless potential for greatness that exists within you.  It is the capacity to rise above limitations and embrace your full potential.  It is a reminder that you are a child of the Divine, capable of achieving anything you set your mind to.",
+    technique: "Practice setting ambitious goals and working towards them with unwavering determination.  Cultivate a sense of self-respect and self-worth.  When faced with setbacks, remember that your greatness is intrinsic and cannot be diminished by external forces.",
+    relatedNames: ["Al-Kabir", "Al-Azim", "Al-Jalil"],
+    orderNumber: 10,
+    category: nameCategories.GREATNESS
+  },
+  {
+    arabicName: "الْخَالِقُ",
+    transliteration: "Al-Khaliq",
+    pronunciation: "al-KHA-liq",
+    meaning: "The Creator",
+    description: "The Creator - The One who brings everything from non-existence to existence.",
+    detailedExplanation: "Al-Khaliq, the Creator, speaks to the boundless power of God to bring forth existence from nothingness. This name reminds us of the miracle of creation, the intricate beauty and complexity of the universe, and the divine hand that shaped it all. It instills a deep appreciation for the wonder of creation.",
+    innerMeaning: "This name connects you to the creative power that resides within you, the capacity to bring forth new ideas, projects, and possibilities.  It is the spark of innovation that allows you to shape your reality and create a life that is both meaningful and fulfilling.",
+    technique: "Engage in creative activities that allow you to express your inner vision.  Practice visualizing your goals and creating a clear path towards their manifestation.  When faced with creative blocks, remember that your capacity for creation is boundless.",
+    relatedNames: ["Al-Bari", "Al-Musawwir"],
+    orderNumber: 11,
+    id: 11,
+    category: nameCategories.CREATION
+  },
+  {
+    arabicName: "الْبَارِئُ",
+    transliteration: "Al-Bari",
+    pronunciation: "al-BAA-ri",
+    meaning: "The Maker of Order",
+    description: "The Maker of Order - The One who creates things with subtle knowledge.",
+    detailedExplanation: "Al-Bari, the Maker of Order, highlights God's meticulous craftsmanship in creating the universe.  This name emphasizes the intricate balance and harmony found in creation, a testament to God's wisdom and precision. It inspires a deeper understanding of the order and purpose within the cosmos.",
+    innerMeaning: "This name connects you to the capacity to bring order and structure into your life.  It is the ability to organize your thoughts, actions, and environment in a way that supports your well-being and allows you to achieve your goals. It's about creating harmony and balance.",
+    technique: "Practice organizing and decluttering your physical space. Create routines and systems that support your productivity and well-being. When faced with chaos, remember that your capacity to bring order is a gift from the divine.",
+    relatedNames: ["Al-Khaliq", "Al-Musawwir"],
+    orderNumber: 12,
+    id: 12,
+    category: nameCategories.CREATION
+  },
+  {
+    arabicName: "الْمُصَوِّرُ",
+    transliteration: "Al-Musawwir",
+    pronunciation: "al-mu-SAW-wir",
+    meaning: "The Shaper of Beauty",
+    description: "The Shaper of Beauty - The One who shapes creatures and perfects their forms.",
+    detailedExplanation: "Al-Musawwir, the Shaper of Beauty, speaks to the aesthetic perfection and artistry of God's creation.  This name reminds us of the beauty and wonder that surrounds us, a testament to the Divine's creative power and artistic flair. It inspires a deeper appreciation for the beauty and harmony of the world.",
+    innerMeaning: "This name connects you to the ability to appreciate and create beauty in all aspects of your life. It's about recognizing the inherent beauty in yourself and the world around you and using that as inspiration to create something beautiful.",
+    technique: "Practice cultivating an appreciation for beauty in your daily life. Engage in creative activities that allow you to express your artistic talents.  When faced with ugliness, remember that your capacity to see and create beauty is a gift from the divine.",
+    relatedNames: ["Al-Khaliq", "Al-Bari"],
+    orderNumber: 13,
+    id: 13,
+    category: nameCategories.CREATION
+  },
+  {
+    arabicName: "الْغَفَّارُ",
+    transliteration: "Al-Ghaffar",
+    pronunciation: "al-ghaf-FAAR",
+    meaning: "The Forgiver",
+    description: "The Forgiver - The One who forgives the sins of His servants time and time again.",
+    detailedExplanation: "Al-Ghaffar, the Forgiver, emphasizes God's boundless capacity for forgiveness. This name offers hope and redemption, reminding us that God's mercy extends even to those who have strayed. It encourages repentance and the pursuit of forgiveness.",
+    innerMeaning: "This name connects you to the boundless capacity for forgiveness that resides within you. It's about letting go of resentment and embracing compassion, both towards yourself and others. It’s a journey of self-acceptance and growth.",
+    technique: "Practice self-forgiveness.  Let go of past mistakes and embrace the opportunity for growth.  When faced with the transgressions of others, extend forgiveness and compassion. Remember that true forgiveness sets you free.",
+    relatedNames: ["At-Tawwab", "Al-'Afuw"],
+    orderNumber: 14,
+    id: 14,
+    category: nameCategories.FORGIVENESS
+  },
+  {
+    arabicName: "الْقَهَّارُ",
+    transliteration: "Al-Qahhar",
+    pronunciation: "al-qah-HAAR",
+    meaning: "The Subduer",
+    description: "The Subduer - The One who has the perfect Power and is not unable over anything.",
+    detailedExplanation: "Al-Qahhar, the Subduer, highlights God's absolute power and authority. This name reminds us that God is in control, capable of overcoming any obstacle or adversary.  It inspires confidence and trust in the face of challenges.",
+    innerMeaning: "This name connects you to the inner strength and resilience needed to overcome challenges and obstacles. It’s about harnessing your inner power to conquer negativity and transform adversity into opportunity. It is about mastery, not domination.",
+    technique: "Practice self-discipline and self-control.  Set clear boundaries and learn to say no when necessary.  When faced with challenges, remember that your capacity for overcoming obstacles is a reflection of divine power.",
+    relatedNames: ["Al-Jabbar", "Al-Aziz"],
+    orderNumber: 15,
+    id: 15,
+    category: nameCategories.POWER
+  },
+  {
+    arabicName: "الْوَهَّابُ",
+    transliteration: "Al-Wahhab",
+    pronunciation: "al-wah-HAAB",
+    meaning: "The Giver of All",
+    description: "The Giver of All - The One who gives freely without expecting any return.",
+    detailedExplanation: "Al-Wahhab, the Giver of All, emphasizes God's generosity and abundance. This name reminds us that all blessings and gifts originate from the Divine, freely given without expectation of recompense. It inspires gratitude and appreciation for the gifts we receive.",
+    innerMeaning: "This name connects you to the boundless generosity and abundance that exists within you. It's about recognizing your capacity to give freely and unconditionally, both materially and spiritually. It is the act of giving that enriches you.",
+    technique: "Practice giving freely and without expectation of return.  Share your time, talents, and resources with those in need.  When faced with scarcity, remember that your capacity for generosity is a reflection of divine abundance.",
+    relatedNames: ["Al-Karim", "Ar-Razzaq"],
+    orderNumber: 16,
+    id: 16,
+    category: nameCategories.GIVING
+  },
+  {
+    arabicName: "الرَّزَّاقُ",
+    transliteration: "Ar-Razzaq",
+    pronunciation: "ar-raz-ZAAQ",
+    meaning: "The Sustainer",
+    description: "The Sustainer - The One who creates all means of nourishment and sustenance.",
+    detailedExplanation: "Ar-Razzaq, the Sustainer, highlights God's provision for all of creation. This name reminds us that God provides for all our needs, both material and spiritual. It inspires trust and reliance on the Divine's provision.",
+    innerMeaning: "This name connects you to the divine abundance that sustains you at all times. It's about recognizing the flow of provision in your life and trusting in the divine support that meets your needs, both material and spiritual. It is about abundance, not scarcity.",
+    technique: "Practice gratitude for the abundance in your life.  Trust in the divine provision that meets your needs. When faced with lack, remember that your capacity for receiving is limitless.",
+    relatedNames: ["Al-Wahhab", "Al-Karim"],
+    orderNumber: 17,
+    id: 17,
+    category: nameCategories.SUSTENANCE
+  },
+  {
+    arabicName: "الْفَتَّاحُ",
+    transliteration: "Al-Fattah",
+    pronunciation: "al-fat-TAAH",
+    meaning: "The Opener",
+    description: "The Opener - The One who opens the closed, whether it be gates of mercy or sustenance.",
+    detailedExplanation: "Al-Fattah, the Opener, signifies God's power to remove obstacles and open doors to opportunities. This name inspires hope and faith, reminding us that God can overcome any challenge and open paths to success and fulfillment. It encourages perseverance and trust in the Divine's guidance.",
+    innerMeaning: "This name connects you to the divine power to remove obstacles and create opportunities. It is the ability to open doors to new possibilities and overcome challenges with grace and resilience. It is about expanding your horizons.",
+    technique: "Practice visualizing your goals and removing any obstacles that stand in your way.  Maintain a positive and hopeful attitude. When faced with challenges, remember that the divine power can open any door.",
+    relatedNames: ["An-Nafi", "Al-Hadi"],
+    orderNumber: 18,
+    id: 18,
+    category: nameCategories.OPENING
+  },
+  {
+    arabicName: "اَلْعَلِيْمُ",
+    transliteration: "Al-Alim",
+    pronunciation: "al-a-LEEM",
+    meaning: "The All-Knowing",
+    description: "The All-Knowing - The One who knows everything in the past, present and future.",
+    detailedExplanation: "Al-Alim, the All-Knowing, represents God's infinite wisdom and understanding. This name reminds us that God is aware of everything, past, present, and future. It inspires humility and respect for the Divine's omniscience.",
+    innerMeaning: "This name connects you to the wisdom and insight that comes from aligning with the divine. It's about trusting your intuition and inner knowing, recognizing that you have access to a deeper understanding of yourself and the world around you.",
+    technique: "Practice cultivating intuition and inner wisdom.  Pay attention to your inner voice and trust your gut feelings.  When faced with difficult decisions, remember that you have access to a higher level of understanding.",
+    relatedNames: ["Al-Khabir", "Al-Hakim"],
+    orderNumber: 19,
+    id: 19,
+    category: nameCategories.KNOWLEDGE
+  },
+  {
+    arabicName: "الْقَابِضُ",
+    transliteration: "Al-Qabid",
+    pronunciation: "al-QAA-bid",
+    meaning: "The Constrictor",
+    description: "The Constrictor - The One who constricts and withholds.",
+    detailedExplanation: "Al-Qabid, the Constrictor, highlights God's power to withhold and control. This name reminds us that God has the power to limit and restrict, often to test our faith and patience. It encourages humility and acceptance of God's will.",
+    innerMeaning: "This name helps you to recognize the ebb and flow of life, the times of abundance and the times of scarcity.  It is about accepting the limitations that are placed upon you, knowing that these limitations are often necessary for growth and transformation.",
+    technique: "Practice acceptance of limitations.  When faced with scarcity, remember that it is often a necessary step towards greater abundance.  Cultivate patience and trust in divine timing.",
+    relatedNames: ["Al-Basit", "Al-Muqsit"],
+    orderNumber: 20,
+    id: 20,
+    category: nameCategories.POWER
+  },
+  {
+    arabicName: "الْبَاسِطُ",
+    transliteration: "Al-Basit",
+    pronunciation: "al-BAA-sit",
+    meaning: "The Expander",
+    description: "The Expander - The One who has the power to expand, enlarge, and extend.",
+    detailedExplanation: "Al-Basit, the Expander, emphasizes God's power to provide and bestow abundance. This name offers hope and reassurance, reminding us that God can expand our horizons and increase our blessings. It inspires gratitude and trust in the Divine's generosity.",
+    innerMeaning: "This name connects you to the boundless potential for expansion and growth that exists within you. It's about embracing new opportunities and pushing your boundaries, knowing that your capacity for growth is limitless.",
+    technique: "Practice setting expansive goals and working towards them with unwavering determination.  Embrace new opportunities and step outside your comfort zone. When faced with limitations, remember that your capacity for expansion is limitless.",
+    relatedNames: ["Al-Qabid", "Al-Muqsit"],
+    orderNumber: 21,
+    category: nameCategories.POWER
+  },
+  {
+    arabicName: "الْخَافِضُ",
+    transliteration: "Al-Khafid",
+    pronunciation: "al-KHAA-fid",
+    meaning: "The Abaser",
+    description: "The Abaser - The One who lowers whoever He willed by His Destruction and raises whoever He willed by His Endowment.",
+    detailedExplanation: "Al-Khafid, the Abaser, highlights God's power to humble and lower those who defy Him.  This name reminds us that arrogance and pride are ultimately futile, and that true strength lies in humility and submission to God's will.",
+    innerMeaning: "This name helps you to recognize the importance of humility and surrender.  It's about letting go of ego and pride, recognizing that true strength comes from aligning with the divine will.  It is a reminder that growth often comes from surrendering to the process.",
+    technique: "Practice humility and self-reflection.  Let go of ego and pride.  When faced with challenges, remember that humility is a source of strength.",
+    relatedNames: ["Ar-Rafi", "Al-Mu'izz", "Al-Muzil"],
+    orderNumber: 22,
+    category: nameCategories.POWER
+  },
+  {
+    arabicName: "الرَّافِعُ",
+    transliteration: "Ar-Rafi",
+    pronunciation: "ar-RAA-fi",
+    meaning: "The Exalter",
+    description: "The Exalter - The One who raises the believers in rank through their obedience to Him.",
+    detailedExplanation: "Ar-Rafi, the Exalter, emphasizes God's power to elevate and honor those who serve Him. This name offers encouragement and hope, reminding us that through faith and obedience, we can achieve spiritual growth and attain a higher station in the eyes of God.",
+    innerMeaning: "This name connects you to the divine potential for growth and elevation.  It's about recognizing your capacity to rise above challenges and reach your full potential. It is about striving for excellence and making a positive impact on the world.",
+    technique: "Practice setting high standards and working towards them with unwavering determination.  Cultivate a sense of self-belief and self-confidence.  When faced with setbacks, remember that your capacity for growth is limitless.",
+    relatedNames: ["Al-Khafid", "Al-Mu'izz", "Al-Muzil"],
+    orderNumber: 23,
+    category: nameCategories.POWER
+  },
+  {
+    arabicName: "الْمُعِزُّ",
+    transliteration: "Al-Mu'izz",
+    pronunciation: "al-mu-IZZ",
+    meaning: "The Bestower of Honors",
+    description: "The Bestower of Honors - The One who gives esteem to whoever He willed, hence there is no one to degrade Him.",
+    detailedExplanation: "Al-Mu'izz, the Bestower of Honors, signifies God's power to grant dignity and respect.  This name reminds us that true honor comes from God, and that those who seek His favor will be elevated and esteemed. It inspires humility and a striving for spiritual excellence.",
+    innerMeaning: "This name connects you to the divine capacity to bestow honor and dignity upon yourself and others. It's about recognizing your inherent worth and treating yourself and others with respect and compassion. It's about living with integrity and purpose.",
+    technique: "Practice treating yourself and others with respect and dignity.  Live in alignment with your values.  When faced with disrespect, remember that your inherent worth is independent of external validation.",
+    relatedNames: ["Al-Muzil", "Ar-Rafi", "Al-Khafid"],
+    orderNumber: 24,
+    category: nameCategories.POWER
+  },
+  {
+    arabicName: "المُذِلُّ",
+    transliteration: "Al-Muzil",
+    pronunciation: "al-mu-ZIL",
+    meaning: "The Humiliator",
+    description: "The Humiliator - The One who degrades whoever He willed, hence there is no one to give them esteem.",
+    detailedExplanation: "Al-Muzil, the Humiliator, highlights God's power to bring down those who are arrogant and defy Him. This name serves as a reminder of the consequences of disobedience and the importance of humility. It encourages a sense of humility and submission to God's will.",
+    innerMeaning: "This name is a reminder of the consequences of arrogance and pride. It's about recognizing the importance of humility and surrender, understanding that true strength comes from aligning with the divine will. It's about letting go of ego and embracing vulnerability.",
+    technique: "Practice self-reflection and identify any areas where arrogance or pride might be holding you back.  Cultivate humility and surrender to the divine will. When faced with arrogance, remember that true strength lies in humility.",
+    relatedNames: ["Al-Mu'izz", "Al-Khafid", "Ar-Rafi"],
+    orderNumber: 25,
+    category: nameCategories.POWER
+  },
+  {
+    arabicName: "السَّمِيعُ",
+    transliteration: "As-Sami",
+    pronunciation: "as-sa-MI",
+    meaning: "The All-Hearing",
+    description: "The All-Hearing - The One who hears all things that are heard by His eternal hearing without an ear, instrument or organ.",
+    detailedExplanation: "As-Sami', the All-Hearing, represents God's awareness of all sounds and whispers.  This name reminds us that our prayers, hopes, and concerns are always heard by God, even the unspoken ones.  It inspires trust and faith in the Divine's attentiveness.",
+    innerMeaning: "This name connects you to the divine capacity to listen deeply and compassionately.  It's about recognizing the importance of active listening and creating space for others to share their thoughts and feelings. It's about creating a safe space for vulnerability.",
+    technique: "Practice active listening. Pay close attention to what others are saying, both verbally and nonverbally. Create space for others to share their thoughts and feelings without judgment. When faced with conflict, remember that listening is a powerful tool for resolution.",
+    relatedNames: ["Al-Basir", "Al-Khabir"],
+    orderNumber: 26,
+    category: nameCategories.ATTRIBUTES,
+    quranVerses: [
+      {
+        verse: "Indeed, Allah is ever Hearing and Seeing.",
+        reference: "4:58", 
+        arabicText: "إِنَّ اللَّهَ كَانَ سَمِيعًا بَصِيرًا",
+        explanation: "This verse emphasizes Allah's perfect ability to hear all things, highlighting the comprehensive nature of divine hearing."
+      },
+      {
+        verse: "Our Lord, indeed You are the Hearing, the Knowing.",
+        reference: "2:127",
+        arabicText: "رَبَّنَا تَقَبَّلْ مِنَّا ۖ إِنَّكَ أَنتَ السَّمِيعُ الْعَلِيمُ",
+        explanation: "This prayer of Ibrahim emphasizes how Allah hears all supplications and knows the intentions behind them."
+      }
+    ]
+  },
+  {
+    arabicName: "المتعالي",
+    transliteration: "Al-Muta'ali",
+    pronunciation: "Al-Mu-ta-'aa-lee",
+    meaning: "The Exalted",
+    description: '"Al-Muta\'ali (Al-Mu-ta-\'aa-lee)" translates as "The Exalted," "The Supreme," or "The Transcendent." Derived from the Arabic root Ta\'ala (تعالى), meaning to be exalted, elevated, or transcendent, this attribute emphasizes Allah\'s absolute exaltation above creation, transcending all limits, boundaries, and comparisons.',
+    detailedExplanation: 'Mystics interpret "Al-Muta\'ali (Al-Mu-ta-\'aa-lee)" as signifying Allah\'s supreme transcendence, guiding believers toward humility and reverence. Reflecting upon this attribute inspires awe, respect, and recognition of human limitations, acknowledging that ultimate greatness and perfection belong exclusively to Allah.',
+    innerMeaning: "This name connects you to the divine capacity for transcendence and elevation. It's about rising above limitations and embracing your full potential. It's about living a life of purpose and meaning, guided by your highest aspirations.",
+    technique: "Practice mindfulness and meditation to connect with your higher self. Set ambitious goals and work towards them with unwavering determination. When faced with limitations, remember that your capacity for transcendence is limitless.",
+    relatedNames: ["Al-Ali", "Al-Kabir"],
+    orderNumber: 78,
+    category: nameCategories.GREATNESS,
+    quranVerses: [
+      {
+        verse: "He is the Grand, the Exalted.",
+        reference: "13:9",
+        arabicText: "الْكَبِيرُ الْمُتَعَالِ",
+        explanation: "This verse directly mentions the name Al-Muta'ali, emphasizing Allah's supreme elevation above all creation."
+      },
+      {
+        verse: "[He is] Knower of the unseen and the witnessed, the Grand, the Exalted.",
+        reference: "13:9",
+        arabicText: "عَالِمُ الْغَيْبِ وَالشَّهَادَةِ الْكَبِيرُ الْمُتَعَالِ",
+        explanation: "This verse connects Allah's exalted nature with His comprehensive knowledge of all things, visible and invisible."
+      }
+    ]
+  },
+  {
+    arabicName: "الْبَرُّ",
+    transliteration: "Al-Barr",
+    pronunciation: "al-BARR",
+    meaning: "The Source of All Good",
+    description: "The Source of All Good - The One who is kind to His creatures, who covered them with His sustenance and specified whoever He willed among them by His support, protection, and special mercy.",
+    detailedExplanation: "Al-Barr, the Source of All Good, emphasizes God's inherent goodness and benevolence. This name reminds us that God is the source of all blessings and kindness, showering His creation with His mercy and compassion. It inspires gratitude and a deeper appreciation for God's goodness.",
+    innerMeaning: "This name connects you to the divine source of goodness and benevolence. It's about recognizing your own capacity for kindness and compassion, and extending that to others. It's about living a life of service and generosity.",
+    technique: "Practice acts of kindness and compassion. Share your time, talents, and resources with others. When faced with negativity, remember that your capacity for goodness is limitless.",
+    relatedNames: ["Ar-Rahman", "Ar-Rahim", "Al-Karim"],
+    orderNumber: 79,
+    id: 79,
+    category: nameCategories.GOODNESS,
+    quranVerses: [
+      {
+        verse: "Indeed, He is the Most Beneficent, the Most Merciful.",
+        reference: "52:28",
+        arabicText: "إِنَّهُ هُوَ الْبَرُّ الرَّحِيمُ",
+        explanation: "This verse directly mentions Al-Barr, highlighting Allah's perfect benevolence and mercy towards His creation."
+      },
+      {
+        verse: "And We will increase them from Our bounty, and indeed, Allah is Forgiving and Appreciative.",
+        reference: "35:30",
+        arabicText: "وَيَزِيدَهُم مِّن فَضْلِهِ ۚ إِنَّهُ غَفُورٌ شَكُورٌ",
+        explanation: "This verse demonstrates Allah's boundless generosity and kindness towards those who do good."
+      }
+    ]
+  },
+  {
+    arabicName: "الْعَفُوُّ",
+    transliteration: "Al-'Afuw",
+    pronunciation: "al-a-FOO",
+    meaning: "The Pardoner",
+    description: "The Pardoner - The One who forgives a lot and erases the traces of sins.",
+    detailedExplanation: "Al-'Afuw, the Pardoner, signifies God's capacity to forgive and erase sins completely. This name offers comfort and hope, reminding us that God's forgiveness is total and complete, erasing the traces of past transgressions. It encourages repentance and a renewed commitment to righteousness.",
+    innerMeaning: "This name connects you to the divine capacity for forgiveness and compassion.  It's about recognizing the importance of letting go of resentment and embracing compassion, both towards yourself and others. It's about healing and release.",
+    technique: "Practice self-forgiveness and compassion.  Let go of past mistakes and embrace the opportunity for growth. When faced with the transgressions of others, extend forgiveness and compassion. Remember that true forgiveness sets you free.",
+    relatedNames: ["Al-Ghaffar", "At-Tawwab"],
+    orderNumber: 82,
+    category: nameCategories.FORGIVENESS,
+    quranVerses: [
+      {
+        verse: "Indeed, Allah is ever Pardoning and Competent.",
+        reference: "4:149",
+        arabicText: "فَإِنَّ اللَّهَ كَانَ عَفُوًّا قَدِيرًا",
+        explanation: "This verse emphasizes Allah's perfect ability to pardon and forgive, showing how divine forgiveness is coupled with power."
+      },
+      {
+        verse: "Let them pardon and overlook. Would you not love that Allah should forgive you?",
+        reference: "24:22",
+        arabicText: "وَلْيَعْفُوا وَلْيَصْفَحُوا ۗ أَلَا تُحِبُّونَ أَن يَغْفِرَ اللَّهُ لَكُمْ",
+        explanation: "This verse connects human forgiveness with divine forgiveness, encouraging believers to embody this divine attribute."
+      }
+    ]
+  },
+  {
+    arabicName: "الرَّؤُوفُ",
+    transliteration: "Ar-Ra'uf",
+    pronunciation: "ar-ra-OO",
+    meaning: "The Most Kind",
+    description: "The Most Kind - The One who is very compassionate with His creatures.",
+    detailedExplanation: "Ar-Ra'uf, the Most Kind, emphasizes God's compassionate and merciful nature.",
+    innerMeaning: "This name connects you to the boundless kindness and compassion of the divine.",
+    technique: "Practice extending kindness and compassion to others.",
+    relatedNames: ["Ar-Rahman", "Ar-Rahim"],
+    orderNumber: 83,
+    category: nameCategories.MERCY,
+    quranVerses: [
+      {
+        verse: "Indeed, Allah is Most Kind and Most Merciful to the people.",
+        reference: "2:143",
+        arabicText: "إِنَّ اللَّهَ بِالنَّاسِ لَرَءُوفٌ رَّحِيمٌ",
+        explanation: "This verse highlights Allah's kindness and mercy towards humanity, showing the depth of divine compassion."
+      },
+      {
+        verse: "And [Allah is] Most Kind and Most Merciful to the believers.",
+        reference: "9:117",
+        arabicText: "إِنَّهُ بِهِمْ رَءُوفٌ رَّحِيمٌ",
+        explanation: "This verse emphasizes the special kindness that Allah shows to the believers, demonstrating His nurturing care."
+      }
+    ]
+  },
+  {
+    arabicName: "الْعَفُوُّ",
+    transliteration: "Al-'Afuw",
+    pronunciation: "al-a-FOO",
+    meaning: "The Pardoner",
+    description: "The Pardoner - The One who forgives a lot and erases the traces of sins.",
+    detailedExplanation: "Al-'Afuw, the Pardoner, signifies God's capacity to forgive and erase sins completely. This name offers comfort and hope, reminding us that God's forgiveness is total and complete, erasing the traces of past transgressions. It encourages repentance and a renewed commitment to righteousness.",
+    innerMeaning: "This name connects you to the divine capacity for forgiveness and compassion.  It's about recognizing the importance of letting go of resentment and embracing compassion, both towards yourself and others. It's about healing and release.",
+    technique: "Practice self-forgiveness and compassion.  Let go of past mistakes and embrace the opportunity for growth. When faced with the transgressions of others, extend forgiveness and compassion. Remember that true forgiveness sets you free.",
+    relatedNames: ["Al-Ghaffar", "At-Tawwab"],
+    orderNumber: 82,
+    category: nameCategories.FORGIVENESS,
+    quranVerses: [
+      {
+        verse: "Indeed, Allah is ever Pardoning and Competent.",
+        reference: "4:149",
+        arabicText: "فَإِنَّ اللَّهَ كَانَ عَفُوًّا قَدِيرًا",
+        explanation: "This verse emphasizes Allah's perfect ability to pardon and forgive, showing how divine forgiveness is coupled with power."
+      },
+      {
+        verse: "Let them pardon and overlook. Would you not love that Allah should forgive you?",
+        reference: "24:22",
+        arabicText: "وَلْيَعْفُوا وَلْيَصْفَحُوا ۗ أَلَا تُحِبُّونَ أَن يَغْفِرَ اللَّهُ لَكُمْ",
+        explanation: "This verse connects human forgiveness with divine forgiveness, encouraging believers to embody this divine attribute."
+      }
+    ]
+  },
+  {
+    arabicName: "الرَّؤُوفُ",
+    transliteration: "Ar-Ra'uf",
+    pronunciation: "ar-ra-OO",
+    meaning: "The Most Kind",
+    description: "The Most Kind - The One who is very compassionate with His creatures.",
+    detailedExplanation: "Ar-Ra'uf, the Most Kind, emphasizes God's compassionate and merciful nature.",
+    innerMeaning: "This name connects you to the boundless kindness and compassion of the divine.",
+    technique: "Practice extending kindness and compassion to others.",
+    relatedNames: ["Ar-Rahman", "Ar-Rahim"],
+    orderNumber: 83,
+    category: nameCategories.MERCY,
+    quranVerses: [
+      {
+        verse: "Indeed, Allah is Most Kind and Most Merciful to the people.",
+        reference: "2:143",
+        arabicText: "إِنَّ اللَّهَ بِالنَّاسِ لَرَءُوفٌ رَّحِيمٌ",
+        explanation: "This verse highlights Allah's kindness and mercy towards humanity, showing the depth of divine compassion."
+      },
+      {
+        verse: "And [Allah is] Most Kind and Most Merciful to the believers.",
+        reference: "9:117",
+        arabicText: "إِنَّهُ بِهِمْ رَءُوفٌ رَّحِيمٌ",
+        explanation: "This verse emphasizes the special kindness that Allah shows to the believers, demonstrating His nurturing care."
+      }
+    ]
+  },
+  {
+    arabicName: "الْبَصِيرُ",
+    transliteration: "Al-Basir",
+    pronunciation: "al-ba-SEER",
+    meaning: "The All-Seeing",
+    description: "The All-Seeing - The One who sees all things that are seen by His eternal seeing without a pupil or any other instrument.",
+    detailedExplanation: "Al-Basir, the All-Seeing, signifies God's awareness of all that occurs, both seen and unseen. This name reminds us that our actions, thoughts, and intentions are always observed by God.  It inspires honesty, integrity, and a commitment to righteous conduct.",
+    innerMeaning: "This name connects you to the divine capacity for clear and insightful vision. It's about seeing beyond the surface and understanding the deeper truths that lie beneath. It's about cultivating clarity and discernment.",
+    technique: "Practice cultivating clarity and discernment.  Pay attention to details and seek to understand the underlying causes of events.  When faced with deception, remember that your capacity for clear vision is a gift from the divine.",
+    relatedNames: ["As-Sami", "Ash-Shahid"],
+    orderNumber: 27,
+    category: nameCategories.ATTRIBUTES,
+    quranVerses: [
+      {
+        verse: "Vision perceives Him not, but He perceives [all] vision; and He is the Subtle, the Acquainted.",
+        reference: "6:103",
+        arabicText: "لَّا تُدْرِكُهُ الْأَبْصَارُ وَهُوَ يُدْرِكُ الْأَبْصَارَ ۖ وَهُوَ اللَّطِيفُ الْخَبِيرُ",
+        explanation: "This verse highlights Allah's perfect vision and knowledge, which transcends human limitations."
+      },
+      {
+        verse: "And Allah is Seeing of what you do.",
+        reference: "2:237",
+        arabicText: "إِنَّ اللَّهَ بِمَا تَعْمَلُونَ بَصِيرٌ",
+        explanation: "This verse reminds us that Allah sees all our actions and deeds, emphasizing divine awareness and observation."
+      }
+    ]
+  },
+  {
+    arabicName: "الْحَكَمُ",
+    transliteration: "Al-Hakam",
+    pronunciation: "al-HA-kam",
+    meaning: "The Judge",
+    description: "The Judge - The One who judges between His servants in the present and will judge between them in the Hereafter.",
+    detailedExplanation: "Al-Hakam, the Judge, highlights God's ultimate authority in dispensing justice. This name reminds us that all actions will be judged, and that God's judgment is fair and impartial.  It encourages righteous conduct and a commitment to justice.",
+    innerMeaning: "This name connects you to the capacity for fair and just judgment.  It's about recognizing the importance of impartiality and seeking truth and understanding in all situations. It's about creating a world of justice and compassion.",
+    technique: "Practice impartiality and fairness in your judgments.  Seek to understand all sides of a situation before forming an opinion.  When faced with conflict, remember that justice is a reflection of the divine will.",
+    relatedNames: ["Al-Adl", "Al-Muqsit"],
+    orderNumber: 28,
+    category: nameCategories.JUDGEMENT,
+    quranVerses: [
+      {
+        verse: "Is not Allah the most just of judges?",
+        reference: "95:8",
+        arabicText: "أَلَيْسَ اللَّهُ بِأَحْكَمِ الْحَاكِمِينَ",
+        explanation: "This rhetorical question affirms Allah's position as the ultimate and most just judge."
+      },
+      {
+        verse: "And He is the best of judges.",
+        reference: "7:87",
+        arabicText: "وَهُوَ خَيْرُ الْحَاكِمِينَ",
+        explanation: "This verse emphasizes Allah's supreme authority in judgment and His perfect justice."
+      }
+    ]
+  },
+  {
+    arabicName: "الْعَدْلُ",
+    transliteration: "Al-Adl",
+    pronunciation: "al-ADL",
+    meaning: "The Just",
+    description: "The Just - The One who is entitled to do what He does in the way He does it.",
+    detailedExplanation: "Al-'Adl, the Just, represents God's inherent fairness and equity. This name assures us that God's actions are always just and righteous, even if we do not fully understand them.  It inspires trust and faith in God's perfect justice.",
+    innerMeaning: "This name connects you to the inherent fairness and justicethat exists within you.  It's about recognizing the importance of equity and fairness in all your interactions, both personal and professional.  It's about creating a world where everyone is treated with respect and dignity.",
+    technique: "Practice fairness and impartiality in your interactions.  Treat everyone with respect and dignity.  When faced with injustice, remember that your capacity for justice is a reflection of the divine will.",
+    relatedNames: ["Al-Hakam", "Al-Muqsit"],
+    orderNumber: 29,
+    category: nameCategories.JUDGEMENT
+  },
+  {
+    arabicName: "لَّطِيفُ",
+    transliteration: "Al-Latif",
+    pronunciation: "al-la-TEEF",
+    meaning: "The Subtle One",
+    description: "The Subtle One - The One who is kind to His believing servants and endows upon them.",
+    detailedExplanation: "Al-Latif, the Subtle One, speaks to God's gentle kindness and care.  This name highlights God's subtle ways of showing His love and compassion, often in unexpected and delicate ways. It inspires gratitude and a deeper appreciation for the Divine's subtle blessings.",
+    innerMeaning: "This name connects you to the subtle and gentle aspects of the divine.  It's about recognizing the quiet acts of kindness and compassion that shape our lives, and appreciating the delicate balance that exists in the universe. It’s about gentle strength.",
+    technique: "Practice noticing and appreciating the subtle blessings in your life.  Cultivate gentleness and kindness in your interactions.  When faced with difficulty, remember that subtle acts of compassion can make a profound difference.",
+    relatedNames: ["Al-Khabir", "Ar-Ra'uf"],
+    orderNumber: 30,
+    category: nameCategories.MERCY
+  },
+  {
+    arabicName: "الْخَبِيرُ",
+    transliteration: "Al-Khabir",
+    pronunciation: "al-kha-BEER",
+    meaning: "The All-Aware",
+    description: "The All-Aware - The One who knows the truth of things.",
+    detailedExplanation: "Al-Khabir, the All-Aware, represents God's intimate knowledge of all things, both visible and hidden. This name reminds us that God is aware of our deepest thoughts and intentions, inspiring honesty and sincerity in our actions.",
+    innerMeaning: "This name connects you to the divine capacity for deep understanding and insight.  It’s about recognizing your own intuition and inner knowing, and trusting your ability to discern truth from falsehood. It’s about self-awareness.",
+    technique: "Practice self-reflection and introspection.  Pay attention to your intuition and inner guidance.  When faced with uncertainty, trust your ability to discern the truth.",
+    relatedNames: ["Al-Alim", "Al-Latif"],
+    orderNumber: 31,
+    category: nameCategories.KNOWLEDGE
+  },
+  {
+    arabicName: "الْحَلِيمُ",
+    transliteration: "Al-Halim",
+    pronunciation: "al-ha-LEEM",
+    meaning: "The Forbearing",
+    description: "The Forbearing - The One who delays the punishment for those who deserve it and then He might forgive them.",
+    detailedExplanation: "Al-Halim, the Forbearing, emphasizes God's patience and forbearance.  This name reminds us that God does not rush to judgment, but rather grants time for repentance and amends.  It encourages patience and understanding in our dealings with others.",
+    innerMeaning: "This name connects you to the divine capacity for patience and understanding.  It's about recognizing the importance of allowing time for growth and transformation, both in yourself and others. It’s about compassion and understanding.",
+    technique: "Practice patience and understanding in your interactions.  Allow time for growth and transformation. When faced with anger or frustration, remember that patience is a virtue.",
+    relatedNames: ["Al-Ghaffar", "At-Tawwab"],
+    orderNumber: 32,
+    category: nameCategories.FORGIVENESS
+  },
+  {
+    arabicName: "الْعَظِيمُ",
+    transliteration: "Al-Azim",
+    pronunciation: "al-a-ZEEM",
+    meaning: "The Magnificent",
+    description: "The Magnificent - The One who is clear from the attributes of the creatures and from resembling them.",
+    detailedExplanation: "Al-Azim, the Magnificent, represents God's boundless greatness and majesty. This name surpasses human comprehension, inspiring awe and wonder at the Divine's immeasurable glory.  It encourages humility and a recognition of God's supreme power.",
+    innerMeaning: "This name connects you to the boundless potential for greatness that exists within you. It’s about recognizing your inherent worth and striving for excellence in all that you do. It’s about living a life of purpose and meaning.",
+    technique: "Practice living in alignment with your highest values.  Strive for excellence in all that you do.  When faced with setbacks, remember that your capacity for greatness is limitless.",
+    relatedNames: ["Al-Kabir", "Al-Jalil"],
+    orderNumber: 33,
+    category: nameCategories.GREATNESS
+  },
+  {
+    arabicName: "الْغَفُورُ",
+    transliteration: "Al-Ghafur",
+    pronunciation: "al-gha-FOOR",
+    meaning: "The All-Forgiving",
+    description: "The All-Forgiving - The One who forgives a lot.",
+    detailedExplanation: "Al-Ghafur, the All-Forgiving, underscores God's immense capacity for forgiveness.  This name offers comfort and hope, reminding us that God's mercy is vast and readily available to those who seek it. It encourages repentance and a renewed commitment to righteous living.",
+    innerMeaning: "This name connects you to the boundless capacity for forgiveness that resides within you. It’s about releasing resentment and embracing compassion, both towards yourself and others. It’s a journey of self-acceptance and growth.",
+    technique: "Practice self-forgiveness.  Let go of past mistakes and embrace the opportunity for growth.  When faced with the transgressions of others, extend forgiveness and compassion.  Remember that true forgiveness sets you free.",
+    relatedNames: ["Al-Ghaffar", "At-Tawwab"],
+    orderNumber: 34,
+    category: nameCategories.FORGIVENESS
+  },
+  {
+    arabicName: "الشَّكُورُ",
+    transliteration: "Ash-Shakur",
