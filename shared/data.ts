@@ -86,16 +86,36 @@ export const namesData: InsertName[] = [
     pronunciation: "al-MA-lik",
     meaning: "The King",
     description:
-      "The King - The One with complete dominion, the One whose dominion is clear from imperfection.",
+      "The King - The One with complete dominion, the One whose dominion is clear from imperfection. The One Who Has Absolute Freedom.",
     detailedExplanation:
-      "Al-Malik, the King, signifies absolute sovereignty and perfect governance.  This name reminds us that God's power is absolute, His rule just and unwavering. It inspires awe and reverence, reminding us of the majesty and authority of the Divine.",
+      "Al-Malik, the King, signifies absolute sovereignty and perfect governance. This name reminds us that God's power is absolute, His rule just and unwavering. It inspires awe and reverence, reminding us of the majesty and authority of the Divine. Al-Malik means 'The King' or 'The Absolute Ruler' who has Absolute Freedom. A true king is not dependent on anyone and has complete authority over all things. Unlike human rulers whose power is limited, Allah's rule is unrestricted by time, space, or external forces. He is free to do whatever He wills, and nothing can limit Him. As the source of all true freedom, any freedom that humans experience is a gift from Him.",
     innerMeaning:
-      "Within you resides a kingly power, a sense of inherent authority that is both just and benevolent. This is the strength that allows you to align with divine governance, leading with integrity and compassion.  It is not a power to control, but a capacity to serve.",
+      "Within you resides a kingly power, a sense of inherent authority that is both just and benevolent. This is the strength that allows you to align with divine governance, leading with integrity and compassion. It is not a power to control, but a capacity to serve. Al-Malik also reveals the freedom that exists within you, not as a license to do whatever you want, but as the capacity to align with your highest purpose and values. True freedom comes when you recognize the divine sovereignty within and act from that place of inner certainty and clarity.",
     technique:
-      "Practice mindful leadership, whether in personal relationships or community initiatives. Cultivate a sense of inner authority by aligning your actions with your highest values.  Engage in practices that bring you into a state of grounded presence, such as yoga or tai chi.",
+      "Practice mindful leadership, whether in personal relationships or community initiatives. Cultivate a sense of inner authority by aligning your actions with your highest values. Engage in practices that bring you into a state of grounded presence, such as yoga or tai chi. To experience true freedom, practice making conscious choices that align with your highest purpose, rather than acting from impulse or external pressures. Reflect on areas of your life where you feel constrained and consider what sovereign choices you can make within those constraints.",
     relatedNames: ["Al-Maalik", "Al-Aziz", "Al-Jabbar"],
     orderNumber: 3,
     category: nameCategories.POWER,
+    quranVerses: [
+      {
+        verse: "Say, O Allah, Owner of Sovereignty! You give sovereignty to whom You will and take it away from whom You will.",
+        reference: "3:26",
+        arabicText: "قُلِ اللَّهُمَّ مَالِكَ الْمُلْكِ تُؤْتِي الْمُلْكَ مَن تَشَاءُ وَتَنزِعُ الْمُلْكَ مِمَّن تَشَاءُ",
+        explanation: "This verse reveals Al-Malik's absolute sovereignty and freedom. A true king is not dependent on anyone and has complete authority over all things. This means Allah is totally free from need and has absolute freedom in His will and decree."
+      },
+      {
+        verse: "And Allah judges; there is none to override His decision.",
+        reference: "13:41",
+        arabicText: "وَاللَّهُ يَحْكُمُ لَا مُعَقِّبَ لِحُكْمِهِ",
+        explanation: "Unlike human rulers, whose power is limited, Allah's rule is unrestricted by time, space, or external forces. He is free to do whatever He wills, and nothing can limit Him."
+      },
+      {
+        verse: "Whoever is in the heavens and the earth belongs to Him. And those who are near Him are not too proud to worship Him, nor do they tire.",
+        reference: "21:19",
+        arabicText: "وَلَهُ مَن فِي السَّمَاوَاتِ وَالْأَرْضِ ۚ وَمَنْ عِندَهُ لَا يَسْتَكْبِرُونَ عَنْ عِبَادَتِهِ وَلَا يَسْتَحْسِرُونَ",
+        explanation: "If Allah is Al-Malik, then true freedom belongs only to Him. Any freedom that humans experience is a gift from Him, as the source of all true freedom."
+      }
+    ],
   },
   {
     arabicName: "الْقُدُّوسُ",
