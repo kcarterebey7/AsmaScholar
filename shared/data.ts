@@ -1976,7 +1976,7 @@ export const namesData: InsertName[] = [
     innerMeaning:
       "This name connects you to the divine capacity for guidance and direction. It’s about recognizing your own inner wisdom and trusting your ability to find your way. It’s about intuition and discernment.",
     technique:
-      "Practice trusting your intuition and inner guidance. Seek out mentors and teachers who can offer support and direction. When faced with uncertainty, remember that your capacity for guidance is limitless.",
+      "Practice trusting your intuition and inner guidance. Seek out mentors and teachers who can offer support and direction. When faced with uncertainty, remember that your capacity for guidance is limitless. Regularly meditate on the meaning of Ar-Rashid by sitting in silence and asking for divine guidance on specific matters in your life. Explore the feeling of being guided—notice when inspiration strikes or when you experience a sense of certainty about a decision. Keep a journal of moments when you felt divinely guided, and reflect on the patterns that emerge.",
     relatedNames: ["Al-Hadi", "Al-Waliyy"],
     orderNumber: 98,
     category: nameCategories.GUIDANCE,
