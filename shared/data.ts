@@ -1968,11 +1968,11 @@ export const namesData: InsertName[] = [
     arabicName: "الرَّشِيدُ",
     transliteration: "Ar-Rashid",
     pronunciation: "ar-ra-SHEED",
-    meaning: "The Guide to the Right Path",
+    meaning: "The Guide to the Right Path, The Giver of Salvation",
     description:
-      "The Guide to the Right Path - The One who guides His creatures to what is beneficial for them.",
+      "The Guide to the Right Path, The Giver of Salvation – The One who guides His creatures to what is beneficial for them, delivering them from misguidance and leading them toward righteousness and success. He provides clear direction, wisdom, and the ability to discern truth from falsehood. His guidance is infallible, rescuing His creation from error and bringing them to spiritual salvation in this life and the Hereafter.",
     detailedExplanation:
-      "Ar-Rashid, the Guide to the Right Path, emphasizes God's role in leading and guiding His creation towards righteousness and truth. This name reminds us that God provides guidance and direction in our lives, leading us towards a fulfilling and meaningful existence. It inspires trust and reliance on God's guidance.",
+      "Ar-Rashid, the Guide to the Right Path and the One who grants salvation, emphasizes God's role in leading and guiding His creation towards righteousness and truth. This name reminds us that God provides guidance and direction in our lives, delivering us from darkness into light and leading us toward a fulfilling and meaningful existence. It inspires trust and reliance on God's guidance, knowing that His wisdom surpasses all human understanding. True salvation is found in the guidance of Ar-Rashid, for without divine direction, one remains lost. His guidance is not just external—through scriptures, prophets, and mentors—but also an inner light that aligns the heart with what is right. His wisdom is a safeguard, protecting His servants from confusion, misguidance, and ruin, and ensuring their ultimate deliverance from spiritual loss.",
     innerMeaning:
       "This name connects you to the divine capacity for guidance and direction. It’s about recognizing your own inner wisdom and trusting your ability to find your way. It’s about intuition and discernment.",
     technique:
