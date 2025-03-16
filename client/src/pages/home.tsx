@@ -16,7 +16,7 @@ export default function Home() {
       <div className="container mx-auto px-4 py-8">
         <div className="text-center mb-8">
           <h1 className="text-3xl md:text-4xl font-serif mb-2">
-            99 Names of the Body Beautiful
+            The 99 Names of the Body Beautiful (Allah)
           </h1>
           <div className="text-lg md:text-xl text-muted-foreground italic">
             (in the light of Moorish Science)
