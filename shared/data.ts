@@ -239,15 +239,15 @@ export const namesData: InsertName[] = [
     arabicName: "الْخَالِقُ",
     transliteration: "Al-Khaliq",
     pronunciation: "al-KHA-liq",
-    meaning: "The Creator",
+    meaning: "The Creator, Creator of the Universe",
     description:
-      "The Creator - The One who brings everything from non-existence to existence.",
+      "The Creator - The One who brings everything from non-existence to existence. The Creator of the Universe, the One who fashioned the heavens, the earth, and all that is within them with perfect wisdom and order.",
     detailedExplanation:
-      "Al-Khaliq, the Creator, speaks to the boundless power of God to bring forth existence from nothingness. This name reminds us of the miracle of creation, the intricate beauty and complexity of the universe, and the divine hand that shaped it all. It instills a deep appreciation for the wonder of creation.",
+      "Al-Khaliq, the Creator of the Universe, speaks to the boundless power of God to bring forth existence from nothingness. This name reminds us of the miracle of creation, the intricate beauty and complexity of the universe, and the divine hand that shaped it all. It instills a deep appreciation for the wonder of creation.",
     innerMeaning:
-      "This name connects you to the creative power that resides within you, the capacity to bring forth new ideas, projects, and possibilities.  It is the spark of innovation that allows you to shape your reality and create a life that is both meaningful and fulfilling.",
+      "This name connects you to the creative power that resides within you, the capacity to bring forth new ideas, projects, and possibilities. It is the spark of innovation that allows you to shape your reality and create a life that is both meaningful and fulfilling.",
     technique:
-      "Engage in creative activities that allow you to express your inner vision.  Practice visualizing your goals and creating a clear path towards their manifestation.  When faced with creative blocks, remember that your capacity for creation is boundless.",
+      "Engage in creative activities that allow you to express your inner vision. Practice visualizing your goals and creating a clear path towards their manifestation. When faced with creative blocks, remember that your capacity for creation is boundless, just as the Creator of the Universe continually brings forth new realities.",
     relatedNames: ["Al-Bari", "Al-Musawwir"],
     orderNumber: 11,
     id: 11,
